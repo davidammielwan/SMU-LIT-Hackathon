@@ -1,0 +1,23 @@
+{
+  "purpose": "This Bill amends various Acts to combat scams by empowering authorities to order banks, telcos, and online platforms to restrict services, disable accounts, and disclose information when scam offences are suspected. It also creates new criminal offences for selling, buying, or lending online accounts for scam-related purposes, and introduces administrative financial penalties up to $10 million for non-compliance with online safety codes.",
+  "main_provisions": [
+    {
+      "clause": "Clause 7 (new sections 6A-6N)",
+      "heading": "Service limitation and account disabling orders",
+      "effect": "Police may order service providers (banks, telcos, online platforms) to restrict services to suspected scammers for up to 3 years, or disable accounts for up to 30 days if the account is suspected of being used for scams. Providers failing to comply commit a criminal offence. Orders may apply even to accounts outside Singapore.",
+      "who_it_affects": "Banks, telecommunications companies, online platforms, and their customers whose accounts may be restricted or disabled based on police suspicion of scam involvement"
+    },
+    {
+      "clause": "Clause 16 (new sections 39GA-39GC)",
+      "heading": "Offences for online account trafficking",
+      "effect": "It becomes a criminal offence to sell, rent, lend, buy, or receive online accounts (like social media or messaging accounts) if you know or should know they will be used for crimes or scams. Providing your personal information to let someone else open an account for such purposes is also an offence. Individuals convicted for scam-related account trafficking face mandatory caning of up to 12 strokes.",
+      "who_it_affects": "Individuals who may be tempted to sell or lend their online accounts for money, or provide identity documents to others to open accounts, particularly targeting money mule recruitment"
+    },
+    {
+      "clause": "Clauses 21-23 (sections 23, 24, 24A-24C)",
+      "heading": "Financial penalties for non-compliance",
+      "effect": "The competent authority may impose administrative financial penalties up to $10 million on designated online service providers (major social media and messaging platforms) who fail to comply with codes of practice or implementation directives aimed at preventing criminal harms including scams. This is an alternative to criminal prosecution.",
+      "who_it_affects": "Major online platforms like Facebook, WhatsApp, Telegram, TikTok and similar services designated under the Online Criminal Harms Act that must implement safety systems"
+    }
+  ]
+}

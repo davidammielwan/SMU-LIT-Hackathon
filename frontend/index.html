@@ -35,6 +35,10 @@
   .conf-found { font-size: 10px; letter-spacing: .06em; text-transform: uppercase; color: var(--color-accent-700); }
   .conf-inferred { font-size: 10px; letter-spacing: .06em; text-transform: uppercase; color: color-mix(in srgb, var(--color-text) 50%, transparent); border-bottom: 1px dashed color-mix(in srgb, var(--color-text) 35%, transparent); }
   .quote { border-left: 2px solid var(--color-accent-300); padding: 4px 10px; font-size: 12.5px; font-style: italic; color: color-mix(in srgb, var(--color-text) 75%, transparent); }
+  .passed { color: #b3261e; font-variant-numeric: tabular-nums; font-weight: 600; }
+  .chip.passed-chip { border-color: #b3261e; color: #b3261e; }
+  .prov { border: 1px solid var(--color-divider); border-radius: var(--radius-md); padding: 10px 12px; }
+  .prov-clause { font-size: 10px; letter-spacing: .07em; text-transform: uppercase; color: var(--color-accent-700); font-variant-numeric: tabular-nums; }
   .tabbtn { padding: 5px 12px; font-size: 12.5px; border: 1px solid var(--color-divider); background: transparent; cursor: pointer; font-family: var(--font-heading); font-weight: 600; color: var(--color-text); }
   .tabbtn.on { border-color: var(--color-accent); background: var(--color-accent-100); color: var(--color-accent-700); }
   .suggestion { display: inline-flex; align-items: center; gap: 6px; padding: 5px 10px; font-size: 11.5px; white-space: nowrap; cursor: pointer; color: var(--color-text); background: transparent; border: 1px solid var(--color-divider); border-radius: 99px; font-family: var(--font-body); }
@@ -282,9 +286,11 @@
           <div v-for="b in liveBills" :key="b.bill_no" class="amrow" @click="billDetail=b" style="margin-bottom:8px">
             <div style="display:flex;align-items:baseline;gap:8px">
               <span style="font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--color-accent-700);flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">Bill {{ b.bill_no }}</span>
-              <span class="muted" style="font-size:10px;font-variant-numeric:tabular-nums;flex:none">{{ b.status }}</span>
+              <span class="muted" style="font-size:10px;font-variant-numeric:tabular-nums;flex:none">{{ b.passed ? '' : b.status }}</span>
             </div>
-            <div style="font-family:var(--font-heading);font-weight:600;font-size:14.5px;line-height:1.22;margin:3px 0 5px">{{ b.bill_name }}</div>
+            <div style="font-family:var(--font-heading);font-weight:600;font-size:14.5px;line-height:1.22;margin:3px 0 5px">
+              <span v-if="b.passed" class="passed">PASSED {{ b.passed }} · </span>{{ b.bill_name }}
+            </div>
             <div style="display:flex;align-items:center;gap:6px;flex-wrap:wrap">
               <span class="chip" :class="b.commencement_signal==='fixed' ? 'imminent' : b.commencement_signal==='minister_appointed' ? 'not_stated' : 'distant'">
                 {{ commencementLabel(b.commencement_signal) }}
@@ -412,6 +418,24 @@
           <p style="font-size:13px;line-height:1.68;margin:0;padding:12px 13px;border:1px solid var(--color-accent);border-radius:var(--radius-md)">{{ detail.after }}</p>
         </div>
       </div>
+      <div v-if="detail.purpose" style="padding-top:12px;border-top:1px solid var(--color-divider)">
+        <h6 style="margin:0 0 6px;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--color-accent-700)">Purpose of the amendment</h6>
+        <p style="font-size:13px;line-height:1.65;margin:0">{{ detail.purpose }}</p>
+      </div>
+      <div v-if="detail.main_provisions && detail.main_provisions.length">
+        <h6 style="margin:0 0 8px;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--color-accent-700)">Main provisions — substantive changes only</h6>
+        <div style="display:flex;flex-direction:column;gap:8px">
+          <div v-for="(p,i) in detail.main_provisions" :key="i" class="prov">
+            <div style="display:flex;align-items:baseline;gap:8px">
+              <span class="prov-clause" style="flex:none">{{ p.clause }}</span>
+              <span style="font-family:var(--font-heading);font-weight:600;font-size:13.5px;flex:1">{{ p.heading }}</span>
+            </div>
+            <p style="font-size:12.5px;line-height:1.55;margin:6px 0 0">{{ p.effect }}</p>
+            <p class="muted" style="font-size:11.5px;line-height:1.5;margin:5px 0 0"><span class="kicker">Affects</span> {{ p.who_it_affects }}</p>
+          </div>
+        </div>
+        <p class="muted" style="font-size:10px;margin:6px 0 0">Definitions, terminology and consequential amendments excluded.</p>
+      </div>
       <div style="display:grid;grid-template-columns:104px minmax(0,1fr);gap:6px 12px;font-size:12.5px;line-height:1.55;padding-top:12px;border-top:1px solid var(--color-divider)">
         <span class="kicker" style="padding-top:2px">Authority</span>
         <span style="font-variant-numeric:tabular-nums">{{ detail.citation }}</span>
@@ -431,9 +455,11 @@
       <div style="display:flex;align-items:flex-start;gap:10px">
         <div style="flex:1">
           <span class="card-kicker">Bill {{ billDetail.bill_no }} · scraped live from parliament.gov.sg</span>
-          <h3 class="dialog-title" style="font-size:24px;margin-top:2px">{{ billDetail.bill_name }}</h3>
+          <h3 class="dialog-title" style="font-size:24px;margin-top:2px">
+            <span v-if="billDetail.passed" class="passed">PASSED {{ billDetail.passed }} · </span>{{ billDetail.bill_name }}
+          </h3>
           <div style="display:flex;gap:6px;margin-top:8px;flex-wrap:wrap">
-            <span class="tag tag-neutral">{{ billDetail.status }}</span>
+            <span class="tag tag-neutral" :class="{'passed-chip': billDetail.passed}">{{ billDetail.status }}</span>
             <span class="chip" :class="billDetail.commencement_signal==='fixed' ? 'imminent' : billDetail.commencement_signal==='minister_appointed' ? 'not_stated' : 'distant'">{{ commencementLabel(billDetail.commencement_signal) }}</span>
           </div>
         </div>
@@ -444,9 +470,35 @@
       <div style="display:grid;grid-template-columns:130px minmax(0,1fr);gap:6px 12px;font-size:12.5px;line-height:1.55">
         <span class="kicker" style="padding-top:2px">Introduced</span><span style="font-variant-numeric:tabular-nums">{{ billDetail.introduced || '—' }}</span>
         <span class="kicker" style="padding-top:2px">2nd reading</span><span style="font-variant-numeric:tabular-nums">{{ billDetail.second_reading || '— not scheduled' }}</span>
-        <span class="kicker" style="padding-top:2px">Date passed</span><span style="font-variant-numeric:tabular-nums">{{ billDetail.passed || '— not yet passed' }}</span>
+        <span class="kicker" style="padding-top:2px">Date passed</span>
+        <span v-if="billDetail.passed" class="passed">{{ billDetail.passed }}</span>
+        <span v-else class="muted" style="font-variant-numeric:tabular-nums">— not yet passed</span>
         <span class="kicker" style="padding-top:2px">Amends</span><span>{{ billDetail.long_title || '—' }}</span>
         <span class="kicker" style="padding-top:2px">Commencement</span><span>{{ billDetail.commencement_note }}</span>
+      </div>
+
+      <div v-if="billDetail.digest && billDetail.digest.purpose">
+        <h6 style="margin:0 0 6px;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--color-accent-700)">Purpose of the Bill</h6>
+        <p style="font-size:13px;line-height:1.65;margin:0">{{ billDetail.digest.purpose }}</p>
+        <p class="muted" style="font-size:10px;margin:6px 0 0">Read from the Bill's Explanatory Statement.</p>
+      </div>
+      <div v-if="billDetail.digest && billDetail.digest.main_provisions && billDetail.digest.main_provisions.length">
+        <h6 style="margin:0 0 8px;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--color-accent-700)">Main provisions — substantive changes only</h6>
+        <div style="display:flex;flex-direction:column;gap:8px">
+          <div v-for="(p,i) in billDetail.digest.main_provisions" :key="i" class="prov">
+            <div style="display:flex;align-items:baseline;gap:8px">
+              <span class="prov-clause" style="flex:none">{{ p.clause }}</span>
+              <span style="font-family:var(--font-heading);font-weight:600;font-size:13.5px;flex:1">{{ p.heading }}</span>
+            </div>
+            <p style="font-size:12.5px;line-height:1.55;margin:6px 0 0">{{ p.effect }}</p>
+            <p class="muted" style="font-size:11.5px;line-height:1.5;margin:5px 0 0"><span class="kicker">Affects</span> {{ p.who_it_affects }}</p>
+          </div>
+        </div>
+        <p v-if="billDetail.digest.note" class="muted" style="font-size:11px;margin:7px 0 0;font-style:italic">{{ billDetail.digest.note }}</p>
+        <p class="muted" style="font-size:10px;margin:6px 0 0">Definitions, terminology and consequential amendments excluded.</p>
+      </div>
+      <div v-else-if="billDetail.pdf_parsed && !billDetail.has_explanatory_statement" class="muted" style="font-size:12px;font-style:italic">
+        No Explanatory Statement found in this Bill PDF.
       </div>
       <div v-if="billDetail.commencement_clause" class="card" style="padding:12px 14px;border-left:2px solid var(--color-accent)">
         <span class="card-kicker">Commencement clause, read from the Bill PDF</span>

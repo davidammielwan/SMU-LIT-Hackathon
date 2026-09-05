@@ -1,0 +1,24 @@
+{
+  "purpose": "This Bill amends the Road Traffic Act 1961 and the Motor Vehicles (Third-Party Risks and Compensation) Act 1960 to change when driving disqualification periods start for imprisoned offenders, introduce new road traffic offences (including purposeful endangerment using a vehicle and driving with drugs in the blood), tighten existing offences and penalties (including lower drink-drive limits and stricter mobile phone rules), and allow automated enforcement notices for certain traffic offences.",
+  "main_provisions": [
+    {
+      "clause": "Clause 6",
+      "heading": "New Purposeful Endangerment Offence",
+      "effect": "Creates a new criminal offence where a driver purposefully endangers someone's life or safety and causes death or grievous hurt. Conviction carries up to 15 years' imprisonment, possible caning, and automatic life disqualification from driving (unless the court orders a shorter period of at least 10 years).",
+      "who_it_affects": "Any driver who intentionally uses their vehicle as a weapon or to threaten others, resulting in serious harm or death."
+    },
+    {
+      "clause": "Clause 11",
+      "heading": "Drug-Driving and Lower Drink-Drive Limits",
+      "effect": "Makes it an offence to drive with any controlled drug, psychoactive substance or intoxicating substance in your blood, and lowers the legal alcohol limit (the offence now includes driving at the prescribed limit, not just exceeding it). A statutory defence exists if the substance was lawfully taken and the driver had no reason to believe it would impair driving ability.",
+      "who_it_affects": "All drivers, particularly those taking prescription medication, over-the-counter drugs, or who consume alcohol at or near the new lower threshold."
+    },
+    {
+      "clause": "Clause 10",
+      "heading": "Stricter Mobile Phone Ban While Driving",
+      "effect": "It is now an offence simply to hold a mobile phone while the vehicle is moving on a road or in a public place. You no longer need to be operating any function of the phone; holding it is enough. Touching a phone secured in a proper mounting remains lawful.",
+      "who_it_affects": "All drivers who handle their mobile phones while driving, even if not actively using them to call, text or browse."
+    }
+  ],
+  "note": ""
+}

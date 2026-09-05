@@ -17,9 +17,42 @@
     "after": "An organisation must notify the Commission of a notifiable data breach as soon as is practicable, and in any case no later than 72 hours after the day it determines that the breach is a notifiable data breach. A breach is of a significant scale where it affects not fewer than 100 individuals. A data intermediary must notify the organisation without undue delay.",
     "citation": "PDPA s26D(2), (4) - Act 14 of 2026",
     "key_changes": [
-      {"aspect": "breach notification window", "old": "3 calendar days", "new": "72 hours"},
-      {"aspect": "significant scale threshold", "old": "500 individuals", "new": "100 individuals"},
-      {"aspect": "data intermediary duty", "old": "none stated", "new": "notify organisation without undue delay"}
+      {
+        "aspect": "breach notification window",
+        "old": "3 calendar days",
+        "new": "72 hours"
+      },
+      {
+        "aspect": "significant scale threshold",
+        "old": "500 individuals",
+        "new": "100 individuals"
+      },
+      {
+        "aspect": "data intermediary duty",
+        "old": "none stated",
+        "new": "notify organisation without undue delay"
+      }
+    ],
+    "purpose": "This amendment tightens Singapore's data breach notification regime. Organisations must now alert the Personal Data Protection Commission within 72 hours instead of 3 calendar days, and the threshold at which a breach counts as significant scale falls from 500 to 100 affected individuals. Data intermediaries are, for the first time, placed under a direct duty to inform the organisation they process for.",
+    "main_provisions": [
+      {
+        "clause": "s26D(2)",
+        "heading": "Notification window cut to 72 hours",
+        "effect": "An organisation must notify the Commission within 72 hours of determining a breach is notifiable, replacing the previous 3 calendar days. Contractual notice periods drafted to the old window no longer leave enough time.",
+        "who_it_affects": "Any client that processes personal data and has data-processing terms in its contracts."
+      },
+      {
+        "clause": "s26D(4)",
+        "heading": "Significant-scale threshold halved",
+        "effect": "A breach is of significant scale at 100 affected individuals, down from 500. Breaches that previously fell below the reporting line are now notifiable.",
+        "who_it_affects": "Clients holding personal data on more than 100 individuals - most SMEs with a customer database."
+      },
+      {
+        "clause": "s26D new duty",
+        "heading": "Data intermediaries must notify without undue delay",
+        "effect": "A data intermediary must inform the organisation it processes for without undue delay. A contractual 5-day flow-down to sub-processors is no longer sufficient.",
+        "who_it_affects": "Clients using vendors, sub-processors or outsourced IT to handle personal data."
+      }
     ]
   },
   {
@@ -40,8 +73,37 @@
     "after": "This Part applies to an employee, other than a workman, who receives a salary not exceeding $3,200 a month, excluding overtime payments, bonus payments and allowances. Overtime is computed on the lower of the employee's salary and $3,200.",
     "citation": "Employment Act s35; Employment (Part IV) Order 2026",
     "key_changes": [
-      {"aspect": "Part IV salary ceiling (non-workmen)", "old": "S$2,600/month", "new": "S$3,200/month"},
-      {"aspect": "overtime computation cap", "old": "S$2,600", "new": "S$3,200"}
+      {
+        "aspect": "Part IV salary ceiling (non-workmen)",
+        "old": "S$2,600/month",
+        "new": "S$3,200/month"
+      },
+      {
+        "aspect": "overtime computation cap",
+        "old": "S$2,600",
+        "new": "S$3,200"
+      }
+    ],
+    "purpose": "This amendment extends Part IV of the Employment Act - the protections covering hours of work, overtime pay and rest days - to a larger group of employees. The salary ceiling for non-workmen rises from S$2,600 to S$3,200 a month, bringing a substantial band of staff into scope for the first time.",
+    "main_provisions": [
+      {
+        "clause": "s35",
+        "heading": "Part IV ceiling raised to S$3,200",
+        "effect": "Non-workmen earning up to S$3,200 a month now receive Part IV protections on working hours, overtime and rest days. Employees between S$2,600 and S$3,200 gain rights they did not previously have.",
+        "who_it_affects": "Employers with staff in the S$2,600-S$3,200 salary band - retail, F&B, clinics, logistics."
+      },
+      {
+        "clause": "Employment (Part IV) Order 2026",
+        "heading": "Overtime computed on the higher cap",
+        "effect": "Overtime is computed on the lower of actual salary and S$3,200, replacing the S$2,600 cap. Overtime liability rises for affected staff.",
+        "who_it_affects": "Employers running shift or overtime-heavy operations."
+      },
+      {
+        "clause": "s35 (consequential)",
+        "heading": "Handbooks and contracts stating the old ceiling",
+        "effect": "Any employee handbook, contract or payroll rule fixed at S$2,600 now understates coverage and will misclassify staff as exempt.",
+        "who_it_affects": "Every employer whose written terms quote the old figure."
+      }
     ]
   },
   {
@@ -62,7 +124,32 @@
     "after": "A custodian must maintain records sufficient to identify assets held on behalf of each customer, and must disclose in writing, before onboarding, the segregation arrangements applied to those assets and the order of distribution applicable on the custodian's insolvency.",
     "citation": "SF (Licensing and Conduct of Business) Regs, Reg 13A(1)(b)",
     "key_changes": [
-      {"aspect": "custody disclosure", "old": "record-keeping only", "new": "written pre-onboarding disclosure of segregation and insolvency waterfall"}
+      {
+        "aspect": "custody disclosure",
+        "old": "record-keeping only",
+        "new": "written pre-onboarding disclosure of segregation and insolvency waterfall"
+      }
+    ],
+    "purpose": "This amendment requires licensed digital asset custodians to be upfront with accredited investors about what happens to their assets. Before onboarding, a custodian must disclose in writing how client assets are segregated and where investors sit in the order of distribution if the custodian becomes insolvent.",
+    "main_provisions": [
+      {
+        "clause": "Reg 13A(1)(b)",
+        "heading": "Written pre-onboarding disclosure required",
+        "effect": "Custodians must disclose segregation arrangements and the insolvency waterfall in writing before onboarding an accredited investor. Silence on insolvency treatment is no longer permissible.",
+        "who_it_affects": "CMS-licensed custodians and digital asset managers onboarding accredited investors."
+      },
+      {
+        "clause": "Reg 13A(1)(b) - segregation",
+        "heading": "Segregation arrangements must be stated",
+        "effect": "The specific arrangements applied to client assets must be described, not merely recorded internally.",
+        "who_it_affects": "Custodians whose terms currently promise only record-keeping."
+      },
+      {
+        "clause": "Reg 13A - onboarding packs",
+        "heading": "Onboarding documentation must be reissued",
+        "effect": "Existing onboarding packs that omit these disclosures cannot be used for the next onboarding cycle.",
+        "who_it_affects": "Fund managers and custodians with quarterly or rolling onboarding."
+      }
     ]
   },
   {
@@ -83,7 +170,32 @@
     "after": "An organisation may collect personal data about an employee without consent where the collection is in the legitimate interests of the organisation, except where the collection consists of the continuous monitoring of the employee's conduct or communications.",
     "citation": "PDPA First Schedule, Part 3, para 5",
     "key_changes": [
-      {"aspect": "legitimate interests basis for employee monitoring", "old": "available", "new": "excluded for continuous monitoring; consent or impact assessment required"}
+      {
+        "aspect": "legitimate interests basis for employee monitoring",
+        "old": "available",
+        "new": "excluded for continuous monitoring; consent or impact assessment required"
+      }
+    ],
+    "purpose": "This amendment narrows the legitimate interests exception in the PDPA. Organisations may no longer rely on it to justify continuous monitoring of employees' conduct or communications - consent or a fresh impact assessment is now required instead.",
+    "main_provisions": [
+      {
+        "clause": "First Schedule, Part 3, para 5",
+        "heading": "Continuous employee monitoring excluded",
+        "effect": "Continuous monitoring of an employee's conduct or communications falls outside legitimate interests. Employers relying on that basis must obtain consent or complete an impact assessment.",
+        "who_it_affects": "Employers running CCTV, email monitoring, telematics or productivity tracking."
+      },
+      {
+        "clause": "First Schedule (consequential)",
+        "heading": "Existing monitoring policies now unsupported",
+        "effect": "Policies citing legitimate interests as the sole basis for monitoring state a legal basis that no longer exists.",
+        "who_it_affects": "Any client with a written employee monitoring policy."
+      },
+      {
+        "clause": "First Schedule (practical)",
+        "heading": "Fresh impact assessment required",
+        "effect": "Where consent is impractical, a documented impact assessment must be completed before monitoring continues.",
+        "who_it_affects": "Employers in safety-critical or logistics operations that cannot easily obtain consent."
+      }
     ]
   },
   {
@@ -104,7 +216,32 @@
     "after": "Sections 12 to 18 come into operation on 1 April 2027 in respect of an employer who employs 25 or more employees.",
     "citation": "Workplace Fairness Act 2025 (Commencement) Notification 2026",
     "key_changes": [
-      {"aspect": "grievance-handling duty", "old": "not in force", "new": "mandatory for employers with 25+ employees from 1 Apr 2027"}
+      {
+        "aspect": "grievance-handling duty",
+        "old": "not in force",
+        "new": "mandatory for employers with 25+ employees from 1 Apr 2027"
+      }
+    ],
+    "purpose": "This notification brings the anti-discrimination duties and grievance-handling requirements of the Workplace Fairness Act into force for larger employers from 1 April 2027. Employers with 25 or more employees must have a proper grievance process in place by that date.",
+    "main_provisions": [
+      {
+        "clause": "ss.12-18",
+        "heading": "Grievance-handling process becomes mandatory",
+        "effect": "Employers with 25 or more employees must operate a formal grievance-handling process from 1 April 2027. An informal open-door practice will not satisfy the duty.",
+        "who_it_affects": "Every employer at or above 25 staff - the threshold is headcount, not sector."
+      },
+      {
+        "clause": "ss.12-18 (anti-discrimination)",
+        "heading": "Anti-discrimination duties commence",
+        "effect": "Statutory duties not to discriminate on protected characteristics take effect, with associated record-keeping.",
+        "who_it_affects": "Employers making hiring, promotion and dismissal decisions."
+      },
+      {
+        "clause": "Commencement Notification 2026",
+        "heading": "Fixed compliance deadline of 1 April 2027",
+        "effect": "The date is fixed rather than left to the Minister, so the runway to compliance is known and finite.",
+        "who_it_affects": "HR and legal teams planning policy updates and training."
+      }
     ]
   },
   {
@@ -125,7 +262,32 @@
     "after": "A company must keep a register of its nominee directors and must lodge the particulars in that register with the Registrar within 30 days after the appointment of a nominee director.",
     "citation": "Companies Act s386AL(2A)",
     "key_changes": [
-      {"aspect": "nominee director register", "old": "kept at registered office", "new": "lodged with ACRA within 30 days of appointment"}
+      {
+        "aspect": "nominee director register",
+        "old": "kept at registered office",
+        "new": "lodged with ACRA within 30 days of appointment"
+      }
+    ],
+    "purpose": "This amendment turns the nominee director register from an internal record into a filing obligation. Companies must lodge the particulars of nominee directors with ACRA within 30 days of appointment and keep the lodgement current.",
+    "main_provisions": [
+      {
+        "clause": "s386AL(2A)",
+        "heading": "Nominee register must be lodged with ACRA",
+        "effect": "Particulars must be lodged with the Registrar within 30 days of a nominee director's appointment. Keeping the register only at the registered office no longer discharges the duty.",
+        "who_it_affects": "Holding companies and group structures using nominee directors."
+      },
+      {
+        "clause": "s386AL(2A) - existing appointments",
+        "heading": "Existing nominee appointments captured",
+        "effect": "Appointments already in place fall within the regime and require lodgement, exposing companies that have never filed.",
+        "who_it_affects": "Family trusts and holding groups with historic nominee deeds."
+      },
+      {
+        "clause": "s386AL - ongoing duty",
+        "heading": "Register must be kept current",
+        "effect": "Changes must be updated on an ongoing basis, not only at first appointment.",
+        "who_it_affects": "Corporate secretarial teams managing multiple subsidiaries."
+      }
     ]
   }
 ]

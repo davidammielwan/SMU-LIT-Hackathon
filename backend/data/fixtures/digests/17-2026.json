@@ -1,0 +1,24 @@
+{
+  "purpose": "This Bill restructures the Health Sciences Authority's (HSA) role by transferring to it the administration of several health-related Acts currently handled by the Ministry of Health and the Singapore Medical Council, and by empowering the HSA to provide administrative services to healthcare profession regulatory bodies. It also introduces a new category of 'auxiliary authorised officers' \u2014 private individuals who can be appointed to conduct inspections under certain health Acts, though with more limited powers than public officers.",
+  "main_provisions": [
+    {
+      "clause": "Clause 6",
+      "heading": "HSA's new statutory functions",
+      "effect": "The HSA will directly administer the Biological Agents and Toxins Act and the Human Biomedical Research Act (previously administered by the Director-General of Health), assist the Minister and Director-General in enforcing Acts listed in a new First Schedule, and provide administrative services to healthcare profession regulatory bodies (a function previously performed by the Singapore Medical Council).",
+      "who_it_affects": "Healthcare facilities, research institutions, professional regulatory bodies (such as the Singapore Medical Council), and businesses dealing with biological agents or conducting biomedical research \u2014 all will now interact with the HSA rather than MOH or the SMC for these functions."
+    },
+    {
+      "clause": "Clauses 24, 34, 39",
+      "heading": "Private auxiliary authorised officers",
+      "effect": "The HSA Chief Executive and Director-General of Health may now appoint suitably qualified private individuals (not just public officers) as 'auxiliary authorised officers' to conduct inspections of premises during business hours with consent, though these officers cannot search premises, access medical records, or remove biological materials. Refusing consent to an auxiliary officer is not an offence.",
+      "who_it_affects": "Healthcare providers, research facilities, and other regulated entities that may be inspected by these new private inspectors under the Human Biomedical Research Act and Healthcare Services Act."
+    },
+    {
+      "clause": "Clauses 9, 10",
+      "heading": "Transfer of MOH and SMC assets and staff",
+      "effect": "Property, assets, liabilities, employees and records will be transferred from the Ministry of Health and Singapore Medical Council to the HSA on two transfer dates, with explicit protections ensuring transferred employees retain service continuity, remuneration and leave entitlements, and that the transfers do not breach contracts or trigger termination rights.",
+      "who_it_affects": "Government employees in specified MOH departments and SMC staff being transferred to HSA employment, as well as counterparties to contracts currently held by MOH or SMC that will now be held by the HSA."
+    }
+  ],
+  "note": ""
+}

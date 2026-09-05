@@ -1,0 +1,23 @@
+{
+  "purpose": "This Bill amends the Civil Defence Shelter Act 1997 and the Fire Safety Act 1993 to strengthen safety regulations. For civil defence shelters, it introduces a regulatory framework for equipment installed in household and storey shelters, requiring certification and compliance with standards. For fire safety, it enhances the Commissioner's powers to deal with obstructions to fire engine access and fire safety measures, introduces a class licensing regime for certain petroleum and flammable materials activities, and strengthens regulatory controls over the transport of such materials by road.",
+  "main_provisions": [
+    {
+      "clause": "Clause 3 (new sections 4E and 4F)",
+      "heading": "Prohibition on non-compliant shelter products",
+      "effect": "It becomes an offence to supply or install equipment in civil defence shelters that does not comply with applicable standards or has no valid certificate of conformity. Owners, occupiers and builders of properties with household or storey shelters face criminal liability if they knowingly install non-compliant products, or install products in a manner that impairs the shelter's safe use.",
+      "who_it_affects": "Property owners, occupiers, developers, builders, and suppliers of shelter equipment such as ventilation systems, blast doors, or other products installed in residential or commercial civil defence shelters"
+    },
+    {
+      "clause": "Clauses 10, 11 and 12 (sections 26, 26A and 27)",
+      "heading": "New strict liability offences for fire safety obstructions",
+      "effect": "Building owners and occupiers commit a strict liability offence if they cause (or fail to prevent) obstruction of fire engine access roads, fire safety equipment, or interference with the normal operation of fire safety measures. This applies to internal building fire safety measures and external measures like fire hydrants or sprinkler connections. Any person causing such obstruction also commits an offence.",
+      "who_it_affects": "All building owners, occupiers, management corporations, facilities managers, and anyone conducting activities near buildings (e.g. contractors, delivery companies) who might obstruct fire access or equipment"
+    },
+    {
+      "clause": "Clauses 19, 20 and 21 (sections 78, 81, 84A-84C)",
+      "heading": "Class licensing for petroleum and flammable materials",
+      "effect": "A new 'class licence' regime allows certain persons or categories of persons to store, keep and dispense petroleum and flammable materials without individual licences, if designated by the Minister and complying with class licence conditions. Those previously requiring individual licences for routine activities may operate under streamlined class licence arrangements, but must notify the Commissioner and pay charges.",
+      "who_it_affects": "Businesses storing or dispensing petroleum or flammable materials (e.g. industrial facilities, warehouses, logistics companies, fuel distributors) who may qualify for class licensing instead of individual permit applications"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "purpose": "This Bill seeks to facilitate urban rejuvenation in Singapore by lowering the consent thresholds required for collective sales of older residential developments (those aged 40 years or more). It introduces a sliding scale where developments aged 40-59 years need only 70% consent and those 60 years or older need 65% consent, down from the current 80% threshold. The Bill also tightens procedural requirements around convening collective sale committees and shortens timelines for executing collective sale agreements.",
+  "main_provisions": [
+    {
+      "clause": "Clauses 2, 3, 4 and 6",
+      "heading": "Lower Collective Sale Consent Thresholds",
+      "effect": "For developments aged 40-59 years, only 70% owner consent is needed for collective sale (down from 80%). For developments 60 years or older, only 65% consent is needed. The existing thresholds remain for younger developments: 90% for those under 10 years old and 80% for those 10-39 years old.",
+      "who_it_affects": "Residential property owners in strata developments (condominiums, apartments) aged 40 years or more, and developers seeking to acquire aging properties for redevelopment."
+    },
+    {
+      "clause": "Clause 10",
+      "heading": "Shorter Time to Execute Sale Agreement",
+      "effect": "The permitted time for owners to sign a collective sale agreement is halved from 12 months to 6 months after the first signature. This accelerates the collective sale process but gives owners less time to decide.",
+      "who_it_affects": "All owners in developments considering collective sale, who must now decide whether to sign within a tighter 6-month window."
+    },
+    {
+      "clause": "Clause 11",
+      "heading": "Tighter Requirements for Sale Committee Formation",
+      "effect": "A higher threshold percentage of owners is now required to requisition a general meeting to form a collective sale committee. Additionally, such meetings cannot be convened within 3 years of a previous failed collective sale attempt (up from 2 years), unless the higher threshold is met.",
+      "who_it_affects": "Management corporations and owners in strata developments, particularly those who have previously attempted or opposed collective sales, as it becomes harder to restart the process after a failure."
+    }
+  ]
+}

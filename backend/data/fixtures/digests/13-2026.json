@@ -1,0 +1,24 @@
+{
+  "purpose": "This Bill seeks to establish the Skills and Workforce Development Agency, which will replace and merge the SkillsFuture Singapore Agency and the Workforce Singapore Agency. The new Agency will have an expanded mandate to support individuals and employers in their career and workforce needs, and will also administer the Private Education Act 2009.",
+  "main_provisions": [
+    {
+      "clause": "Clause 50",
+      "heading": "Abusive funding arrangements offence",
+      "effect": "Creates a new criminal offence for entering into or facilitating arrangements aimed at wrongfully obtaining incentives, grants or loans from the Agency. Convicted persons face fines, imprisonment, and must pay a penalty based on the wrongly obtained amount\u2014significantly raising enforcement stakes for fraud involving SkillsFuture credits or other Agency funding.",
+      "who_it_affects": "Businesses and individuals applying for or facilitating training grants, SkillsFuture credits, or any Agency funding; training providers and intermediaries arranging such funding."
+    },
+    {
+      "clause": "Clause 52",
+      "heading": "False or misleading advertisement offence",
+      "effect": "Makes it an offence to publish or distribute advertisements (including online) that are false or misleading about courses funded or eligible for Agency funding, or about accreditation. This directly regulates how training providers and marketing agencies advertise SkillsFuture-eligible courses.",
+      "who_it_affects": "Training providers, marketing and advertising agencies, and anyone promoting courses or programmes eligible for Agency funding or accreditation."
+    },
+    {
+      "clause": "Clause 54",
+      "heading": "Directions to refund trainees",
+      "effect": "Empowers the Agency to direct funding recipients (such as training providers) to refund money to trainees or the Agency if a course or programme is cancelled or not completed. Non-compliance without reasonable excuse is a criminal offence, creating new liability for course providers.",
+      "who_it_affects": "Training providers and educational institutions receiving Agency funding, particularly those offering courses that may be cancelled or not completed."
+    }
+  ],
+  "note": ""
+}

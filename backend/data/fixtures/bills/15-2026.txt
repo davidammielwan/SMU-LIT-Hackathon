@@ -17,30 +17,30 @@ on a date that the Minister appoints by notification in the Gazette.
 AMENDMENT OF CIVIL DEFENCE SHELTER ACT 1997
 Amendment of section 2
 2. In the Civil Defence Shelter Act 1997 (called in this Part the CD
-Shelter Act), in section 2(1), after the definition of “public shelter”,
-10 insert —
-“ “regulated shelter product” means any equipment prescribed
+Shelter Act), in section 2(1), after the definition of "public shelter",
+10 insert  - 
+" "regulated shelter product" means any equipment prescribed
 as such that is installed or to be installed in a household
-shelter or storey shelter;”.
+shelter or storey shelter;".
 New Part 2A
-15 3. In the CD Shelter Act, after Part 2, insert —
-“PART 2A
+15 3. In the CD Shelter Act, after Part 2, insert  - 
+"PART 2A
 REGULA TED SHELTER PRODUCTS FOR
 HOUSEHOLD SHELTERS AND STOREY SHELTERS
 Interpretation of this Part
-20 4A. In this Part and section 28 —
-“accredited certification body” means a person that
+20 4A. In this Part and section 28  - 
+"accredited certification body" means a person that
 certifies compliance of a regulated shelter product of a
 particular type or description with the applicable
 standard for that regulated shelter product, and is
 25 accredited under the Singapore Accreditation
-Council’s Certification Body Accreditation Scheme
+Council's Certification Body Accreditation Scheme
 that is administered by the Enterprise Singapore Board;
-“accredited laboratory” means a person providing
-laboratory testing services that —
+"accredited laboratory" means a person providing
+laboratory testing services that  - 
 2
 (a) is accredited under the Singapore Accreditation
-Council’s Laboratory Accreditation Scheme
+Council's Laboratory Accreditation Scheme
 that is administered by the Enterprise
 Singapore Board;
 5(b) is recognised under a bilateral mutual
@@ -49,18 +49,18 @@ Singapore and any other country; or
 (c) is recognised under a multilateral mutual
 recognition agreement or arrangement between
 10Singapore and 2 or more other countries;
-“Appeal Advisory Board” means the Appeal Advisory
+"Appeal Advisory Board" means the Appeal Advisory
 Board appointed by the Minister under section 4M(1);
-“applicable standard”, in relation to a regulated shelter
+"applicable standard", in relation to a regulated shelter
 product, means the standard for that regulated shelter
 15product that is specified in the specifications;
-“certificate of conformity”, in relation to a regulated shelter
+"certificate of conformity", in relation to a regulated shelter
 product of a type or description specified in the
 certificate, means a certificate issued by an accredited
 certification body as to its compliance with the
 20applicable standard for that regulated shelter product;
-“compliant shelter product” means a regulated shelter
-product —
+"compliant shelter product" means a regulated shelter
+product  - 
 (a) that is tested by an accredited laboratory for
 compliance with the applicable standard for that
 25regulated shelter product;
@@ -69,36 +69,36 @@ that regulated shelter product;
 (c) of a type or description for which a valid
 certificate of conformity is issued; and
 30(d) that is not prescribed under section 4I(3) as a
-non‑compliant shelter product;
-“Enterprise Singapore Board” means the Enterprise
+non-compliant shelter product;
+"Enterprise Singapore Board" means the Enterprise
 Singapore Board established by section 3 of the
 Enterprise Singapore Board Act 2018;
 3
-“foreign person” means a person who is not a Singapore
+"foreign person" means a person who is not a Singapore
 person;
-“non‑compliant shelter product” means a regulated shelter
+"non-compliant shelter product" means a regulated shelter
 product that is not a compliant shelter product;
-5 “offer to supply”, in relation to a regulated shelter product,
+5 "offer to supply", in relation to a regulated shelter product,
 includes an attempt to supply or exposure for supply;
-“Singapore person” means a person who is —
+"Singapore person" means a person who is  - 
 (a) a citizen of Singapore;
 (b) a body corporate or corporation incorporated or
 10 constituted under the law of Singapore; or
 (c) a person domiciled in Singapore;
-“supply”, in relation to a regulated shelter product,
-includes —
+"supply", in relation to a regulated shelter product,
+includes  - 
 (a) the supply of the regulated shelter product by
 15 way of sale (including by way of barter or
-exchange), lease, loan, hire or hire‑purchase;
+exchange), lease, loan, hire or hire-purchase;
 (b) causing or allowing the supply of the regulated
 shelter product;
 (c) the supply of the regulated shelter product in
 20 connection with any agreement; and
 (d) receiving, sending or delivering the regulated
 shelter product for supply;
-“valid certificate of conformity” means a certificate of
-conformity that —
-25 (a) is issued —
+"valid certificate of conformity" means a certificate of
+conformity that  - 
+25 (a) is issued  - 
 (i) to a Singapore person; or
 (ii) to a foreign person who has, at the time of
 the issue, appointed a local representative
@@ -108,7 +108,7 @@ suspended or cancelled by an accredited
 certification body, under this Act or otherwise.
 4
 False test reports for regulated shelter products
-4B.—(1) An accredited laboratory that issues a false test
+4B. - (1) An accredited laboratory that issues a false test
 report in respect of a regulated shelter product of a particular
 type or description, knowing that the test report is false, shall be
 5guilty of an offence and shall be liable on conviction to a fine not
@@ -119,15 +119,15 @@ respect of a regulated shelter product of a particular type or
 10description, reckless or negligent as to whether the test report is
 false, shall be guilty of an offence and shall be liable on
 conviction to a fine not exceeding $50,000.
-(3) In this section, “false test report”, in relation to a regulated
+(3) In this section, "false test report", in relation to a regulated
 shelter product of a particular type or description (P), means a
-15test report that —
+15test report that  - 
 (a) states the result of a test conducted on P for
 compliance with the applicable standard for that
 regulated shelter product; and
 (b) is false or misleading in any material particular.
 20Giving false information to accredited certification body
-4C.—(1) Any person who gives false information to an
+4C. - (1) Any person who gives false information to an
 accredited certification body for the purposes of obtaining a
 certificate of conformity for a regulated shelter product of a
 particular type or description, knowing that the information is
@@ -142,14 +142,14 @@ is false, shall be guilty of an offence and shall be liable on
 conviction to a fine not exceeding $50,000.
 5
 Certification of regulated shelter products
-4D.—(1) A person that is not an accredited certification body
-commits an offence if —
+4D. - (1) A person that is not an accredited certification body
+commits an offence if  - 
 (a) the person certifies, or holds out or advertises in any
 5 way that the person is willing to certify, that a
 regulated shelter product of a particular type or
 description complies with the applicable standard
 for that regulated shelter product; and
-(b) the person —
+(b) the person  - 
 10 (i) knows that it is not an accredited certification
 body; or
 (ii) is reckless or negligent as to whether it is an
@@ -158,12 +158,12 @@ accredited certification body.
 15 accredited certification body issues a certificate of conformity
 for a regulated shelter product of a particular type or description
 (P) that does not comply with the applicable standard for that
-regulated shelter product if the accredited certification body —
+regulated shelter product if the accredited certification body  - 
 (a) knows that P does not so comply; or
 20 (b) is reckless or negligent as to whether P so complies.
 (3) An accredited certification body that issues a certificate of
 conformity for a regulated shelter product of a particular type or
-description (P) must cancel the certificate of conformity —
+description (P) must cancel the certificate of conformity  - 
 (a) as soon as practicable after the accredited certification
 25 body knows or has reasonable cause to believe
 (whether by a test or an analysis conducted under
@@ -171,21 +171,21 @@ section 4G(1) or otherwise) that P does not comply
 with the applicable standard for that regulated shelter
 product; or
 30 (b) where the specifications for the regulated shelter
-product require any post‑certification test to be
+product require any post-certification test to be
 conducted for the regulated shelter product within a
 specified period after the issue of the certificate of
-conformity — as soon as practicable after the
+conformity  -  as soon as practicable after the
 6
 accredited certification body knows or has reasonable
-cause to believe that the post‑certification test is not
+cause to believe that the post-certification test is not
 conducted within the specified period.
 (4) A person who is guilty of an offence under
-5subsection (1)(b)(i) or (2)(a) —
+5subsection (1)(b)(i) or (2)(a)  - 
 (a) shall be liable on conviction to a fine not exceeding
 $100,000 or to imprisonment for a term not exceeding
 2 years or to both; and
 (b) in the case of a continuing contravention of
-10subsection (1)(b)(i) —
+10subsection (1)(b)(i)  - 
 (i) shall be liable on conviction to an additional
 fine not exceeding $1,000 for every day or part
 of a day during which the contravention
@@ -197,11 +197,11 @@ offence to a fine not exceeding $2,000 for every
 day or part of a day during which the
 20contravention continues after conviction.
 (5) A person who is guilty of an offence under
-subsection (1)(b)(ii) or (2)(b) —
+subsection (1)(b)(ii) or (2)(b)  - 
 (a) shall be liable on conviction to a fine not exceeding
 $50,000; and
 25(b) in the case of a continuing contravention of
-subsection (1)(b)(ii) —
+subsection (1)(b)(ii)  - 
 (i) shall be liable on conviction to an additional
 fine not exceeding $1,000 for every day or part
 of a day during which the contravention
@@ -215,7 +215,7 @@ day or part of a day during which the
 contravention continues after conviction.
 (6) An accredited certification body that contravenes
 subsection (3)(a) or (b) shall be guilty of an offence and shall
-5 be liable on conviction —
+5 be liable on conviction  - 
 (a) to a fine not exceeding $100,000 or to imprisonment
 for a term not exceeding 2 years or to both; and
 (b) in the case of a continuing contravention of
@@ -229,19 +229,19 @@ accredited certification body shall be guilty of a further offence
 not exceeding $2,000 for every day or part of a day during which
 the contravention continues after conviction.
 Supply of regulated shelter products
-4E.—(1) A person (whether or not in Singapore) who —
+4E. - (1) A person (whether or not in Singapore) who  - 
 20 (a) supplies or offers to supply to a person in Singapore
-any non‑compliant shelter product as a compliant
+any non-compliant shelter product as a compliant
 shelter product or for use as a regulated shelter
 product; or
 (b) in the course of such supply or offer, represents that
-25 the non‑compliant shelter product is a compliant
+25 the non-compliant shelter product is a compliant
 shelter product or is fit for use as a regulated shelter
 product,
-knowing that the non‑compliant shelter product is a
-non‑compliant shelter product, shall be guilty of an offence.
+knowing that the non-compliant shelter product is a
+non-compliant shelter product, shall be guilty of an offence.
 30 (2) A person who is guilty of an offence under subsection (1)
-shall be liable on conviction —
+shall be liable on conviction  - 
 (a) to a fine not exceeding $100,000 or to imprisonment
 for a term not exceeding 2 years or to both; and
 8
@@ -254,20 +254,20 @@ person shall be guilty of a further offence and shall be liable on
 conviction of this further offence to a fine not exceeding $2,000
 for every day or part of a day during which the contravention
 continues after conviction.
-10(3) A person (whether or not in Singapore) who —
+10(3) A person (whether or not in Singapore) who  - 
 (a) supplies or offers to supply to a person in Singapore
-any non‑compliant shelter product as a compliant
+any non-compliant shelter product as a compliant
 shelter product or for use as a regulated shelter
 product; or
 15(b) in the course of such supply or offer, represents that
-the non‑compliant shelter product is a compliant
+the non-compliant shelter product is a compliant
 shelter product or is fit for use as a regulated shelter
 product,
-reckless or negligent as to whether the non‑compliant shelter
-20product is a non‑compliant shelter product, shall be guilty of an
+reckless or negligent as to whether the non-compliant shelter
+20product is a non-compliant shelter product, shall be guilty of an
 offence.
 (4) A person who is guilty of an offence under subsection (3)
-shall be liable on conviction —
+shall be liable on conviction  - 
 (a) to a fine not exceeding $50,000; and
 25(b) in the case of a continuing contravention, to an
 additional fine not exceeding $1,000 for every day or
@@ -282,11 +282,11 @@ continues after conviction.
 (5) Where an offence under subsection (1) or (3) is committed
 by a person outside Singapore, the person may be dealt with in
 respect of that offence as if it had been committed in Singapore.
-Installation of non‑compliant shelter products
-5 4F.—(1) A relevant person who installs, or causes to be
-installed, in any household shelter or storey shelter —
-(a) any non‑compliant shelter product, knowing that it is
-a non‑compliant shelter product; or
+Installation of non-compliant shelter products
+5 4F. - (1) A relevant person who installs, or causes to be
+installed, in any household shelter or storey shelter  - 
+(a) any non-compliant shelter product, knowing that it is
+a non-compliant shelter product; or
 (b) any regulated shelter product, knowing that the
 10 manner in which it is installed impairs or is likely
 to impair the safe and efficient use of the household
@@ -295,9 +295,9 @@ shall be guilty of an offence and shall be liable on conviction to a
 fine not exceeding $100,000 or to imprisonment for a term not
 15 exceeding 2 years or to both.
 (2) A relevant person who installs, or causes to be installed, in
-any household shelter or storey shelter any non‑compliant
+any household shelter or storey shelter any non-compliant
 shelter product, reckless or negligent as to whether it is a
-non‑compliant shelter product, shall be guilty of an offence and
+non-compliant shelter product, shall be guilty of an offence and
 20 shall be liable on conviction to a fine not exceeding $50,000.
 (3) A relevant person who installs, or causes to be installed, in
 any household shelter or storey shelter any regulated shelter
@@ -323,14 +323,14 @@ steps to ensure that the regulated shelter product was installed in
 accordance with the specifications for the regulated shelter
 product.
 (6) Subsections (1)(a) and (2) do not apply if the regulated
-10shelter product in question is a non‑compliant shelter product
+10shelter product in question is a non-compliant shelter product
 only by reason that the certificate of conformity for the regulated
 shelter product expires or is suspended or terminated after the
 regulated shelter product is delivered to the relevant person.
-(7) In this section —
-15“builder” has the meaning given by section 2(1) of the
+(7) In this section  - 
+15"builder" has the meaning given by section 2(1) of the
 Building Control Act 1989;
-“relevant person” —
+"relevant person"  - 
 (a) in relation to a household shelter provided for a
 house, means the owner, occupier or builder of
 20the house;
@@ -338,13 +338,13 @@ house, means the owner, occupier or builder of
 flat in a building, means the owner or occupier
 of the flat or the builder of the building; or
 (c) in relation to a storey shelter provided for any
-25storey of a building, means —
+25storey of a building, means  - 
 (i) the owner or builder of the building; or
 (ii) the occupier of any part of that storey of
 the building.
 Commissioner may require testing of regulated shelter
 30product
-4G.—(1) The Commissioner may, by written notice to any of
+4G. - (1) The Commissioner may, by written notice to any of
 the following persons, require the person to submit a regulated
 shelter product of a particular type or description (P) or samples
 11
@@ -378,8 +378,1670 @@ fine not exceeding $1,000 for every day or part of a day during
 which the offence continues after conviction.
 Commissioner may give directions relating to regulated
 30 shelter products
-4H.—(1) The Commissioner may, by written notice, give one
+4H. - (1) The Commissioner may, by written notice, give one
 or more of the directions mentioned in subsection (2) (as
 applicable) to any person with possession, charge or control of a
 regulated shelter product or who supplied a regulated shelter
 12
+product, if the Commissioner has reasonable grounds to believe
+that  - 
+(a) the direction is necessary for public safety; and
+(b) the regulated shelter product  - 
+5(i) is a non-compliant shelter product; or
+(ii) was installed in a manner that impairs or is
+likely to impair the safe and efficient use of any
+household shelter or storey shelter in which the
+regulated shelter product is installed.
+10(2) The directions mentioned in subsection (1) are the
+following:
+(a) recall the non-compliant shelter product;
+(b) cease supplying the non-compliant shelter product;
+(c) remove the regulated shelter product from the
+15household shelter or storey shelter in which the
+regulated shelter product is installed;
+(d) dispose of the non-compliant shelter product recalled
+under paragraph (a) in any manner required by the
+Commissioner;
+20(e) rectify any contravention of the specifications for the
+regulated shelter product in the installation of the
+regulated shelter product.
+(3) In relation to a direction mentioned in subsection (2)(a),
+(c), (d) or (e), the Commissioner  - 
+25(a) may specify, in the direction, the manner in which the
+recall, removal, disposal or rectification (as the case
+may be) is to be conducted; and
+(b) must specify, in the direction, the period within which
+the recall, removal, disposal or rectification (as the
+30case may be) is to be completed.
+(4) A person to whom a direction mentioned in
+subsection (2)(a), (c), (d) or (e) has been given must give
+13
+written notice to the Commissioner of the completion of the
+recall, removal, disposal or rectification (as the case may be) as
+soon as practicable after that completion.
+(5) Subject to subsection (6), a person who, without
+5 reasonable excuse, refuses or fails to comply with the
+Commissioner's direction under subsection (1) shall be guilty
+of an offence and shall be liable on conviction  - 
+(a) to a fine not exceeding $100,000 or to imprisonment
+for a term not exceeding 12 months or to both; and
+10 (b) to an additional fine not exceeding $1,000 for every
+day or part of a day during which the person refuses or
+fails to comply with the direction after the expiry of
+the period specified in the direction.
+(6) If the refusal or failure to comply in respect of which the
+15 person is convicted under subsection (5) continues after the
+conviction, the person shall be guilty of a further offence and
+shall be liable on conviction of this further offence to a fine not
+exceeding $2,000 for every day or part of a day during which the
+refusal or failure to comply continues after conviction.
+20 (7) A person who is aggrieved by any direction of the
+Commissioner under subsection (1) may, within 14 days after
+being notified of the direction, appeal to the Minister.
+(8) A direction of the Commissioner under subsection (1)
+takes effect despite an appeal against that direction being made
+25 to the Minister.
+Commissioner may give directions in relation to
+certificates of conformity
+4I. - (1) The Commissioner may, by written notice to the
+accredited certification body that issued a certificate of
+30 conformity for a regulated shelter product of a particular type
+or description (P), direct the accredited certification body to
+cancel the certificate of conformity within the time specified in
+the notice, if  - 
+14
+(a) the accredited certification body contravenes
+section 4D(2) or (3) in relation to that certificate of
+conformity; or
+(b) the person to whom the certificate of conformity is
+5issued refuses or fails to comply with a requirement
+under section 4G(1) in respect of P or a sample of P.
+(2) The Commissioner may, by written notice to an accredited
+certification body, direct the accredited certification body not to
+issue any certificate of conformity to a person for the period
+10specified in the notice if the Commissioner has reason to believe
+that the person has contravened section 4E(1) or (3).
+(3) The Minister may prescribe that a regulated shelter product
+of a specified class or description (Q) is a non-compliant shelter
+product if the accredited certification body that issued the
+15certificate of conformity in respect of Q refuses or fails to
+comply with a direction under subsection (1) or (2) in respect of
+that certificate.
+(4) The Commissioner must, before making the direction
+under subsection (1)(b), give the person to whom the certificate
+20of conformity is issued  - 
+(a) written notice of the Commissioner's intention to
+make the direction; and
+(b) an opportunity to submit reasons, within 14 days after
+the date the notice is given, as to why the direction
+25should not be made.
+(5) The Commissioner must, before making the direction
+under subsection (1)(a) or (2), give the accredited certification
+body in respect of which the direction applies  - 
+(a) written notice of the Commissioner's intention to
+30make the direction; and
+(b) an opportunity to submit reasons, within 14 days after
+the date the notice is given, as to why the direction
+should not be made.
+15
+(6) Despite subsections (4)(b) and (5)(b), the Commissioner
+may specify a time, being less than 14 days after the date the
+notice mentioned in subsection (4) or (5) (as the case may be) is
+given, if the Commissioner is of the opinion that it is in the
+5 public interest for the direction to be made as soon as possible.
+(7) The Commissioner may, at any time, cancel a direction
+given under subsection (1) or (2).
+(8) An accredited certification body that, without reasonable
+excuse, refuses or fails to comply with the Commissioner's
+10 direction under subsection (1) or (2) shall be guilty of an offence
+and shall be liable on conviction  - 
+(a) to a fine not exceeding $10,000 or to imprisonment
+for a term not exceeding 6 months or to both; and
+(b) in the case of a continuing refusal or failure to comply,
+15 to an additional fine not exceeding $1,000 for every
+day or part of a day during which the refusal or failure
+continues.
+(9) A person who is aggrieved by any direction of the
+Commissioner under subsection (1) or (2) may, within
+20 14 days after being notified of the direction, appeal to the
+Minister.
+(10) A direction of the Commissioner under subsection (1) or
+(2) takes effect despite an appeal against that direction being
+made to the Minister.
+25 Power to enter premises to carry out direction upon notice
+or under warrant
+4J. - (1) If a person to whom a direction under section 4H(1)
+is given refuses or fails, without reasonable excuse, to comply
+with the direction, the Commissioner may  - 
+30 (a) authorise any authorised person to carry out the
+direction; and
+(b) recover the costs and expenses reasonably incurred in
+carrying out the direction as a debt due to the
+Government from that person.
+16
+(2) An authorised person may enter any premises at any
+reasonable time to carry out the direction under section 4H(1)
+after giving at least 24 hours' notice of the intention to do so to
+the owner or occupier of the premises.
+5(3) Before entering the premises under subsection (2), an
+authorised person must produce, if so required  - 
+(a) the authorised person's original identity card or any
+identification card that the Commissioner directs to be
+carried by the authorised person as proof of the
+10authorised person's identity; and
+(b) a duly authenticated document showing the
+authorised person's authority.
+(4) A Magistrate may by warrant authorise an authorised
+person to enter any premises, with such force as may be
+15necessary, if the Magistrate is satisfied, on sworn information in
+writing  - 
+(a) that the authorised person needs to enter into any
+premises to carry out a direction under section 4H(1);
+and
+20(b) that  - 
+(i) entry into the premises has been refused, or
+such refusal is likely; or
+(ii) the premises are unoccupied or the owner or
+occupier is temporarily absent.
+25(5) The warrant continues in force until the purpose for which
+the entry is necessary has been satisfied.
+(6) If the owner or occupier is present when an authorised
+person seeks to execute the warrant, the authorised person
+must  - 
+30(a) identify himself or herself to the owner or occupier;
+(b) produce to the owner or occupier the authorised
+person's identity card or identification card and the
+17
+duly authenticated document mentioned in
+subsection (3);
+(c) show the owner or occupier the warrant; and
+(d) if required, give the owner or occupier a copy of the
+5 warrant.
+(7) If the owner or occupier is not present when an authorised
+person seeks to execute the warrant, but some other person who
+appears to be in charge of the premises is present, then
+subsection (6) applies to that other person as if that other
+10 person were the owner or occupier.
+(8) An authorised person entering the premises under a
+warrant issued under subsection (4) may do all or any of the
+following:
+(a) break open any outer or inner door or window leading
+15 to the premises;
+(b) enter any part of the premises with such force as may
+be necessary;
+(c) remove by force any obstruction to the entry.
+(9) An authorised person entering the premises under
+20 subsection (2), or under a warrant issued under subsection (4),
+may do any of the following:
+(a) take with him or her such other persons as may be
+necessary;
+(b) remove or demolish any fixtures or fittings in the
+25 premises if the removal or demolition is necessary for
+carrying out the direction under section 4H(1).
+(10) If the premises are unoccupied at the time of entry, the
+authorised person must leave the premises as effectually secured
+against trespassers as the authorised person found the premises.
+30 (11) Subject to subsection (10), the Commissioner is not liable
+to compensate the owner or occupier for any loss (including
+reinstatement costs) incurred by the owner or occupier, or for
+18
+any damage caused to the premises, as a result of anything done
+with reasonable care and in good faith under subsection (9)(b).
+(12) In this section and section 4K, "premises"  - 
+(a) in relation to a household shelter, means the house or
+5flat for which the household shelter is provided; or
+(b) in relation to a storey shelter, means the storey of the
+building for which the storey shelter is provided.
+Power to enter premises to carry out direction without
+notice or warrant
+104K. - (1) If  - 
+(a) a person to whom a direction under section 4H(1) is
+given refuses or fails to comply with the direction;
+and
+(b) the Commissioner has reasonable grounds to believe
+15that a non-compliant shelter product installed in a
+household shelter or storey shelter provided for any
+premises is posing an imminent danger affecting
+public safety,
+the Commissioner may  - 
+20(c) authorise any authorised person to enter those
+premises without warrant to carry out the direction;
+and
+(d) recover the costs and expenses reasonably incurred in
+carrying out the direction as a debt due to the
+25Government from that person.
+(2) If the owner or occupier of the premises is present when an
+authorised person seeks to enter the premises, the authorised
+person must produce to the owner or occupier the authorised
+person's identity card or identification card and the duly
+30authenticated document mentioned in section 4J(3).
+(3) If the owner or occupier is not present when entry under
+subsection (2) is sought, but some other person who appears to
+be in charge of the premises is present, then that subsection
+19
+applies to that other person as if that other person were the owner
+or occupier.
+(4) An authorised person entering the premises under this
+section may do all or any of the following:
+5 (a) take with him or her such other persons as may be
+necessary;
+(b) break open any outer or inner door or window leading
+to the premises;
+(c) forcibly enter the premises and every part of the
+10 premises;
+(d) remove by force any obstruction to the entry;
+(e) remove or demolish any fixtures or fittings in the
+premises if the removal or demolition is necessary for
+carrying out the direction under section 4H(1).
+15 (5) If the premises are unoccupied at the time of entry, the
+authorised person must leave the premises as effectually secured
+against trespassers as the authorised person found the premises.
+(6) Subject to subsection (5), the Commissioner is not liable to
+compensate the owner or occupier for any loss (including
+20 reinstatement costs) incurred by the owner or occupier, or for
+any damage caused to the premises, as a result of anything done
+with reasonable care and in good faith under subsection (4)(e).
+Appeals to Minister
+4L. - (1) This section applies to every appeal to the Minister
+25 made under this Part.
+(2) An appeal to the Minister must be made in the manner
+prescribed.
+(3) The Minister may determine an appeal against a direction
+given by the Commissioner  - 
+30 (a) by confirming the direction in whole or varying it in
+part; or
+(b) by reversing the direction.
+20
+(4) Before determining an appeal, the Minister may consult
+the Appeal Advisory Board.
+(5) In deciding an appeal, the Minister may have regard to any
+report made to the Minister by the Appeal Advisory Board.
+5(6) The Minister's decision on any appeal is final.
+(7) The Minister may designate any of the following persons
+to hear and determine, in the Minister's place, any appeal under
+this Part:
+(a) the Second Minister (if any) for his or her Ministry;
+10(b) a Senior Minister of State or Minister of State for his
+or her Ministry;
+(c) a Senior Parliamentary Secretary or Parliamentary
+Secretary assisting the Minister under this Part;
+(d) any public officer in his or her Ministry not
+15subordinate to the Commissioner whose direction is
+appealed against.
+(8) Any reference to the Minister in subsections (1) to (6)
+includes a reference to a person designated under subsection (7).
+Appeal Advisory Board
+204M. - (1) The Appeal Advisory Board consists of a
+Chairperson, a Vice-Chairperson and such other members as
+the Minister may appoint.
+(2) The Chairperson, Vice-Chairperson and members of the
+Appeal Advisory Board  - 
+25(a) hold their office for such period as the Minister may
+determine, and may be re-appointed;
+(b) may at any time be removed from office by the
+Minister; and
+(c) may at any time resign from their office by writing
+30addressed to the Minister.".
+21
+Amendment of section 26
+4. In the CD Shelter Act, in section 26(1), replace "$500" with
+"$5,000".
+Amendment of section 28
+5 5. In the CD Shelter Act, in section 28(1)  - 
+(a) after paragraph (c), insert  - 
+"(ca) in relation to the certification of regulated
+shelter products  - 
+(i) to prescribe the duties of accredited
+10 certification bodies;
+(ii) to prescribe the duties of a local
+representative appointed by a foreign
+person to whom a certificate of
+conformity is issued; and
+15 (iii) to prescribe the duties of a person to
+whom a certificate of conformity is
+issued;"; and
+(b) after paragraph (f), insert  - 
+"(fa) to prescribe the procedure for the Appeal
+20 Advisory Board;
+(fb) to prescribe the procedure for, or any other
+matter relating to, an appeal to the
+Minister;".
+PART 2
+25 AMENDMENT OF FIRE SAFETY ACT 1993
+Amendment of section 2
+6. In the Fire Safety Act 1993 (called in this Part the FS Act), in
+section 2(1)  - 
+(a) after the definition of "Commissioner", insert  - 
+22
+" "Enterprise Singapore Board" means the Enterprise
+Singapore Board established by section 3 of the
+Enterprise Singapore Board Act 2018;
+"external fire safety measure"  - 
+5(a) means any fire safety measure that is
+installed or kept on the exterior of or
+outside a building; but
+(b) does not include any access road,
+accessway or other installation that is
+10provided, used or designed to be used
+for the purpose of providing access to
+a building in order to extinguish,
+attack, prevent or limit a fire in or at
+the building;";
+15(b) in the definition of "fire hazard", after paragraph (b),
+insert  - 
+"(ba) the obstruction of any access road,
+accessway or other installation that is
+provided, used or designed to be used for
+20the purpose of providing access to a
+building in order to extinguish, attack,
+prevent or limit a fire in or at the building;
+(bb) the obstruction of or any interference with
+the normal operation of any fire safety
+25measure in a building such as might
+prevent or impede the timely and
+effective use of the fire safety measure;
+(bc) the obstruction of or any interference with
+the normal operation of any external fire
+30safety measure such as might prevent or
+impede the timely and effective use of the
+external fire safety measure;";
+(c) in the definition of "fire safety measures", replace "or
+works" with ", works, road or other thing provided,";
+23
+(d) in the definition of "fire safety measures", after
+paragraph (e), insert  - 
+. "Illustration
+An access road or accessway that is provided, used or designed
+5 to be used to provide access to any premises or place for the purpose
+of extinguishing, attacking, preventing or limiting a fire is a fire
+safety measure."; and
+(e) in the definition of "owner", in paragraph (d), after "fire
+safety measure is", insert "provided,".
+10 Amendment of section 9
+7. In the FS Act, in section 9(2), replace "a term of 2 years" with
+"such term as the Minister may determine,".
+Amendment of section 18
+8. In the FS Act, in section 18  - 
+15 (a) after subsection (1), insert  - 
+"(1A) The power to require a person to provide any
+information or produce any book or document under
+subsection (1)(c) includes the power  - 
+(a) to require that person to provide an
+20 explanation of the information, book or
+document;
+(b) if the information is not provided or the
+book or document is not produced, to
+require that person to state, to the best of
+25 that person's knowledge and belief, where
+it is; and
+(c) if the information is recorded otherwise
+than in legible form, to require the
+information to be made available to the
+30 Commissioner or authorised member in
+legible form.";
+24
+(b) in subsection (4)(a), replace "any information or produce
+any book or document, or any copy of the book or
+document, required" with "any information or explanation,
+produce any book or document, or any copy of the book or
+5document, or comply with any other requirement";
+(c) in subsection (4)(c), after "information", insert "or
+explanation"; and
+(d) in subsection (4)(d), replace "information" with "any
+information or explanation".
+10Amendment of section 21
+9. In the FS Act, in section 21  - 
+(a) in subsection (1)(c), replace the full-stop at the end with a
+semi-colon;
+(b) in subsection (1), after paragraph (c), insert  - 
+15"(d) to exercise a power or do anything
+authorised in section 86A(1), (2), (3), (4),
+(6) or (8);
+(e) to do anything authorised in section 86A(5)
+when exercising a power in
+20section 86A(3)(a) or (4).";
+(c) in subsection (3), after "28(1),", insert "86A,"; and
+(d) in subsection (3)(b), after "section 28", insert ", 86A".
+Amendment of section 26
+10. In the FS Act, in section 26  - 
+25(a) in the section heading, replace "to cause, etc., specified
+fire hazard" with "of building to cause, etc., certain fire
+hazards";
+(b) in subsection (1), replace "or omits to do anything that"
+with "any act which";
+30(c) after subsection (2), insert  - 
+25
+"(2A) An owner or occupier of any building
+commits an offence if the owner or occupier causes,
+or does any act which is likely to cause  - 
+(a) the obstruction of any access road,
+5 accessway or other installation that is
+provided, used or designed to be used for
+the purpose of providing access to the
+building in order to extinguish, attack,
+prevent or limit a fire in or at the
+10 building; or
+(b) the obstruction of or any interference with
+the normal operation of any fire safety
+measure in the building such as might
+prevent or impede the timely and effective
+15 use of the fire safety measure.
+(2B) An owner or occupier of any building commits
+an offence if the owner or occupier knows or ought to
+know that  - 
+(a) there is an obstruction as described in
+20 subsection (2A)(a) in relation to the
+building; or
+(b) an obstruction as described in
+subsection (2A)(a) in relation to the
+building is likely to occur,
+25 but does not take reasonable steps to remove the
+obstruction or prevent the obstruction from occurring,
+as the case may be.
+(2C) An owner or occupier of any building commits
+an offence if the owner or occupier knows or ought to
+30 know that  - 
+(a) there is an obstruction or interference as
+described in subsection (2A)(b) in relation
+to the building; or
+26
+(b) an obstruction or any interference as
+described in subsection (2A)(b) in
+relation to the building is likely to occur,
+but does not take reasonable steps to remove the
+5obstruction or bring the interference to an end or
+prevent the obstruction or interference from
+occurring, as the case may be."; and
+(d) replace subsection (4) with  - 
+"(4) The offences under subsections (1) and (2A)
+10are strict liability offences.".
+New section 26A
+11. In the FS Act, after section 26, insert  - 
+"Offence relating to external fire safety measures
+26A. - (1) An owner of any external fire safety measure
+15commits an offence if the owner causes, or does any act which is
+likely to cause  - 
+(a) the external fire safety measure not to be in proper
+working order; or
+(b) the obstruction of or any interference with the normal
+20operation of the external fire safety measure such as
+might prevent or impede the timely and effective use
+of the external fire safety measure.
+(2) An owner of any external fire safety measure commits an
+offence if the owner knows or ought to know that the external
+25fire safety measure is not in proper working order but does not
+take reasonable steps to restore the external fire safety measure
+to proper working order.
+(3) An owner of any external fire safety measure commits an
+offence if the owner knows or ought to know that  - 
+30(a) there is an obstruction or interference as described in
+subsection (1)(b) in relation to the external fire safety
+measure; or
+27
+(b) an obstruction or any interference as described in
+subsection (1)(b) in relation to the external fire safety
+measure is likely to occur,
+but does not take reasonable steps to remove the obstruction or
+5 bring the interference to an end or prevent the obstruction or
+interference from occurring, as the case may be.
+(4) The offences under subsection (1)(a) and (b) are strict
+liability offences.".
+Replacement of section 27
+10 12. In the FS Act, replace section 27 with  - 
+"Offence for any person to cause fire hazards
+27. A person commits an offence if the person  - 
+(a) causes, or does any act which is likely to cause, any of
+the following:
+15 (i) any fire safety measure in any premises
+(including any external fire safety measure)
+not to be in proper working order;
+(ii) the obstruction of any access road, accessway or
+other installation that is provided, used or
+20 designed to be used for the purpose of
+providing access to any building in order to
+extinguish, attack, prevent or limit a fire in or at
+the building;
+(iii) the obstruction of or any interference with the
+25 normal operation of any fire safety measure in
+any building such as might prevent or impede
+the timely and effective use of the fire safety
+measure;
+(iv) the obstruction of or any interference with the
+30 normal operation of any external fire safety
+measure such as might prevent or impede the
+timely and effective use of the external fire
+safety measure;
+28
+(v) the obstruction of any escape route,
+passageway, common property or limited
+common property of any building  - 
+(A) such as might render escape in the event
+5of fire more difficult; and
+(B) which obstruction cannot be easily
+removed by an individual escaping from
+a fire; and
+(b) knows or ought to know that the act causes or is likely
+10to cause the effect mentioned in paragraph (a)(i), (ii),
+(iii), (iv) or (v), as the case may be.".
+Amendment of section 45
+13. In the FS Act, in section 45(3), replace "a term of 2 years" with
+"such term as the Minister may determine".
+15Amendment of section 62
+14. In the FS Act, in section 62(3)  - 
+(a) after paragraph (b), insert  - 
+"(ba) where  - 
+(i) fire safety works have been carried
+20out in relation to a building; and
+(ii) no fire safety certificate or temporary
+fire permit has been granted in
+respect of the building under
+section 60,
+25(ba) on the owner of the building or the occupier
+of that part of the building affected by the
+order, as the case may be;";
+(b) in paragraph (c), delete "or" at the end;
+(c) in paragraph (d), replace the comma at the end with "; or";
+30and
+(d) after paragraph (d), insert  - 
+29
+"(e) where  - 
+(i) fire safety works have been carried
+out in relation to a relevant pipeline
+or part of the relevant pipeline; and
+5 (ii) no fire safety certificate or temporary
+fire permit has been granted in
+respect of the relevant pipeline or
+part of the relevant pipeline under
+section 60,
+10 (e) on the pipeline owner or the person for
+whom the relevant pipeline works have
+been carried out,".
+Amendment of section 66
+15. In the FS Act, in section 66, delete the definition of "Enterprise
+15 Singapore Board".
+Amendment of section 73
+16. In the FS Act, in section 73(6), replace "subsection (1)" with
+"subsection (5)".
+Amendment of section 74
+20 17. In the FS Act, in section 74  - 
+(a) in subsection (5), replace "subsection (2)" with
+"subsection (1)(a) or (2)"; and
+(b) in subsection (7), replace "subsection (2)" with
+"subsection (1) or (2)".
+25 Amendment of section 77
+18. In the FS Act, in section 77(1)  - 
+(a) before the definition of "dispensing", insert  - 
+" "applicable premises" means any premises used for
+the storage or keeping of any class of petroleum
+30
+or any flammable material to which a class licence
+applies;
+"class licence" means a class licence determined
+under an order made under section 84A(1), and
+5includes a class licence as from time to time
+varied under section 84B;
+"class licensee" means a person to whom a class
+licence applies;"; and
+(b) in the definition of "licensed premises", replace
+10"section 78" with "section 78(a)".
+Replacement of section 78
+19. In the FS Act, replace section 78 with  - 
+"Storage of petroleum and flammable materials
+78. A person must not store or keep, or cause to be stored or
+15kept, any class of petroleum or any flammable material unless
+either of the following applies:
+(a) the person stores or keeps, or causes to be stored or
+kept, such class of petroleum or flammable
+material  - 
+20(i) in or on licensed premises;
+(ii) under the authority of and in accordance with
+the provisions of a storage licence granted by
+the Commissioner for the licensed premises and
+every condition specified in that licence; and
+25(iii) in such quantities, in such manner and in
+accordance with such requirements as are
+prescribed in relation to such class of
+petroleum or flammable material;
+(b) the person is a class licensee authorised under a class
+30licence to store or keep, or cause to be stored or kept,
+such class of petroleum or flammable material in or
+on any applicable premises.".
+31
+Replacement of section 81
+20. In the FS Act, replace section 81 with  - 
+"Dispensing of petroleum and flammable materials
+81. A person must not dispense or cause to be dispensed any
+5 class of petroleum or any flammable material unless either of the
+following applies:
+(a) the person dispenses or causes to be dispensed such
+class of petroleum or flammable material  - 
+(i) in or on licensed premises;
+10 (ii) in accordance with the provisions of the storage
+licence for the licensed premises and every
+condition specified in that licence; and
+(iii) in the case of the dispensing of any class of
+petroleum or any flammable material into  - 
+15 (A) any prescribed type of container;
+(B) any road tanker; or
+(C) the fuel tank of any vehicle,
+(iii) where the regulations require a person so
+dispensing that class of petroleum or
+20 flammable material to have the
+Commissioner's specific approval, with such
+approval and in accordance with any conditions
+that the Commissioner may impose;
+(b) the person  - 
+25 (i) is a class licensee authorised under a class
+licence to store or keep, or cause to be stored or
+kept, such class of petroleum or flammable
+material in or on any applicable premises; and
+(ii) dispenses or causes to be dispensed such class
+30 of petroleum or flammable material in or on the
+applicable premises in accordance with the
+conditions of the class licence.".
+32
+New sections 84A, 84B and 84C
+21. In the FS Act, after section 84, insert  - 
+"Class licence
+84A. - (1) The Minister may, by order in the Gazette,
+5determine a class licence that authorises a person to whom the
+order applies to carry on a regulated activity without a licence
+granted under this Part  - 
+(a) for a specified period or indefinitely, or to an extent
+specified in that order; and
+10(b) subject to such conditions as may be specified in that
+order.
+(2) To avoid doubt, there may be more than one class licence
+determined, according (but not limited) to any of the following:
+(a) the purpose or purposes for which the regulated
+15activity is carried on;
+(b) the type, nature and quantity of the class of petroleum
+or the flammable material involved in the regulated
+activity;
+(c) the premises where the class of petroleum or the
+20flammable material is stored or kept;
+(d) the manner and method in which the class of
+petroleum or the flammable material is stored or kept;
+(e) the maximum quantity of the class of petroleum or the
+flammable material that may be stored or kept in or on
+25the premises mentioned in paragraph (c);
+(f) the dispensing of the class of petroleum or the
+flammable material into  - 
+(i) any type of container specified in the order
+under subsection (1);
+30(ii) any road tanker; or
+(iii) the fuel tank of any vehicle,
+(f) in or on the premises mentioned in paragraph (c).
+33
+(3) An order under subsection (1) continues in force, unless it
+is revoked, for the period that may be specified in the order.
+(4) The carrying on of a regulated activity by a class licensee is
+deemed authorised by this Act if it is done in accordance with
+5 the conditions of the class licence.
+(5) In this section and section 84C, "regulated activity" means
+the storage or keeping in or on any premises of any class of
+petroleum or any flammable material.
+Variation and revocation of class licence
+10 84B. - (1) Subject to this section, the Minister may, by order
+in the Gazette  - 
+(a) vary a class licence by  - 
+(i) varying or revoking any condition specified in
+the class licence; or
+15 (ii) specifying additional conditions of the class
+licence; or
+(b) revoke a class licence.
+(2) Before varying a class licence or revoking a class licence,
+the Minister must, unless the Minister considers it impractical or
+20 undesirable in the circumstances of the case, cause to be
+published, in accordance with subsection (3), a written notice
+that  - 
+(a) states that the Minister proposes to vary the class
+licence or to revoke the class licence;
+25 (b) describes the proposed variation or revocation; and
+(c) invites interested persons to make representations
+about the proposed variation or revocation by a
+specified date that is at least one month after the date
+of publication of the notice.
+30 (3) A written notice under subsection (2) must be published on
+the prescribed website or in one or more other forms that are
+readily accessible by the public.
+34
+(4) The Minister must, before varying a class licence or
+revoking a class licence, give due consideration to any
+representations made to the Minister pursuant to the written
+notice given in accordance with subsection (2).
+5Conditions applicable to class licensee
+84C. - (1) Without limiting section 84A(1) or 84B, the
+conditions subject to which a class licensee may carry on a
+regulated activity under a class licence may include conditions
+requiring the class licensee  - 
+10(a) to do or not to do any thing that is specified or is of a
+description specified, except insofar as the
+Commissioner consents to the class licensee doing
+or not doing that thing;
+(b) to refer for determination by the Commissioner such
+15questions arising under the class licence or which are
+of a description specified;
+(c) to provide information and reports to the
+Commissioner about the class licensee and the
+regulated activity carried on; and
+20(d) to notify the Commissioner that the class licensee has
+ceased or will cease to be a class licensee.
+(2) In particular, a class licence may provide that the class
+licence applies to a person subject to a condition precedent that
+requires the person  - 
+25(a) to notify the Commissioner of the person's identity
+and other particulars about the regulated activity
+carried on by the person; and
+(b) to pay a charge to the Commissioner when notifying
+the Commissioner in accordance with
+30paragraph (a).".
+Amendment of section 85
+22. In the FS Act, in section 85(2), delete "or 83".
+35
+Amendment of section 86
+23. In the FS Act, in section 86  - 
+(a) in subsection (1), delete paragraph (a); and
+(b) after subsection (3), insert  - 
+5 "(4) In addition, where the Commissioner enters
+any place in exercise of the power under
+subsection (1)(c), the Commissioner may do one or
+more of the following in the place:
+(a) take with him or her any assistance or
+10 equipment;
+(b) take photographs or video recordings of
+and conduct any inspection, measurement
+or test of the place or anything found in the
+place;
+15 (c) take, without payment, for the purpose of
+examination and testing reasonable
+samples of any substance found in the
+place;
+(d) do any other thing reasonably necessary for
+20 carrying out the purpose to which his or her
+exercise of that power relates.".
+New section 86A
+24. In the FS Act, after section 86, insert  - 
+"Powers relating to vehicles transporting petroleum and
+25 flammable materials
+86A. - (1) For the purposes of this Part, the Commissioner
+may do all or any of the following in relation to a vehicle which
+the Commissioner reasonably believes is transporting any class
+of petroleum or any flammable material:
+30 (a) stop and detain the vehicle for as long as is reasonably
+necessary for the exercise of any other power under
+this section;
+36
+(b) inspect the vehicle and any equipment in or on the
+vehicle;
+(c) take photographs or video recordings of the vehicle
+and anything in or on the vehicle;
+5(d) inspect any document in the vehicle and take extracts
+from, or make copies of, any such document;
+(e) take, without payment, for the purpose of
+examination and testing reasonable samples of any
+substance found in or on the vehicle;
+10(f) operate a computer or other thing in or on the vehicle;
+(g) require the driver of the vehicle or any other person in
+the vehicle, or any person who employed or engaged
+the driver to drive the vehicle  - 
+(i) to answer any question, to the best of that
+15person's knowledge, information and belief;
+(ii) to produce any licence or permit issued to that
+person under this Part; and
+(iii) to provide any document (other than a licence or
+permit issued to that person under this Part) or
+20any information that the Commissioner
+reasonably requires for the purposes of this Part.
+(2) The power to require any person to provide any document
+or information under subsection (1)(g)(iii) includes the power  - 
+(a) to require that person to provide an explanation of the
+25document or information;
+(b) if the document or information is not provided, to
+require that person to state, to the best of that person's
+knowledge and belief, where it is; and
+(c) if the information is recorded otherwise than in
+30legible form, to require the information to be made
+available to the Commissioner in legible form.
+37
+(3) The Commissioner may require the driver (D) of a vehicle
+which the Commissioner reasonably believes is transporting any
+class of petroleum or any flammable material  - 
+(a) to drive the vehicle to any place in Singapore (called
+5 in this section the destination) that, in the
+Commissioner's opinion, is suitable for the safe
+unloading and disposal of the class of petroleum or
+flammable material being transported in the vehicle;
+and
+10 (b) after D arrives at the destination, to provide the
+Commissioner, as soon as is practicable, with any
+photographs, video recordings or other documents
+that the Commissioner may reasonably require in
+respect of the unloading and disposal of the class of
+15 petroleum or flammable material at the destination.
+(4) The Commissioner may require any person (E) who
+employed or engaged D to drive the vehicle to deploy or
+engage another person (X) to take the actions mentioned in
+subsection (3) instead of D.
+20 (5) For the purposes of subsections (3)(a) and (4), the
+Commissioner may specify the route or routes by which D or
+X (as the case may be) may or may not drive the vehicle to the
+destination.
+(6) The Commissioner may, in addition to subsection (3)(a) or
+25 (4), escort the vehicle to the destination.
+(7) A person who  - 
+(a) refuses or fails to comply with the Commissioner's
+requirement under subsection (1)(g), (3) or (4);
+(b) provides any document or information required under
+30 subsection (1)(g) that is false in a material particular
+and that the person knows to be false or does not
+believe to be true; or
+38
+(c) drives a vehicle in contravention of the
+Commissioner's specification under subsection (5),
+shall be guilty of an offence and shall be liable on conviction to a
+fine not exceeding $10,000 or to imprisonment for a term not
+5exceeding 6 months or to both.
+(8) If  - 
+(a) D or X refuses or fails to comply with the
+Commissioner's requirement under subsection (3)
+or drives a vehicle in contravention of the
+10Commissioner's specification under subsection (5);
+or
+(b) E refuses or fails to comply with the Commissioner's
+requirement under subsection (4),
+the Commissioner may  - 
+15(c) take any action that is reasonably necessary to ensure
+that  - 
+(i) the vehicle proceeds to the destination in a safe
+manner; and
+(ii) the class of petroleum or flammable material
+20transported in the vehicle is unloaded and
+disposed of at the destination in a safe
+manner; and
+(d) detain the vehicle for as long as is reasonably
+necessary for the exercise of the power under
+25paragraph (c).".
+Amendment of section 87
+25. In the FS Act, in section 87(1), after "any person", insert ", other
+than a class licensee".
+Amendment of section 88
+3026. In the FS Act, in section 88  - 
+(a) in subsection (4), replace "3 years" with "5 years"; and
+39
+(b) after subsection (6), insert  - 
+"(7) In this section, "licence" does not include a
+class licence.".
+Amendment of section 89
+5 27. In the FS Act, in section 89  - 
+(a) in the section heading, after "permit", insert "and
+disapplication of class licence";
+(b) in subsection (1), after "the Commissioner may", insert
+"(without compensation)";
+10 (c) replace subsections (2) and (3) with  - 
+"(2) In subsection (1), "licence" does not include a
+class licence.
+(3) If at any time it appears to the Commissioner
+that  - 
+15 (a) a class licensee has contravened any
+condition of the applicable class licence;
+(b) in a case where a class licence applies to a
+person subject to a condition precedent that
+requires the person to notify the
+20 Commissioner of the person's identity
+and other particulars about the regulated
+activity (within the meaning given by
+section 84A(5)) carried on by the person,
+the person has provided any information
+25 that is false or misleading; or
+(c) the public safety so requires,
+the Commissioner may (without compensation) by
+order disapply the class licence with respect to that
+class licensee.
+30 (3A) The Commissioner must, before exercising
+any power under subsection (1) or (3), give written
+notice to the person concerned  - 
+40
+(a) stating the Commissioner's intention to
+exercise such power; and
+(b) specifying a date (being not less than
+21 days from the date of service of notice
+5on that person) upon which the cancellation
+or disapplication takes effect and calling
+upon the person concerned to show cause
+to the Commissioner why the licence or
+permit should not be cancelled or the class
+10licence should not be disapplied, as the
+case may be.
+(3B) When the Commissioner has exercised any
+power under subsection (1) or (3), the Commissioner
+must inform the person concerned by written notice of
+15the cancellation or disapplication as soon as may be
+practicable.";
+(d) in subsection (4), after "cancelled", insert ", or to whom a
+class licence has been disapplied,";
+(e) in subsection (4), after "cancellation", insert "or
+20disapplication (as the case may be)"; and
+(f) after subsection (5), insert  - 
+"(6) An order under subsection (3) does not take
+effect until the expiry of a period of 14 days after the
+Commissioner has informed the class licensee in
+25question of the order.".
+Replacement of section 106
+28. In the FS Act, replace section 106 with  - 
+"Incorporation by reference of codes, standards, etc.
+106. - (1) Regulations made under section 113 may apply,
+30adopt or incorporate by reference  - 
+(a) wholly or partially;
+(b) with or without any addition, omission or
+substitution; or
+41
+(c) specifically or by reference,
+any code, standard, rule, specification or other document that
+relates to any subject matter for which those regulations may be
+made (called in this section the material), as in force or
+5 published at a particular time or as in force or published from
+time to time.
+(2) The material mentioned in subsection (1) may be material
+that  - 
+(a) is issued by the Commissioner;
+10 (b) is recommended, issued or adopted by the Enterprise
+Singapore Board;
+(c) is recommended, issued or adopted by any other
+standards organisation or body of any place outside
+Singapore, being an organisation or a body approved
+15 by the Commissioner; or
+(d) is included in any document issued by any
+Government department or public authority.
+(3) Any material applied, adopted or incorporated in the
+regulations by reference under subsection (1) is to be treated for
+20 all purposes as forming part of the regulations.
+(4) Unless otherwise provided in the regulations, where the
+material is applied, adopted or incorporated by reference as in
+force or published from time to time, every amendment to the
+material that is made by the Commissioner, the Enterprise
+25 Singapore Board, the organisation or body or the Government
+department or public authority (as the case may be) is to be
+treated as being a part of those regulations.
+(5) Where any material is applied, adopted or incorporated by
+reference in any provision of any regulations, the Commissioner
+30 must give notice in the Gazette stating  - 
+(a) that the material is applied, adopted or incorporated in
+the regulations by reference, and the date on which
+the relevant provision in the regulations was made;
+42
+(b) that the material is available for inspection, free of
+charge, and the place at which the material may be
+inspected;
+(c) that copies of the material can be purchased, and the
+5place where the copies can be purchased; and
+(d) if copies of the material are available in other ways,
+the details of where or how the material can be
+accessed or obtained.
+(6) In addition, the Commissioner must cause a copy of every
+10material applied, adopted or incorporated in the regulations by
+reference under subsection (1) to be made available for
+inspection by members of the public without charge at the
+office of the Commissioner during normal office hours.
+(7) In any proceedings under this Act, a copy certified by the
+15Commissioner as a true copy of any material mentioned in
+subsection (2)(c) or (d) that is applied, adopted or incorporated
+in the regulations by reference under subsection (1) is evidence
+of that material.
+(8) Unless otherwise provided in any regulations made under
+20section 113, in the event that any material applied, adopted or
+incorporated in the regulations by reference under subsection (1)
+is inconsistent with the Code of Practice for Fire Precautions in
+Buildings published by the Commissioner, the Code of Practice
+for Fire Precautions in Buildings prevails.
+25(9) To avoid doubt, any part of the material that is not applied,
+adopted or incorporated by reference under subsection (1) has
+no legislative effect.".
+Amendment of section 108
+29. In the FS Act, in section 108, replace subsection (2) with  - 
+30"(2) The power to require a person to provide any document,
+record or information under subsection (1) includes the
+power  - 
+(a) to require that person to provide an explanation of the
+document, record or information;
+43
+(b) if the document, record or information is not
+provided, to require that person to state, to the best
+of that person's knowledge and belief, where it is;
+(c) to retain the original copy of the document or record,
+5 or to copy or make extracts from the document or
+record; and
+(d) if the information is recorded otherwise than in
+legible form, to require the information to be made
+available to the Commissioner or authorised officer in
+10 legible form.".
+Replacement of section 109
+30. In the FS Act, replace section 109 with  - 
+"False or misleading information
+109. - (1) Any person who provides, to the Commissioner or a
+15 licensing officer in connection with any application for a licence
+or permit under this Act, any information that the person knows
+or has reason to believe is false or misleading, or is reckless or
+negligent as to whether the information is false or misleading,
+shall be guilty of an offence and shall be liable on conviction to a
+20 fine not exceeding $10,000 or to imprisonment for a term not
+exceeding 6 months or to both.
+(2) Any person to whom a class licence applies who, pursuant
+to  - 
+(a) a condition precedent of the class licence requiring
+25 the person to notify the Commissioner of the person's
+identity and other particulars about the regulated
+activity carried on by the person, or provide any other
+information to the Commissioner; or
+44
+(b) a condition of the class licence requiring the person to
+provide information to the Commissioner for any
+purpose or in relation to any matter relating to the
+class licence,
+5provides any information to the Commissioner, and  - 
+(c) knows or has reason to believe that the information is
+false or misleading; or
+(d) is reckless or negligent as to whether the information
+is false or misleading,
+10shall be guilty of an offence and shall be liable on conviction to a
+fine not exceeding $10,000 or to imprisonment for a term not
+exceeding 6 months or to both.".
+Amendment of section 113
+31. In the FS Act, in section 113(1)  - 
+15(a) replace paragraph (r) with  - 
+"(r) the regulation of the storage of any class of
+petroleum or any flammable material,
+including  - 
+(i) the quantities of any class of
+20petroleum or any flammable
+material that may be stored in or on
+any licensed premises;
+(ii) the maximum quantity of any class of
+petroleum or any flammable material
+25that may be stored without a licence
+in or on any premises, other than any
+applicable premises; and
+(iii) the manner and method in which
+such class of petroleum or flammable
+30material is to be stored in or on any
+premises, other than any applicable
+premises;";
+(b) replace paragraph (u) with  - 
+45
+"(u) the regulation of the transport of any class
+of petroleum or any flammable material,
+including  - 
+(i) the time during which such class of
+5 petroleum or flammable material
+may be transported;
+(ii) requirements relating to the route or
+routes by which such class of
+petroleum or flammable material
+10 may be transported; and
+(iii) the maximum quantity of any class of
+petroleum or any flammable material
+that may be transported without a
+licence or permit;";
+15 (c) in paragraphs (x) and (y), after "licensed premises", insert
+"or applicable premises"; and
+(d) replace paragraph (za) with  - 
+"(za) the regulation of the import, storage,
+transport, distribution, maintenance and
+20 disposal of containers used to contain any
+class of petroleum or any flammable
+material, including  - 
+(i) requirements to store different brands
+or types of containers at different
+25 licensed premises or applicable
+premises; and
+(ii) requirements for labelling and colour
+coding of containers;".
+46
+Saving and transitional provisions for this Part
+32. - (1) Where, immediately before the applicable date, a person
+holds a licence granted under Part 6 of the FS Act in relation to the
+carrying on of a regulated activity that is in force immediately before
+5that date  - 
+(a) the licence continues in force subject to subsection (2); and
+(b) the FS Act as in force immediately before the applicable
+date continues to apply in relation to that licence.
+(2) The licence mentioned in subsection (1) continues in force until
+10the earliest of the following:
+(a) the date on which the person, pursuant to a condition
+precedent of the applicable class licence as described in
+section 84C(2) of the FS Act as inserted by section 21,
+notifies the Commissioner of the person's identity and
+15other particulars about the regulated activity carried on by
+the person;
+(b) the date the licence would have expired under Part 6 of the
+FS Act as in force immediately before the applicable date;
+(c) the date the licence is cancelled under section 89 of the
+20FS Act.
+(3) In this section  - 
+"applicable date" means the date of commencement of
+section 19;
+"regulated activity" has the meaning given by section 84A(5) of
+25the FS Act as inserted by section 21.
+PART 3
+REPEAL AND SA VING AND TRANSITIONAL PROVISION
+Repeal of Chemical Weapons (Prohibition) (Amendment)
+Act 2019
+3033. Repeal the Chemical Weapons (Prohibition) (Amendment)
+Act 2019.
+47
+Saving and transitional provision
+34. For a period of 2 years after the date of commencement of any
+provision of this Act, the Minister may, by regulations, prescribe any
+additional provisions of a saving or transitional nature consequent on
+5 the enactment of that provision that the Minister may consider
+necessary or expedient.
+EXPLANA TORY STA TEMENT
+This Bill seeks to amend the Civil Defence Shelter Act 1997 and the Fire Safety
+Act 1993. The Bill also repeals the Chemical Weapons (Prohibition)
+(Amendment) Act 2019 because the subject of that Act (namely the regulation
+of local transport of scheduled chemicals) has been or will be covered by
+amendments to the Fire Safety Act 1993, and other legislation.
+Clause 1 relates to the short title and commencement.
+PART 1
+AMENDMENT OF CIVIL DEFENCE SHELTER ACT 1997
+Part 1 consists of clauses 2 to 5 and amends the Civil Defence Shelter Act 1997
+for the main purpose of providing for the regulation of certain equipment
+(regulated shelter products) that is installed or to be installed in a household shelter
+or storey shelter.
+Clause 2 amends section 2(1) to introduce a new definition of "regulated
+shelter product".
+Clause 3 introduces a new Part 2A (consisting of new sections 4A to 4M),
+which relates to the regulation of regulated shelter products.
+The new section 4A sets out the definitions of various terms used in the new
+Part 2A. Notably  - 
+(a) "applicable standard" means the standard for a regulated shelter
+product that is specified in the specifications (as defined in
+section 2(1)); and
+(b) "certificate of conformity" means a certificate issued by an accredited
+certification body as to compliance of a regulated shelter product of a
+particular type or description with the applicable standard for that
+regulated shelter product.
+48
+The new section 4B makes it an offence for an accredited laboratory to issue a
+false test report in respect of a regulated shelter product of a particular type or
+description.
+The new section 4C makes it an offence for any person to give false
+information to an accredited certification body for the purposes of obtaining a
+certificate of conformity for a regulated shelter product of a particular type or
+description.
+The new section 4D makes it an offence for a person that is not an accredited
+certification body, and knows that it is not such a body or is reckless or negligent
+as to whether it is such a body, to certify, or hold out or advertise that the person is
+willing to certify, that a regulated shelter product of a particular type or description
+complies with the applicable standard for that product.
+Under the new section 4D, it is also an offence if an accredited certification
+body issues a certificate of conformity for a regulated shelter product of a
+particular type or description that does not comply with the applicable standard for
+that product.
+Further, the new section 4D sets out the circumstances in which an accredited
+certification body must cancel a certificate of conformity for a regulated shelter
+product of a particular type or description issued by the accredited certification
+body. An accredited certification body that fails to comply with this requirement
+commits an offence.
+The new section 4E makes it an offence for a person (whether or not in
+Singapore)  - 
+(a) to supply or offer to supply to a person in Singapore any non-compliant
+shelter product as a compliant shelter product or for use as a regulated
+shelter product; or
+(b) to represent, in the course of such supply or offer, that a non-compliant
+shelter product is a compliant shelter product or is fit for use as a
+regulated shelter product.
+The new section 4F applies to the following persons (relevant person):
+(a) in relation to a household shelter provided for a house  -  the owner,
+occupier or builder of the house;
+(b) in relation to a household shelter provided for a flat in a building  -  the
+owner or occupier of the flat or the builder of the building;
+(c) in relation to a storey shelter provided for any storey of a building  - 
+the owner or builder of the building, or the occupier of any part of that
+storey of the building.
+49
+Under the new section 4F, a relevant person commits an offence if the relevant
+person installs or causes to be installed in any household shelter or storey shelter
+any non-compliant shelter product, knowing that it is a non-compliant shelter
+product. However, the relevant person does not commit the offence if the
+regulated shelter product is a non-compliant shelter product only by reason that
+the certificate of conformity for that product expires or is suspended or terminated
+after the product is delivered to the relevant person.
+Further, it is a defence for a relevant person (X) charged with an offence for
+installing or causing to be installed a non-compliant shelter product when X is
+reckless or negligent as to whether it is a non-compliant shelter product, for X to
+prove that X had taken all reasonable steps to ensure that the regulated shelter
+product was a compliant shelter product at the time it was delivered to X.
+The new section 4F also makes it an offence for a relevant person (X) to install
+or cause to be installed in any household shelter or storey shelter any regulated
+shelter product in a manner that impairs or is likely to impair the safe and efficient
+use of the shelter. However, if X is charged with an offence for doing so when X is
+reckless or negligent as to whether the manner of its installation has such effect, it
+is a defence for X to prove that X had taken all reasonable steps to ensure that the
+regulated shelter product was installed in accordance with the specifications.
+The new section 4G empowers the Commissioner of Civil Defence (the
+Commissioner) to require by written notice  - 
+(a) an accredited certification body that has issued a certificate of
+conformity for a regulated shelter product of a particular type or
+description (P);
+(b) a person carrying on a trade or business of supplying P (supplier); or
+(c) a person to whom a certificate of conformity for P is issued (certificate
+holder),
+to submit P or samples of P to an accredited laboratory for the purpose of testing
+or analysis within the time specified in the notice. Non-compliance with the
+Commissioner's requirement is an offence.
+Further, under the new section 4G, where the accredited certification body,
+supplier or certificate holder does not have possession, charge or control of P, any
+person who has possession, charge or control of the product must render all
+necessary and reasonable assistance to enable the accredited certification body,
+supplier or certificate holder (as the case may be) to comply with the notice.
+Contravention of this requirement is an offence.
+The new section 4H empowers the Commissioner to give one or more of the
+following directions to any person with possession, charge or control of a
+regulated shelter product or who supplied a regulated shelter product:
+50
+(a) recall a non-compliant shelter product;
+(b) cease supplying the non-compliant shelter product;
+(c) remove the regulated shelter product from the household shelter or
+storey shelter in which it is installed;
+(d) dispose of the non-compliant shelter product recalled under
+paragraph (a) in any manner required by the Commissioner;
+(e) rectify any contravention of the specifications for a regulated shelter
+product in the installation of that product.
+The Commissioner may give a direction under the new section 4H if the
+Commissioner has reasonable grounds to believe that the direction is necessary for
+public safety and the regulated shelter product in question is either a
+non-compliant shelter product or was installed in a manner that impairs or is
+likely to impair the safe and efficient use of any household shelter or storey shelter
+in which the product is installed. Non-compliance with the Commissioner's
+direction is an offence. A person aggrieved by the Commissioner's direction may
+appeal to the Minister, but the direction takes effect despite an appeal being made.
+Under the new section 4I, the Commissioner may, by written notice, direct an
+accredited certification body that issued a certificate of conformity for a regulated
+shelter product of a particular type or description (P) to cancel the certificate
+within the time specified in the written notice, if  - 
+(a) the accredited certification body contravenes the new section 4D(2) or
+(3) in relation to that certificate; or
+(b) the person to whom the certificate is issued refuses or fails to comply
+with a requirement under the new section 4G(1) to submit P or a
+sample of P for testing or analysis.
+Also, the Commissioner may, by written notice, direct an accredited
+certification body not to issue any certificate of conformity to a person for a
+specified period if the Commissioner has reason to believe that the person has
+contravened the new section 4E(1) or (3) in relation to the supply of a
+non-compliant shelter product or any false representation made in the course of
+such supply.
+An accredited certification body that, without reasonable excuse, refuses or
+fails to comply with the Commissioner's direction under the new section 4I
+commits an offence. Further, the Minister may prescribe that the regulated shelter
+product in question is a non-compliant shelter product. A person aggrieved by the
+Commissioner's direction may appeal to the Minister, but the direction takes
+effect despite an appeal being made.
+51
+The new section 4J provides that if a person to whom a direction under the new
+section 4H(1) is given refuses or fails, without reasonable excuse, to comply with
+the direction, the Commissioner may  - 
+(a) authorise any authorised person to carry out the direction; and
+(b) recover the costs and expenses reasonably incurred in carrying out the
+direction as a debt due to the Government from that person.
+The new section 4J also sets out the authorised person's powers and obligations
+in relation to the carrying out of the Commissioner's direction. Notably  - 
+(a) the authorised person may, for the purpose of carrying out the
+direction, enter any premises (as defined in the new section 4J(12)) at
+any reasonable time after giving the owner or occupier of the premises
+at least 24 hours' notice of the intention to do so; and
+(b) a Magistrate may by warrant authorise the authorised person to enter
+any premises, with such force as may be necessary, if the Magistrate is
+satisfied that the authorised person needs to do so to carry out the
+direction and that  - 
+(i) entry into the premises has been refused, or such refusal is
+likely; or
+(ii) the premises are unoccupied or the owner or occupier is
+temporarily absent.
+The new section 4K provides that the Commissioner may  - 
+(a) authorise any authorised person to enter any premises (as defined in
+the new section 4J(12)) without warrant to carry out a direction given
+under the new section 4H(1); and
+(b) recover the costs and expenses reasonably incurred in carrying out the
+direction as a debt due to the Government from the person to whom the
+direction is issued,
+if the person does not comply with the direction, and the Commissioner has
+reasonable grounds to believe that a non-compliant shelter product installed in a
+household shelter or storey shelter provided for those premises is posing an
+imminent danger affecting public safety. The new section 4K also sets out the
+powers and obligations of the authorised person in such a scenario.
+The new section 4L pertains to appeals to the Minister against a direction given
+by the Commissioner under the new Part 2A. Before determining an appeal, the
+Minister may consult the Appeal Advisory Board appointed under the new
+section 4M. In deciding an appeal, the Minister may have regard to any report
+made by the Appeal Advisory Board. The Minister's decision on any appeal is
+final.
+52
+The new section 4M provides for the constitution and appointment of the
+Chairperson, Vice-Chairperson and members of the Appeal Advisory Board.
+Clause 4 amends section 26(1) to increase the maximum sum for which a
+compoundable offence may be compounded from $500 to $5,000.
+Clause 5 amends section 28(1) to provide that the Minister's power to make
+regulations includes the power to make regulations relating to various matters in
+the new Part 2A.
+PART 2
+AMENDMENT OF FIRE SAFETY ACT 1993
+Part 2 consists of clauses 6 to 32 and amends the Fire Safety Act 1993 (FS Act)
+for the following main purposes:
+(a) to enhance the Commissioner's powers to deal with  - 
+(i) the obstruction of fire engine access roads, accessways and
+other installations that are provided, used or designed to be
+used to provide access to a building for the purpose of
+extinguishing, attacking, preventing or limiting a fire in or at
+the building; and
+(ii) the obstruction of fire safety measures installed or fixed outside
+any building (external fire safety measures) such as might
+prevent or impede their timely and effective use;
+(b) to provide for a class of regulated persons who do not require a licence
+to carry on activities involving petroleum and flammable materials that
+are currently licensable under Part 6. These persons may be
+designated, individually or as a class, by the Minister, by an order in
+the Gazette;
+(c) to enhance the regulatory controls in relation to the transport of
+petroleum and flammable materials by road to ensure public safety.
+Clause 6 amends various definitions in section 2(1) in support of other
+amendments to the FS Act, and includes a definition for "Enterprise Singapore
+Board" because the term is used in the new section 106 introduced by clause 28 as
+well as Part 5.
+Clause 7 amends section 9(2) to provide that a member of the Registered
+Inspectors Inquiry Panel constituted under section 9(1) is appointed for such term
+as the Minister may determine, instead of a fixed term of 2 years.
+Clause 8 introduces a new section 18(1A), which makes clear that the power of
+the Commissioner or any member of the Singapore Civil Defence Force
+53
+authorised by the Commissioner to require any person (X) to provide any
+information or produce any book or document includes the power  - 
+(a) to require X to provide an explanation of the information, book or
+document;
+(b) if the information is not provided or the book or document is not
+produced, to require X to state, to the best of X's knowledge and belief,
+where it is; and
+(c) if the information is not recorded in legible form, to require the
+information to be made available in legible form.
+Clause 8 also makes consequential amendments to the offence provision under
+section 18(4).
+Clause 9 amends section 21 to enable the Commissioner to empower an
+individual appointed as a supplementary enforcement officer (SEO) to exercise
+the powers conferred on the Commissioner under the new section 86A introduced
+by clause 24. The new section 86A will apply to the SEO as if the SEO were the
+Commissioner.
+Clause 10 amends section 26. The new section 26(2A) makes it an offence for
+an owner or occupier of any building to cause, or do any act (which, as defined by
+section 2(1) of the Interpretation Act 1965, includes illegal omissions) which is
+likely to cause  - 
+(a) the obstruction of any access road, accessway or other installation that
+is provided, used or designed to be used to provide access to the
+building for the purpose of extinguishing, attacking, preventing or
+limiting a fire in or at the building; or
+(b) the obstruction of or any interference with the normal operation of any
+fire safety measure in the building such as might prevent or impede its
+timely and effective use.
+The offence under the new section 26(2A) is a strict liability offence.
+Clause 10 also amends section 26 to make it an offence for an owner or
+occupier of any building to fail to take reasonable steps to remove any such
+obstruction, bring any such interference to an end, or prevent any such obstruction
+or interference from occurring.
+Clause 10 further amends section 26(1) to omit the reference to an omission,
+for consistency with the new section 26(2A).
+The penalties for the new offences under the amended section 26 are the
+general penalties specified in section 107.
+Clause 11 inserts a new section 26A. The new section 26A makes it an offence
+for an owner of an external fire safety measure (as defined in section 2(1) as
+54
+amended by clause 6(a)) to cause, or do any act (which includes illegal omissions)
+which is likely to cause  - 
+(a) the external fire safety measure not to be in proper working order; or
+(b) the obstruction of or any interference with the normal operation of the
+external fire safety measure such as might prevent or impede its timely
+and effective use.
+This offence is a strict liability offence.
+Under the new section 26A, it is also an offence for the owner of an external
+fire safety measure to fail to take reasonable steps to restore the external fire safety
+measure to proper working order, remove any obstruction of or bring to an end any
+interference with the normal operation of the external fire safety measure, or
+prevent any such obstruction or interference from occurring.
+The penalties for the offences under the new section 26A are the general
+penalties specified in section 107.
+Clause 12 replaces section 27. The new section 27 makes it an offence for any
+person to do any act (which includes illegal omissions) which causes or is likely to
+cause  - 
+(a) the obstruction of any access road, accessway or other installation that
+is provided, used or designed to be used to provide access to any
+building for the purpose of extinguishing, attacking, preventing or
+limiting a fire in or at the building;
+(b) the obstruction of or any interference with the normal operation of any
+fire safety measure in any building such as might prevent or impede its
+timely and effective use; or
+(c) the obstruction of or any interference with the normal operation of any
+external fire safety measure as might prevent or impede the timely and
+effective use of the external fire safety measure.
+The penalties for the offences under the new section 27 are the general
+penalties specified in section 107.
+Clause 12 also re-enacts the offence under the deleted section 27 for any person
+to cause, or do any act (which includes illegal omissions) which is likely to cause a
+fire safety measure not to be in proper working order, or to cause an obstruction
+that would render escape in the event of a fire more difficult. The penalties for this
+offence will remain the general penalties specified in section 107.
+Clause 13 amends section 45(3) to provide that a member of the Fire Safety
+Engineers Inquiry Panel constituted under section 45(1) is appointed for such term
+as the Minister may determine, instead of a fixed term of 2 years.
+55
+Clause 14 amends section 62(3) to specify the person on whom an order made
+by the Commissioner under section 62(1) must be served where fire safety works
+have been carried out in relation to a building or a relevant pipeline or part of a
+relevant pipeline, and no fire safety certificate or temporary fire permit has been
+granted in respect of the building or relevant pipeline or part of a relevant pipeline
+under section 60.
+Clause 15 deletes the definition of "Enterprise Singapore Board" in section 66.
+The definition is re-enacted in section 2(1) as amended by clause 6(a).
+Clause 16 amends section 73(6) to correct an editorial mistake.
+Clause 17 amends section 74(5) such that the Commissioner must, before
+making a direction under section 74(1)(a), give the person to whom the direction
+applies written notice of the Commissioner's intention to make the direction, and
+an opportunity to submit reasons why the direction should not be made. The clause
+also amends section 74(7) to allow the Commissioner to cancel a direction made
+under section 74(1) at any time.
+Clause 18 amends section 77(1) to introduce definitions of "applicable
+premises", "class licence" and "class licensee". These definitions are in support of
+other amendments in Part 2 of the Bill. The clause also makes a consequential
+amendment to the definition of "licensed premises".
+Clause 19 replaces section 78. Under the new section 78, a person must not
+store or keep, or cause to be stored or kept, any class of petroleum or any
+flammable material unless  - 
+(a) the person does so  - 
+(i) in or on licensed premises;
+(ii) under the authority of and in accordance with a storage licence
+granted by the Commissioner and every condition specified in
+the licence; and
+(iii) in the quantities, in the manner and in accordance with the
+requirements prescribed in relation to the class of petroleum or
+flammable material concerned; or
+(b) the person is a class licensee authorised under a class licence to do so.
+Clause 20 replaces section 81. Under the new section 81, a person is prohibited
+from dispensing or causing to be dispensed any class of petroleum or any
+flammable material unless the person satisfies either of 2 conditions.
+The first condition relates to a situation where the person dispenses or causes to
+be dispensed such class of petroleum or flammable material in or on licensed
+premises. The person must comply with the provisions of the storage licence for
+that licensed premises, including the conditions specified in the licence. Further, if
+56
+any class of petroleum or any flammable material is dispensed into any prescribed
+type of container, any road tanker or the fuel tank of any vehicle, and the
+regulations require the person so dispensing that class of petroleum or flammable
+material to obtain the Commissioner's approval, the person must also obtain the
+Commissioner's approval and comply with any conditions that the Commissioner
+may impose.
+The second condition relates to where the person is a class licensee authorised
+under a class licence to store or keep, or cause to be stored or kept, such class of
+petroleum or flammable material in or on any applicable premises. The person
+must dispense or cause to be dispensed such class of petroleum or flammable
+material in or on the applicable premises in accordance with the conditions of the
+class licence.
+Clause 21 introduces new sections 84A, 84B and 84C. These provisions deal
+with a class of regulated persons who may carry on a regulated activity (within the
+meaning of the new section 84A(5)) without holding a licence issued under Part 6.
+These persons may be designated, individually or as a class, by the Minister, by an
+order in the Gazette (class licence order) under the new section 84A(1).
+Under the new section 84A(4), the carrying on of a regulated activity by any
+person to which a class licence order applies is deemed authorised by the FS Act if
+it is done in accordance with the conditions of the order.
+The new section 84B sets out the due process for varying or adding a class
+licence condition or revoking a class licence.
+The new section 84C provides for conditions applicable to a class licensee.
+These conditions may include a requirement that the class licensee do or not do
+any thing that is specified in the class licence. Also, the class licence may provide
+that it applies to a person subject to a condition precedent requiring the person to
+notify the Commissioner of the person's identity and other particulars about the
+regulated activity carried on by the person, and to pay a charge to the
+Commissioner when so notifying him or her.
+Clause 22 amends section 85(2) such that contravention of section 83 will no
+longer be an offence under that provision. Section 83(6) already provides that a
+contravention of section 83(1), (2), (3) or (5) is an offence. The penalties for an
+offence under section 83(6) are the general penalties specified in section 107, the
+same as for an offence under section 85(2).
+Clause 23 introduces a new section 86(4) to elaborate on the Commissioner's
+powers when the Commissioner enters any place where the Commissioner has
+reason to believe that any class of petroleum or flammable material is stored in
+contravention of the FS Act.
+Clause 23 also deletes section 86(1)(a). The power in that provision is covered
+by the new section 86A(1), which empowers the Commissioner to stop and inspect
+57
+any vehicle which the Commissioner reasonably believes is transporting any class
+of petroleum or any flammable material.
+Clause 24 introduces a new section 86A. The new section 86A(1) and (2) sets
+out the Commissioner's powers in relation to any vehicle which the Commissioner
+reasonably believes is transporting any class of petroleum or any flammable
+material.
+Notably, under the new section 86A(1)(g), the Commissioner may require the
+driver of the vehicle or any other person in the vehicle, or any person who
+employed or engaged the driver to drive the vehicle  - 
+(a) to answer any question, to the best of that person's knowledge,
+information and belief;
+(b) to produce any licence or permit issued to that person under Part 6; and
+(c) to provide any document (other than a licence or permitted issued to
+that person under Part 6) or any information that the Commissioner
+reasonably requires for the purposes of Part 6.
+Under the new section 86A(2), the Commissioner's power to require any
+person to whom the new section 86A(1)(g) applies to provide any document or
+information includes the power  - 
+(a) to require that person to provide an explanation of the document or
+information;
+(b) if the document or information is not provided, to require that person to
+state, to the best of that person's knowledge and belief, where it is; and
+(c) if the information is not recorded in legible form, to require the
+information to be made available in legible form.
+Under the new section 86A(3), the Commissioner may require the driver (D) of
+a vehicle transporting any class of petroleum or any flammable material  - 
+(a) to drive the vehicle to any place in Singapore (destination) that, in the
+Commissioner's opinion, is suitable for the safe unloading and
+disposal of the class of petroleum or flammable material being
+transported in the vehicle; and
+(b) after arriving at the destination, to provide the Commissioner with any
+photographs, video recordings or other documents that the
+Commissioner may reasonably require in respect of the unloading
+and disposal of the class of petroleum or flammable material at the
+destination.
+Alternatively, the Commissioner may, under the new section 86A(4), require
+any person who employed or engaged D to drive the vehicle to deploy or engage
+58
+another person (X) to take the actions mentioned in the new section 86A(3) instead
+of D.
+Under the new section 86A(5), the Commissioner may specify the route or
+routes by which D or X may or may not drive the vehicle to the destination.
+Additionally, under the new section 86A(6), the Commissioner may escort the
+vehicle to the destination.
+Non-compliance with the Commissioner's requirement under the new
+section 86A(1)(g), (3) or (4) is an offence under the new section 86A(7). A
+person who provides any document or information required under the new
+section 86A(1)(g) that is false in a material particular and that the person knows to
+be false or does not believe to be true commits an offence under the new
+section 86A(7). It is also an offence under the new section 86A(7) if a person
+drives a vehicle in contravention of the Commissioner's specification under the
+new section 86A(5). A person who obstructs, hinders or impedes the
+Commissioner in the exercise of the Commissioner's powers under the new
+section 86A(1)(a) to (f) commits an offence under section 94.
+Further, in the event of any non-compliance with the Commissioner's
+requirement under the new section 86A(3) or (4) or any contravention of the
+Commissioner's specification under the new section 86A(5), the Commissioner
+may, under the new section 86A(8)  - 
+(a) take any action that is reasonably necessary to ensure that the vehicle
+proceeds to the destination in a safe manner, and the class of petroleum
+or flammable material transported in the vehicle is unloaded and
+disposed of at the destination in a safe manner; and
+(b) detain the vehicle for as long as is reasonably necessary for the
+Commissioner to do so.
+Clause 25 amends section 87(1) (which concerns the waiver or modification of
+a licence or permit requirement) to disapply that provision to and in relation to a
+class licence. Any changes to the conditions of a class licence are subject to the
+procedure in the new section 84B.
+Clause 26 amends section 88  - 
+(a) to increase the maximum duration of any licence or permit granted
+under Part 6 from 3 years to 5 years; and
+(b) to disapply the power under section 88 to grant or renew a licence or
+permit to a class licence.
+Clause 27 amends section 89 to empower the Commissioner to disapply a class
+licence to a class licensee in the circumstances specified in the new section 89(3).
+The clause also amends section 89 to introduce procedural protections for the class
+59
+licensee in relation to such a disapplication similar to those that apply to a person
+whose licence or permit granted under Part 6 is cancelled by the Commissioner.
+Clause 28 replaces section 106 to provide for the incorporation by reference of
+codes, standards, rules, specifications and other documents relating to any subject
+matter of any regulations made under section 113, whether that material is in force
+or published at a particular time or from time to time.
+Clause 29 replaces section 108(2) to provide that the power of the
+Commissioner or any authorised officer under section 108(1) to require any
+person to provide any document, record or information includes the power  - 
+(a) to require that person to provide an explanation of the document,
+record or information;
+(b) if the document, record or information is not provided, to require that
+person to state, to the best of that person's knowledge and belief, where
+it is; and
+(c) if the information is recorded otherwise than in legible form, to require
+the information to be made available in legible form.
+These powers are in addition to the power to retain the original copy of any
+document or record provided under section 108(1) or to copy or make extracts
+from the document or record.
+Clause 30 replaces section 109. The new section 109 provides for the following
+additional matters:
+(a) the new section 109(1) makes it an offence for a person to provide any
+information to the Commissioner or a licensing officer, in connection
+with any application for a licence or permit under the FS Act, where
+the person is reckless or negligent as to whether the information is false
+or misleading;
+(b) the new section 109(2) makes it an offence for a person to whom a
+class licence applies to provide, pursuant to a condition of the class
+licence, any information that the person knows or has reason to believe
+is false or misleading, or is reckless or negligent as to whether the
+information is false or misleading.
+Clause 31 amends section 113(1) (which concerns the matters for which the
+Minister may make regulations) in support of other amendments to the FS Act. In
+particular, the amended section 113(1)(u) makes it clear that regulations made in
+respect of the transport of any class of petroleum or any flammable material may
+include requirements relating to the route or routes by which the class of
+petroleum or flammable material may be transported.
+Clause 32 provides for saving and transitional provisions that apply where a
+person holds a licence granted under Part 6 before the commencement of clause 19
+60
+for the carrying on of a regulated activity (within the meaning of the new
+section 84A(5) introduced by clause 21).
+PART 3
+REPEAL AND SA VING AND TRANSITIONAL PROVISION
+Clause 33 repeals the Chemical Weapons (Prohibition) (Amendment) Act 2019
+(CWPAA). The CWPAA, which amends the Chemical Weapons (Prohibition)
+Act 2000, is no longer required, as the policy intent to regulate the transport within
+Singapore by road of certain scheduled chemicals has been or will be met by
+amendments under Part 2 of the Bill (in particular the new section 86A introduced
+by clause 24), as well as amendments to subsidiary legislation made under the FS
+Act, and the Environmental Protection and Management Act 1999 and its
+subsidiary legislation.
+Clause 34 contains a power to make additional saving and transitional
+provisions by regulations.
+EXPENDITURE OF PUBLIC MONEY
+This Bill will not involve the Government in any extra financial expenditure.
+61

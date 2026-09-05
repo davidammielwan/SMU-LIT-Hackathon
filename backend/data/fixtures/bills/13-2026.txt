@@ -19,10 +19,10 @@ POWERS OF AGENCY
 5. Functions of Agency
 6. Powers of Agency
 7. Directions of Minister, etc.
-8. Agency’s symbol, etc.
+8. Agency's symbol, etc.
 PART 3
 CONSTITUTION AND MEMBERSHIP OF AGENCY
-Division 1 — Appointment, resignation and removal
+Division 1  -  Appointment, resignation and removal
 9. Membership of Agency
 10. Appointment of Agency members
 Section
@@ -33,25 +33,25 @@ Section
 15. Removal of member
 16. Resignation from office
 17. V alidity of acts, etc.
-Division 2 — Terms and conditions for members
+Division 2  -  Terms and conditions for members
 18. Term of appointment
 19. Remuneration, etc.
 20. V acation of office
 21. Other terms and conditions
 PART 4
-DECISION‑MAKING BY AGENCY
-Division 1 — Meetings
+DECISION-MAKING BY AGENCY
+Division 1  -  Meetings
 22. Procedure generally
 23. Notice of meetings
 24. Quorum
 25. Presiding at meetings
 26. V oting at meetings
 27. Execution of documents
-Division 2 — Committees and delegation
+Division 2  -  Committees and delegation
 28. Appointment of committees
 29. Proceedings of committees
 30. Ability to delegate
-31. V alidity of delegate’s acts, etc.
+31. V alidity of delegate's acts, etc.
 PART 5
 PERSONNEL MA TTERS
 32. Appointment of Chief Executive
@@ -74,12 +74,12 @@ Section
 44. Skills Development Fund to be audited separately
 PART 7
 ADMINISTRA TION AND ENFORCEMENT
-Division 1 — Preliminary matters, appointments and powers
-45. Meanings of “incentive”, “grant” and “loan” from Agency
+Division 1  -  Preliminary matters, appointments and powers
+45. Meanings of "incentive", "grant" and "loan" from Agency
 46. Appointment of authorised persons and inspectors
 47. Powers to verify information collected or for grants, etc.
 48. Powers of inspectors
-Division 2 — Offences and related provisions
+Division 2  -  Offences and related provisions
 49. Abusive funding arrangement
 50. Entering into or facilitation of abusive funding arrangement
 51. Recovery by Agency of wrongly obtained funding
@@ -156,73 +156,73 @@ Short title and commencement
 5 Act 2026 and comes into operation on a date that the Minister
 appoints by notification in the Gazette.
 Interpretation
-2. In this Act —
-“Agency” means the Skills and Workforce Development
+2. In this Act  - 
+"Agency" means the Skills and Workforce Development
 10 Agency established by section 3;
-“authorised person” means an authorised person appointed by
+"authorised person" means an authorised person appointed by
 the Agency under section 46(1);
-“career, employment and training matters” means matters
+"career, employment and training matters" means matters
 relating to supporting individuals and employers in their
 15 career and workforce needs, including career planning,
 training, general learning and skills development, job
 search, job mobility, recruitment, workforce planning, job
 redesign, retraining and talent development;
-“Chairperson” means the member of the Agency who is
+"Chairperson" means the member of the Agency who is
 20 appointed under section 12(1)(a) as the Chairperson of the
 Agency, and includes any individual appointed under
 section 14(1) to act in that capacity;
-“Chief Executive” means the Chief Executive of the Agency
+"Chief Executive" means the Chief Executive of the Agency
 appointed under section 32, and includes any individual
 25 acting in that capacity;
-“commerce or industry” includes any trade, manufacturing or
+"commerce or industry" includes any trade, manufacturing or
 service industry, business or other economic activity;
-“committee” means a committee of the Agency appointed under
+"committee" means a committee of the Agency appointed under
 section 28;
-30 “committee member” means an individual appointed to be a
+30 "committee member" means an individual appointed to be a
 member of a committee under section 28;
 8
-“company” has the meaning given by section 4(1) of the
+"company" has the meaning given by section 4(1) of the
 Companies Act 1967;
-“delegate” means a person to whom the Agency under
+"delegate" means a person to whom the Agency under
 section 30(1) delegates any of its functions or powers;
-5“Deputy Chairperson” means a member of the Agency who is
+5"Deputy Chairperson" means a member of the Agency who is
 appointed under section 12(1)(b) as a Deputy Chairperson of
 the Agency;
-“document” means any thing (in whatever form) in which
+"document" means any thing (in whatever form) in which
 information or material of any description is recorded or
 10stored, and includes any tape, disk or other storage device or
 medium;
-“Finance Minister” means the Minister charged with the
+"Finance Minister" means the Minister charged with the
 responsibility for finance;
-“functions”, in relation to the Agency, means functions
+"functions", in relation to the Agency, means functions
 15conferred on the Agency by this Act or any other Act;
-“grant” includes a grant by way of reimbursement under a
+"grant" includes a grant by way of reimbursement under a
 reimbursement arrangement;
-“inspector” means an inspector appointed by the Agency under
+"inspector" means an inspector appointed by the Agency under
 section 46(2);
-20“job redesign” means the review and reallocation by an
+20"job redesign" means the review and reallocation by an
 employer of job duties and tasks among employees;
-“member”, in relation to the Agency, means a member of the
+"member", in relation to the Agency, means a member of the
 Agency who is appointed under section 10(1), and includes
 any individual appointed under section 14(2) to act in that
 25capacity;
-“officer”, in relation to a public body, means an employee of the
+"officer", in relation to a public body, means an employee of the
 public body and includes an individual under a secondment
 arrangement which makes available the service of the
 individual to the public body;
-30“permanent resident of Singapore” has the meaning given by
+30"permanent resident of Singapore" has the meaning given by
 section 2 of the Immigration Act 1959;
-“public body” means a body corporate established by a public
+"public body" means a body corporate established by a public
 Act for the purposes of a public function, but excludes a
 9
 Town Council established under section 4 of the Town
 Councils Act 1988;
-“reimbursement arrangement” means a written arrangement
+"reimbursement arrangement" means a written arrangement
 made between the Agency and a service provider in respect
 5 of the provision of any career and employment services, or
 training, to a person eligible to receive any financial
 incentive, support, grant, aid or assistance from the Agency
-to the effect that where —
+to the effect that where  - 
 (a) the person so eligible receives the services or training
 10 for a charge; and
 (b) the service provider incurs costs and expenses in
@@ -232,13 +232,13 @@ the service provider is entitled, under the arrangement, to
 15 reimbursement from the Agency of the whole or part of the
 charges or costs and expenses mentioned in paragraph (a)
 or (b) or both;
-“service provider” means a provider of career and employment
+"service provider" means a provider of career and employment
 services or a provider of training;
-20 “Skills Development Fund” means the Skills Development Fund
+20 "Skills Development Fund" means the Skills Development Fund
 established under section 5 of the Skills Development Levy
 Act 1979;
-“subdelegate” means a person to whom a delegate under
-section 30(2) further delegates any of the Agency’s
+"subdelegate" means a person to whom a delegate under
+section 30(2) further delegates any of the Agency's
 25 functions or powers.
 PART 2
 ESTABLISHMENT, FUNCTIONS AND
@@ -248,7 +248,7 @@ Skills and Workforce Development Agency
 established by this section.
 10
 Agency is body corporate
-4.—(1) The Agency —
+4. - (1) The Agency  - 
 (a) is a body corporate with perpetual succession;
 (b) may acquire, hold and dispose of real and personal
 5property; and
@@ -256,17 +256,17 @@ Agency is body corporate
 (2) The Agency may use, and operate under, one or more trading
 names approved by the Minister.
 (3) A trading name can be an abbreviation or adaptation of the
-10Agency’s corporate name, or a name other than the Agency’s
+10Agency's corporate name, or a name other than the Agency's
 corporate name.
 (4) The Agency must cause notice of every trading name approved
 under subsection (2) to be published in the Gazette; but failure to do
 so does not invalidate the approval or use of that name.
 15Functions of Agency
-5.—(1) The Agency has the following functions:
+5. - (1) The Agency has the following functions:
 (a) to promote the development and enhance the quality of
 career and employment services and training in Singapore,
 including by collaboration and cooperation with
-20universities, public sector post‑secondary education
+20universities, public sector post-secondary education
 institutions, providers of career and employment
 services, employers, training institutions, labour market
 intermediaries and trade associations and chambers;
@@ -276,21 +276,21 @@ current, emerging and future needs of Singapore, in
 collaboration with employers, trade associations and
 chambers and public agencies in Singapore;
 (c) to coordinate and provide career and employment services
-30and training to —
+30and training to  - 
 (i) support students to prepare for entry into the labour
 market;
 11
 (ii) enable citizens of Singapore and permanent residents
 of Singapore to obtain employment or
-re‑employment; and
+re-employment; and
 (iii) enable employees to develop their career and to
 5 remain in productive employment;
 (d) to collaborate with and support employers, relevant
 representatives of commerce or industry and public
-agencies in Singapore —
+agencies in Singapore  - 
 (i) to identify and promote the acquisition and
-10 enhancement of industry‑specific skills;
-(ii) to enhance individuals’ employability by improving
+10 enhancement of industry-specific skills;
+(ii) to enhance individuals' employability by improving
 their skills, knowledge and qualifications;
 (iii) to carry out job redesign so as to enable improved
 working arrangements and productivity;
@@ -312,3 +312,2505 @@ and to disseminate such information to the public;
 30 relating to workforce development and career,
 employment and training matters;
 12
+(i) with respect to career and employment services or training
+programmes provided in Singapore (even if the services or
+programmes are developed outside Singapore)  - 
+(i) to accredit, or facilitate the accreditation by others in
+5Singapore of, such service providers;
+(ii) to raise the quality of such services and programmes;
+and
+(iii) to facilitate the public availability of meaningful and
+accurate information about such services and
+10programmes;
+(j) to provide financial support to service providers or
+recipients of career and employment services or training,
+including by way of incentives, grants or loans, or to defray
+or subsidise any costs or expenses incurred or to be
+15incurred in connection with those services;
+(k) to administer  - 
+(i) the Private Education Act 2009 in accordance with
+that Act and any directions given by the relevant
+Minister charged with the responsibility for that Act;
+20and
+(ii) the Skills Development Fund in accordance with the
+Skills Development Levy Act 1979;
+(l) to advise and make recommendations to the Government
+on policies and programmes relating to career,
+25employment and training matters, and other measures
+and laws connected with the Agency's functions under this
+Act or any other written law;
+(m) to perform such other functions as may be conferred on the
+Agency by any other Act.
+30(2) In addition to the functions conferred by this section, the
+Agency may undertake such other functions as the Minister may
+assign to the Agency, by notification in the Gazette, and in so
+undertaking  - 
+13
+(a) the Agency is deemed to be fulfilling the purposes of this
+Act; and
+(b) the provisions of this Act apply to the Agency in respect of
+those other functions.
+5 (3) Nothing in this section imposes on the Agency, directly or
+indirectly, any form of duty or liability enforceable by proceedings
+before any court to which the Agency would not otherwise be subject.
+(4) In this section  - 
+"public sector post-secondary education institution" means  - 
+10 (a) the Institute of Technical Education, Singapore
+established under the Institute of Technical
+Education Act 1992;
+(b) the Nanyang Polytechnic established under the
+Nanyang Polytechnic Act 1992;
+15 (c) the Ngee Ann Polytechnic established under the
+Ngee Ann Polytechnic Act 1967;
+(d) the Republic Polytechnic established under the
+Republic Polytechnic Act 2002;
+(e) the Singapore Polytechnic established under the
+20 Singapore Polytechnic Act 1954;
+(f) the Temasek Polytechnic established under the
+Temasek Polytechnic Act 1990; or
+(g) any company that is owned (wholly or partly) by the
+Institute of Technical Education, Singapore or any
+25 polytechnic mentioned in paragraphs (b) to (f);
+"university" means  - 
+(a) the Nanyang Technological University;
+(b) the National University of Singapore;
+(c) the Singapore Management University;
+30 (d) the Singapore University of Technology and Design;
+(e) the Singapore Institute of Technology;
+14
+(f) the Singapore University of Social Sciences;
+(g) any other person whose function of providing
+university education is determined by a public Act; or
+(h) any entity that is owned (wholly or partly) or
+5controlled by any university or person mentioned in
+paragraphs (a) to (g).
+Powers of Agency
+6. - (1) The Agency has power to do all things necessary or
+expedient to be done for, or in connection with, the performance of its
+10functions.
+(2) Without limiting subsection (1), the powers of the Agency
+include the following:
+(a) to enter into contracts, agreements or arrangements;
+(b) to acquire, develop, hold and dispose of real or personal
+15property;
+(c) to appoint and act through agents;
+(d) to employ staff and engage consultants;
+(e) to publish or provide any information, or publish or
+sponsor the publication of works;
+20(f) to apply for, obtain and hold, whether on its own behalf or
+jointly with any other person, any intellectual property
+rights;
+(g) to enter into agreements or arrangements for the
+commercial exploitation of those intellectual property
+25rights, whether by assignment, licensing or otherwise;
+(h) with the approval of the Minister, to form or join in the
+formation of a company, association, trust or partnership or
+enter into a joint venture with any person;
+(i) to be a member of a company, association, trust or
+30partnership;
+(j) to provide financial incentives, support, grant, aid or
+assistance to any person;
+15
+(k) to charge for the provision of goods or services, or the
+performance of work, by or on behalf of the Agency;
+(l) to waive the payment of fees and charges payable to the
+Agency;
+5 (m) to accept grants, subsidies, donations, gifts or contributions
+from any source, or raise funds by all lawful means;
+(n) to enter into agreements or arrangements with persons,
+authorities or organisations in Singapore or overseas for
+the purposes of the Agency;
+10 (o) to provide technical, consultancy or advisory services to
+the Government or any other person on any matter related
+to, or connected with, career, employment and training
+matters;
+(p) to collect, compile, analyse and disseminate information of
+15 a statistical nature or otherwise concerning matters relating
+to its functions;
+(q) to develop, issue or adopt codes of practice and guidelines
+relating to career, employment and training matters;
+(r) to do any other thing that is incidental or conducive to the
+20 performance of its functions.
+(3) To avoid doubt, subsections (1) and (2) do not limit any other
+power given to the Agency by any other provision of this Act or by
+any other Act.
+(4) The Agency may exercise its powers inside or outside
+25 Singapore.
+Directions of Minister, etc.
+7. - (1) The Minister may give to the Agency any direction under
+section 5 of the Public Sector (Governance) Act 2018.
+(2) To avoid doubt, the Minister is entitled  - 
+30 (a) to have information in the possession of the Agency; and
+(b) where the information is in or on a document, to have, and
+make and retain copies of, that document.
+16
+(3) For the purposes of subsection (2), the Minister may request the
+Agency  - 
+(a) to provide information to the Minister; or
+(b) to give the Minister access to information.
+5(4) The Agency must comply with a request under subsection (3).
+(5) In this section, "information" means information specified, or of
+a description specified, by the Minister that relates to the functions of
+the Agency.
+Agency's symbol, etc.
+108. - (1) The Agency has the exclusive right to the use of one or
+more symbols or representations as the Agency may select or devise
+(each called in this section the Agency's symbol or representation),
+and to display or exhibit those symbols or representations in
+connection with the Agency's activities or affairs.
+15(2) A person who  - 
+(a) uses, without the prior written permission of the Agency, a
+symbol or representation identical to the Agency's symbol
+or representation; or
+(b) uses a symbol or representation that so resembles the
+20Agency's symbol or representation as to deceive or cause
+confusion, or to be likely to deceive or to cause confusion,
+shall be guilty of an offence and shall be liable on conviction to a fine
+not exceeding $10,000 or to imprisonment for a term not exceeding
+6 months or to both.
+25PART 3
+CONSTITUTION AND MEMBERSHIP OF AGENCY
+Division 1  -  Appointment, resignation and removal
+Membership of Agency
+9. - (1) The Agency consists of at least 7 and not more than
+3015 members.
+17
+(2) One of the members (who is not the Chairperson) may be the
+Chief Executive.
+Appointment of Agency members
+10. - (1) Each member of the Agency is to be appointed by the
+5 Minister.
+(2) Every appointment must be made by instrument in writing
+given to the member.
+(3) The instrument must state  - 
+(a) the term of the appointment; and
+10 (b) the date the appointment takes effect, which must not be a
+date earlier than the date the instrument is received by the
+member.
+Membership disqualification
+11. - (1) In appointing members of the Agency, the Minister must
+15 have regard to whether the members of the Agency will collectively
+possess the appropriate knowledge, skills and experience to assist the
+Agency to perform its functions effectively.
+(2) However, the following individuals are disqualified from being
+a member of the Agency:
+20 (a) an undischarged bankrupt or an individual who has an
+arrangement with any of his or her creditors;
+(b) a Judge or judicial officer;
+(c) an individual who has been sentenced to imprisonment for
+a term of 6 months or more, and has not received a free
+25 pardon;
+(d) an individual who is  - 
+(i) disqualified under section 154(1) of the Companies
+Act 1967 from acting as a director, or taking part
+(whether directly or indirectly) in the management of
+30 a company or a foreign company referred to in that
+provision during the period of disqualification in that
+provision;
+18
+(ii) disqualified by a court order under section 149(1),
+149A(1) or 154(2) of the Companies Act 1967 from
+being a director, or in any way (whether directly or
+indirectly) being concerned in, or taking part in, the
+5management of a company or a foreign company
+referred to in those provisions during the period of
+disqualification in the court order;
+(iii) disqualified under section 58(1) of the V ariable
+Capital Companies Act 2018 from acting as a
+10director, or taking part (whether directly or
+indirectly) in the management of a VCC during the
+period of disqualification in that provision; or
+(iv) disqualified by a court order under section 56(1),
+57(1) or 58(2) of the V ariable Capital Companies
+15Act 2018 from being a director or in any way
+(whether directly or indirectly) being concerned in,
+or taking part in, the management of a VCC during
+the period of disqualification in the court order;
+(e) an individual who lacks capacity in respect of his or her
+20duties as a member within the meaning of the Mental
+Capacity Act 2008, or in respect of whom an order is made
+under section 10 of the Mental Health (Care and
+Treatment) Act 2008.
+(3) In this section, "VCC" has the meaning given by section 2(1) of
+25the V ariable Capital Companies Act 2018.
+Chairperson and Deputy Chairperson
+12. - (1) The Minister may, by instrument in writing, appoint  - 
+(a) a member (other than the Chief Executive) to be the
+Chairperson of the Agency for the period specified in the
+30instrument; and
+(b) one or more members (other than the Chairperson) to be a
+Deputy Chairperson of the Agency for the period specified
+in the instrument.
+19
+(2) The Chairperson or a Deputy Chairperson holds office until
+whichever of the following first happens:
+(a) his or her term of office as Chairperson or
+Deputy Chairperson (as the case may be) expires;
+5 (b) he or she ceases to hold office as a member of the Agency;
+(c) the Minister terminates the appointment as Chairperson or
+Deputy Chairperson, as the case may be.
+(3) A Deputy Chairperson has and may perform or exercise all of
+the functions and powers of the Chairperson in relation to a matter
+10 if  - 
+(a) the Chairperson is unavailable; or
+(b) the Chairperson is interested in the matter (within the
+meaning given by Part 4 of the Public Sector (Governance)
+Act 2018).
+15 Premature vacancies
+13. - (1) If a premature vacancy occurs in the office of any member
+of the Agency, the Minister may, subject to sections 9, 10 and 11,
+appoint an individual to fill the vacancy and hold that office for the
+remainder of the term for which the vacating member was appointed.
+20 (2) In this section, "premature vacancy", for an office, means a
+vacancy that occurs in that office by virtue of section 20(1) or for any
+reason other than the expiry of the term of office.
+Acting Chairperson and members
+14. - (1) The Minister may appoint an individual (other than the
+25 Chief Executive) to act temporarily as the Chairperson during any
+period, or during all periods, when the Chairperson  - 
+(a) is absent from duty or Singapore; or
+(b) is, for any reason, unable to perform the duties of the
+office.
+30 (2) The Minister may appoint an individual to act temporarily as a
+member of the Agency (other than the Chairperson) during any
+period, or during all periods, when the member  - 
+20
+(a) is absent from duty or Singapore; or
+(b) is, for any reason, unable to perform the duties of the
+office.
+(3) An individual is ineligible for appointment under this section to
+5act as the Chairperson or a member of the Agency if the individual is
+disqualified under section 11(2) for appointment as a member.
+Removal of member
+15. - (1) The Minister may, at any time and without giving any
+reason, remove a member of the Agency from office.
+10(2) Every removal under subsection (1) must be made by written
+notice given to the member with a copy to the Agency.
+(3) The notice must state the date the removal takes effect, which
+must not be a date earlier than the date the notice is received by the
+member.
+15Resignation from office
+16. - (1) A member of the Agency may resign his or her office by
+written notice to the Minister (with a copy to the Agency) signed by
+the member.
+(2) The resignation is effective when the notice in subsection (1) is
+20received by the Minister or at any later time specified in the notice.
+Validity of acts, etc.
+17. - (1) Despite section 33 of the Interpretation Act 1965, the
+performance of any function or exercise of any power of the Agency
+by the Agency is not affected merely because at the relevant time  - 
+25(a) there was a vacancy in the membership of the Agency,
+including a vacancy arising from the failure to appoint a
+member;
+(b) there was some defect or irregularity existing in the
+appointment or continuance in office of an individual
+30purporting to be a member of the Agency; or
+21
+(c) there was an irregularity in the Agency's decision-making
+procedure that does not affect the merits of the decision
+made.
+(2) The acts of an individual as a member of the Agency are not
+5 affected merely because  - 
+(a) there was some defect or irregularity existing in the
+appointment or continuance in office of the individual
+purporting to be a member of the Agency; or
+(b) in the case of an individual acting in the capacity of the
+10 Chairperson, a member or the Chief Executive, the
+occasion for the individual so acting, or for his or her
+appointment, had not arisen or had ended.
+Division 2  -  Terms and conditions for members
+Term of appointment
+15 18. - (1) Subject to section 20, each member of the Agency holds
+office for a period of 3 years or any shorter period specified in the
+instrument of appointment.
+(2) A member of the Agency may be re-appointed.
+Remuneration, etc.
+20 19. The members of the Agency may be paid, out of the funds of the
+Agency, such salaries, fees and allowances as the Minister
+determines.
+Vacation of office
+20. - (1) A member of the Agency ceases to hold office if he or
+25 she  - 
+(a) dies;
+(b) is adjudicated a bankrupt or makes an arrangement with
+any of his or her creditors;
+(c) becomes otherwise disqualified from being a member
+30 under section 11(2);
+22
+(d) is removed from office in accordance with section 15;
+(e) resigns in accordance with section 16;
+(f) fails, without reasonable cause, to disclose any interest
+required under Division 1 of Part 4 of the Public Sector
+5(Governance) Act 2018 and a notice is given under that Act
+to the Minister about that default;
+(g) fails to attend 3 consecutive meetings of the Agency
+without the approval of the Agency; or
+(h) is not re-appointed when his or her term of office expires.
+10(2) A member of the Agency is not entitled to any compensation or
+other payment or benefit relating to his or her ceasing, for any reason,
+to hold office as a member.
+Other terms and conditions
+21. The Minister may specify other terms and conditions of
+15appointment of a member of the Agency in the instrument of
+appointment.
+PART 4
+DECISION-MAKING BY AGENCY
+Division 1  -  Meetings
+20Procedure generally
+22. Subject to this Act and the Public Sector (Governance)
+Act 2018, the members of the Agency may regulate their own
+proceedings and business.
+Notice of meetings
+2523. - (1) The Agency must hold such meetings as are necessary for
+the performance of its functions.
+(2) The Chairperson must appoint the times and places of the
+meetings of the Agency, and cause notice of those meetings to be
+given to each member, including those not present when the
+30appointment is made.
+23
+(3) The meetings of the Agency must be held in accordance with the
+provisions of this Act and Part 4 of the Public Sector (Governance)
+Act 2018.
+Quorum
+5 24. - (1) The quorum for a meeting of the Agency is the higher of
+the following:
+(a) one-third of the number of members;
+(b) 3 members.
+(2) No business may be transacted at a meeting of the Agency if a
+10 quorum is not present.
+Presiding at meetings
+25. - (1) At a meeting of the Agency, the following person
+presides:
+(a) if there is a Chairperson and he or she is present and is not
+15 interested (within the meaning given by Part 4 of the Public
+Sector (Governance) Act 2018) in the matter  -  the
+Chairperson;
+(b) if there is no Chairperson, or the Chairperson is not present
+or is interested (within the meaning given by Part 4 of the
+20 Public Sector (Governance) Act 2018) in the matter, and a
+Deputy Chairperson who is not so interested in the matter
+is present  -  the Deputy Chairperson;
+(c) in any other case  -  a member elected from among the
+members present at the meeting to preside.
+25 (2) The person specified in subsection (1)(b) or (c) may perform the
+functions and exercise the powers of the Chairperson for the purposes
+of the meeting.
+24
+Voting at meetings
+26. - (1) Each member of the Agency has one vote.
+(2) In addition to his or her general vote, the person presiding at a
+meeting has, in the case of an equality of votes at the meeting, a
+5casting vote.
+(3) A resolution of the Agency is passed if it is agreed to by all
+members present without dissent, or if a majority of the members who
+are entitled to vote on the matter cast votes in favour of it.
+(4) A member present at a meeting of the Agency is presumed to
+10have agreed to, and to have voted in favour of, a resolution of the
+Agency unless he or she expressly dissents from or votes against the
+resolution at the meeting or is prevented from voting by section 26 of
+the Public Sector (Governance) Act 2018.
+Execution of documents
+1527. - (1) The Agency must have a seal.
+(2) The seal of the Agency is to be kept and used as authorised by
+the Agency.
+(3) A document is duly executed by the Agency if  - 
+(a) the seal of the Agency is affixed to the document in the
+20presence of one of its members who must sign the
+document to attest that the seal was so affixed, and the
+document is signed  - 
+(i) by any 2 members generally or specially authorised
+by the Agency for the purpose; or
+25(ii) by one member and the Chief Executive; or
+(b) the document is signed on behalf of the Agency by a person
+or persons authorised to do so by the Agency and in
+accordance with the terms of that authorisation.
+(4) A document purporting to be executed in accordance with this
+30section is presumed to be duly executed until the contrary is shown.
+25
+(5) All courts, judges and persons acting judicially must take
+judicial notice of the imprint of the seal of the Agency appearing on a
+document.
+(6) When a document is produced bearing a seal purporting to be
+5 the seal of the Agency, it must be presumed that the seal is the seal of
+the Agency until the contrary is shown.
+Division 2  -  Committees and delegation
+Appointment of committees
+28. - (1) The Agency may, by resolution, appoint any number of
+10 committees that the Agency thinks fit for purposes which, in the
+opinion of the Agency, would be better regulated and managed by
+means of those committees.
+(2) A committee appointed under this section may consist of any
+number of individuals that the Agency thinks fit, and may include
+15 individuals who are not members of the Agency.
+(3) Without limiting subsection (1), the Agency may appoint
+committees  - 
+(a) to advise the Agency on any matters relating to the
+Agency's functions and powers that are referred to the
+20 committee by the Agency; or
+(b) to perform or exercise any of the Agency's functions and
+powers that are delegated to the committee, if the
+committee includes at least one member of the Agency.
+(4) An individual may not be appointed as a member of a committee
+25 unless, before appointment, he or she discloses to the Agency the
+details of any interest (within the meaning given by Part 4 of the
+Public Sector (Governance) Act 2018) the individual may have if he
+or she were a member of that committee.
+Proceedings of committees
+30 29. - (1) Section 17 applies to a committee, and to committee
+members or individuals purporting to be committee members, with
+the necessary modifications.
+26
+(2) Subject to this Act, the Public Sector (Governance) Act 2018
+and any restrictions by a resolution under section 28(1), a committee
+may regulate its own proceedings and business.
+Ability to delegate
+530. - (1) The Agency may delegate any of its functions or powers,
+either generally or specially and subject to any conditions or
+restrictions that the Agency thinks fit, to any of the following persons:
+(a) a member of the Agency;
+(b) the Chief Executive, an officer of the Agency or any other
+10person performing duties in the Agency;
+(c) a committee that includes at least one member of the
+Agency;
+(d) a wholly-owned subsidiary company of the Agency;
+(e) a person engaged as a contractor by the Agency.
+15(2) A delegation by the Agency under subsection (1) of any of its
+functions or powers  - 
+(a) to a person in subsection (1)(a), (b) or (c) may authorise the
+delegate to subdelegate the function or power to another
+member or an appropriately qualified officer of the Agency
+20(called in this Act a subdelegate); or
+(b) to a person in subsection (1)(d) or (e) may authorise the
+delegate to subdelegate the function or power to an
+appropriately qualified employee of that delegate (also
+called in this Act a subdelegate),
+25but subject to the same restrictions, and with the same effect, as if the
+subdelegate is the delegate.
+(3) A delegation by the Agency under subsection (1) must be by
+resolution and written notice given to the delegate.
+(4) Subsections (1) and (2) do not apply to any function or power
+30under this Act or any other Act that is declared by this Act or that
+other Act to be non-delegable.
+27
+(5) A delegation or subdelegation in accordance with this section is
+not affected by any change  - 
+(a) in the membership of a committee (where the delegate is
+the committee), so long as the committee includes at least
+5 one member of the Agency; or
+(b) in the individual appointed as the Chief Executive or
+holding any specified office in the Agency (where the
+delegate is the Chief Executive or the holder of the
+specified office).
+10 (6) In this section  - 
+(a) a reference to a wholly-owned subsidiary company of the
+Agency includes a company limited by guarantee the sole
+member of which is the Agency; and
+(b) a reference to a person performing duties in the Agency
+15 includes a person performing duties in the Agency under a
+contract, or under an arrangement making available
+temporarily to the Agency the services of public officers.
+Validity of delegate's acts, etc.
+31. - (1) A delegate (or subdelegate) who purports to perform a
+20 function or exercise a power under a delegation (or subdelegation)  - 
+(a) is taken to do so in accordance with the terms of the
+delegation (or subdelegation) under section 30, unless the
+contrary is shown; and
+(b) must produce evidence of the delegation (or
+25 subdelegation), if reasonably requested to do so.
+(2) A subdelegate to whom a function or power of the Agency is
+subdelegated under section 30(2) is not authorised to further delegate
+that function or power to anyone else.
+28
+PART 5
+PERSONNEL MA TTERS
+Appointment of Chief Executive
+32. - (1) There must be a Chief Executive of the Agency, whose
+5appointment, removal, discipline and promotion must be in
+accordance with the Public Sector (Governance) Act 2018.
+(2) The Agency may, subject to the Public Sector (Governance)
+Act 2018, appoint an individual to act temporarily as the
+Chief Executive during any period, or during all periods, when the
+10Chief Executive  - 
+(a) is absent from duty or Singapore; or
+(b) is, for any reason, unable to perform the duties of the
+office.
+Officers, etc.
+1533. The Agency may, subject to the Public Sector (Governance)
+Act 2018, appoint and employ, on such terms and conditions as the
+Agency may determine, such other officers, consultants and agents as
+may be necessary for the effective performance of its functions.
+Delegates, subdelegates and authorised persons deemed to be
+20public servants or public officers
+34. - (1) Without affecting sections 20 and 21 of the Public Sector
+(Governance) Act 2018, every delegate and subdelegate of the
+Agency  - 
+(a) is deemed to be a public servant for the purposes of the
+25Penal Code 1871 in relation to his or her performance of
+any function or exercise of any power of the Agency; and
+(b) is, in relation to his or her administration, assessment,
+collection and enforcement of payment of  - 
+(i) any financial penalty imposed under section 21 or 37
+30of the Private Education Act 2009; or
+29
+(ii) any composition sum collected under this Act,
+section 17 of the Skills Development Levy
+Act 1979 or section 40 of the Private Education
+Act 2009,
+5 (b) taken to be a public officer for the purposes of the Financial
+Procedure Act 1966; and section 20 of that Act applies to
+each of those delegates and subdelegates even though he or
+she is not or was not employed by the Government.
+(2) Without affecting sections 20 and 21 of the Public Sector
+10 (Governance) Act 2018, every authorised person appointed under
+section 46(1) or under section 14A(1) of the Skills Development
+Levy Act 1979 is deemed to be a public servant for the purposes of
+the Penal Code 1871.
+Preservation of secrecy
+15 35. - (1) Any member or committee member of the Agency, the
+Chief Executive, any officer, consultant, agent, delegate or
+subdelegate of the Agency, or any authorised person or inspector,
+who has information in his or her capacity as such that would not
+otherwise be available to him or her, must not disclose that
+20 information to any person except  - 
+(a) in the performance of the Agency's functions;
+(b) with the prior authorisation from the Agency to do so;
+(c) for the purposes of any proceedings for an offence under
+this Act, or any report of those proceedings;
+25 (d) as required by an order of court;
+(e) in complying with the requirements in this Act for a
+member of the Agency or a committee member to disclose
+an interest; or
+(f) as required or allowed by or under this Act or any other
+30 Act.
+(2) A person who contravenes subsection (1) shall be guilty of an
+offence and shall be liable on conviction to a fine not exceeding
+30
+$2,000 or to imprisonment for a term not exceeding 12 months or to
+both.
+(3) In this section and section 36  - 
+"authorised person" means an authorised person appointed
+5under section 46(1) or section 14A(1) of the Skills
+Development Levy Act 1979;
+"inspector" means an inspector appointed under section 46(2),
+section 14A(2) of the Skills Development Levy Act 1979 or
+section 29(1) of the Private Education Act 2009.
+10Protection from personal liability
+36. No liability shall lie against any member or committee member
+of the Agency, the Chief Executive, any officer, delegate or
+subdelegate of the Agency, or any authorised person, inspector, or
+other person acting under the direction of the Agency, for anything
+15which is done or purported to be done, or omitted to be done, in good
+faith and with reasonable care in  - 
+(a) the performance or purported performance of any function
+under this Act or any other Act; or
+(b) the exercise or purported exercise of any power under this
+20Act or any other Act.
+PART 6
+FINANCIAL PROVISIONS
+Financial year
+37. - (1) The financial year of the Agency begins on 1 April of
+25each year and ends on 31 March of the succeeding year.
+(2) However, the first financial year of the Agency begins on the
+date of commencement of this Act and ends on 31 March of the
+succeeding year.
+31
+Revenue and property of Agency
+38. - (1) The funds and property of the Agency include  - 
+(a) all moneys paid to the Agency by way of grants, subsidies,
+donations, gifts and contributions for the purposes of the
+5 Agency;
+(b) all moneys paid to, and all other moneys and property
+lawfully received by, the Agency for the purposes of the
+Agency;
+(c) all moneys recovered by the Agency pursuant to an order
+10 of a court under section 51 or 58, that relate to the whole or
+the proportion of an incentive, a grant or a loan out of
+moneys not in the Skills Development Fund;
+(d) all fees and charges payable to the Agency under this Act
+or any other Act administered by the Agency;
+15 (e) all moneys, dividends, royalties, interest or income
+received from any transaction made pursuant to the
+powers of the Agency under this Act or any other Act
+administered by the Agency;
+(f) all moneys borrowed by the Agency under this Act;
+20 (g) the Skills Development Fund; and
+(h) all accumulations of income derived from any property or
+money mentioned in paragraphs (a) to (g).
+(2) The Skills Development Fund must be managed and
+administered by the Agency separately from the other funds and
+25 property of the Agency.
+Bank accounts
+39. - (1) The Agency must open and maintain one or more accounts
+with such bank or banks as the Agency thinks fit.
+(2) Every such account may only be operated by a person who is
+30 authorised to do so by the Agency.
+32
+Power of investment
+40. The Agency may invest its moneys (except the Skills
+Development Fund) in accordance with the standard investment
+power of statutory bodies as defined in section 33A of the
+5Interpretation Act 1965.
+Issue of shares, etc.
+41. As a consequence of  - 
+(a) the vesting of any property, rights or liabilities in the
+Agency under this Act; or
+10(b) any capital injection or other investment by the
+Government in the Agency in accordance with any other
+written law,
+the Agency must issue such shares or other securities to the Finance
+Minister as the Finance Minister may direct.
+15Borrowing power
+42. - (1) The Agency cannot raise loans for the performance of its
+functions under this Act or any other Act administered by the Agency
+except in accordance with this section.
+(2) Subject to subsection (3), the Agency may raise loans by  - 
+20(a) mortgage, overdraft or other means, with or without
+security;
+(b) charge, whether legal or equitable, on any property vested
+in the Agency or on any other revenue receivable by the
+Agency under this Act or any other written law; or
+25(c) the creation and issue of debentures, bonds or any other
+instrument as the Minister may approve.
+(3) The Agency may raise loans  - 
+(a) from the Government; or
+(b) with the approval of the Minister, from another source,
+30whether within or outside Singapore.
+33
+(4) For the purposes of this section, the power to raise loans
+includes the power to make any financial agreement under which
+credit facilities are granted to the Agency for the purchase of goods,
+materials or things.
+5 Estimates for Skills Development Fund
+43. - (1) In addition to the requirements of the Public Sector
+(Governance) Act 2018, the Agency must, in every financial year,
+prepare or cause to be prepared, and must adopt annual estimates of
+income and expenditure for the Skills Development Fund for the
+10 ensuing financial year in accordance with the Skills Development
+Levy Act 1979.
+(2) Supplementary estimates for the Skills Development Fund may
+be adopted by the Agency where necessary.
+(3) A copy of all annual estimates and supplementary estimates
+15 mentioned in subsections (1) and (2) must, upon their adoption by the
+Agency, be sent as soon as possible to the Minister.
+Skills Development Fund to be audited separately
+44. The provisions of Part 5 of the Public Sector (Governance)
+Act 2018 do not affect the requirements in sections 20 and 21 of, and
+20 the First Schedule to, the Skills Development Levy Act 1979 insofar
+as the requirements apply in relation to the Skills Development Fund.
+PART 7
+ADMINISTRA TION AND ENFORCEMENT
+Division 1  -  Preliminary matters, appointments and powers
+25 Meanings of "incentive", "grant" and "loan" from Agency
+45. In this Part, an incentive, a grant or a loan from the Agency
+means  - 
+(a) an incentive, a grant or a loan given by the Agency out of
+moneys in the Skills Development Fund in accordance
+30 with section 7 of the Skills Development Levy Act 1979;
+34
+(b) an incentive, a grant or a loan given by the Agency out of
+moneys not in the Skills Development Fund; or
+(c) an incentive, a grant or a loan given by the Agency out of a
+combination of moneys mentioned in paragraphs (a)
+5and (b).
+Appointment of authorised persons and inspectors
+46. - (1) The Agency may appoint an officer or agent of the
+Agency, a public officer, an officer of another public body or any
+other suitably qualified individual to be an authorised person for the
+10purposes of section 47.
+(2) The Agency may appoint any of its officers to be an inspector
+for the purposes of this Act.
+(3) The Agency must issue to every authorised person and inspector
+an identification card that identifies him or her as an authorised
+15person or inspector, as the case may be.
+(4) An authorised person or inspector must produce his or her
+identification card for inspection  - 
+(a) before exercising a power conferred on him or her by this
+Act; and
+20(b) at any time during the exercise of a power conferred on him
+or her by this Act, if asked to do so.
+Powers to verify information collected or for grants, etc.
+47. - (1) The powers under this section may be exercised only for
+the purpose of inquiring into or ascertaining  - 
+25(a) the truth or correctness of any statement made, or of any
+information given, by a person who applies or has applied
+for an incentive, a grant or a loan from the Agency; or
+(b) whether any incentive, grant or loan from the Agency has
+been properly applied by the person to whom the incentive,
+30grant or loan is given.
+(2) An authorised person may, at any reasonable time, do any of the
+following, without involving any search of any property or person:
+35
+(a) enter any premises;
+(b) photograph or film, or make audio recordings or make
+sketches of, any part of the premises or anything at the
+premises;
+5 (c) require any person to provide or grant access to, without
+charge, any document or information reasonably required
+for any purpose mentioned in subsection (1);
+(d) inspect and make copies of or take extracts from any such
+document;
+10 (e) take possession of such a document if, in the opinion of the
+authorised person  - 
+(i) the inspection or copying of or extraction from the
+document cannot reasonably be performed without
+taking possession;
+15 (ii) the document may be interfered with or destroyed
+unless possession is taken; or
+(iii) the document may be required as evidence in any
+proceedings instituted or commenced for any of the
+purposes of, or in connection with, this Act;
+20 (f) require any person to complete and deliver any return
+specified within the time specified in the notice.
+(3) The power to require a person to provide any document or
+information under subsection (2)(c) includes the power  - 
+(a) to require the person, or any person who is or was an
+25 officer or employee of that person, to explain the document
+or information;
+(b) if the document or information is not provided, to require
+the person to state, to the best of the person's knowledge
+and belief, where it is; and
+30 (c) if the information is recorded otherwise than in legible
+form, to require the information to be made available to the
+authorised person in legible form.
+36
+(4) If any document is kept in electronic form, the power of an
+authorised person who is an officer of the Agency, a public officer or
+an officer of another public body  - 
+(a) to inspect and make copies of or take extracts from any
+5document under subsection (2)(d) includes the power to  - 
+(i) access any computer or other equipment (including a
+mobile telephone, thumb drive or hard disk) in which
+the document is stored; and
+(ii) require any person having charge of, or otherwise
+10concerned with the operation of, the computer or
+other equipment to provide assistance in gaining
+such access; and
+(b) to take possession of the document under subsection (2)(e)
+includes the power to  - 
+15(i) make copies of or take extracts from the document in
+legible or electronic form; and
+(ii) transfer the information from the document to a
+thumb drive, hard disk, tape or other storage device.
+Powers of inspectors
+2048. - (1) An inspector may, for the purpose of investigating an
+offence under this Act, exercise all or any of the following powers:
+(a) the powers conferred on an authorised person under
+section 47(2), (3) and (4) as if a reference to an
+authorised person in those provisions were a reference to
+25an inspector;
+(b) the powers under subsection (2).
+(2) An inspector may  - 
+(a) require any person whom the inspector reasonably believes
+to have committed the offence to provide evidence of the
+30person's identity;
+(b) require, by written order, the attendance before the
+inspector of any person within the limits of Singapore
+37
+who, from any information given or otherwise obtained by
+the inspector, appears to be acquainted with the facts or
+circumstances of the case;
+(c) examine orally any person reasonably believed to be
+5 acquainted with the facts or circumstances of the case or
+with such other matter as the inspector may specify, and
+reduce to writing the answer given or statement made by
+that person;
+(d) without charge, search for, seize and remove any document
+10 (subject to paragraph (e) in relation to a document kept in
+electronic form) or thing from any premises, as the
+inspector may consider necessary; and
+(e) if the inspector is unable to make copies of or take extracts
+from any document, or transfer the information from any
+15 document, in exercise of the powers under
+section 47(4)(b)  - 
+(i) seize the computer or other equipment (including a
+mobile telephone, thumb drive or hard disk) in which
+the document is stored, as evidence in proceedings
+20 for an offence mentioned in subsection (1); and
+(ii) require any person having charge of, or otherwise
+concerned with the operation of, the computer or
+other equipment to disclose any password or access
+code for gaining access to the document stored in the
+25 computer or other equipment.
+(3) Any person examined under this section is bound to state truly
+what the person knows of the facts and circumstances concerning
+matters under this Act, except that the person need not say anything
+that might expose him or her to a criminal charge, penalty or
+30 forfeiture.
+(4) A statement made by any person examined under this section
+must  - 
+(a) be reduced to writing;
+(b) be read over to the person;
+38
+(c) if the person does not understand English, be interpreted in
+a language that he or she understands; and
+(d) after correction (if necessary), be signed by the person.
+Division 2  -  Offences and related provisions
+5Abusive funding arrangement
+49. - (1) In this section and sections 50 and 51, "funding
+arrangement" means any agreement, scheme, transaction or series
+of transactions (whether or not legally enforceable) where the
+purpose, or one of the purposes, is to obtain an incentive, a grant
+10or a loan from the Agency.
+(2) For the purposes of this section and sections 50 and 51, a
+funding arrangement is an abusive funding arrangement if the
+funding arrangement, or a transaction forming part of the funding
+arrangement, results or would result in a person obtaining  - 
+15(a) an incentive, a grant or a loan from the Agency that a
+person would otherwise not be eligible for or would not
+have obtained from the Agency; or
+(b) an amount of an incentive, a grant or a loan from the
+Agency higher than what a person would have been
+20eligible for or would have obtained without that
+arrangement or transaction.
+(3) For the purposes of sections 50 and 51, the amount of wrongly
+obtained funding that a person obtained or would have obtained from
+the Agency in relation to an abusive funding arrangement  - 
+25(a) is the amount of the incentive, grant or loan that results or
+would result from the abusive funding arrangement, or a
+transaction forming part of the abusive funding
+arrangement; but
+(b) excludes any amount the person would have obtained
+30without that abusive funding arrangement or transaction.
+39
+Entering into or facilitation of abusive funding arrangement
+50. - (1) A person commits an offence if the person  - 
+(a) enters into or facilitates a funding arrangement that is an
+abusive funding arrangement;
+5 (b) knows or has reason to believe that the funding
+arrangement is an abusive funding arrangement; and
+(c) intends by entering into or facilitating that abusive funding
+arrangement to dishonestly or fraudulently induce the
+Agency to give an incentive, a grant or a loan to the person,
+10 or to any other person or persons.
+(2) A person who is guilty of an offence under subsection (1) shall
+on conviction  - 
+(a) pay a penalty equal to the amount of wrongly obtained
+funding that the person obtained, or would have obtained,
+15 from the Agency as a result of the abusive funding
+arrangement entered into or facilitated by the person; and
+(b) be liable to a fine not exceeding $10,000 or to
+imprisonment for a term not exceeding 3 years or to both.
+(3) For the purposes of subsection (2)(a), it is irrelevant whether the
+20 person convicted of the offence obtained the wrongly obtained
+funding from the Agency for the benefit of that person, or for the
+benefit of any other person or persons.
+(4) The penalty mentioned in subsection (2)(a) is recoverable in
+accordance with section 319 (other than section 319(1)(a)) of the
+25 Criminal Procedure Code 2010 as if it were a fine.
+(5) For the purposes of subsection (1)(a), a person facilitates a
+funding arrangement if the person is  - 
+(a) a training provider or an employer who designs, organises
+or manages the funding arrangement or a transaction
+30 forming part of the funding arrangement;
+(b) either one of the following employees who participates in,
+or by the employee's act or omission enables or aids, the
+40
+funding arrangement or a transaction forming part of the
+funding arrangement:
+(i) an employee of the training provider mentioned in
+paragraph (a);
+5(ii) an employee of the employer mentioned in
+paragraph (a);
+(c) a person who, by attending a course or programme,
+participates in, enables or aids the funding arrangement or
+a transaction forming part of the funding arrangement;
+10(d) a marketing agent who publishes, disseminates or
+communicates any information, by any means or in any
+form, for the purpose of inducing or encouraging (whether
+directly or indirectly) any other person to enter into the
+funding arrangement or a transaction forming part of the
+15funding arrangement; or
+(e) any other person who  - 
+(i) designs, organises, manages or participates in, or by
+the person's act or omission enables or aids, the
+funding arrangement or a transaction forming part of
+20the funding arrangement; or
+(ii) publishes, disseminates or communicates any
+information, by any means or in any form, for the
+purpose of inducing or encouraging (whether
+directly or indirectly) any other person to enter into
+25the funding arrangement or a transaction forming
+part of the funding arrangement.
+(6) However, a person does not facilitate a funding arrangement
+under subsection (5) only by reason that the person in the ordinary
+course of business  - 
+30(a) provides services relating to, or provides connections for,
+the transmission or routing of data;
+(b) provides, or operates facilities for, online services or
+network access; or
+41
+(c) provides a service that  - 
+(i) enables the end-users of that service to communicate
+with other end-users; or
+(ii) enables the publication, dissemination or
+5 communication of information or documents by
+end-users of that service,
+(c) whether by means of email, by use of a mobile telephone or
+other device, or by use of application software or
+otherwise.
+10 (7) In any proceedings for an offence under subsection (1), it is
+presumed, until the contrary is proved, that a person has the intention
+mentioned in subsection (1)(c) if the funding arrangement, or a
+transaction forming part of the funding arrangement, involves any
+step or steps (other than under subsection (6)) which is or are capable
+15 of assisting the person or any other person who enters into that
+funding arrangement or transaction to obtain the incentive, grant or
+loan.
+(8) To avoid doubt, it is not a defence in any proceedings for an
+offence under subsection (1) that the accused did not obtain any
+20 incentive, grant or loan from the Agency.
+Recovery by Agency of wrongly obtained funding
+51. - (1) The court before which a person (A) is convicted of an
+offence under section 50(1) may, in addition to imposing the penalty
+and punishment under section 50(2), order A to repay to the Agency
+25 the amount of wrongly obtained funding that A obtained from the
+Agency (whether for A's benefit, or for the benefit of any other person
+or persons) as a result of the abusive funding arrangement entered
+into or facilitated by A.
+(2) Where the court makes an order under subsection (1)  - 
+30 (a) the court is to certify the amount of wrongly obtained
+funding to be repaid to the Agency; and
+(b) the Agency may recover the amount so certified in any
+civil court of competent jurisdiction as if the amount were
+a judgment debt due to the Agency.
+42
+(3) The Agency must pay the amount of wrongly obtained funding
+recovered under this section in the following manner:
+(a) where the amount of wrongly obtained funding is in
+relation to an incentive, a grant or a loan out of moneys in
+5the Skills Development Fund  -  the recovered amount
+must be paid into the Skills Development Fund;
+(b) where the amount of wrongly obtained funding is in
+relation to an incentive, a grant or a loan out of moneys not
+in the Skills Development Fund  -  the recovered amount
+10must be paid into the funds of the Agency under
+section 38(1) excluding the Skills Development Fund
+(called in this subsection the general moneys of the
+Agency);
+(c) where the amount of wrongly obtained funding is in
+15relation to an incentive, a grant or a loan out of a
+combination of moneys mentioned in paragraphs (a) and
+(b)  -  the recovered amount must be paid into the Skills
+Development Fund and to the general moneys of the
+Agency in the respective proportions that moneys were
+20withdrawn from the Skills Development Fund and the
+general moneys of the Agency for that incentive, grant or
+loan.
+False or misleading advertisements
+52. - (1) A person commits an offence if  - 
+25(a) the person publishes or causes to be published, or
+distributes or causes to be distributed, any advertisement
+that is false or misleading in a material particular; and
+(b) the person knows or ought reasonably to have known that,
+or is reckless as to whether, the advertisement is false or
+30misleading in a material particular.
+(2) A person who is guilty of an offence under subsection (1) shall
+be liable on conviction to a fine not exceeding $5,000 or to
+imprisonment for a term not exceeding 6 months or to both.
+43
+(3) For the purposes of subsection (1), a person publishes, or causes
+to be published, an advertisement if the advertisement is made
+accessible to, or accessed by, persons by means of  - 
+(a) a newspaper, magazine, journal or any other periodical;
+5 (b) a sound or television broadcast transmitted for reception;
+or
+(c) any other means of broadcasting or communication for
+circulation or reception.
+(4) For the purposes of subsection (1), an advertisement is false or
+10 misleading in a material particular if the advertisement  - 
+(a) falsely represents that a person is eligible for, or has been
+given, an incentive, a grant or a loan from the Agency in
+respect of a course or programme;
+(b) falsely represents that the Agency has accredited, or
+15 facilitated the accreditation by others in Singapore of, a
+provider of a course or programme;
+(c) falsely represents that the Agency has accredited, or
+facilitated the accreditation by others in Singapore of, a
+course or programme;
+20 (d) falsely represents that a provider of a course or
+programme, or a course or programme, is approved or
+endorsed by the Agency;
+(e) contains any false or misleading information concerning a
+provider of a course or programme who is eligible for, or
+25 has been given, an incentive, a grant or a loan from the
+Agency; or
+(f) concerns a course or programme in respect of which a
+person is eligible for, or has been given, an incentive, a
+grant or a loan from the Agency, and contains any false or
+30 misleading description of, or false or misleading
+information concerning  - 
+(i) the curriculum, modules or subjects to be covered by
+that course or programme; or
+44
+(ii) the competencies, expertise or skills to be advanced
+by that course or programme.
+(5) In this section and section 53  - 
+"advertisement" means any writing, still or moving picture,
+5sign, symbol (whether 3-dimensional or 2-dimensional) or
+other visual image, or any audible message, or any
+combination of 2 or more of those things, that gives
+publicity to, or otherwise promotes or is intended to
+promote, a course or programme;
+10"distribute" includes  - 
+(a) in relation to a printed advertisement  -  to deliver or
+send to one or more persons, or to leave at any
+premises or on any vehicle; and
+(b) in relation to an advertisement in electronic form, in
+15the form of an audio or a visual recording, or in a
+combination of any of those forms  -  to transmit to
+one or more persons by use of the Internet or a mobile
+telephone network.
+Remedial measures for false or misleading advertisements
+2053. - (1) This section applies where the Agency is of the opinion
+that a person has published or caused to be published, or distributed or
+caused to be distributed, any advertisement for which an offence
+under section 52(1) may have been committed (called in this section
+the defaulting person).
+25(2) The Agency may (without compensation) give a direction to the
+defaulting person to do all or any of the following:
+(a) take all practicable steps to remove the advertisement;
+(b) modify the advertisement in the manner specified or
+approved by the Agency;
+30(c) cease the publication or distribution of any other
+advertisement which is wholly or substantially the same
+as the advertisement mentioned in subsection (1);
+45
+(d) publish or cause to be published, or distribute or cause to
+be distributed, a corrective advertisement in the manner,
+and containing any information, specified or approved by
+the Agency.
+5 (3) Before the Agency gives a direction to the defaulting person
+under subsection (2), the Agency must, unless the Agency considers
+it not practicable or desirable to do so, give written notice to the
+defaulting person  - 
+(a) stating that the Agency intends to give a direction to the
+10 defaulting person under this section; and
+(b) specifying the time within which written representations
+may be made to the Agency with respect to the proposed
+direction.
+(4) The Agency may, after considering any written representation
+15 made pursuant to subsection (3)(b), decide to give or not to give, or to
+modify, the direction as the Agency considers appropriate.
+(5) The Agency must serve on the defaulting person a notice of the
+Agency's decision under subsection (4).
+(6) Every defaulting person must comply with a direction given by
+20 the Agency to the defaulting person under subsection (2).
+(7) A defaulting person who, without reasonable excuse, fails to
+comply with a direction given by the Agency under subsection (2)
+shall be guilty of an offence and shall be liable on conviction  - 
+(a) to a fine not exceeding $10,000 or to imprisonment for a
+25 term not exceeding 12 months or to both; and
+(b) in the case of a continuing offence, to a further fine not
+exceeding $1,000 for every day or part of a day during
+which the offence continues after conviction.
+(8) Where the defaulting person fails to comply with a direction
+30 given by the Agency under subsection (2), the Agency may  - 
+(a) take all steps as the Agency considers reasonable and
+necessary to give effect to the direction; and
+46
+(b) recover all costs and expenses reasonably incurred by the
+Agency in so doing from the defaulting person, as a civil
+debt due to the Agency.
+Refund by funding recipient for cancelled course or
+5programme, etc.
+54. - (1) This section applies where  - 
+(a) the Agency has given an incentive, a grant or a loan to any
+person (called in this section a funding recipient) in
+connection with a course or programme;
+10(b) a person (called in this section a trainee) takes part in, or
+intends to take part in, a course or programme provided or
+to be provided by the funding recipient;
+(c) the course or programme  - 
+(i) does not start on the scheduled starting day; or
+15(ii) ceases to be provided at any time after it starts but
+before it is completed; and
+(d) the trainee has not withdrawn from the course or
+programme before the default day.
+(2) The Agency may give a direction to a funding recipient to make
+20either or both of the following refunds by the time specified in the
+direction for that refund:
+(a) a refund to a trainee or any other person of the money
+received by the funding recipient before the default day
+from that trainee or other person (as the case may be) in
+25payment for that trainee taking part in the course or
+programme;
+(b) a refund to the Agency of the amount of the incentive,
+grant or loan given by the Agency to the funding recipient
+in connection with each trainee taking part in the course or
+30programme.
+(3) Before the Agency gives a direction to the funding recipient
+under subsection (2), the Agency must, unless the Agency considers
+47
+it not practicable or desirable to do so, give written notice to the
+funding recipient  - 
+(a) stating that the Agency intends to give a direction to the
+funding recipient under this section; and
+5 (b) specifying the time (being at least 14 days or any other
+period of time that may be prescribed in substitution)
+within which written representations may be made to the
+Agency with respect to the proposed direction.
+(4) The Agency may, after considering any written representation
+10 made pursuant to subsection (3)(b), decide to give or not to give, or to
+modify, the direction as the Agency considers appropriate.
+(5) The Agency must serve on the funding recipient a notice of the
+Agency's decision under subsection (4).
+(6) Every funding recipient must comply with a direction given by
+15 the Agency to the funding recipient under subsection (2).
+(7) Subsection (2) applies despite anything to the contrary
+contained in any agreement between the funding recipient and the
+trainee concerned, or between the funding recipient and any person
+who paid for the course or programme on behalf of the trainee.
+20 (8) A funding recipient who, without reasonable excuse, fails to
+comply with a direction given by the Agency under subsection (2)
+shall be guilty of an offence and shall be liable on conviction to a fine
+not exceeding $10,000 or to imprisonment for a term not exceeding
+12 months or to both.
+25 (9) In this section  - 
+"default day", in relation to a course or programme, means  - 
+(a) if subsection (1)(c)(i) applies  -  the scheduled
+starting day for the course or programme; or
+(b) if subsection (1)(c)(ii) applies  -  the day on which
+30 the course or programme ceases to be provided;
+"scheduled starting day", in relation to a course or programme,
+means the day on which the course or programme was
+scheduled to start.
+48
+Appeal to Minister against directions under sections 53 and 54
+55. - (1) A person who is given a direction by the Agency under
+section 53 or 54 and is aggrieved by the Agency's decision to give the
+direction (called in this section an appellant) may appeal to the
+5Minister against the Agency's direction in accordance with this
+section.
+(2) An appeal under this section must be  - 
+(a) in writing and specify the grounds on which it is made; and
+(b) made within 14 days (or any other period of time that may
+10be prescribed in substitution) after the date the direction
+appealed against is given to the appellant.
+(3) The Minister may reject an appeal of an appellant who fails to
+comply with subsection (2).
+Decision of Minister on appeal
+1556. - (1) After considering an appeal under section 55, the Minister
+may  - 
+(a) reject the appeal and confirm the Agency's decision to give
+the direction; or
+(b) allow the appeal and vary or revoke the direction that is the
+20subject of the appeal.
+(2) The Minister's decision on an appeal is final.
+(3) Every appellant mentioned in section 55(1) must be notified of
+the Minister's decision under subsection (1).
+(4) An appeal under section 55 does not affect the operation of the
+25direction appealed against or prevent the taking of action to
+implement the direction and, unless otherwise directed by the
+Minister, the direction appealed against must be complied with
+until the determination of the appeal.
+Designate may hear appeal in place of Minister
+3057. - (1) The Minister may designate any of the following
+office-holders in his or her Ministry to hear and determine, in the
+Minister's place, any appeal made under section 55:
+49
+(a) the Second Minister, if any;
+(b) any Minister of State or Senior Minister of State;
+(c) any Parliamentary Secretary or Senior Parliamentary
+Secretary.
+5 (2) A reference to the Minister in section 55 or 56 includes a
+reference to a person designated under subsection (1).
+False or misleading information, statement or document, etc.
+58. - (1) A person must not  - 
+(a) in relation to the person's application, or in support of an
+10 application by another, for any incentive, grant or loan
+from the Agency, make, or authorise the making of, a
+statement that the person knows to be false or misleading
+in any material particular;
+(b) in providing any document or information required under
+15 section 47 or 48, or to the Agency in connection with any
+function or power of the Agency under this Act, provide
+any document or information that the person knows to be
+false or misleading in any material particular; or
+(c) intentionally alter, suppress or destroy any document or
+20 information which the person is required to provide under
+section 47 or 48.
+(2) A person who contravenes subsection (1) shall be guilty of an
+offence and shall be liable on conviction to a fine not exceeding
+$10,000 or to imprisonment for a term not exceeding 12 months or to
+25 both.
+(3) To avoid doubt, it is not a defence in any proceedings for an
+offence under subsection (2) for contravening subsection (1)(a) that
+the accused did not obtain any incentive, grant or loan from the
+Agency.
+30 (4) The court before which a person is convicted of an offence of
+contravening subsection (1)(a) may, in addition to imposing the
+punishment under subsection (2), order the person to repay to the
+Agency an amount  - 
+50
+(a) equivalent to the amount of the incentive, grant or loan that
+the Agency gave to the person as a result of the false or
+misleading statement mentioned in subsection (1)(a); but
+(b) which excludes any amount that the Agency would have
+5given the person without that false or misleading
+statement.
+(5) Section 51(2) and (3) applies to an order of the court for the
+repayment under subsection (4), with the necessary modifications.
+Penalty for obstructing member, officer, etc.
+1059. - (1) A person must not  - 
+(a) obstruct or hinder a member, an officer, an agent or a
+delegate or subdelegate of the Agency, an authorised
+person or an inspector, who is performing or exercising any
+function or power under this Act; or
+15(b) neglect or refuse to attend before an inspector as required
+under section 48, or otherwise fail to comply with a lawful
+demand of an inspector under that section.
+(2) A person who contravenes subsection (1) shall be guilty of an
+offence and shall be liable on conviction to a fine not exceeding
+20$5,000 or to imprisonment for a term not exceeding 6 months or to
+both.
+PART 8
+GENERAL
+Composition of offences
+2560. - (1) The Chief Executive, or an officer of the Agency
+authorised in writing by the Agency, may compound any offence
+under this Act that is prescribed as a compoundable offence by
+collecting from a person reasonably suspected of having committed
+the offence a sum not exceeding the lower of the following:
+30(a) one half of the amount of the maximum fine that is
+prescribed for the offence;
+51
+(b) $2,000.
+(2) On payment of the sum of money, no further proceedings are to
+be taken against that person in respect of the offence.
+(3) All sums collected under this section must be paid into the
+5 Consolidated Fund.
+Offences by corporations
+61. - (1) Where, in any proceedings for an offence under this Act, it
+is necessary to prove the state of mind of a corporation in relation to a
+particular conduct, evidence that  - 
+10 (a) an officer, employee or agent of the corporation engaged in
+that conduct within the scope of his or her actual or
+apparent authority; and
+(b) the officer, employee or agent had that state of mind,
+is evidence that the corporation had that state of mind.
+15 (2) Where a corporation commits an offence under this Act, a
+person  - 
+(a) who is  - 
+(i) an officer of the corporation; or
+(ii) an individual involved in the management of the
+20 corporation and in a position to influence the conduct
+of the corporation in relation to the commission of
+the offence; and
+(b) who  - 
+(i) consented or connived, or conspired with others, to
+25 effect the commission of the offence;
+(ii) is in any other way, whether by act or omission,
+knowingly concerned in, or is party to, the
+commission of the offence by the corporation; or
+52
+(iii) knew or ought reasonably to have known that the
+offence by the corporation (or an offence of the same
+type) would be or is being committed, and failed to
+take all reasonable steps to prevent or stop the
+5commission of that offence,
+shall be guilty of that same offence as is the corporation, and shall be
+liable on conviction to be punished accordingly.
+(3) A person mentioned in subsection (2) may rely on a defence that
+would be available to the corporation if it were charged with the
+10offence with which the person is charged and, in doing so, the person
+bears the same burden of proof that the corporation would bear.
+(4) To avoid doubt, this section does not affect the application of  - 
+(a) Chapters 5 and 5A of the Penal Code 1871; or
+(b) the Evidence Act 1893 or any other law or practice
+15regarding the admissibility of evidence.
+(5) To avoid doubt, subsection (2) also does not affect the liability
+of the corporation for an offence under this Act, and applies whether
+or not the corporation is convicted of the offence.
+(6) In this section  - 
+20"corporation" includes a limited liability partnership within the
+meaning of section 2(1) of the Limited Liability Partnerships
+Act 2005;
+"officer", in relation to a corporation, means any director,
+partner, chief executive, manager, secretary or other similar
+25officer of the corporation, and includes  - 
+(a) any person purporting to act in any such capacity; and
+(b) for a corporation whose affairs are managed by its
+members, any of those members as if the member
+were a director of the corporation;
+30"state of mind" of a person includes  - 
+(a) the knowledge, intention, opinion, belief or purpose
+of the person; and
+53
+(b) the person's reasons for the intention, opinion, belief
+or purpose.
+Offences by unincorporated associations or partnerships
+62. - (1) Where, in any proceedings for an offence under this Act, it
+5 is necessary to prove the state of mind of an unincorporated
+association or a partnership in relation to a particular conduct,
+evidence that  - 
+(a) an employee or agent of the unincorporated association or
+partnership engaged in that conduct within the scope of his
+10 or her actual or apparent authority; and
+(b) the employee or agent had that state of mind,
+is evidence that the unincorporated association or partnership had that
+state of mind.
+(2) Where an unincorporated association or a partnership commits
+15 an offence under this Act, a person  - 
+(a) who is  - 
+(i) an officer of the unincorporated association or a
+member of its governing body;
+(ii) a partner in the partnership; or
+20 (iii) an individual involved in the management of the
+unincorporated association or partnership and in a
+position to influence the conduct of the
+unincorporated association or partnership (as the
+case may be) in relation to the commission of the
+25 offence; and
+(b) who  - 
+(i) consented or connived, or conspired with others, to
+effect the commission of the offence;
+(ii) is in any other way, whether by act or omission,
+30 knowingly concerned in, or is party to, the
+commission of the offence by the unincorporated
+association or partnership; or
+54
+(iii) knew or ought reasonably to have known that the
+offence by the unincorporated association or
+partnership (or an offence of the same type) would
+be or is being committed, and failed to take all
+5reasonable steps to prevent or stop the commission of
+that offence,
+shall be guilty of the same offence as is the unincorporated
+association or partnership (as the case may be), and shall be liable
+on conviction to be punished accordingly.
+10(3) A person mentioned in subsection (2) may rely on a defence that
+would be available to the unincorporated association or partnership if
+it were charged with the offence with which the person is charged
+and, in doing so, the person bears the same burden of proof that the
+unincorporated association or partnership would bear.
+15(4) To avoid doubt, this section does not affect the application of  - 
+(a) Chapters 5 and 5A of the Penal Code 1871; or
+(b) the Evidence Act 1893 or any other law or practice
+regarding the admissibility of evidence.
+(5) To avoid doubt, subsection (2) also does not affect the liability
+20of an unincorporated association or a partnership for an offence under
+this Act, and applies whether or not the unincorporated association or
+partnership is convicted of the offence.
+(6) In this section  - 
+"officer", in relation to an unincorporated association (other than
+25a partnership), means the president, the secretary, or any
+member of a committee of the unincorporated association,
+and includes  - 
+(a) any person holding a position analogous to that of
+president, secretary or member of a committee of the
+30unincorporated association; and
+(b) any person purporting to act in any such capacity;
+"partner" includes a person purporting to act as a partner;
+55
+"state of mind" of a person includes  - 
+(a) the knowledge, intention, opinion, belief or purpose
+of the person; and
+(b) the person's reasons for the intention, opinion, belief
+5 or purpose.
+Jurisdiction of courts
+63. Despite the Criminal Procedure Code 2010, a District Court or a
+Magistrate's Court has jurisdiction to try any offence under this Act
+and has power to impose the full punishment for the offence.
+10 Service of documents
+64. - (1) A document that is permitted or required by or under this
+Act to be served on a person may be served as described in this
+section.
+(2) A document permitted or required by or under this Act to be
+15 served on an individual may be served  - 
+(a) by giving it to the individual personally;
+(b) by sending it by prepaid registered post to the address
+specified by the individual for the service of documents
+generally, or specifically for the document, or, if no address
+20 is so specified, the individual's residential address or
+business address;
+(c) by leaving it at the individual's residential address with an
+adult apparently resident there, or at the individual's
+business address with an adult apparently employed there;
+25 (d) by affixing a copy of the document in a conspicuous place
+at the individual's residential address or business address;
+or
+(e) by sending it by email to the individual's last email
+address.
+30 (3) A document permitted or required by or under this Act to be
+served on a partnership (other than a limited liability partnership)
+may be served  - 
+56
+(a) by giving it to any partner or other similar officer, or an
+authorised representative, of the partnership;
+(b) by leaving it at, or by sending it by prepaid registered post
+to, the partnership's business address; or
+5(c) by sending it by email to the partnership's last email
+address.
+(4) A document permitted or required by or under this Act to be
+served on a body corporate (including a limited liability partnership)
+or an unincorporated association may be served  - 
+10(a) by giving it to the secretary or other similar officer of the
+body corporate or unincorporated association, or the
+manager of the limited liability partnership;
+(b) by leaving it at, or by sending it by prepaid registered post
+to, the registered office or principal office in Singapore of
+15the body corporate or unincorporated association; or
+(c) by sending it by email to the last email address of the body
+corporate or unincorporated association.
+(5) Service of a document under subsection (2), (3) or (4) takes
+effect  - 
+20(a) if the document is sent by email, at the time that the email
+becomes capable of being retrieved by the person to whom
+it is sent; and
+(b) if the document is sent by prepaid registered post, 2 days
+after the day the document was posted (even if it is returned
+25undelivered).
+(6) In addition, a document permitted or required by or under this
+Act to be served on an individual, partnership, body corporate or
+unincorporated association may be served by giving an electronic
+notice to the individual, partnership, body corporate or
+30unincorporated association (called in this section an addressee) by
+the addressee's chosen means of notification, stating that the
+document is available and how the addressee may use the
+addressee's chosen means of access to access the document's
+contents.
+57
+(7) However, service of any document under this Act on a person by
+email or by an electronic notice using the person's chosen means of
+notification may be effected only with the person's prior written
+consent to service in that way.
+5 (8) This section does not apply to documents to be served in
+proceedings in court.
+(9) In this section  - 
+"authorised representative", in relation to a partnership (other
+than a limited liability partnership), means any person
+10 authorised to accept service of documents on behalf of the
+partnership;
+"business address" means  - 
+(a) in the case of an individual, the individual's usual or
+last known place of business in Singapore; or
+15 (b) in the case of a partnership (other than a limited
+liability partnership), the partnership's principal or
+last known place of business in Singapore;
+"chosen means of access", for an addressee on whom is or is to
+be served a document permitted or required by or under this
+20 Act, means an electronic means that the addressee agrees
+with the person serving the document as the means by which
+the addressee may access that document's contents;
+"chosen means of notification", for an addressee on whom is or
+is to be served a document permitted or required by or under
+25 this Act, means an electronic means that the addressee
+nominates to the person serving the document as the means
+by which the addressee may be notified that such a document
+has been served on the addressee;
+"document" includes a direction, notice or order permitted or
+30 required by or under this Act to be served;
+"last email address" means the last email address given by the
+addressee concerned to the person giving or serving the
+document as the email address for the service of documents
+under this Act;
+58
+"residential address" means an individual's usual or last known
+place of residence in Singapore.
+Regulations
+65. The Agency may, with the approval of the Minister, make
+5regulations prescribing matters required or permitted by this Act to be
+prescribed, or necessary or convenient to be prescribed for carrying
+out or giving effect to this Act.
+Codes of practice and guidelines
+66. - (1) The Agency may, from time to time  - 
+10(a) issue one or more codes of practice or guidelines
+applicable to service providers generally or particular
+types of service providers;
+(b) approve as a code of practice or guidelines applicable to
+service providers generally or particular types of service
+15providers any document prepared by a person other than
+the Agency if the Agency considers the document as
+suitable for this purpose; or
+(c) amend or revoke any code of practice or guidelines issued
+under paragraph (a) or approved under paragraph (b),
+20relating to any career, employment and training matters.
+(2) If any provision in any code of practice or guidelines is
+inconsistent with any provision of this Act, such provision, to the
+extent of the inconsistency  - 
+(a) is to have effect subject to the provisions of this Act; or
+25(b) having regard to the provisions of this Act, is not to have
+effect.
+(3) Where any code of practice or guidelines are issued, approved,
+amended or revoked by the Agency under subsection (1), the Agency
+must  - 
+30(a) publish a notice of the issue, approval, amendment or
+revocation (as the case may be) of the code of practice or
+guidelines in any manner that will secure adequate
+59
+publicity for such issue, approval, amendment or
+revocation;
+(b) specify in the notice referred to in paragraph (a) the date of
+issue, approval, amendment or revocation, as the case may
+5 be; and
+(c) ensure that, so long as the code of practice or guidelines
+remain in force, copies of the code of practice or
+guidelines, and of all amendments to the code of practice
+or guidelines, are available for inspection by any service
+10 provider.
+(4) No code of practice or guidelines, no amendment to an approved
+code of practice or guidelines, and no revocation of any such
+approved code of practice or guidelines has any force or effect as an
+approved code of practice or guidelines until the notice relating to the
+15 code of practice or guidelines is published in accordance with
+subsection (3).
+(5) Any code of practice or guideline issued or approved under this
+section does not have legislative effect.
+PART 9
+20 TRANSFER OF UNDERTAKINGS AND
+PERSONNEL TO AGENCY
+Interpretation of this Part
+67. In this Part  - 
+"agreement" includes an arrangement or undertaking;
+25 "asset", in relation to the transferor, means property of any kind
+(whether tangible or intangible, whether arising from,
+accruing under, created or evidenced by or the subject of,
+an instrument or otherwise and whether actual or contingent)
+of the transferor on the eve of the transfer date and includes,
+30 without limitation, any  - 
+(a) legal or equitable interest in real or personal property,
+whether situated in or outside Singapore;
+60
+(b) chose in action;
+(c) money or securities;
+(d) plant and equipment, whether situated in or outside
+Singapore;
+5(e) intellectual property;
+(f) infrastructure, whether situated in or outside
+Singapore;
+(g) records and information (including data) in any form;
+and
+10(h) right;
+"liability", in relation to the transferor, means any liability, duty
+or obligation (whether actual or contingent, liquidated or
+unliquidated, and whether owed alone or jointly, or jointly
+and severally, with any other person) of the transferor on the
+15eve of the transfer date;
+"records", in relation to the transferor, means registers, papers,
+documents, minutes, receipts, books of account and other
+records, however compiled, recorded or stored, of the
+transferor existing on the eve of the transfer date;
+20"right", in relation to the transferor, means any right, power,
+privilege or immunity of the transferor on the eve of the
+transfer date;
+"SkillsFuture Singapore Agency" or "SSG" means the public
+body of that name established by section 3 of the SkillsFuture
+25Singapore Agency Act 2016 as in force before the date of
+commencement of section 73;
+"SSG employee" means an individual who, on the eve of the
+transfer date, is an employee of the SSG;
+"transfer date" means the date of commencement of this Part;
+30"transferor" means one of the following, as the case may be:
+(a) the SSG;
+(b) the WSG;
+61
+"Workforce Singapore Agency" or "WSG" means the public
+body of that name established by section 3 of the Workforce
+Singapore Agency Act 2003 as in force before the date of
+commencement of section 74;
+5 "WSG employee" means an individual who, on the eve of the
+transfer date, is an employee of the WSG.
+Transfer of undertakings to Agency
+68. - (1) On the transfer date, the following assets and liabilities are
+transferred to the Agency:
+10 (a) all assets and liabilities of the SSG;
+(b) all assets and liabilities of the WSG.
+(2) When any asset or liability of the transferor is transferred to the
+Agency under subsection (1), the following provisions have effect:
+(a) the asset vests in the Agency without the need for any
+15 further conveyance, transfer, assignment or assurance;
+(b) the liability becomes the liability of the Agency;
+(c) all legal or other proceedings relating to that asset or
+liability that are pending immediately before the transfer
+date by or against the transferor (or a predecessor of the
+20 transferor) are taken to be proceedings pending by or
+against the Agency;
+(d) any legal or other proceedings relating to that asset or
+liability which could have been started immediately before
+the transfer date by or against the transferor (or a
+25 predecessor of the transferor) may be started by or
+against the Agency;
+(e) a judgment or order of a court or other tribunal obtained
+before the transfer date by or against the transferor (or a
+predecessor of the transferor) relating to that asset or
+30 liability becomes enforceable by or against the Agency;
+(f) any document in any legal or other proceedings relating to
+that asset or liability that has been served on or by the
+transferor (or a predecessor of the transferor) before the
+62
+transfer date is taken, where appropriate, to have been
+served on or by the Agency;
+(g) any act, matter or thing done or omitted to be done before
+the transfer date in relation to that asset or liability by, to or
+5in respect of the transferor (or a predecessor of the
+transferor) is (to the extent to which that act, matter or
+thing has any force or effect) taken to have been done or
+omitted to be done by, to or in respect of the Agency;
+(h) a reference to the transferor (or a predecessor of the
+10transferor) in any Act, any instrument made under any Act,
+any agreement or any document of any kind is taken to be
+or includes (to the extent to which the reference relates to
+that asset or liability) a reference to the Agency;
+(i) any agreement relating to that asset or liability and to
+15which the transferor (or a predecessor of the transferor) is a
+party becomes enforceable by or against the Agency.
+(3) The operation of this section does not  - 
+(a) constitute a breach of, or default under, any Act or other
+law, or any agreement, or otherwise a civil wrong or
+20criminal wrong;
+(b) constitute a breach of any duty of confidence (whether
+arising by contract, in equity, by custom, or in any other
+way);
+(c) constitute a breach of any contractual provision
+25prohibiting, restricting or regulating the assignment or
+transfer of assets or liabilities or the disclosure of any
+information;
+(d) terminate an agreement or obligation, or fulfil any
+condition that allows a person to terminate or otherwise
+30releases a person from any agreement or obligation, or give
+rise to any right or remedy in respect of any agreement or
+obligation;
+(e) cause any contract or other instrument to be void or
+otherwise unenforceable;
+63
+(f) frustrate any contract;
+(g) release a surety or other obligor or obligee wholly or in part
+from an obligation; or
+(h) constitute an event of breach of, or default under, any
+5 contract or other instrument.
+(4) No attornment to the Agency by a lessee of the transferor is
+required.
+Transfer of employees, etc., to Agency
+69. - (1) On the transfer date, every SSG employee and every
+10 WSG employee  - 
+(a) stops being an employee of the SSG or the WSG, as the
+case may be; and
+(b) is each transferred to the service, and becomes an
+employee, of the Agency on terms no less favourable
+15 than those enjoyed by the employee on the eve of the
+transfer date.
+(2) A certificate signed by the Minister certifying whether an
+individual named in the certificate has been transferred to the service
+of the Agency under subsection (1) is admissible in evidence in any
+20 proceedings as proof of the matters stated in the certificate.
+(3) The transfer under subsection (1) of an SSG employee or a
+WSG employee (as the case may be) to the service of the Agency  - 
+(a) does not interrupt continuity of that employee's service;
+(b) does not constitute a retrenchment or redundancy of that
+25 employee's employment by the transferor; and
+(c) does not entitle that employee to any compensation or
+other payment or benefit merely because he or she stops
+being employed by the transferor.
+(4) Nothing in this section prevents  - 
+30 (a) any of the terms and conditions of employment of an
+individual transferred to the service of the Agency under
+subsection (1) from being altered by or under any law,
+64
+award or agreement with effect from any time after the
+transfer date; and
+(b) an individual transferred to the service of the Agency under
+subsection (1) from resigning from that service any time
+5after the transfer date, in accordance with the terms and
+conditions of his or her employment then applicable.
+(5) To avoid doubt, section 18A of the Employment Act 1968 does
+not apply to the transfer under this Part of any SSG employee or any
+WSG employee to the service of the Agency.
+10(6) On the transfer date, every public officer or employee of any
+other public body seconded to the SSG or the WSG, under either of
+the following that is in force on the eve of the transfer date, continues
+on secondment to the Agency:
+(a) an arrangement made by the Government;
+15(b) an agreement or arrangement between the Government or
+that other public body and the SSG or the WSG, as the case
+may be.
+General preservation of employment terms, etc.
+70. - (1) When an SSG employee or a WSG employee is
+20transferred to the service of the Agency under section 69(1) (called
+in this section a transferred employee), the transferred employee's
+service with the Agency must be regarded for all purposes as having
+been continuous with his or her service with the transferor
+immediately before the transfer date.
+25(2) On the transfer date  - 
+(a) a transferred employee retains all accrued rights as if his or
+her employment with the Agency were a continuation of
+employment with the transferor;
+(b) the liabilities of the transferor relating to the transferred
+30employee's accrued rights to annual, sick, maternity or
+other leave and superannuation become the liabilities of
+the Agency; and
+65
+(c) a reference to the transferor in the contract of employment
+that had effect in relation to the transferred employee
+immediately before the transfer date is taken to be, or
+includes, a reference to the Agency.
+5 (3) Until the time the Agency draws up the terms and conditions of
+employment for the transferred employee, the Agency is to be
+regarded as employing the transferred employee on the same terms
+and conditions of his or her employment with the transferor on the
+eve of the transfer date.
+10 (4) Any term or condition of employment drawn up by the Agency
+relating to the length of service of the transferred employee with the
+Agency must recognise the length of service of that employee with
+the transferor (including any previous service of that employee taken
+to be service with the transferor) to be service with the Agency.
+15 (5) For any conduct of the transferred employee when he or she was
+employed by the transferor which would have rendered that
+employee liable to be reprimanded, reduced in rank, retired,
+dismissed or otherwise punished by the transferor, the Agency
+may  - 
+20 (a) start any disciplinary proceedings against that employee;
+(b) carry on and complete any disciplinary proceedings started
+by the transferor against that employee if those
+proceedings are pending on the eve of the transfer date; and
+(c) reprimand, reduce in rank, retire, dismiss or otherwise
+25 punish that employee as if that employee were not
+transferred.
+(6) Where, on the eve of the transfer date, any matter about the
+conduct of the transferred employee during his or her employment
+with the transferor concerned  - 
+30 (a) was in the course of being heard or investigated by a
+committee of the transferor acting under due authority; or
+66
+(b) had been heard or investigated, but no order, ruling or
+direction had been made, by that committee,
+that committee must complete the hearing or investigation and make
+such order, ruling or direction as it could have made under the
+5authority vested in it before that date, and that order, ruling or
+direction is to be regarded as an order, ruling or direction of the
+Agency.
+Transfer of records
+71. On the transfer date, the following records become the records
+10of the Agency:
+(a) all records of the SSG;
+(b) all records of the WSG.
+Confirmation of transfers
+72. - (1) If any dispute arises  - 
+15(a) as to whether an asset or a liability, or a record, is
+transferred under section 68 or 71; or
+(b) as to whether any, or part of any, contract or document
+relates to an asset or a liability, or a record, transferred
+under section 68 or 71,
+20the Finance Minister may determine the matter and must provide the
+concerned parties with written notice of that determination.
+(2) The Finance Minister's determination under subsection (1) is
+final and binding on the transferor concerned and the Agency.
+PART 10
+25REPEAL
+Repeal of SkillsFuture Singapore Agency Act 2016
+73. Repeal the SkillsFuture Singapore Agency Act 2016.
+Repeal of Workforce Singapore Agency Act 2003
+74. Repeal the Workforce Singapore Agency Act 2003.
+67
+PART 11
+CONSEQUENTIAL AND RELA TED AMENDMENTS
+TO OTHER ACTS
+Consequential amendment to Enterprise Singapore Board
+5 Act 2018
+75. In the Enterprise Singapore Board Act 2018, in section 5(1),
+replace paragraph (g) with  - 
+"(g) to cooperate and collaborate with the Skills and
+Workforce Development Agency established by
+10 section 3 of the Skills and Workforce Development
+Agency Act 2026 in the discharge of its functions
+under that Act;".
+Consequential amendments to Income Tax Act 1947
+76. In the Income Tax Act 1947  - 
+15 (a) in section 13(1)(zx), delete "Workforce Singapore's";
+(b) in section 14O(6), replace the definition of "accredited"
+with  - 
+" "accredited", in relation to a course, means
+accredited  - 
+20 (a) by the Singapore Workforce
+Development Agency before
+4 October 2016;
+(b) by the SkillsFuture Singapore
+Agency on or after 4 October 2016
+25 and before the date of
+commencement of section 73 of the
+Skills and Workforce Development
+Agency Act 2026; or
+(c) by the Skills and Workforce
+30 Development Agency;";
+68
+(c) in section 14ZG(5), in the definition of "eligible course", in
+paragraph (a), after "SkillsFuture Singapore Agency",
+insert "or the Skills and Workforce Development Agency";
+(d) in section 14ZG(5), in the definition of "qualifying training
+5expenditure", after "SkillsFuture Singapore Agency",
+insert "or the Skills and Workforce Development Agency";
+(e) in section 14ZG(5), after the definition of "qualifying
+training expenditure", insert  - 
+" "Skills and Workforce Development Agency"
+10means the Skills and Workforce Development
+Agency established by section 3 of the Skills and
+Workforce Development Agency Act 2026;";
+(f) in section 14ZG(5), replace the definition of "SkillsFuture
+Singapore Agency" with  - 
+15" "SkillsFuture Singapore Agency" means the
+SkillsFuture Singapore Agency established by
+section 3 of the SkillsFuture Singapore Agency
+Act 2016 before the date of repeal of that Act.";
+and
+20(g) in section 14ZG(6), replace "or a statutory board
+(including the SkillsFuture Singapore Agency)" with
+", the SkillsFuture Singapore Agency, the Skills and
+Workforce Development Agency or any other statutory
+board".
+25Consequential amendment to Institute of Technical Education
+Act 1992
+77. In the Institute of Technical Education Act 1992, in section 5,
+replace paragraph (c) with  - 
+"(c) cooperating and collaborating with the Skills and
+30Workforce Development Agency established by
+section 3 of the Skills and Workforce Development
+Agency Act 2026 in the discharge of its functions
+under that Act.".
+69
+Consequential and related amendments to Private Education
+Act 2009
+78. In the Private Education Act 2009  - 
+(a) in section 2, replace the definition of "Agency" with  - 
+5 " "Agency" means the Skills and Workforce
+Development Agency established by section 3
+of the Skills and Workforce Development
+Agency Act 2026;";
+(b) in section 2, replace the definition of "Chief Executive"
+10 with  - 
+" "Chief Executive" has the meaning given by
+section 2 of the Skills and Workforce
+Development Agency Act 2026;";
+(c) in section 2, after the definition of "private education
+15 institution", insert  - 
+" "private education institution for adult learners"
+means a private education institution  - 
+(a) in which more than half of the
+students enrolled are 25 years of age
+20 or above, such enrolment to be
+determined at the frequency and in
+the manner prescribed; and
+(b) that does not offer or provide any
+education that is normally for a
+25 person who is below 16 years of
+age;";
+(d) in section 4(1), replace "SkillsFuture Singapore Agency
+Act 2016" with "Skills and Workforce Development
+Agency Act 2026";
+30 (e) in section 4(2), in paragraph (c), delete "and" at the end;
+(f) in section 4(2), in paragraph (d), replace the full-stop with
+"; and";
+(g) in section 4(2), after paragraph (d), insert  - 
+70
+"(e) to any direction given by the Minister as to
+the performance by the Agency of its
+functions under this Act and, in any
+matter relating to private education
+5institutions for adult learners, to any
+direction given by the Minister charged
+with the responsibility for that matter."; and
+(h) in section 5, replace "section 34 of the SkillsFuture
+Singapore Agency Act 2016" with "section 28 of the
+10Skills and Workforce Development Agency Act 2026".
+Consequential amendments to Skills Development Levy
+Act 1979
+79. In the Skills Development Levy Act 1979  - 
+(a) in section 2, replace the definition of "Agency" with  - 
+15" "Agency" means the Skills and Workforce
+Development Agency established by section 3
+of the Skills and Workforce Development
+Agency Act 2026;"; and
+(b) in section 5(2)(ba), after "section 57D or 58 of the
+20SkillsFuture Singapore Agency Act 2016", insert "(as in
+force immediately before the date of commencement of
+section 73 of the Skills and Workforce Development
+Agency Act 2026) or section 51 or 58 of the Skills and
+Workforce Development Agency Act 2026".
+25Consequential amendments to other Acts
+80. - (1) In the Accounting Standards Act 2007, in the Schedule  - 
+(a) replace item 59 with  - 
+. "59. Skills and Workforce
+Development Agency
+Skills and Workforce Development
+Agency Act 2026"; and
+30(b) delete item 63.
+(2) In the Attorney-General (Additional Functions) Act 2014, in the
+Schedule, replace item 23 with  - 
+71
+"23. Skills and Workforce Development Agency".
+(3) In the Central Provident Fund Act 1953, in the First Schedule, in
+paragraph 6  - 
+(a) delete item (11); and
+5 (b) replace item (65) with  - 
+"(65) Skills and Workforce Development Agency.".
+(4) In the Official Secrets Act 1935, in the Schedule  - 
+(a) delete item 7; and
+(b) replace item 28 with  - 
+10 "28. Skills and Workforce Development Agency".
+(5) In the Public Sector (Governance) Act 2018, in the
+First Schedule, in Part 1  - 
+(a) replace item 46 with  - 
+. "46. Skills and Workforce
+15 Development Agency
+Skills and Workforce Development
+Agency Act 2026"; and
+(b) delete item 49.
+(6) In the Statutory Bodies and Government Companies (Protection
+of Secrecy) Act 1983, in the Schedule, in Part 1  - 
+(a) replace item 31 with  - 
+20 . "31. Skills and Workforce
+Development Agency
+Skills and Workforce Development
+Agency Act 2026"; and
+(b) delete item 33.
+(7) In the Statutory Corporations (Contributions to Consolidated
+Fund) Act 1989, in the Schedule  - 
+25 (a) replace item 46 with  - 
+. "46. Skills and Workforce
+Development Agency
+Skills and Workforce Development
+Agency Act 2026"; and
+(b) delete item 49.
+72
+PART 12
+SA VING AND TRANSITIONAL PROVISIONS
+Saving and transitional provisions arising from repeal of
+SkillsFuture Singapore Agency Act 2016
+581. - (1) Any incentive, grant or loan given before the appointed
+date by the SSG in the performance or exercise of its functions and
+powers under the repealed Act is, as from that date, deemed to be an
+incentive, grant or loan given by the Agency under this Act.
+(2) Any power  - 
+10(a) of an authorised person to verify information under
+section 47 may be exercised in respect of any incentive,
+grant or loan given before the appointed date under the
+repealed Act as if it were an incentive, grant or loan given
+under this Act; and
+15(b) of an inspector to conduct investigations under section 48
+may be exercised in respect of any offence committed or
+suspected of having been committed before the appointed
+date under the repealed Act.
+(3) Despite section 73, section 57D of the repealed Act continues to
+20apply on and after the appointed date to  - 
+(a) a person who is convicted (whether before, on or after the
+appointed date) of an offence under section 57C(1) of the
+repealed Act; and
+(b) the Agency, which  - 
+25(i) may recover any amount due to the SSG under
+section 57D(2) of the repealed Act as if it were a
+judgment debt due to the Agency; and
+(ii) must pay the amount recovered in the manner set out
+in section 57D(3) of the repealed Act, as if the
+30reference to the funds of the SSG and the general
+moneys of the SSG were a reference to the funds of
+the Agency and the general moneys of the Agency,
+respectively.
+73
+(4) Where any advertisement is published or caused to be
+published, or distributed or caused to be distributed, before the
+appointed date, to which section 57F(1) of the repealed Act applies  - 
+(a) the Agency may give a direction under section 53(2) in
+5 accordance with section 53(3), (4) and (5) to the person
+who published or caused to be published, or distributed or
+caused to be distributed, that advertisement as if the person
+were a defaulting person, and the advertisement were an
+advertisement, mentioned in section 53(1);
+10 (b) any direction given by the SSG under section 57F(2) of the
+repealed Act to a defaulting person under that provision
+before the appointed date continues and is deemed to be a
+direction made under section 53(2), and the Agency may
+take any steps on or after that date in respect of the person
+15 who was given the direction, as if that person were a
+defaulting person under section 53; and
+(c) any notice given by the SSG under section 57F(3) of the
+repealed Act to a defaulting person under that provision
+before the appointed date continues and is deemed to be a
+20 notice given under section 53(3), and the Agency may
+decide under section 53(4) to give or not to give (or to
+modify) the direction as the Agency considers appropriate.
+(5) Where any course or programme fulfils the conditions in
+section 57G(1) of the repealed Act before the appointed date  - 
+25 (a) the Agency may give a direction under section 54(2) in
+accordance with section 54(3), (4) and (5) to the person
+who was given an incentive, grant or loan in connection
+with the course or programme as if the person were a
+funding recipient, and the course or programme were a
+30 course or programme, mentioned in section 54(1);
+(b) any direction given by the SSG under section 57G(2) of the
+repealed Act to a funding recipient under that provision
+before the appointed date continues and is deemed to be a
+direction made under section 54(2), and the Agency may
+35 take any steps on or after that date in respect of the person
+74
+who was given the direction, as if that person were a
+funding recipient under section 54; and
+(c) any notice given by the SSG under section 57G(3) of the
+repealed Act to a funding recipient under that provision
+5before the appointed date continues and is deemed to be a
+notice given under section 54(3), and the Agency may
+decide under section 54(4) to give or not to give (or to
+modify) the direction as the Agency considers appropriate.
+(6) An appeal to the Minister against a direction under section 57F
+10or 57G of the repealed Act  - 
+(a) may be commenced under section 55 if it is made within
+the time specified in section 55(2)(b); or
+(b) if the appeal was commenced before the appointed date
+under section 57H of the repealed Act, may be continued
+15under section 55 as if it were commenced under that
+section.
+(7) Despite section 73, the Chief Executive or an officer of the
+Agency authorised in writing by the Agency may compound any
+offence under section 60 of the repealed Act which  - 
+20(a) is allegedly committed before the appointed date; and
+(b) is, immediately before that date, prescribed as a
+compoundable offence for the purposes of section 60 of
+the repealed Act,
+as if section 73 had not been enacted.
+25(8) In this section and section 83  - 
+"appointed date" means the date of commencement of
+section 73;
+"repealed Act" means the SkillsFuture Singapore Agency
+Act 2016 as in force immediately before the appointed date;
+30"SkillsFuture Singapore Agency" or "SSG" means the public
+body of that name established by section 3 of the repealed
+Act.
+75
+Saving and transitional provisions arising from repeal of
+Workforce Singapore Agency Act 2003
+82. - (1) Any incentive, grant or loan given before the appointed
+date by the WSG in the discharge or exercise of its functions, duties
+5 and powers under the repealed Act is, as from that date, deemed to be
+an incentive, grant or loan given by the Agency under this Act.
+(2) Any power of an authorised person to verify information under
+section 47 may be exercised in respect of any incentive, grant or loan
+given before the appointed date under the repealed Act as if it were an
+10 incentive, grant or loan given under this Act.
+(3) In this section  - 
+"appointed date" means the date of commencement of
+section 74;
+"repealed Act" means the Workforce Singapore Agency
+15 Act 2003 as in force immediately before the appointed date;
+"Workforce Singapore Agency" or "WSG" means the public
+body of that name established by section 3 of the repealed
+Act.
+Other saving and transitional provisions
+20 83. - (1) Anything done by the SSG before the appointed date
+under  - 
+(a) the Private Education Act 2009 as in force immediately
+before that date; or
+(b) the Skills Development Levy Act 1979 as in force
+25 immediately before that date,
+continues to be valid as from that date as if it were done by the
+Agency under that respective Act.
+(2) For a period of 2 years after the date of commencement of any
+provision of this Act, the Minister may, by regulations, prescribe any
+30 additional provisions of a saving or transitional nature consequent on
+the enactment of that provision that the Minister may consider
+necessary or expedient.
+76
+EXPLANA TORY STA TEMENT
+This Bill seeks to establish the Skills and Workforce Development Agency (the
+Agency), to repeal the SkillsFuture Singapore Agency Act 2016 (SSG Act) and
+the Workforce Singapore Agency Act 2003 (WSG Act), and to make
+consequential and related amendments to certain other Acts.
+The Agency is established to replace the SkillsFuture Singapore Agency (SSG)
+and the Workforce Singapore Agency (WSG) and to perform an expanded
+function in relation to supporting individuals and employers in their career and
+workforce needs.
+PART 1
+PRELIMINARY
+Part 1 introduces the terms used in various provisions of the Bill.
+Clause 1 relates to the short title and commencement.
+Clause 2 is a general interpretation provision. The clause contains definitions
+of terms used in the Bill.
+PART 2
+ESTABLISHMENT, FUNCTIONS AND
+POWERS OF AGENCY
+Part 2 establishes the Agency and sets out its functions and powers.
+Clause 3 establishes the Skills and Workforce Development Agency.
+Clause 4 defines the nature and legal capacity of the Agency. The Agency is a
+body corporate with perpetual succession, and proceedings may be taken by or
+against the Agency in its corporate name. The Agency may also operate under a
+trading name approved by the Minister charged with the responsibility for the
+Agency.
+Clause 5 describes the functions of the Agency. The clause covers the existing
+functions of the SSG and the WSG, and reflects the Agency's expanded mandate
+with respect to career, employment and training matters (as defined in
+clause 2(1)).
+Under clause 5(1)(k)(i), the Agency is to perform its function of administering
+the Private Education Act 2009 (PEA) in accordance with any directions given by
+the relevant Minister charged with the responsibility for the PEA. The delineation
+of Ministerial responsibility is set out in the Constitution of the Republic of
+Singapore (Ministerial Responsibility) Notification 2025 (G.N. No. S 415/2025)
+77
+(or any notification subsequently made under Article 30 of the Constitution) read
+with the PEA.
+Clause 6 provides the Agency with broad powers to do all things necessary or
+expedient to perform its functions.
+Clause 7 provides the Minister charged with the responsibility for the Agency
+with power to give directions to the Agency under section 5 of the Public Sector
+(Governance) Act 2018 (PSGA). The clause also provides for the Minister to have
+access to information in the possession of the Agency.
+Clause 8 confers on the Agency the exclusive right to the use of one or more
+symbols or representations it selects or devises, and to display or exhibit those
+symbols or representations in connection with the Agency's activities or affairs.
+PART 3
+CONSTITUTION AND MEMBERSHIP OF AGENCY
+Part 3 deals with the constitution and membership of the Agency.
+Division 1 of Part 3 (comprising new sections 9 to 17) relates to appointment,
+resignation and removal of members of the Agency.
+Clause 9 provides for the membership of the Agency. The Agency is to consist
+of at least 7 and not more than 15 members. One of those members may be the
+Chief Executive.
+Clause 10 provides for the appointment of members of the Agency by the
+Minister charged with the responsibility for the Agency.
+Clause 11 provides that in appointing members of the Agency, the Minister
+must have regard to whether the members of the Agency will collectively possess
+the appropriate knowledge, skills and experience to assist the Agency to perform
+its functions effectively.
+Certain individuals described in clause 11(2) are disqualified from being
+members of the Agency.
+Clause 12 provides for the appointment of the Chairperson and one or more
+Deputy Chairpersons from among members appointed, and their tenure.
+Clause 13 deals with the situation when a premature vacancy occurs in the
+office of any member of the Agency, and empowers the Minister to appoint an
+individual to fill the vacancy and hold that office for the remainder of the term for
+which the vacating member was appointed.
+Clause 14 provides for the appointment of an acting Chairperson and acting
+member to act temporarily as the Chairperson or member (as the case may be)
+during any period, or during all periods, when the Chairperson or member is
+78
+absent from duty or Singapore, or is, for any reason, unable to perform the duties
+of the office.
+Clause 15 empowers the Minister to remove a member of the Agency from
+office at any time and without giving any reason.
+Clause 16 provides for a member of the Agency to resign from office.
+Clause 17 provides that the performance of the functions and exercise of the
+powers of the Agency are not affected merely because of (among other reasons)
+any vacancy in the membership of the Agency, or of any defect or irregularity
+relating to the appointment or continuance in office of a member.
+The acts of an individual as a member of the Agency are also not affected
+merely because there was some defect or irregularity existing in the appointment
+or continuance in office of the individual or (in the case of an individual acting in
+the capacity of the Chairperson, a member or the Chief Executive) the occasion for
+the individual so acting, or for his or her appointment, had not arisen or had ended.
+Division 2 of Part 3 (comprising new sections 18 to 21) relates to the terms and
+conditions for members of the Agency.
+Clause 18 provides that unless earlier vacated, each member of the Agency
+holds office for a period of 3 years or any shorter period specified in the instrument
+of appointment.
+Clause 19 provides that the members of the Agency may be paid, out of the
+funds of the Agency, such salaries, fees and allowances as the Minister
+determines.
+Clause 20 outlines the circumstances in which the office of a member becomes
+vacant.
+Clause 21 clarifies that the Minister may specify other terms and conditions of
+appointment of a member of the Agency in the instrument of appointment.
+PART 4
+DECISION-MAKING BY AGENCY
+Part 4 provides for decision-making by the Agency.
+Division 1 of Part 4 (comprising new sections 22 to 27) relates to meetings of
+the Agency.
+Clause 22 allows the Agency to regulate its own procedure, subject to the Bill
+and the PSGA.
+Clause 23 requires notice of meetings of the Agency to be given to each
+member.
+79
+Clause 24 prescribes the quorum for a meeting of the Agency to be one-third of
+the number of members or 3 members, whichever is higher.
+Clause 25 provides for the person who should preside at meetings.
+Clause 26 specifies the process of voting at a meeting of the Agency.
+A member present at a meeting of the Agency is presumed to have agreed to, and
+to have voted in favour of, a resolution of the Agency unless he or she expressly
+dissents from or votes against the resolution at the meeting or is prevented from
+voting under section 26 of the PSGA.
+Clause 27 provides the process for execution of documents by the Agency.
+Division 2 of Part 4 (comprising new sections 28 to 31) relates to committees
+and delegation.
+Clause 28 empowers the Agency, by resolution, to appoint any number of
+committees that it thinks fit for purposes which, in the opinion of the Agency,
+would be better regulated and managed by means of those committees. Section 28
+of the PSGA would apply to any committee so appointed.
+Clause 29 allows a committee of the Agency to regulate its own procedure,
+subject to the Bill, the PSGA and any restriction by a resolution under
+clause 28(1).
+Clause 30 allows the Agency to delegate some of its functions or powers, either
+generally or specially, by resolution and written notice, to a member, the
+Chief Executive or an officer of the Agency (defined in clause 2(1) to include an
+employee and an individual on secondment), any other person performing duties
+in the Agency (including a person performing duties in the Agency under a
+contract, or under an arrangement making available temporarily to the Agency the
+services of public officers), a committee that includes at least one member of the
+Agency, a wholly-owned subsidiary company of the Agency or a contractor of the
+Agency. The delegation may authorise subdelegation to appropriately qualified
+persons described in sub-clause (2).
+Clause 31 provides for the validity of acts of delegates and subdelegates.
+The clause also provides that a delegate or subdelegate must produce evidence of
+the delegation or subdelegation if reasonably requested to do so, and that a
+subdelegate is not authorised to further subdelegate a delegated function or power.
+PART 5
+PERSONNEL MA TTERS
+Part 5 deals with personnel matters.
+Clause 32 relates to the appointment of the Chief Executive of the Agency,
+which is also governed by Division 1 of Part 3 of the PSGA. The Agency must
+80
+appoint the Chief Executive with the prior approval of the Minister charged with
+the responsibility for the Agency and the prior concurrence of the Public Service
+Commission.
+Clause 33 provides for the Agency to appoint and employ officers, consultants
+and agents.
+Clause 34 provides that all delegates and subdelegates of the Agency are
+deemed to be public servants for the purposes of the Penal Code 1871.
+Delegates and subdelegates of the Agency who are involved in the
+administration, assessment, collection or enforcement of payment of financial
+penalties imposed or composition sums collected under the Bill, the PEA or the
+Skills Development Levy Act 1979 (SDL Act) are also deemed to be public
+officers for the purposes of the Financial Procedure Act 1966 (FPA). These are
+public moneys that must be accounted for in the Consolidated Fund. Section 20 of
+the FPA (disciplinary punishment for loss of public moneys, etc.) applies to these
+delegates and subdelegates even though they are not or were not in the
+employment of the Government.
+Clause 35 imposes on the members, committee members, Chief Executive,
+officers, consultants, agents, delegates and subdelegates of the Agency, as well as
+authorised persons and inspectors, the duty to preserve secrecy in relation to
+information obtained in their respective capacities.
+Clause 36 protects the members, committee members, Chief Executive,
+officers, delegates and subdelegates of the Agency, as well as authorised persons,
+inspectors and other persons acting under the direction of the Agency, from
+personal liability for anything done in good faith and with reasonable care in the
+performance of the functions or exercise of the powers under the Bill or any other
+Act (including the PEA and the SDL Act).
+PART 6
+FINANCIAL PROVISIONS
+Part 6 sets out the financial provisions of the Agency.
+Clause 37 sets out the financial year of the Agency.
+Clause 38 sets out the revenue and property of the Agency, among which is the
+Skills Development Fund (SDF), which the Agency must manage and administer
+in accordance with the SDL Act and separately from all its other funds and
+property.
+Clause 39 requires the Agency to open and maintain one or more bank
+accounts. The bank accounts may only be operated by persons duly authorised by
+the Agency.
+81
+Clause 40 confers on the Agency the standard investment power of statutory
+bodies as defined in section 33A of the Interpretation Act 1965, except with regard
+to the SDF. The investment of moneys in the SDF is governed by the SDL Act.
+Clause 41 requires the Agency to issue shares to the Minister charged with the
+responsibility for finance where required, as a consequence of the vesting of any
+property, rights or liabilities in the Agency under the Bill or any capital injection or
+other investment by the Government in the Agency.
+Clause 42 sets out the borrowing powers of the Agency.
+Clause 43 provides that the Agency must prepare annual estimates of income
+and expenditure for the SDF for each financial year, and may also prepare
+supplementary estimates for the SDF wherever necessary. This is in addition to
+sections 34 and 35 of the PSGA, under which the Agency must prepare annual
+estimates of its revenue and expenditure for each financial year, and may also
+prepare supplementary estimates of its revenue and expenditure during a
+financial year.
+Clause 44 requires the SDF to be audited separately according to the SDL Act.
+PART 7
+ADMINISTRA TION AND ENFORCEMENT
+Part 7 provides for enforcement powers necessary for the administration of the
+Bill, which are currently found in Part 7 of the SSG Act.
+Division 1 of Part 7 (comprising new sections 45 to 48) relates to preliminary
+matters, appointments and powers.
+Clause 45 defines an incentive, a grant or a loan for the purposes of Part 7.
+An incentive, a grant or a loan from the Agency can be given out of moneys in the
+SDF (SDF moneys), out of moneys not in the SDF (non-SDF moneys) or out of a
+combination of SDF moneys and non-SDF moneys. Any combination of SDF
+moneys and non-SDF moneys is subject to clause 38(2), which requires the SDF
+to be managed and administered by the Agency separately from the other funds
+and property of the Agency.
+Clause 46 provides for the appointment of authorised persons and inspectors,
+and related matters. Both authorised persons and inspectors are individuals, but
+the difference in their respective appointments is that an officer or agent of the
+Agency, a public officer or an officer of another public body or any other suitably
+qualified individual (who may be a private individual) can be appointed as an
+authorised person, whereas only an officer of the Agency can be appointed as an
+inspector.
+Clause 47 sets out the powers of authorised persons appointed under
+clause 46(1). The powers are for the purpose of inquiries or ascertainment of
+82
+matters described in clause 47(1)(a) or (b) relating to an incentive, a grant or a loan
+from the Agency.
+Clause 48 sets out the powers of inspectors appointed under clause 46(2),
+which are more intrusive than the powers of authorised persons. The powers of
+inspectors are for the purpose of investigating an offence under the Bill, which
+extends to investigating any offence prescribed in subsidiary legislation made
+under the Bill, by virtue of section 26A of the Interpretation Act 1965.
+Division 2 of Part 7 (comprising new sections 49 to 59) relates to offences and
+related provisions.
+Clause 49 provides for the meanings of "funding arrangement" and "abusive
+funding arrangement" in clauses 49, 50 and 51. The clause also provides for how
+the amount of wrongly obtained funding is to be determined for the purposes of
+clauses 50 and 51.
+Clause 50 sets out the offence of entering into or facilitating an abusive funding
+arrangement. The offence may be committed by one or more persons (whether an
+individual, an entity or otherwise) who may, alone or with other persons, engage in
+one transaction or multiple transactions aimed at wrongfully obtaining an
+incentive, a grant or a loan from the Agency. In addition to the punishment of a
+fine or imprisonment or both, a person convicted of the offence also has to pay a
+penalty based on the amount of wrongly obtained funding described in
+clause 50(2)(a) and (3). What it means to facilitate a funding arrangement is
+described in clause 50(5), with exceptions set out in clause 50(6) in recognition
+that there may be persons (for example, Internet Service Providers or mobile
+network operators) that merely provide facilities for transmission of data, etc.,
+with no other involvement in the abusive funding arrangement. A rebuttable
+presumption as to a person's intention is set out in clause 50(7).
+Clause 51 provides for a court to order a person convicted of an offence under
+clause 50(1) to repay to the Agency the amount of wrongly obtained funding that
+the convicted person obtained from the Agency (whether for the benefit of the
+convicted person, or any other person or persons), as a result of the abusive
+funding arrangement entered into or facilitated by the convicted person.
+Clause 52 sets out the offence of publishing or distributing an advertisement
+that is false or misleading in a material particular (as defined in sub-clause (4)).
+The offence is targeted mainly at the publication or distribution of advertisements
+which may mislead one or more persons as to the courses or programmes funded
+or eligible for funding by the Agency (for example, courses for which SkillsFuture
+credits may be used), or accredited by the Agency or by other persons whose
+accreditation the Agency has facilitated. A person who does not publish or
+distribute such an advertisement, but causes the publication or distribution of the
+advertisement, may still be liable for the offence. An advertisement for the
+83
+purposes of the offence could be a printed advertisement, an online advertisement
+or an advertisement accessible in any other medium as described in sub-clause (3).
+Clause 53 empowers the Agency to give directions on remedial measures to be
+taken by a person in relation to false or misleading advertisements. The Agency
+must allow a person to make representations before giving the direction, unless the
+Agency considers it not practicable or desirable to do so. A person who, without
+reasonable excuse, fails to comply with the direction shall be guilty of an offence.
+Clause 54 empowers the Agency to give directions to a person who receives an
+incentive, a grant or a loan from the Agency (the funding recipient) in connection
+with a course or programme, to make refunds to trainees or other persons, or the
+Agency, if the course or programme is cancelled or not completed. The Agency
+must allow the funding recipient to make representations before giving the
+direction, unless the Agency considers it not practicable or desirable to do so. A
+funding recipient who, without reasonable excuse, fails to comply with the
+direction shall be guilty of an offence.
+Clauses 55, 56 and 57 provide for appeals to the Minister against the Agency's
+directions under clause 53(2) or 54(2). The Minister may designate another
+office-holder to hear and determine an appeal in his or her place.
+Clause 58 sets out the offence of making (or authorising the making of) a
+statement in relation to the person's application, or in support of another person's
+application, for any incentive, grant or loan from the Agency, knowing that the
+statement is false or misleading in any material particular. The clause also
+provides for a court to order a person convicted of the offence to repay to the
+Agency the amount of the incentive, grant or loan that the Agency gave to the
+convicted person as a result of the statement, but excluding any amount that the
+Agency would have given to the convicted person without that statement.
+It is also an offence to provide documents or information required under
+clause 47 or 48, or to provide documents or information to the Agency in
+connection with any of its functions or powers under the Bill, knowing that the
+documents or information are false or misleading in any material particular.
+Further, it is an offence to intentionally alter, suppress or destroy documents or
+information required to be provided under clause 47 or 48.
+Clause 59 sets out the offence of obstructing or hindering a member, officer,
+agent, delegate or subdelegate of the Agency, or an authorised person or inspector,
+who is performing or exercising any function or power under the Bill. It is also an
+offence to neglect or refuse to attend before an inspector as required under
+clause 48, or otherwise fail to comply with a lawful demand of an inspector under
+clause 48.
+84
+PART 8
+GENERAL
+Part 8 contains general provisions.
+Clause 60 provides the power to compound offences that are prescribed as
+compoundable offences.
+Clauses 61 and 62 are standard provisions regarding the liability of officers of
+corporations, unincorporated associations and partnerships which have committed
+an offence under the Bill.
+Clause 63 confers on a District Court and a Magistrate's Court jurisdiction to
+try any offence under the Bill and to punish accordingly despite any limits set
+under the Criminal Procedure Code 2010.
+Clause 64 deals with the service of documents permitted or required to be
+served by or under the Bill.
+Clause 65 empowers the Agency, with the Minister's approval, to make
+regulations prescribing matters that are required or permitted by the Bill or are
+necessary or convenient to be made for carrying out or giving effect to the Bill.
+Clause 66 empowers the Agency to issue one or more codes of practice or
+guidelines applicable to service providers (defined in clause 2(1)) generally or
+particular types of service providers. The clause also empowers the Agency to
+approve as a code of practice or guidelines any document prepared by a person
+other than the Agency if the Agency considers the document as suitable for this
+purpose.
+PART 9
+TRANSFER OF UNDERTAKINGS AND PERSONNEL TO AGENCY
+Part 9 contains provisions that transfer undertakings and employees from the
+SSG and the WSG to the Agency.
+Clause 67 contains definitions used for the purposes of Part 9.
+Clause 68 provides for the transfer, on the transfer date (which is the date of
+commencement of Part 9), to the Agency of all assets and liabilities (as defined in
+clause 67) of the SSG and the WSG.
+Clause 68 also contains provisions, the general purpose of which are to put the
+Agency in the same legal position as the SSG and the WSG, from which assets or
+liabilities are transferred.
+Clause 68 further declares that the transfer does not constitute a breach of or
+default under any Act or other law, any contract or other instrument, or any duty of
+confidence, and does not constitute a civil or criminal wrong, terminate an
+85
+agreement or obligation, fulfil any condition that allows a person to terminate an
+agreement or obligation, give rise to any other right or remedy, or release a surety
+or other obligor or obligee wholly or in part from an obligation.
+Clause 69 provides for the transfer of employees of the SSG and the WSG to
+the employment of the Agency on the transfer date on terms no less favourable.
+The clause declares that the transfer does not interrupt continuity of service or
+constitute a retrenchment or redundancy and does not entitle any employee so
+transferred to any payment or other benefit. The clause also provides for public
+officers and public body employees who are seconded to the SSG or the WSG to
+continue on secondment to the Agency.
+Clause 70 declares that, in the transfer of employees, the employees' terms of
+employment are preserved, in particular, terms relating to remuneration, leave
+rights or continuity of service.
+Clause 71 provides for the transfer of records from the SSG and the WSG to the
+Agency.
+Clause 72 provides for disputes relating to transfers of assets, liabilities or
+records to be determined by the Minister charged with the responsibility for
+finance.
+PART 10
+REPEAL
+Clause 73 repeals the SSG Act.
+Clause 74 repeals the WSG Act.
+PART 11
+CONSEQUENTIAL AND RELA TED AMENDMENTS TO OTHER ACTS
+Part 11 makes consequential and related amendments to other Acts.
+Clauses 75, 76 and 77 amend the Enterprise Singapore Board Act 2018, the
+Income Tax Act 1947 and the Institute of Technical Education Act 1992,
+respectively, to replace each reference in those Acts to the SSG or the WSG with a
+reference to the Agency.
+Clause 78 amends the PEA to define a category of private education
+institutions for which a different Minister may be assigned responsibility.
+A "private education institution for adult learners" will be defined in section 2
+of the PEA as a private education institution in which the majority (i.e., more than
+half) of the enrolled students are 25 years of age or older, and that does not offer or
+provide any general education (i.e., education normally for a person who is below
+16 years of age).
+86
+Section 4(2) of the PEA is amended to provide that the Agency must have
+regard to any direction given by the Minister (referring to the Minister charged
+with the responsibility for the PEA) in the performance of its functions and, in
+matters relating to private education institutions for adult learners, also have
+regard to any direction given by the Minister charged with the responsibility for
+that matter.
+Clause 78 also replaces each reference in the PEA to the SSG, the
+Chief Executive of the SSG or the SSG Act with a reference to the Agency, the
+Chief Executive of the Agency or the Bill, as the case may be.
+Clause 79 amends the SDL Act to replace each reference in the SDL Act to the
+SSG or the SSG Act with a reference to the Agency or the Bill, as the case may be.
+Clause 80 amends various other Acts to replace each reference in those Acts to
+the SSG or the WSG with a reference to the Agency.
+PART 12
+SA VING AND TRANSITIONAL PROVISIONS
+Clause 81 provides for saving and transitional arrangements arising from the
+repeal of the SSG Act, to ensure continuity of matters despite the repeal of the
+SSG Act.
+Clause 82 provides for saving and transitional arrangements arising from the
+repeal of the WSG Act, to ensure continuity of matters despite the repeal of the
+WSG Act.
+Clause 83 provides for saving and transitional arrangements to ensure
+continuity of matters under the PEA and the SDL Act despite the repeal of the
+SSG Act. The clause also empowers the Minister to make regulations prescribing
+any additional provisions of a saving or transitional nature consequent on the
+enactment of any provision of the Bill, that the Minister may consider necessary or
+expedient. The Minister has power to make such regulations only within 2 years
+after the date of commencement of the provision.
+EXPENDITURE OF PUBLIC MONEY
+This Bill will not involve the Government in any extra financial expenditure.
+87

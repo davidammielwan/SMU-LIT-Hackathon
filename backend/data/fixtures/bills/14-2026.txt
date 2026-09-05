@@ -5,7 +5,7 @@ Read the first time on 7 July 2026.
 A BILL
 intituled
 An Act to amend the Road Traffic Act 1961 and the Motor V ehicles
-(Third‑Party Risks and Compensation) Act 1960.
+(Third-Party Risks and Compensation) Act 1960.
 Be it enacted by the President with the advice and consent of the
 Parliament of Singapore, as follows:
 Short title and commencement
@@ -16,13 +16,13 @@ appoints by notification in the Gazette.
 AMENDMENT OF ROAD TRAFFIC ACT 1961
 Amendment of section 36
 2. In the Road Traffic Act 1961 (called in this Act the RT Act), in
-section 36(7), replace “section 64” with “section 63A, 64”.
+section 36(7), replace "section 64" with "section 63A, 64".
 10 Amendment of section 42
-3. In the RT Act, in section 42 —
-(a) in subsection (1), replace “any period” with
-“any disqualification period”; and
-(b) after subsection (4), insert —
-15 “(5) In this section, “disqualification period”, for an
+3. In the RT Act, in section 42  - 
+(a) in subsection (1), replace "any period" with
+"any disqualification period"; and
+(b) after subsection (4), insert  - 
+15 "(5) In this section, "disqualification period", for an
 offender against whom an order is made under
 subsection (1) in addition to the punishment
 imposed for an offence (called in this subsection the
@@ -30,7 +30,7 @@ relevant offence), means the period for which the
 20 offender is disqualified from holding or obtaining a
 driving licence by that order, starting on the later of
 the following dates:
-(a) the date of the offender’s conviction for the
+(a) the date of the offender's conviction for the
 relevant offence;
 25 (b) the date the offender is released from
 prison and is no longer serving any
@@ -39,19 +39,19 @@ is or was sentenced to imprisonment
 (whether for the relevant offence or any
 30 other offence) before or at the same hearing
 where the offender is sentenced for the
-relevant offence.”.
+relevant offence.".
 2
 Amendment of section 42B
-4. In the RT Act, in section 42B —
-(a) in subsection (1), replace “or an order of a court” with
-“(called in this section the relevant conviction) or an order
-5of a court (called in this section the relevant order)”;
-(b) in subsection (1), replace “the date of commencement of
+4. In the RT Act, in section 42B  - 
+(a) in subsection (1), replace "or an order of a court" with
+"(called in this section the relevant conviction) or an order
+5of a court (called in this section the relevant order)";
+(b) in subsection (1), replace "the date of commencement of
 section 3 of the Road Traffic (Miscellaneous
-Amendments) Act 2025” with “1 January 2026”;
-(c) in subsection (2), replace the definition of “disqualification
-10period” with —
-“ “disqualification period” means the period for
+Amendments) Act 2025" with "1 January 2026";
+(c) in subsection (2), replace the definition of "disqualification
+10period" with  - 
+" "disqualification period" means the period for
 which a person is disqualified from holding or
 obtaining a driving licence because of the
 relevant conviction or the relevant order,
@@ -68,19 +68,19 @@ conviction) before or at the same
 25hearing where the person was
 sentenced for the relevant conviction
 or at which the relevant order was
-made;”; and
-(d) in subsection (2), in the definition of “period of
-30imprisonment”, replace “of the person’s release from
-prison” with “the person is released from prison and is
-no longer serving any sentence of imprisonment”.
+made;"; and
+(d) in subsection (2), in the definition of "period of
+30imprisonment", replace "of the person's release from
+prison" with "the person is released from prison and is
+no longer serving any sentence of imprisonment".
 3
 Amendment of section 47C
-5. In the RT Act, in section 47C(1A), replace “section 64” with
-“section 63A, 64”.
+5. In the RT Act, in section 47C(1A), replace "section 64" with
+"section 63A, 64".
 New section 63A
-5 6. In the RT Act, after section 63, insert —
-“Purposeful endangerment using motor vehicle
-63A.—(1) A person (X) commits an offence if —
+5 6. In the RT Act, after section 63, insert  - 
+"Purposeful endangerment using motor vehicle
+63A. - (1) A person (X) commits an offence if  - 
 (a) X drives a motor vehicle on a road in such a manner
 which endangers the life or safety of any person
 10 (whether or not the person is in a vehicle);
@@ -93,25 +93,25 @@ the person is in a vehicle) by the driving of the motor
 vehicle by X.
 Illustrations
 (a) A is driving a motor car on a road. B is driving another motor car in
-20 front of A. A manoeuvres A’s car in front of B’s car and brakes suddenly. This
-endangers B’s personal safety. A does so for the purpose of endangering B’s
-personal safety. B loses control of B’s car and crashes into C who is riding a
+20 front of A. A manoeuvres A's car in front of B's car and brakes suddenly. This
+endangers B's personal safety. A does so for the purpose of endangering B's
+personal safety. B loses control of B's car and crashes into C who is riding a
 motor cycle. C dies as a result. A is guilty of an offence under subsection (1).
 (b) A is driving a motor car on a road. B is riding a motor cycle in front
-25 of A. A drives closely behind B and presses A’s car horn several times. This
-endangers B’s personal safety. A does so for the purpose of endangering B’s
-personal safety. A loses control of A’s car and collides with the back of B’s
+25 of A. A drives closely behind B and presses A's car horn several times. This
+endangers B's personal safety. A does so for the purpose of endangering B's
+personal safety. A loses control of A's car and collides with the back of B's
 motor cycle. B crashes and dies as a result. A is guilty of an offence under
 subsection (1).
 30 (c) A is driving a motor car on a road. B is riding a motor cycle on the
-same road. Both parties start racing with one another. A swerves into B’s lane
-for the purpose of endangering B’s personal safety. This endangers B’s
-personal safety. B fails to take evasive action and collides into A’s car. B is
-thrown off B’s motor cycle and dies as a result. A is guilty of an offence under
+same road. Both parties start racing with one another. A swerves into B's lane
+for the purpose of endangering B's personal safety. This endangers B's
+personal safety. B fails to take evasive action and collides into A's car. B is
+thrown off B's motor cycle and dies as a result. A is guilty of an offence under
 35 subsection (1).
 4
 (2) A person who is guilty of an offence under
-subsection (1) —
+subsection (1)  - 
 (a) shall on conviction be punished with imprisonment
 for a term not exceeding 15 years; and
 5(b) in addition, shall be liable on conviction to a fine or to
@@ -119,7 +119,7 @@ caning, or to both.
 (3) A court convicting a person of an offence under
 subsection (1) is to order that the person be disqualified from
 holding or obtaining a driving licence for life, starting on the
-10date of the person’s conviction, unless the court for special
+10date of the person's conviction, unless the court for special
 reasons thinks fit to order a shorter disqualification period that is
 equal to or longer than 10 years.
 (4) Where a person is convicted of abetting the commission of
@@ -133,11 +133,11 @@ of a motor vehicle.
 who has committed or is committing an offence under
 subsection (1).
 (6) Despite the Criminal Procedure Code 2010, a District
-Court or a Magistrate’s Court has jurisdiction to try an offence
+Court or a Magistrate's Court has jurisdiction to try an offence
 25under subsection (1) and has power to impose the full
 punishment specified in this section.
-(7) In this section —
-“disqualification period”, for an offender convicted of an
+(7) In this section  - 
+"disqualification period", for an offender convicted of an
 offence (called in this subsection the relevant offence)
 30under subsection (1), means the period for which the
 offender is disqualified from holding or obtaining a
@@ -145,7 +145,7 @@ driving licence because of that conviction for the
 relevant offence, starting on the later of the following
 dates:
 5
-(a) the date of the offender’s conviction for the
+(a) the date of the offender's conviction for the
 relevant offence;
 (b) the date the offender is released from prison and
 is no longer serving any sentence of
@@ -154,43 +154,43 @@ sentenced to imprisonment (whether for the
 relevant offence or any other offence) before or
 at the same hearing where the offender is
 sentenced for the relevant offence;
-10 “grievous”, in relation to hurt, has the meaning given by
+10 "grievous", in relation to hurt, has the meaning given by
 section 320 (except paragraph (aa)) of the Penal
 Code 1871;
-“hurt” has the meaning given by section 319 of the Penal
-Code 1871.”.
+"hurt" has the meaning given by section 319 of the Penal
+Code 1871.".
 15 Amendment of section 64
-7. In the RT Act, in section 64 —
-(a) in subsection (7)(a), replace “5 years” with “7 years”;
-(b) in subsection (7)(b), replace “10 years” with “13 years”;
-(c) in subsection (7)(c), replace “one year” with “18 months”;
-20 (d) in subsection (7)(d), replace “2 years” with “3 years
-and 6 months”;
-(e) in subsection (9), replace “shorter period of
-disqualification” with “shorter disqualification period”;
-(f) in the following provisions, replace “the date of
+7. In the RT Act, in section 64  - 
+(a) in subsection (7)(a), replace "5 years" with "7 years";
+(b) in subsection (7)(b), replace "10 years" with "13 years";
+(c) in subsection (7)(c), replace "one year" with "18 months";
+20 (d) in subsection (7)(d), replace "2 years" with "3 years
+and 6 months";
+(e) in subsection (9), replace "shorter period of
+disqualification" with "shorter disqualification period";
+(f) in the following provisions, replace "the date of
 25 commencement of section 5 of the Road Traffic
-(Miscellaneous Amendments) Act 2025” wherever it
-appears with “12 June 2025”:
+(Miscellaneous Amendments) Act 2025" wherever it
+appears with "12 June 2025":
 (f) Subsection (9)(b), (e), (h) and (j)
 (f) Subsection (10)(a), (b), (c) and (d)
 30 (f) Subsection (11)(a) and (b)(i);
-(g) in subsection (10), replace “shorter period” with “shorter
-disqualification period”;
+(g) in subsection (10), replace "shorter period" with "shorter
+disqualification period";
 6
-(h) in subsection (11)(a)(ii), after “section”, insert “63A,”;
-(i) replace subsection (12) with —
-“(12) Where a person is convicted of abetting the
+(h) in subsection (11)(a)(ii), after "section", insert "63A,";
+(i) replace subsection (12) with  - 
+"(12) Where a person is convicted of abetting the
 commission of an offence under this section and it is
 5proved that the person was present in the motor
 vehicle used in the commission of the offence at the
 time of the commission of the offence, the person is,
 for the purposes of sections 42(1)(a) and 44(1),
 deemed to be a person convicted of an offence in
-10connection with the driving of a motor vehicle.”; and
+10connection with the driving of a motor vehicle."; and
 (j) in subsection (16), replace the definition of
-“disqualification period” with —
-“ “disqualification period”, for an offender convicted
+"disqualification period" with  - 
+" "disqualification period", for an offender convicted
 of an offence (called in this subsection the
 15relevant offence) under this section or
 section 65 (as the case may be), means the
@@ -199,7 +199,7 @@ from holding or obtaining a driving licence
 because of that conviction for the relevant
 20offence, starting on the later of the following
 dates:
-(a) the date of the offender’s conviction
+(a) the date of the offender's conviction
 for the relevant offence;
 (b) the date the offender is released from
 25prison and is no longer serving any
@@ -209,67 +209,67 @@ imprisonment (whether for the
 relevant offence or any other
 30offence) before or at the same
 hearing where the offender is
-sentenced for the relevant offence;”.
+sentenced for the relevant offence;".
 7
 Amendment of section 65
-8. In the RT Act, in section 65 —
-(a) in subsection (7)(c), replace “12 months” with
-“18 months”;
-5 (b) in subsection (7)(d), replace “2 years” with “3 years and
-6 months”;
-(c) in subsection (9), replace “shorter period of
-disqualification” with “shorter disqualification period”;
-(d) in the following provisions, replace “the date of
+8. In the RT Act, in section 65  - 
+(a) in subsection (7)(c), replace "12 months" with
+"18 months";
+5 (b) in subsection (7)(d), replace "2 years" with "3 years and
+6 months";
+(c) in subsection (9), replace "shorter period of
+disqualification" with "shorter disqualification period";
+(d) in the following provisions, replace "the date of
 10 commencement of section 5 of the Road Traffic
-(Miscellaneous Amendments) Act 2025” wherever it
-appears with “12 June 2025”:
+(Miscellaneous Amendments) Act 2025" wherever it
+appears with "12 June 2025":
 (d) Subsection (9)(b), (e), (h) and (j)
 (d) Subsection (10)(a), (b), (c) and (d)
 15 (d) Subsection (11)(a) and (b)(i);
-(e) in subsection (10), replace “shorter period” with “shorter
-disqualification period”; and
-(f) in subsection (11)(a)(ii), after “section”, insert “63A,”.
+(e) in subsection (10), replace "shorter period" with "shorter
+disqualification period"; and
+(f) in subsection (11)(a)(ii), after "section", insert "63A,".
 Amendment of section 65AA
-20 9. In the RT Act, in section 65AA(1), after paragraph (aa), insert —
-“(ab) section 63A;”.
+20 9. In the RT Act, in section 65AA(1), after paragraph (aa), insert  - 
+"(ab) section 63A;".
 Amendment of section 65B
-10. In the RT Act, in section 65B —
-(a) in the section heading, replace “Use of” with “Holding”;
-25 (b) in subsection (1), delete “and operates any of its
-communicative or other functions,”;
-(c) after subsection (1A), insert —
-“(1B) To avoid doubt, for the purposes of
+10. In the RT Act, in section 65B  - 
+(a) in the section heading, replace "Use of" with "Holding";
+25 (b) in subsection (1), delete "and operates any of its
+communicative or other functions,";
+(c) after subsection (1A), insert  - 
+"(1B) To avoid doubt, for the purposes of
 subsection (1), a driver who touches with his or her
 30 hand a mobile communication device which is
 8
 secured in a mounting affixed to the vehicle, in the
 manner intended by the manufacturer of the
-mounting, does not hold the device.”; and
-(d) in subsection (3), in the definition of “repeat offender”,
-5replace paragraphs (a), (b) and (c) with —
-“(a) an offence under subsection (1); or
+mounting, does not hold the device."; and
+(d) in subsection (3), in the definition of "repeat offender",
+5replace paragraphs (a), (b) and (c) with  - 
+"(a) an offence under subsection (1); or
 (b) an offence under section 65B as in force
-immediately before 1 February 2015,”.
+immediately before 1 February 2015,".
 Amendment of section 67
-1011. In the RT Act, in section 67 —
-(a) in subsection (1)(a), delete “or” at the end;
-(b) in subsection (1)(b), after “blood”, insert “is equal to or”;
+1011. In the RT Act, in section 67  - 
+(a) in subsection (1)(a), delete "or" at the end;
+(b) in subsection (1)(b), after "blood", insert "is equal to or";
 (c) in subsection (1)(b), replace the comma at the end with
-“; or”;
-15(d) in subsection (1), after paragraph (b), insert —
-“(c) has a specified substance present in his or
-her blood,”;
-(e) after subsection (1), insert —
-“(1A) In any proceedings for an offence under
+"; or";
+15(d) in subsection (1), after paragraph (b), insert  - 
+"(c) has a specified substance present in his or
+her blood,";
+(e) after subsection (1), insert  - 
+"(1A) In any proceedings for an offence under
 20subsection (1)(c), it is a defence for the defendant to
-prove, on a balance of probabilities, that —
+prove, on a balance of probabilities, that  - 
 (a) the specified substance was present in the
-defendant’s blood at the time of the alleged
+defendant's blood at the time of the alleged
 offence because the specified substance
 25was lawfully smoked, inhaled, used or
 consumed by, or lawfully administered to
 or by, the defendant as authorised or
-exempted under —
+exempted under  - 
 (i) the Misuse of Drugs Act 1973;
 30(ii) the Tobacco and V aporisers Control
 Act 1993; or
@@ -283,24 +283,24 @@ or by, the defendant, of the specified
 substance would affect his or her
 capacity, at the time of the alleged
 offence, to have proper control of a motor
-10 vehicle.”;
-(f) in subsection (2), replace “period of disqualification, order
+10 vehicle.";
+(f) in subsection (2), replace "period of disqualification, order
 that the person be disqualified from holding or obtaining a
 driving licence for a period that is equal to or longer than
 the specified period corresponding to that case, starting on
-15 the date of the person’s conviction or, where the person is
-sentenced to imprisonment, on the date of the person’s
-release from prison” with “disqualification period, order
+15 the date of the person's conviction or, where the person is
+sentenced to imprisonment, on the date of the person's
+release from prison" with "disqualification period, order
 that the person be disqualified from holding or obtaining a
 driving licence for a disqualification period that is equal to
 20 or longer than the specified period corresponding to that
-case”;
-(g) in subsection (2A), replace “shorter period of
-disqualification” with “shorter disqualification period”;
+case";
+(g) in subsection (2A), replace "shorter period of
+disqualification" with "shorter disqualification period";
 and
-25 (h) replace subsection (4) with —
-“(4) In this section —
-“disqualification period”, for an offender
+25 (h) replace subsection (4) with  - 
+"(4) In this section  - 
+"disqualification period", for an offender
 convicted of an offence (called in this
 subsection the relevant offence) under this
 30 section, means the period for which the
@@ -309,7 +309,7 @@ obtaining a driving licence because of that
 conviction for the relevant offence, starting
 on the later of the following dates:
 10
-(a) the date of the offender’s conviction
+(a) the date of the offender's conviction
 for the relevant offence;
 (b) the date the offender is released from
 prison and is no longer serving any
@@ -320,59 +320,958 @@ relevant offence or any other
 offence) before or at the same
 10hearing where the offender is
 sentenced for the relevant offence;
-“repeat offender” means a person who is
+"repeat offender" means a person who is
 convicted of an offence under this section
 and who has been convicted (whether before,
 15on or after 1 November 2019) on one other
-earlier occasion of —
+earlier occasion of  - 
 (a) an offence under subsection (1) or
 section 68; or
 (b) an offence under subsection (1) as in
 20force immediately before
-1 November 2019.”.
+1 November 2019.".
 Amendment of section 67A
-12. In the RT Act, in section 67A(3), in the definition of “specified
-offence” —
-25(a) in paragraph (a), delete “64(1) (as in force immediately
+12. In the RT Act, in section 67A(3), in the definition of "specified
+offence"  - 
+25(a) in paragraph (a), delete "64(1) (as in force immediately
 before the date of commencement of section 5 of the Road
-Traffic (Miscellaneous Amendments) Act 2025),”;
-(b) after paragraph (a), insert —
-“(aa) section 64(1) that is committed before
-3012 June 2025;”;
-(c) in paragraphs (b) and (ba), replace “the date of
+Traffic (Miscellaneous Amendments) Act 2025),";
+(b) after paragraph (a), insert  - 
+"(aa) section 64(1) that is committed before
+3012 June 2025;";
+(c) in paragraphs (b) and (ba), replace "the date of
 commencement of section 5 of the Road Traffic
-(Miscellaneous Amendments) Act 2025” with “12 June
-2025”;
+(Miscellaneous Amendments) Act 2025" with "12 June
+2025";
 11
-(d) in paragraph (ba), delete “or” at the end; and
-(e) after paragraph (ba), insert —
-“(bb) section 63A(1) that is committed on or after
+(d) in paragraph (ba), delete "or" at the end; and
+(e) after paragraph (ba), insert  - 
+"(bb) section 63A(1) that is committed on or after
 the date of commencement of section 6 of
 5 the Road Traffic (Miscellaneous
-Amendments) Act 2026; or”.
+Amendments) Act 2026; or".
 Amendment of section 68
-13. In the RT Act, in section 68 —
-(a) in subsection (1)(a), delete “or” at the end;
-10 (b) in subsection (1)(b), after “blood”, insert “is equal to or”;
+13. In the RT Act, in section 68  - 
+(a) in subsection (1)(a), delete "or" at the end;
+10 (b) in subsection (1)(b), after "blood", insert "is equal to or";
 (c) in subsection (1)(b), replace the comma at the end with
-“; or”;
-(d) in subsection (1), after paragraph (b), insert —
-“(c) has a specified substance present in his or
-15 her blood,”;
-(e) after subsection (1), insert —
-“(1A) In any proceedings for an offence under
+"; or";
+(d) in subsection (1), after paragraph (b), insert  - 
+"(c) has a specified substance present in his or
+15 her blood,";
+(e) after subsection (1), insert  - 
+"(1A) In any proceedings for an offence under
 subsection (1)(c), it is a defence for the defendant to
-prove, on a balance of probabilities, that —
+prove, on a balance of probabilities, that  - 
 20 (a) the specified substance was present in the
-defendant’s blood at the time of the alleged
+defendant's blood at the time of the alleged
 offence because the specified substance
 was lawfully smoked, inhaled, used or
 consumed by, or lawfully administered to
 25 or by, the defendant as authorised or
-exempted under —
+exempted under  - 
 (i) the Misuse of Drugs Act 1973;
 (ii) the Tobacco and V aporisers Control
 Act 1993; or
 30 (iii) the Intoxicating Substances
 Act 1987; and
 12
+(b) the defendant did not know or have reason
+to believe that the smoking, inhalation, use
+or consumption by, or the administration to
+or by, the defendant, of the specified
+5substance would affect his or her
+capacity, at the time of the alleged
+offence, to have proper control of a motor
+vehicle.";
+(f) replace subsection (2) with  - 
+10"(2) For the purpose of subsection (1), a person is
+deemed not to have been in charge of a motor vehicle
+if the person proves, on a balance of probabilities  - 
+(a) that at the material time the circumstances
+were such that there was no likelihood of
+15the person's driving the vehicle so long
+as  - 
+(i) he or she remained so unfit to drive;
+(ii) the proportion of alcohol in his or her
+breath or blood remained equal to or
+20in excess of the prescribed limit; or
+(iii) the specified substance was present
+in his or her blood; and
+(b) that the person had not driven the vehicle
+on a road or other public place between  - 
+25(i) the time he or she became so unfit to
+drive and the material time;
+(ii) the time when the proportion of
+alcohol in his or her breath or blood
+first became equal to, or first
+30exceeded, the prescribed limit and
+the material time; or
+(iii) the time when the specified
+substance became present in his or
+13
+her blood and the material time.";
+and
+(g) in subsection (3), replace "of the offender's release from
+prison" with "the offender is released from prison and is no
+5 longer serving any sentence of imprisonment".
+Amendment of section 69
+14. In the RT Act, in section 69  - 
+(a) replace the section heading with "Breath tests, etc.";
+(b) in subsections (1), (3A) and (5)(a) and (b), replace
+10 "preliminary breath test" with "breath test";
+(c) after subsection (1), insert  - 
+"(1A) A police officer may, for the prevention or
+detection of an offence under section 67 or 68 and
+before requiring the person to provide a specimen of
+15 his or her breath for a breath test under subsection (1),
+subject the person to a passive breath test.";
+(d) replace subsection (2) with  - 
+"(2) A person may be required under subsection (1)
+to provide a specimen of his or her breath  - 
+20 (a) at or near the place where the requirement
+is made; or
+(b) if the police officer making the requirement
+thinks fit, at a police station specified by
+the police officer.";
+25 (e) in subsection (3), replace "A preliminary breath test
+required under subsection (1)" with "A breath test
+required under subsection (1), and a passive breath test
+mentioned in subsection (1A),";
+(f) in subsection (4), replace "pursuant to this section" with
+30 "under subsection (1) or (3A)";
+(g) after subsection (4), insert  - 
+14
+"(4A) If a person (X) is convicted of an offence
+under subsection (4) and it is shown that at the time of
+X's involvement in an accident mentioned in
+subsection (1)(d) (if any) or of X's arrest under
+5subsection (5)(b) or (c), as the case may be  - 
+(a) X was driving or attempting to drive a
+motor vehicle on a road or any other public
+place  -  X shall, in lieu of the punishment
+prescribed under subsection (4), be liable to
+10be punished as if the offence which X is
+convicted of were an offence under
+section 67; or
+(b) X was in charge of a motor vehicle on a
+road or any other public place  -  X shall, in
+15lieu of the punishment prescribed under
+subsection (4), be liable to be punished as if
+the offence which X is convicted of were an
+offence under section 68."; and
+(h) in subsection (5)(a), after "blood", insert "is equal to or".
+20Amendment of section 70
+15. In the RT Act, in section 70  - 
+(a) in the section heading, after "Provision of", insert
+"blood";
+(b) replace subsections (1), (2) and (3) with  - 
+25"(1) A police officer may, subject to the provisions
+of this section, require a person (X) to provide to a
+registered medical practitioner or nurse, at any place
+that may be determined by the police officer, a
+specimen of blood for a laboratory test for the purpose
+30of investigating whether X has committed an offence
+under section 67 or 68 if  - 
+(a) X is arrested under section 69(5); or
+15
+(b) X is at a hospital as a patient and the police
+officer making the requirement has
+reasonable cause to suspect that  - 
+(i) X has alcohol in X's body; or
+5 (ii) X is under the influence of a drug, a
+psychoactive substance or an
+intoxicating substance.
+(2) A requirement under subsection (1)(a) to
+provide a specimen of blood must not be made
+10 unless  - 
+(a) the police officer making the requirement
+has reasonable cause to believe that for
+medical reasons a specimen of breath for a
+breath test under section 69(1) or (3A)
+15 cannot be provided or should not be
+required;
+(b) when the requirement is made, there is no
+breath analysing device of a type approved
+for a breath test under section 69(1) or (3A)
+20 at the hospital, or at the police station or at
+or near the place where the arrest was
+made, or it is for any other reason not
+practicable to conduct a breath test under
+that section; or
+25 (c) the police officer making the requirement
+has reasonable cause to suspect that the
+person required to provide the specimen is
+under the influence of a drug, a
+psychoactive substance or an intoxicating
+30 substance.
+(3) A requirement under this section to provide a
+specimen of blood may be made even though the
+person required to provide the specimen has already
+provided or been required to provide a specimen of
+16
+his or her breath for a breath test under section 69(1)
+or (3A).";
+(c) in subsection (4), after "specimen", insert "of blood for a
+laboratory test"; and
+5(d) in subsection (5), after "under this section to provide a
+specimen", insert "of blood".
+Replacement of section 71
+16. In the RT Act, replace section 71 with  - 
+"How breath test or blood test is to be carried out
+1071. - (1) Before taking a specimen of breath for a breath test
+from a person (X) who is at a hospital as a patient, the police
+officer taking the specimen, the registered medical practitioner
+or nurse in immediate charge of X's case, and any other person
+who is giving instruction in relation to or overseeing the taking
+15of the specimen, must each satisfy himself or herself that it does
+not endanger X.
+(2) Before taking a specimen of blood for a laboratory test
+from a person (Y) mentioned in section 70(1), the registered
+medical practitioner or nurse taking the specimen, and any other
+20person who is giving instruction in relation to or overseeing the
+taking of the specimen, must each satisfy himself or herself that
+it does not endanger Y.".
+Amendment of section 71A
+17. In the RT Act, in section 71A  - 
+25(a) replace subsection (1) with  - 
+"(1) In proceedings for an offence under section 67
+or 68, evidence of the proportion of alcohol or of any
+drug, psychoactive substance or intoxicating
+substance in a specimen of breath or blood provided
+30by the accused under section 69 or 70 (as the case may
+be) is to be taken into account.
+17
+(1A) Where the proceedings are for an offence
+under  - 
+(a) section 67(1)(a) or 68(1)(a) and it is
+alleged that, at the time of the offence,
+5 the accused was unfit to drive in that he or
+she was under the influence of drink; or
+(b) section 67(1)(b) or 68(1)(b),
+subject to subsection (2), it is to be assumed that the
+proportion of alcohol in the accused's breath or blood
+10 at the time of the alleged offence was not less than that
+in the accused's specimen of breath or blood provided
+under section 69 or 70, as the case may be.
+(1B) Where the proceedings are for an offence
+under section 67(1)(c) or 68(1)(c), subject to
+15 subsection (2A), it is to be assumed that the
+specified substance was present in the accused's
+blood at the time of the alleged offence if it is present
+in the accused's specimen of blood provided under
+section 70.";
+20 (b) in subsection (2), replace "subsection (1) must not be made
+if the accused proves" with "subsection (1A) must not be
+made if the accused proves, on a balance of probabilities";
+(c) after subsection (2), insert  - 
+"(2A) Where the proceedings are for an offence
+25 under section 67(1)(c) or 68(1)(c), the assumption
+mentioned in subsection (1B) must not be made if the
+accused proves, on a balance of probabilities  - 
+(a) that he or she smoked, inhaled, used,
+consumed, administered, or was
+30 administered, the specified substance after
+he or she had ceased to drive, attempt to
+drive or be in charge of a motor vehicle on a
+road or any other public place and before
+he or she provided the specimen of blood;
+35 and
+18
+(b) that had he or she not done so (or been so
+administered) the specified substance
+would not have been present in his or her
+blood."; and
+5(d) in subsection (4), after "registered medical practitioner"
+wherever it appears, insert "or nurse".
+Amendment of section 71B
+18. In the RT Act, in section 71B  - 
+(a) in the section heading, after "registered medical
+10practitioner", insert "or nurse"; and
+(b) in subsection (1), after "registered medical practitioner"
+wherever it appears, insert "or nurse".
+Amendment of section 72
+19. In the RT Act, in section 72  - 
+15(a) in subsection (1), in the definition of "authorised analyst",
+after "registered medical practitioner", insert ", nurse";
+(b) in subsection (1), after the definition of "intoxicating
+substance", insert  - 
+" "nurse" means a registered nurse or enrolled nurse
+20within the meaning given by section 2 of the
+Nurses and Midwives Act 1999;
+"passive breath test" means a contactless test using
+ambient air samples to assess whether there is
+alcohol present in a person's breath, by means of
+25a breath analysing device of a type approved by
+the Deputy Commissioner of Police;";
+(c) in subsection (1), delete the definition of "preliminary
+breath test";
+(d) in subsection (1), in the definition of "prescribed limit", in
+30paragraph (a), replace "35 microgrammes" with
+"15 microgrammes";
+19
+(e) in subsection (1), in the definition of "prescribed limit", in
+paragraph (b), replace "80 milligrammes" with
+"30 milligrammes";
+(f) in subsection (1), in the definition of "psychoactive
+5 substance", in paragraph (b), replace the full-stop at the
+end with a semi-colon;
+(g) in subsection (1), after the definition of "psychoactive
+substance", insert  - 
+" "specified substance" means any substance which
+10 is  - 
+(a) a controlled drug within the meaning
+given by section 2 of the Misuse of
+Drugs Act 1973;
+(b) a psychoactive substance; or
+15 (c) an intoxicating substance.";
+(h) in subsection (1A), replace "definition of "breath test""
+with "definition of "breath test" or "passive breath test" (as
+the case may be)"; and
+(i) in subsection (3), after "registered medical practitioner",
+20 insert "or nurse".
+Amendment of section 79
+20. In the RT Act, in section 79(5), after "released from prison",
+insert "and is no longer serving any sentence of imprisonment".
+Replacement of section 81 and new sections 81A, 81B and 81C
+25 21. In the RT Act, replace section 81 with  - 
+"Duty to give information
+81. - (1) Where the driver of a motor vehicle is alleged or is
+suspected to be guilty of an offence under this Act or the rules,
+the owner of the motor vehicle (called in this section the affected
+30 owner), when required under a notice issued by a relevant
+enforcement officer to do so, must give to the relevant
+20
+enforcement officer, within 14 days after being served with the
+notice, such information specified in the notice as to  - 
+(a) the identity and address of the person who was driving
+the motor vehicle at or about the time of the alleged
+5offence; and
+(b) the driving licence held by that person.
+(2) In addition, a relevant enforcement officer may issue a
+notice to any person (other than the affected owner) who was or
+should have been in charge of the motor vehicle mentioned in
+10subsection (1) (called in this section the affected person),
+requiring the affected person to give to the relevant enforcement
+officer, within 14 days after being served with the notice, any
+information which the affected person has power to give and
+which may lead to the identification of the driver.
+15(3) An affected owner who fails to give the information as
+required of the affected owner under subsection (1) is guilty of
+an offence unless the affected owner proves, on a balance of
+probabilities, that the affected owner did not know and could not
+with reasonable diligence have ascertained the information
+20required.
+(4) In a case where the driver of a motor vehicle is alleged or is
+suspected to be guilty of an offence specified in Part 1 of the
+Third Schedule and the affected owner  - 
+(a) is guilty of an offence under subsection (3); and
+25(b) holds a driving licence,
+the affected owner is presumed, until the contrary is proved, to
+have been the driver of the motor vehicle at the time of the
+occurrence of the firstmentioned offence.
+(5) For the purposes of subsection (3), where the affected
+30owner is a company, a partnership or an unincorporated body,
+the affected owner is not taken to have discharged the burden of
+proving that it could not, with reasonable diligence, have
+ascertained the information required under subsection (1) unless
+21
+the affected owner also proves, on a balance of probabilities,
+that  - 
+(a) the affected owner had kept a proper and accurate
+record as required under section 81C(1); but
+5 (b) the record shows no person having been permitted by
+the affected owner to drive the motor vehicle at or
+about the time of the alleged offence.
+(6) An affected person who fails to give the information as
+required of the affected person under subsection (2) is guilty of
+10 an offence.
+(7) In this section and sections 81A and 81B, "relevant
+enforcement officer" means  - 
+(a) a police officer;
+(b) an employee of the Authority;
+15 (c) an outsourced enforcement officer; or
+(d) an individual who is  - 
+(i) appointed under this subsection by the Deputy
+Commissioner of Police as an authorised
+individual for the purposes of this section and
+20 section 81A;
+(ii) authorised by the Deputy Commissioner of
+Police to exercise the powers under this section
+and section 81A; and
+(iii) acting within that authorisation.
+25 Use of computer program to impose requirement to give
+information
+81A. - (1) The Deputy Commissioner of Police may authorise
+the use of a computer program, operated under the Deputy
+Commissioner of Police's oversight, for all or any of the
+30 following:
+(a) to assess, based on any recorded image or video
+recording, if there is sufficient evidence that  - 
+22
+(i) a motor vehicle was involved in an unlawful act
+that, if proven, would constitute a prescribed
+offence under this Act or the rules (called in this
+section the alleged offence) which, for every
+5physical element of the offence, there is no
+corresponding fault element; and
+(ii) a particular motor vehicle is the motor vehicle
+mentioned in sub-paragraph (i);
+(b) if there is a positive assessment of the evidence
+10mentioned in paragraph (a), to cause a notice to be
+issued to the owner of the motor vehicle involved
+(called in this section the affected owner), requiring
+the affected owner to give to the Deputy
+Commissioner of Police, within 14 days after being
+15served with the notice, such information specified in
+the notice as to  - 
+(i) the identity and address of the person who was
+driving the motor vehicle at or about the time of
+the alleged offence; and
+20(ii) the driving licence held by that person.
+(2) In addition, a relevant enforcement officer may issue a
+notice to any person (other than the affected owner) who was or
+should have been in charge of the motor vehicle mentioned in
+subsection (1) (called in this section the affected person),
+25requiring the affected person to give to the relevant enforcement
+officer, within 14 days after being served with the notice, any
+information which the affected person has power to give and
+which may lead to the identification of the driver.
+(3) An affected owner who fails to give the information as
+30required of the affected owner under subsection (1)(b) is guilty
+of an offence unless the affected owner proves, on a balance of
+probabilities, that the affected owner did not know and could not
+with reasonable diligence have ascertained the information
+required.
+23
+(4) In a case where it is assessed under subsection (1)(a) that a
+motor vehicle was involved in an unlawful act that, if proven,
+would constitute an alleged offence which is specified in Part 1
+of the Third Schedule, and the affected owner  - 
+5 (a) is guilty of an offence under subsection (3); and
+(b) holds a driving licence,
+the affected owner is presumed, until the contrary is proved, to
+have been the driver of the motor vehicle at the time of the
+occurrence of the firstmentioned offence.
+10 (5) For the purposes of subsection (3), where the affected
+owner is a company, a partnership or an unincorporated body,
+the affected owner is not taken to have discharged the burden of
+proving that it could not, with reasonable diligence, have
+ascertained the information required under subsection (1)(b)
+15 unless the affected owner also proves, on a balance of
+probabilities, that  - 
+(a) the affected owner had kept a proper and accurate
+record as required under section 81C(1); but
+(b) the record shows no person having been permitted by
+20 the affected owner to drive the motor vehicle at or
+about the time of the alleged offence.
+(6) An affected person who fails to give the information as
+required of the affected person under subsection (2) is guilty of
+an offence.
+25 (7) Where  - 
+(a) a notice under subsection (1)(b) is served on an
+affected owner; or
+(b) a notice under subsection (2) is served on an affected
+person,
+30 the affected owner or affected person (as the case may be) may
+apply within the prescribed time to the Deputy Commissioner of
+Police to revoke the notice on the basis that  - 
+24
+(c) at the time of the alleged offence, the motor vehicle
+mentioned in subsection (1) was not at the place of the
+alleged offence; or
+(d) at the time of the alleged offence, the motor vehicle
+5mentioned in subsection (1) was at the place of the
+alleged offence, but the alleged offence had not
+occurred.
+(8) Where an application is made under subsection (7), the
+Deputy Commissioner of Police or any public officer authorised
+10by the Deputy Commissioner of Police must  - 
+(a) review the evidence mentioned in subsection (1)(a);
+and
+(b) confirm or revoke the notice which was issued to the
+affected owner or affected person, as the case may be.
+15(9) Within the prescribed time and subject to any prescribed
+conditions, the Deputy Commissioner of Police or any public
+officer authorised by the Deputy Commissioner of Police may
+take the steps set out in subsection (8) even if no application is
+made under subsection (7).
+20Other offences and evidential provisions relating to
+requirement to give information
+81B. - (1) A person required under section 81(1) or (2) or
+81A(1)(b) or (2) to give information commits an offence if  - 
+(a) the person  - 
+25(i) provides, or causes or permits to be provided,
+any information in connection with the
+requirement, which is false or misleading in a
+material particular; and
+(ii) knows or ought reasonably to know that, or is
+30reckless as to whether, the information is false
+or misleading in a material particular; or
+(b) the person intentionally alters, suppresses or destroys
+any information which the person is required under
+25
+section 81(1) or (2) or 81A(1)(b) or (2) to give, for the
+purpose of not leading to the identification of the
+driver.
+(2) A person commits an offence if the person pretends, or
+5 falsely represents (by word or conduct) himself or herself, to be
+a person who was driving the motor vehicle at or about the time
+of an alleged offence that is the subject of a requirement made
+under section 81(1) or (2) or 81A(1)(b) or (2), knowing that he or
+she was not the driver of the motor vehicle.
+10 (3) A person who is guilty of an offence under subsection (1)
+or (2) shall be liable on conviction to a fine not exceeding
+$10,000 or to imprisonment for a term not exceeding 12 months
+or to both.
+(4) Any person required under section 81(1) or (2) or
+15 81A(1)(b) or (2) to give information may also be required to
+give the information in writing duly signed by that person.
+(5) Despite any other written law to the contrary, any
+information given under subsection (4), section 81 or 81A by
+any person charged with any offence under this Act or the rules
+20 or any offence in connection with the driving of a motor vehicle
+may be used as evidence without proof of signature at the
+hearing of the charge.
+(6) Despite any other written law to the contrary, any
+statement made by any person to a relevant enforcement
+25 officer  - 
+(a) that a motor vehicle was on a particular occasion
+being driven by or belonged to that person; or
+(b) that a motor vehicle belonged to a firm in which that
+person also stated that he or she was a partner or to a
+30 corporation of which that person stated that he or she
+was a director, officer or employee,
+is admissible in evidence without proof of signature for the
+purpose of determining by whom the motor vehicle was on that
+occasion being driven or who was in charge of it or to whom it
+35 belonged.
+26
+(7) Any person who is guilty of an offence under section 81(3)
+or (6) or 81A(3) or (6) shall be liable on conviction  - 
+(a) to a fine not exceeding $1,000 or to imprisonment for
+a term not exceeding 3 months or to both; and
+5(b) in the case of a second or subsequent conviction, to a
+fine not exceeding $2,000 or to imprisonment for a
+term not exceeding 6 months or to both.
+Record-keeping requirements for corporate owners of
+motor vehicles, etc.
+1081C. - (1) Where the owner of a motor vehicle is a company, a
+partnership or an unincorporated body, it is the duty of the owner
+to keep (and to that end designate at least one of its responsible
+officers to ensure the keeping of) a proper and accurate record of
+each occasion on which any person is permitted by the owner to
+15drive the motor vehicle, whether or not the person is a director,
+member, partner, officer, employee or agent of the owner or
+otherwise, and whether or not the person is permitted to drive the
+motor vehicle in the course of his or her employment with the
+owner or otherwise.
+20(2) The record required to be kept under subsection (1)  - 
+(a) must contain  - 
+(i) the registration number of the motor vehicle;
+(ii) the name, address, driving licence number
+(whether local or foreign) and identity card or
+25passport number of the person permitted by the
+owner of the motor vehicle to drive the motor
+vehicle; and
+(iii) the date and time, or the period, during which
+the motor vehicle is allocated to the person for
+30him or her to drive it; and
+(b) must be retained by the owner of the motor vehicle for
+a period of at least 12 months beginning with the date,
+or with the date of the start of the period, mentioned in
+paragraph (a)(iii).
+27
+(3) In subsection (1), "responsible officer" means  - 
+(a) for a company, the person for the time being holding
+the office of chairperson, managing director or
+company secretary of, or any position analogous to
+5 any of those offices in, the company;
+(b) for a partnership, any partner of the partnership; or
+(c) for an unincorporated body of persons, the person for
+the time being holding the office of president,
+secretary or treasurer of the governing body or a
+10 committee (or an equivalent body) of, or any position
+analogous to any of those offices in, the body of
+persons,
+and includes any person carrying out the duties of any such
+office mentioned in paragraph (a), (b) or (c) if that office is
+15 vacant.".
+Amendment of section 84
+22. In the RT Act, in section 84  - 
+(a) replace subsection (9) with  - 
+"(9) Where  - 
+20 (a) a person (A) is convicted of an offence
+under subsection (7) arising from A's
+failure to comply with subsection (3); and
+(b) the court convicting A is satisfied that A
+had in driving or attempting to drive a
+25 motor vehicle at the time of the accident
+mentioned in subsection (3) caused any
+serious injury or death to another person,
+the court is to order that A be disqualified from
+holding or obtaining a driving licence for a
+30 disqualification period that is equal to or longer
+than 12 months, unless the court for special reasons
+thinks fit to not so order, or to order a shorter
+disqualification period."; and
+28
+(b) after subsection (11), insert  - 
+"(12) In this section, "disqualification period", for
+an offender (A) convicted of an offence (called in this
+subsection the relevant offence) under subsection (7)
+5arising from A's failure to comply with subsection (3),
+means the period for which A is disqualified from
+holding or obtaining a driving licence because of that
+conviction for the relevant offence, starting on the
+later of the following dates:
+10(a) the date of A's conviction for the relevant
+offence;
+(b) the date A is released from prison and is no
+longer serving any sentence of
+imprisonment, if A is or was sentenced to
+15imprisonment (whether for the relevant
+offence or any other offence) before or at
+the same hearing where A is sentenced for
+the relevant offence.".
+Amendment of section 116
+2023. In the RT Act, in section 116  - 
+(a) in subsection (9), replace ", unless the court for special
+reasons thinks fit to not order or to order a shorter period of
+disqualification, order that the person be disqualified from
+holding or obtaining a driving licence for a period that is
+25equal to or longer than 12 months starting on the date of the
+person's conviction or, if the person is sentenced to
+imprisonment, on the date of the person's release from
+prison" with "order that the person be disqualified from
+holding or obtaining a driving licence for a disqualification
+30period that is equal to or longer than 12 months, unless the
+court for special reasons thinks fit to not so order, or to
+order a shorter disqualification period"; and
+(b) after subsection (9), insert  - 
+29
+"(10) In this section, "disqualification period", for
+an offender convicted of an offence (called in this
+subsection the relevant offence) under subsection (7),
+means the period for which the offender is
+5 disqualified from holding or obtaining a driving
+licence because of that conviction for the relevant
+offence, starting on the later of the following dates:
+(a) the date of the offender's conviction for the
+relevant offence;
+10 (b) the date the offender is released from
+prison and is no longer serving any
+sentence of imprisonment, if the offender
+is or was sentenced to imprisonment
+(whether for the relevant offence or any
+15 other offence) before or at the same hearing
+where the offender is sentenced for the
+relevant offence.".
+Amendment of section 133
+24. In the RT Act, in section 133, delete subsection (2).
+20 PART 2
+AMENDMENT OF MOTOR VEHICLES
+(THIRD-PARTY RISKS AND COMPENSA TION) ACT 1960
+Amendment of section 3
+25. In the Motor V ehicles (Third-Party Risks and Compensation)
+25 Act 1960, in section 3  - 
+(a) in subsection (3), replace "period of disqualification" with
+"disqualification period";
+(b) in subsection (3), replace "period of 12 months starting on
+the date of the person's conviction or, if the person is
+30 sentenced to imprisonment, on the date of the person's
+release from prison" with "disqualification period of
+12 months"; and
+30
+(c) after subsection (8), insert  - 
+"(9) In this section, "disqualification period", for an
+offender convicted of an offence (called in this
+subsection the relevant offence) under this section,
+5means the period for which the offender is
+disqualified from holding or obtaining a driving
+licence because of that conviction for the relevant
+offence, starting on the later of the following dates:
+(a) the date of the offender's conviction for the
+10relevant offence;
+(b) the date the offender is released from
+prison and is no longer serving any
+sentence of imprisonment, if the offender
+is or was sentenced to imprisonment
+15(whether for the relevant offence or any
+other offence) before or at the same hearing
+where the offender is sentenced for the
+relevant offence.".
+PART 3
+20SA VING AND TRANSITIONAL PROVISION
+Saving and transitional provision
+26. For a period of 2 years after the date of commencement of any
+provision of this Act, the Minister may, by regulations, prescribe any
+provisions of a saving or transitional nature consequent on the
+25enactment of that provision that the Minister may consider necessary
+or expedient.
+31
+EXPLANA TORY STA TEMENT
+This Bill seeks to amend the Road Traffic Act 1961 (the RTA) and the Motor
+V ehicles (Third-Party Risks and Compensation) Act 1960 (the MVTRCA).
+Part 1 (clauses 2 to 24) amends the RTA for the following main purposes:
+(a) to provide that where disqualification from holding or obtaining a
+driving licence is imposed on an offender who is imprisoned (for any
+offence), the disqualification period is to start only after the offender is
+released from prison;
+(b) to introduce new road traffic offences and amend existing offence and
+penalty provisions;
+(c) to allow the Deputy Commissioner of Police (Deputy Commissioner)
+to authorise the use of a computer program (operated under the Deputy
+Commissioner's oversight) to impose information requirements;
+(d) to make other miscellaneous amendments.
+Part 2 (clause 25) amends the MVTRCA to provide that where disqualification
+from holding or obtaining a driving licence is imposed on an offender who is
+imprisoned (for any offence), the disqualification period is to start only after the
+offender is released from prison.
+Part 3 (clause 26) provides for a saving and transitional provision.
+Clause 1 relates to the short title and commencement.
+PART 1
+AMENDMENT OF ROAD TRAFFIC ACT 1961
+Part 1 (clauses 2 to 24) amends the RTA.
+Clause 2 amends section 36(7) to allow the court to order a person convicted of
+a new section 63A offence to be disqualified from holding or obtaining a driving
+licence until the person has since the date of the order passed the prescribed test of
+competence to drive.
+Clause 3 amends section 42(1) to introduce the term "disqualification period".
+The clause also inserts the new section 42(5) which defines that term. Under the
+new section 42(5)(a), where a disqualification order is made under section 42(1)
+and the offender is not imprisoned, the disqualification period starts on the date of
+the offender's conviction for the offence in relation to which the disqualification
+order is imposed (the relevant offence). However, under the new section 42(5)(b),
+if the offender was earlier already sentenced to imprisonment or the offender is
+sentenced to imprisonment at the same hearing where the offender is sentenced for
+the relevant offence, the disqualification period only begins when the offender is
+32
+released from prison and is no longer serving any sentence of imprisonment. It
+does not matter whether the imprisonment is imposed for the relevant offence or
+for an unrelated offence. The disqualification period does not start when an
+offender is released for employment preparation, on external placement or for
+home detention, as an offender released for any of these purposes is still serving
+the offender's sentence of imprisonment.
+Clause 4 consequentially replaces the definition of "disqualification period" in
+section 42B(2) to make it consistent with the other definitions of "disqualification
+period" in the RTA (as amended by the Bill).
+Clause 5 amends section 47C(1A) to allow the Deputy Commissioner to
+suspend the driving licence of a person who is being investigated for a possible
+commission of an offence under the new section 63A.
+Clause 6 inserts a new section 63A (Purposeful endangerment using motor
+vehicle). Under the new section 63A, it is an offence (called a section 63A
+offence) if  - 
+(a) a person (X) drives a motor vehicle on a road in such a manner which
+endangers the life or safety of any person;
+(b) X drives in that manner for the purpose of endangering the life or safety
+of a particular person (Y); and
+(c) death or grievous hurt is caused to any person (whether or not the
+person is Y) by X's driving of the motor vehicle.
+For the purposes of a section 63A offence, it does not matter whether the
+person whose life or safety is endangered, or the victim to whom death or grievous
+hurt is caused, is in a vehicle (including a bicycle).
+Due to the egregious nature of a section 63A offence, a person who is guilty of
+the offence shall be punished with imprisonment for a term not exceeding 15 years
+and, in addition, shall be liable to a fine or to caning, or to both. The offender will
+also be disqualified for life from holding or obtaining a driving licence, unless the
+court for special reasons thinks fit to order a shorter disqualification period that is
+equal to or longer than 10 years.
+Clause 7(a) amends section 64(7)(a) to increase the maximum imprisonment
+term that may be imposed for a case of reckless or dangerous driving causing
+grievous hurt. Clause 7(b) similarly amends section 64(7)(b) which applies to a
+repeat offender. Next, clause 7(c) amends section 64(7)(c) to increase the
+maximum imprisonment term which may be additionally imposed on a serious
+offender. Clause 7(d) similarly amends section 64(7)(d) which applies to a serious
+repeat offender.
+33
+Clause 7(e) and (g) replaces the term "period of disqualification" with
+"disqualification period" so that the new definition inserted by clause 7(j) will
+apply.
+Clause 7(f) inserts the actual commencement date to help a reader of the RTA.
+Clauses 7(h) and 8(f) amend sections 64(11)(a)(ii) and 65(11)(a)(ii),
+respectively, to include a past conviction for a section 63A offence for the
+purpose of the definition of "repeat offender".
+Clause 7(i) aligns subsection (12) with a similar provision in the new
+section 63A(4).
+Clause 7(j) replaces the definition of "disqualification period" with one similar
+to that in the new section 42(5) (see the explanation above for clause 3).
+Clause 8(a) and (b) amends section 65(7)(c) and (d), respectively, so that the
+maximum imprisonment terms mentioned in those provisions are the same as
+those in section 64(7)(c) and (d) (as amended by clause 7(c) and (d)). The effect is
+to increase the maximum imprisonment terms which may be additionally imposed
+on serious offenders and serious repeat offenders in cases of driving without due
+care and attention or reasonable consideration and grievous hurt is caused.
+Clause 8(c), (d) and (e) makes similar amendments as those in clause 7(e), (f)
+and (g), respectively.
+Clause 9 amends section 65AA to provide for the forfeiture of a motor vehicle
+that has been used in the commission of the new section 63A offence.
+Clause 10 amends section 65B(1) so that it is an offence for a driver to hold a
+mobile communication device while the vehicle is in motion on a road or in a
+public place. It is no longer an element of the offence that the driver operates any
+of the mobile communication device's communicative or other functions.
+Clause 10 further makes clear that touching a mobile communication device
+secured in a mounting affixed to the vehicle (as intended by the mounting's
+manufacturer) does not constitute holding the device. Clause 10(d) simplifies the
+definition of "repeat offender" to refer to an offence under subsection (1) from
+time to time amended, and the repealed section 65B.
+Clause 11 makes 3 key changes to section 67. First, clause 11(b) amends
+section 67(1)(b) to extend the offence to persons who drive or attempt to drive a
+motor vehicle with the proportion of alcohol in his or her breath or blood being
+equal to the prescribed limit.
+Second, clause 11(d) inserts the new section 67(1)(c) which makes it an
+offence for a person to drive or attempt to drive a motor vehicle on a road or other
+public place if the person has a specified substance present in his or her blood. A
+definition of "specified substance" will be inserted (by clause 19(g)) into
+section 72. It means any substance which is a controlled drug (within the meaning
+34
+given by section 2 of the Misuse of Drugs Act 1973), a psychoactive substance or
+an intoxicating substance. The terms "psychoactive substance" and "intoxicating
+substance" are already defined in the existing section 72.
+Relatedly, clause 11(e) inserts a new section 67(1A) which provides a statutory
+defence for the new section 67(1)(c) offence. It is a defence for the defendant to
+prove, on a balance of probabilities, 2 things. The first is that the specified
+substance was lawfully smoked, inhaled, used or consumed by, or lawfully
+administered to or by, the defendant as authorised or exempted under the relevant
+legislation. The second is that the defendant did not know or have reason to
+believe that the smoking, inhalation, use or consumption by, or the administration
+to or by, the defendant of the specified substance would affect his or her capacity
+(at the time of the alleged offence) to have proper control of a motor vehicle.
+Third, clause 11(f) and (g) introduces the term "disqualification period" into
+section 67(2) and (2A), respectively; and clause 11(h) replaces section 67(4) with
+a new section 67(4) that includes a definition of that term which is similar to that in
+the new section 42(5) (see the explanation above for clause 3). The effect of this
+change is that in a future case on the same facts as Ng Soon Kiat v Public
+Prosecutor [2026] 1 SLR 45, the offender's disqualification period would
+commence on the date of the offender's release from prison (regardless of whether
+the offender was imprisoned for an offence under section 67 or for any other
+offence). Clause 11(h) also reproduces the definition of "repeat offender" in the
+current section 67(4) which is unchanged.
+Clause 12 amends section 67A to make an amendment consequential to the
+addition of the new section 63A offence to provide enhanced punishment in
+respect of the new offence. The clause also inserts the operative date of the
+previous amendments to section 67A(3) to help the reader, but the same
+amendments were not made to subsection (1) as it will be replaced by
+section 71(a) of the Criminal Law (Miscellaneous Amendments) Act 2025
+when it comes into force.
+Clause 13(b) makes an amendment to section 68(1)(b) which corresponds to
+the amendment to section 67(1)(b). Clause 13(d) introduces a new offence in
+section 68(1)(c) which corresponds to the new offence in section 67(1)(c).
+Clause 13(e) introduces a new statutory defence in section 68(1A) for the new
+offence in section 68(1)(c) which corresponds to the new statutory defence in the
+new section 67(1A). Clause 13(f) replaces section 68(2). In the new
+section 68(2)(a) and (b), the reference to the proportion of alcohol in the
+person's breath or blood is updated to include a reference to the proportion of
+alcohol being equal to or exceeding the prescribed limit (see the new
+section 68(2)(a)(ii) and (b)(ii)). This is for consistency with the amendments to
+sections 67(1)(b) and 68(1)(b) explained above. In addition, the new
+section 68(2)(a)(iii) and (b)(iii) is included in light of the new offence in
+section 68(1)(c) above.
+35
+Clause 14 amends section 69 to remove the current requirement for a
+preliminary breath test to be conducted before a police officer may require a
+person to provide a breath specimen for a breath test. Under the RTA, only the
+result from a breath test (and not a preliminary breath test) is admissible as
+evidence of the proportion of alcohol in a specimen of breath under section 71A,
+provided that the requirements under section 71A are met. Moving forward, a
+police officer may conduct a breath test at the first instance at or near the place
+where the requirement is made, or if the police officer thinks fit, at a specified
+police station. A police officer may also, before requiring a breath test, subject a
+person to a passive breath test, which is a contactless test using ambient air
+samples to assess whether there is alcohol present in the person's breath. Clause 14
+also inserts a new section 69(4A) to provide for enhanced penalties in certain
+specified circumstances if a person, without reasonable excuse, fails to provide a
+breath specimen for a breath test when required to do so.
+Clause 15 amends section 70 for several purposes. First, clause 15 removes the
+references to a breath test as a consequence of the amendments to section 69 by
+clause 14. Second, under the new section 70(1), a police officer may require a
+person (X) to provide a blood specimen if X is arrested under section 69(5), or if X
+is a hospital patient and the police officer has reasonable cause to suspect that X
+has alcohol in X's body or is under the influence of a drug, a psychoactive
+substance or an intoxicating substance. Third, the new section 70(2) sets out
+exhaustively the situations when a police officer may require a person arrested
+under section 69(5) to provide a blood specimen.
+Clause 16 replaces section 71. The new section 71 now provides that before
+taking a specimen of breath or blood from a person (X), certain specified persons
+must be satisfied that the taking of the specimen does not endanger X.
+Clause 17 inserts the new section 71A(1B) to provide that in proceedings for an
+offence under the new section 67(1)(c) or 68(1)(c), where a specified substance is
+present in a specimen of blood provided by the accused under section 70, it is to be
+assumed that the specified substance was present in the accused's blood at the time
+of the alleged offence. However, under the new section 71(2A), such an
+assumption must not be made if the accused proves that he or she consumed or was
+administered the specified substance after he or she had ceased to drive, attempt to
+drive or be in charge of a motor vehicle and before he or she had provided the
+blood specimen. In addition, the accused must prove that had he or she not done so
+(or been so administered) the specified substance would not have been present in
+his or her blood.
+Clause 18 amends section 71B to extend the provisions to a nurse.
+Clause 19 amends section 72 for several purposes. First, clause 19 amends the
+definition of "prescribed limit" to lower the prescribed breath alcohol
+concentration and blood alcohol concentration limits for the purposes of an
+offence under sections 67 and 68. Second, clause 19 inserts new definitions of
+36
+"nurse", "passive breath test" and "specified substance" for the purposes of the
+amendments made to sections 67 to 71B by clauses 11 to 18, respectively.
+Clause 20 amends section 79(5) to specify that disqualification takes effect
+from the date the person is released from prison and is no longer serving any
+sentence of imprisonment.
+Clause 21 replaces the existing section 81 with new sections 81, 81A, 81B and
+81C. The new section 81 preserves several provisions from the existing section 81,
+with adaptations. The new section 81(7) defines the new term "relevant
+enforcement officer". The new section 81 thus incorporates the amendments
+made by section 74 of the Land Transport and Related Matters Act 2026 (which
+has not been brought into force as at 7 July 2026).
+The new section 81A(1) provides a new power for the Deputy Commissioner
+to authorise the use of a computer program, operated under the Deputy
+Commissioner's oversight, to do 2 things. The first is to assess if there is
+sufficient evidence that a particular motor vehicle was involved in an unlawful act
+that, if proven, would constitute a prescribed offence under the RTA or rules made
+under the RTA. Only offences that, for every physical element of the offence, there
+is no corresponding fault element, can be prescribed for the purposes of the new
+section. The second (which can only be done if the assessment mentioned above is
+that there is sufficient evidence) is to cause a notice to be issued to the owner of the
+motor vehicle, requiring the owner to provide the same information as may be
+required of the owner under the new section 81(1).
+The new section 81A(7) allows the recipients of notices served under the new
+section 81A(1)(b) or (2) to apply within the prescribed time to the Deputy
+Commissioner to revoke the notice on the basis that the motor vehicle in question
+was not at the place of the alleged offence, or that it was there but the offence had
+not occurred. The new section 81A(8) requires the Deputy Commissioner (or any
+public officer authorised by the Deputy Commissioner) to review the evidential
+basis for the issuance of the notice to the affected owner or affected person, and
+confirm or revoke the notice. This ensures that in every case where an application
+is made under the new section 81A(7), the evidential basis for the issuance of the
+notice in question undergoes human review and is confirmed or revoked by a
+human (the Deputy Commissioner or any public officer authorised by the Deputy
+Commissioner, as mentioned above). Even if no application is made under the new
+section 81A(7), the new section 81A(9) allows the Deputy Commissioner (or any
+public officer authorised by the Deputy Commissioner) to take the steps set out in
+the new section 81A(8).
+The new sections 81B and 81C contain provisions from the existing section 81
+which supplement both the new sections 81 and 81A.
+37
+Clauses 22 and 23 amend sections 84 and 116, respectively, to introduce the
+term "disqualification period" and to insert a definition of that term which is
+similar to that in the new section 42(5) (see the explanation above for clause 3).
+Clause 24 deletes subsection (2) of section 133.
+PART 2
+AMENDMENT OF MOTOR VEHICLES
+(THIRD-PARTY RISKS AND COMPENSA TION) ACT 1960
+Part 2 (clause 25) amends the MVTRCA.
+Clause 25 amends section 3(3) to introduce the term "disqualification period",
+and inserts the new section 3(9) which provides a definition for that term which is
+similar to that in the new section 42(5) of the RTA (see the explanation above for
+clause 3).
+PART 3
+SA VING AND TRANSITIONAL PROVISION
+Part 3 (clause 26) provides for a power to make saving and transitional
+provisions.
+Clause 26 empowers the Minister to make regulations prescribing any
+provisions of a saving or transitional nature consequent on the enactment of
+any provision of the Bill, that the Minister may consider necessary or expedient.
+The Minister has power to do so only within 2 years after the commencement of
+the provision.
+EXPENDITURE OF PUBLIC MONEY
+This Bill will not involve the Government in any extra financial expenditure.
+38
