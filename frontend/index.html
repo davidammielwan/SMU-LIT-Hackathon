@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Amenda</title>
+<link rel="stylesheet" href="/classical.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Carlito:wght@400;700&display=swap">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.4.21/vue.global.prod.min.js"></script>
+<style>
+  html, body { height: 100%; }
+  :root { --font-heading: Calibri, Carlito, system-ui, sans-serif; --font-body: Calibri, Carlito, system-ui, sans-serif; }
+  body { margin: 0; overflow: hidden; font-family: var(--font-body); background: var(--color-bg); color: var(--color-text); }
+  h1,h2,h3,h4,h5,h6 { letter-spacing: 0; }
+  a { color: var(--color-accent); }
+  a:hover { color: var(--color-accent-700); }
+  ::-webkit-scrollbar { width: 9px; height: 9px; }
+  ::-webkit-scrollbar-thumb { background: color-mix(in srgb, var(--color-text) 18%, transparent); border-radius: 9px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  @keyframes rs-pulse { 0%,100% { opacity:.25 } 50% { opacity:1 } }
+  @keyframes rs-rise { from { opacity:0; transform:translateY(6px) } to { opacity:1; transform:none } }
+  .rise { animation: rs-rise .3s ease; }
+  .hairline { border-right: 2px solid color-mix(in srgb, var(--color-text) 20%, transparent); }
+  .muted { color: color-mix(in srgb, var(--color-text) 55%, transparent); }
+  .kicker { font-size: 10px; letter-spacing: .08em; text-transform: uppercase; color: color-mix(in srgb, var(--color-text) 50%, transparent); }
+  .amrow { border: 1px solid var(--color-divider); border-radius: var(--radius-md); padding: 11px 12px; cursor: pointer; }
+  .amrow:hover { border-color: var(--color-accent-300); }
+  .amrow.sel { border-color: var(--color-accent); background: var(--color-accent-100); }
+  .checkbox { width: 16px; height: 16px; flex: none; margin-top: 2px; border: 1px solid var(--color-divider); border-radius: 3px; display: grid; place-items: center; background: transparent; }
+  .checkbox.on { background: var(--color-accent); border-color: var(--color-accent); }
+  .chip { display: inline-flex; align-items: center; gap: 5px; font-size: 10.5px; padding: 2px 8px; border-radius: 99px; border: 1px solid var(--color-divider); white-space: nowrap; }
+  .chip.imminent { border-color: var(--color-accent); color: var(--color-accent-700); background: var(--color-accent-100); }
+  .chip.distant { border-color: var(--color-divider); }
+  .chip.not_stated { border-style: dashed; color: color-mix(in srgb, var(--color-text) 55%, transparent); }
+  .conf-found { font-size: 10px; letter-spacing: .06em; text-transform: uppercase; color: var(--color-accent-700); }
+  .conf-inferred { font-size: 10px; letter-spacing: .06em; text-transform: uppercase; color: color-mix(in srgb, var(--color-text) 50%, transparent); border-bottom: 1px dashed color-mix(in srgb, var(--color-text) 35%, transparent); }
+  .quote { border-left: 2px solid var(--color-accent-300); padding: 4px 10px; font-size: 12.5px; font-style: italic; color: color-mix(in srgb, var(--color-text) 75%, transparent); }
+  .tabbtn { padding: 5px 12px; font-size: 12.5px; border: 1px solid var(--color-divider); background: transparent; cursor: pointer; font-family: var(--font-heading); font-weight: 600; color: var(--color-text); }
+  .tabbtn.on { border-color: var(--color-accent); background: var(--color-accent-100); color: var(--color-accent-700); }
+  .suggestion { display: inline-flex; align-items: center; gap: 6px; padding: 5px 10px; font-size: 11.5px; white-space: nowrap; cursor: pointer; color: var(--color-text); background: transparent; border: 1px solid var(--color-divider); border-radius: 99px; font-family: var(--font-body); }
+  .suggestion:hover { border-color: var(--color-accent); background: var(--color-accent-100); }
+  tr.clickable { cursor: pointer; }
+  tr.clickable:hover td { background: color-mix(in srgb, var(--color-text) 4%, transparent); }
+</style>
+</head>
+<body>
+<div id="app" style="height:100vh;display:flex;align-items:stretch">
+
+  <!-- ============ SIDEBAR ============ -->
+  <aside class="hairline" style="width:262px;flex:none;display:flex;flex-direction:column">
+    <div style="display:flex;align-items:center;gap:8px;padding:16px 14px 14px">
+      <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="1.4" stroke-linecap="round"><path d="M12 7v14"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg>
+      <span style="font-family:var(--font-heading);font-weight:600;font-size:19px;margin-right:auto">Amenda</span>
+    </div>
+
+    <div style="padding:0 10px 4px">
+      <button @click="page='clients'" style="width:100%;display:flex;align-items:center;gap:9px;padding:9px 10px;background:transparent;border:1px solid var(--color-accent);border-radius:var(--radius-md);color:var(--color-accent-700);font-family:var(--font-heading);font-weight:600;font-size:14px;cursor:pointer">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="9" cy="7" r="3.4"/><path d="M2.5 20v-1.6a4.5 4.5 0 0 1 4.5-4.5h4a4.5 4.5 0 0 1 4.5 4.5V20"/><path d="M16.5 3.6a3.6 3.6 0 0 1 0 6.9"/></svg>
+        Clients
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" style="margin-left:auto"><path d="M9 18l6-6-6-6"/></svg>
+      </button>
+      <div style="display:flex;flex-direction:column;gap:1px;margin:6px 0 0 13px;padding-left:11px;border-left:1px solid var(--color-divider)">
+        <button v-for="c in clients" :key="c.id" @click="openClient(c.id)"
+          style="display:flex;align-items:center;gap:7px;text-align:left;padding:5px 8px;background:transparent;border:0;border-radius:var(--radius-sm);cursor:pointer;font-size:12.5px;color:var(--color-text);font-family:var(--font-body)">
+          <span style="flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">{{ c.name }}</span>
+          <span style="flex:none;font-size:10px;font-variant-numeric:tabular-nums;opacity:.55">{{ c.docCount }}</span>
+        </button>
+      </div>
+    </div>
+
+    <div style="display:flex;align-items:center;gap:8px;padding:14px 14px 6px">
+      <h6 class="muted" style="margin:0;font-size:10px">Sweep history</h6>
+      <div style="flex:1;height:1px;background:var(--color-divider)"></div>
+      <button @click="resetChat" style="font-size:11px;padding:1px 6px;background:transparent;border:0;border-radius:var(--radius-sm);cursor:pointer;color:var(--color-accent-700);font-family:var(--font-body)">New</button>
+    </div>
+    <div style="flex:1;overflow-y:auto;padding:2px 10px 10px">
+      <button v-for="h in history" :key="h.id" style="display:block;width:100%;text-align:left;padding:7px 8px;background:transparent;border:0;border-radius:var(--radius-sm);cursor:pointer;color:var(--color-text);font-family:var(--font-body)">
+        <span style="display:block;font-size:12.5px;line-height:1.35;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">{{ h.title }}</span>
+        <span class="muted" style="display:block;font-size:10px;margin-top:2px;font-variant-numeric:tabular-nums">{{ h.when }}</span>
+      </button>
+    </div>
+
+    <div style="border-top:1px solid var(--color-divider);padding:12px;display:flex;align-items:center;gap:10px">
+      <div style="width:34px;height:34px;flex:none;border-radius:50%;border:1px solid var(--color-accent);display:grid;place-items:center;font-family:var(--font-heading);font-weight:600;font-size:13px;color:var(--color-accent-700)">TW</div>
+      <div style="flex:1;min-width:0">
+        <div style="font-family:var(--font-heading);font-weight:600;font-size:13.5px;line-height:1.2">Tan Wei Ming</div>
+        <div class="muted" style="font-size:10.5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">Partner · Corporate &amp; Regulatory</div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ============ PAGE 1: DASHBOARD ============ -->
+  <main v-if="page==='home'" style="flex:1;min-width:0;display:flex;align-items:stretch">
+    <section style="flex:1;min-width:0;display:flex;flex-direction:column">
+      <header style="display:flex;align-items:center;gap:12px;padding:13px 22px;border-bottom:2px solid color-mix(in srgb, var(--color-text) 20%, transparent)">
+        <h4 style="margin:0;font-size:17px">{{ chatTitle }}</h4>
+        <span class="muted" style="font-size:11px;font-variant-numeric:tabular-nums;padding:3px 9px;border:1px solid var(--color-divider);border-radius:99px">{{ clients.length }} clients · {{ totalDocs }} documents</span>
+        <div style="flex:1"></div>
+        <span v-if="!health.llm_configured" class="tag tag-outline">LLM key missing — add amenda/.env</span>
+        <button @click="resetChat" style="font-size:12.5px;padding:5px 12px;background:transparent;border:1px solid var(--color-divider);border-radius:var(--radius-md);cursor:pointer;color:var(--color-text);font-family:var(--font-heading);font-weight:600">New sweep</button>
+      </header>
+
+      <div style="flex:1;overflow-y:auto;padding:18px 22px 8px">
+        <div style="max-width:720px;margin:0 auto">
+
+          <div v-if="!asked && !thinking && !sweepResult" class="rise" style="padding:10px 0 0;text-align:center">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="1.2" stroke-linecap="round" style="margin:0 auto 10px;display:block"><path d="M12 7v14"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg>
+            <h2 style="font-size:24px;font-weight:400;margin:0 0 7px">Ask across your clients and the statute book.</h2>
+            <p class="muted" style="font-size:12.5px;max-width:400px;margin:0 auto">Select amendments on the right and run a sweep to find the client documents that are truly affected — not just topically related.</p>
+          </div>
+
+          <div v-if="asked" style="display:flex;justify-content:flex-end;margin-bottom:20px">
+            <div style="max-width:80%;padding:10px 14px;border:1px solid var(--color-divider);border-radius:var(--radius-lg);font-size:13.5px;line-height:1.5;background:color-mix(in srgb, var(--color-text) 4%, transparent)">{{ asked }}</div>
+          </div>
+
+          <div v-if="thinking" class="muted" style="display:flex;align-items:center;gap:9px;font-size:12.5px">
+            <span style="display:inline-flex;gap:3px">
+              <span style="width:5px;height:5px;border-radius:50%;background:var(--color-accent);animation:rs-pulse 1.1s infinite"></span>
+              <span style="width:5px;height:5px;border-radius:50%;background:var(--color-accent);animation:rs-pulse 1.1s .18s infinite"></span>
+              <span style="width:5px;height:5px;border-radius:50%;background:var(--color-accent);animation:rs-pulse 1.1s .36s infinite"></span>
+            </span>
+            {{ thinkingLabel }}
+          </div>
+
+          <div v-if="sweepError" class="card" style="padding:14px;border-color:var(--color-accent)">
+            <span class="card-kicker">Sweep failed</span>
+            <p style="font-size:13px;margin:6px 0 0">{{ sweepError }}</p>
+          </div>
+
+          <div v-if="sweepResult" class="rise">
+            <h3 style="margin:0 0 4px;font-size:23px;font-weight:400">{{ sweepResult.hits.length }} client exposure{{ sweepResult.hits.length===1?'':'s' }} found</h3>
+            <p class="muted" style="font-size:11.5px;font-variant-numeric:tabular-nums;margin:0 0 16px">
+              Swept {{ sweepResult.meta.docs_scanned }} documents across {{ clients.length }} clients · {{ selected.length }} amendment{{ selected.length===1?'':'s' }} · every flag carries a verbatim clause quote
+            </p>
+
+            <template v-for="grp in ['high','moderate']" :key="grp">
+              <div v-if="hitsBy(grp).length" style="margin-bottom:16px">
+                <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px">
+                  <h6 style="margin:0;font-size:11px;letter-spacing:.08em;text-transform:uppercase" :style="grp==='high'?'color:var(--color-accent-700)':''">{{ grp==='high' ? 'Highest priority' : 'Moderate risk' }}</h6>
+                  <div style="flex:1;height:1px;background:var(--color-divider)"></div>
+                </div>
+                <div style="display:flex;flex-direction:column;gap:10px">
+                  <article v-for="(h,i) in hitsBy(grp)" :key="h.client_id+h.amendment_id" class="card" style="padding:14px 15px;gap:0">
+                    <div style="display:flex;align-items:baseline;gap:10px">
+                      <span style="font-family:var(--font-heading);font-size:13px;font-variant-numeric:tabular-nums;color:var(--color-accent);flex:none">{{ String(i+1).padStart(2,'0') }}</span>
+                      <h4 style="margin:0;font-size:17px;flex:1;min-width:0">{{ h.client_name }}</h4>
+                      <span :class="grp==='high' ? 'tag tag-outline' : 'tag tag-accent'" style="flex:none">{{ grp==='high' ? 'Highest priority' : 'Moderate risk' }}</span>
+                    </div>
+                    <p class="muted" style="font-size:11px;margin:3px 0 0 23px">{{ h.amendment_title }} · in force {{ h.force_date }}</p>
+
+                    <div v-for="v in h.flagged_docs" :key="v.doc_id" style="margin:11px 0 0;padding-top:11px;border-top:1px solid var(--color-divider)">
+                      <div style="display:flex;align-items:baseline;gap:8px">
+                        <span style="font-size:13px;font-family:var(--font-heading);font-weight:600;flex:1;min-width:0">{{ v.doc_name }}</span>
+                        <span :class="v.confidence==='found'?'conf-found':'conf-inferred'" :title="v.confidence==='found'?'The quoted text states the outdated position':'Exposure inferred (reference, threshold or profile) — verify'">{{ v.confidence==='found' ? '● found in text' : '◌ inferred' }}</span>
+                      </div>
+                      <p v-if="v.clause_quote" class="quote" style="margin:6px 0">&ldquo;{{ v.clause_quote }}&rdquo;</p>
+                      <div style="display:grid;grid-template-columns:76px minmax(0,1fr);gap:4px 12px;font-size:12.5px;line-height:1.5">
+                        <span class="kicker" style="padding-top:2px">Why</span><span>{{ v.reason }}</span>
+                        <span class="kicker" style="padding-top:2px">Action</span><span>{{ v.action }}</span>
+                      </div>
+                    </div>
+
+                    <div v-if="h.profile_verdict" style="margin:11px 0 0;padding-top:11px;border-top:1px dashed var(--color-divider)">
+                      <div style="display:flex;align-items:baseline;gap:8px">
+                        <span style="font-size:13px;font-family:var(--font-heading);font-weight:600;flex:1">Client profile match — no document captures this</span>
+                        <span class="conf-inferred">◌ inferred</span>
+                      </div>
+                      <div style="display:grid;grid-template-columns:76px minmax(0,1fr);gap:4px 12px;font-size:12.5px;line-height:1.5;margin-top:5px">
+                        <span class="kicker" style="padding-top:2px">Why</span><span>{{ h.profile_verdict.reason }}</span>
+                        <span class="kicker" style="padding-top:2px">Action</span><span>{{ h.profile_verdict.action }}</span>
+                      </div>
+                    </div>
+
+                    <div style="display:flex;gap:8px;margin-top:12px">
+                      <button class="btn btn-secondary" style="font-size:12px;padding:4px 10px" @click="openClient(h.client_id)">Open client</button>
+                      <span class="muted" style="font-size:11px;align-self:center;font-variant-numeric:tabular-nums">{{ h.citation }}</span>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </template>
+
+            <div v-if="unaffectedCount" class="muted" style="font-size:12px;margin:4px 0 0">
+              {{ unaffectedCount }} document{{ unaffectedCount===1?'':'s' }} scanned and left unflagged — including {{ adjacentNote }}.
+            </div>
+            <div class="hr" style="margin:16px 0 12px"></div>
+            <p class="muted" style="text-align:center;font-size:10.5px;margin:0 0 8px">Answers cite client documents and gazetted amendments. Verify before advising.</p>
+          </div>
+
+        </div>
+      </div>
+
+      <div style="padding:8px 22px 20px">
+        <div style="max-width:720px;margin:0 auto">
+          <div v-if="selected.length" style="display:flex;margin:0 0 7px 2px">
+            <div style="display:flex;align-items:center;gap:9px;padding:4px 5px 4px 11px;border:1px solid var(--color-accent);border-radius:99px;background:var(--color-accent-100)">
+              <span style="font-size:11.5px;font-variant-numeric:tabular-nums;font-family:var(--font-heading);font-weight:600">{{ selected.length }} amendment{{ selected.length===1?'':'s' }} selected</span>
+              <span style="width:1px;height:13px;background:var(--color-divider)"></span>
+              <span class="muted" style="font-size:11px">sweep runs across all clients</span>
+              <button class="btn btn-icon" title="Clear" @click="selected=[]" style="width:20px;height:20px">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M18 6L6 18"/><path d="M6 6l12 12"/></svg>
+              </button>
+            </div>
+          </div>
+          <div style="display:flex;align-items:flex-end;gap:8px;padding:9px 10px 9px 12px;border:1px solid var(--color-divider);border-radius:var(--radius-lg);box-shadow:var(--shadow-sm)">
+            <textarea rows="1" placeholder="Ask Amenda — or select amendments and press send" v-model="draft" @keydown.enter.prevent="runSweep"
+              style="flex:1;min-height:30px;max-height:120px;border:0;padding:5px 0;font-size:14px;line-height:1.5;resize:none;background:transparent;font-family:var(--font-body);color:var(--color-text);outline:none"></textarea>
+            <button class="btn btn-primary btn-icon" title="Run sweep" @click="runSweep" style="width:32px;height:32px;flex:none;border-radius:var(--radius-md)">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
+            </button>
+          </div>
+          <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:6px;margin-top:9px">
+            <button class="suggestion" @click="selectHighPriority">Select all high-priority</button>
+            <button class="suggestion" @click="ampanel='watchlist'">Show watchlist</button>
+            <button class="suggestion" @click="ampanel='confirmed'">Show confirmed</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ AMENDMENTS PANEL ============ -->
+    <section style="width:min(400px,36%);min-width:334px;flex:none;display:flex;flex-direction:column;border-left:2px solid color-mix(in srgb, var(--color-text) 20%, transparent)">
+      <div style="padding:13px 16px;border-bottom:1px solid var(--color-divider)">
+        <div style="display:flex;align-items:center;gap:8px;margin-bottom:11px">
+          <h4 style="margin:0;font-size:17px">Amendments</h4>
+          <span class="tag tag-outline" style="font-variant-numeric:tabular-nums">{{ amendments.length }} confirmed · {{ watchlist.length }} watched</span>
+          <span v-if="watchlistLive" class="tag tag-accent" title="Bills list scraped from parliament.gov.sg just now">live</span>
+        </div>
+        <div style="display:flex;gap:0">
+          <button class="tabbtn" :class="{on:ampanel==='confirmed'}" style="border-radius:var(--radius-md) 0 0 var(--radius-md)" @click="ampanel='confirmed'">Confirmed</button>
+          <button class="tabbtn" :class="{on:ampanel==='watchlist'}" style="border-radius:0 var(--radius-md) var(--radius-md) 0;border-left:0" @click="ampanel='watchlist'">Watchlist</button>
+          <div style="flex:1"></div>
+          <input placeholder="Search…" v-model="query" style="width:110px;border:1px solid var(--color-divider);border-radius:99px;padding:4px 11px;font-size:12px;background:transparent;color:var(--color-text);font-family:var(--font-body);outline:none">
+        </div>
+      </div>
+
+      <!-- confirmed amendments -->
+      <div v-if="ampanel==='confirmed'" style="flex:1;overflow-y:auto;padding:10px 12px 14px;display:flex;flex-direction:column;gap:8px">
+        <div v-for="a in filteredAmendments" :key="a.id" class="amrow" :class="{sel:selected.includes(a.id)}" @click="toggleSel(a.id)">
+          <div style="display:flex;align-items:flex-start;gap:10px">
+            <span class="checkbox" :class="{on:selected.includes(a.id)}">
+              <svg v-if="selected.includes(a.id)" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="var(--color-bg)" stroke-width="3" stroke-linecap="round"><path d="M20 6L9 17l-5-5"/></svg>
+            </span>
+            <div style="flex:1;min-width:0">
+              <div style="display:flex;align-items:baseline;gap:8px">
+                <span style="font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--color-accent-700);flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">{{ a.statute }}</span>
+                <span class="muted" style="font-size:10px;font-variant-numeric:tabular-nums;white-space:nowrap;flex:none">{{ a.gazetted }}</span>
+              </div>
+              <div style="font-family:var(--font-heading);font-weight:600;font-size:15px;line-height:1.22;margin:3px 0 5px">{{ a.title }}</div>
+              <div style="font-size:12px;line-height:1.5;color:color-mix(in srgb, var(--color-text) 72%, transparent)">{{ a.summary }}</div>
+              <div style="display:flex;align-items:center;gap:6px;margin-top:9px">
+                <span :class="prioClass(a.priority)">{{ a.priority }}</span>
+                <span class="tag tag-neutral" style="font-variant-numeric:tabular-nums">{{ a.in_force ? 'In force' : 'Force ' + a.force_date }}</span>
+                <button class="btn btn-ghost" style="font-size:11px;padding:2px 6px;margin-left:auto;flex:none" @click.stop="detail=a">Before / after</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- watchlist -->
+      <div v-if="ampanel==='watchlist'" style="flex:1;overflow-y:auto;padding:10px 12px 14px;display:flex;flex-direction:column;gap:8px">
+        <div v-for="w in filteredWatchlist" :key="w.id" class="amrow" @click="watchDetail=w">
+          <div style="display:flex;align-items:baseline;gap:8px">
+            <span style="font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--color-accent-700);flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">{{ w.statute }}</span>
+            <span v-if="w.live_corroborated" class="tag tag-accent" title="Corroborated by live scrape of parliament.gov.sg" style="font-size:9px">live ✓</span>
+          </div>
+          <div style="font-family:var(--font-heading);font-weight:600;font-size:15px;line-height:1.22;margin:3px 0 5px">{{ w.bill_name }}<span v-if="w.bill_no" class="muted" style="font-weight:400"> · {{ w.bill_no }}</span></div>
+          <div style="font-size:12px;line-height:1.5;color:color-mix(in srgb, var(--color-text) 72%, transparent)">{{ w.relevance }}</div>
+          <div style="display:flex;align-items:center;gap:6px;margin-top:9px;flex-wrap:wrap">
+            <span class="chip" :class="w.commencement_signal">
+              {{ w.commencement_signal==='imminent' ? '⏱ imminent' : w.commencement_signal==='distant' ? '≈ 1 year out' : 'commencement not stated' }}
+            </span>
+            <span v-if="w.second_reading" class="muted" style="font-size:10.5px;font-variant-numeric:tabular-nums">2nd reading {{ w.second_reading }}</span>
+          </div>
+        </div>
+        <p class="muted" style="font-size:10.5px;line-height:1.5;padding:4px 2px 0">
+          Bills list scraped live from parliament.gov.sg{{ watchlistLive ? '' : ' (cached snapshot)' }}. Minister commencement signals derived from Hansard fixtures — PAIR &amp; eGazette are JS apps; headless-browser fetch is the production path.
+        </p>
+      </div>
+
+      <div style="border-top:1px solid var(--color-divider);padding:9px 16px;display:flex;align-items:center;gap:8px">
+        <span class="muted" style="font-size:11px;font-variant-numeric:tabular-nums">{{ selected.length }} selected</span>
+        <div style="flex:1"></div>
+        <button class="btn btn-ghost" style="font-size:11.5px;padding:2px 6px" @click="selected = selected.length===amendments.length ? [] : amendments.map(a=>a.id)">
+          {{ selected.length===amendments.length ? 'Clear all' : 'Select all' }}
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ PAGE 2: CLIENTS ============ -->
+  <main v-if="page==='clients'" style="flex:1;min-width:0;display:flex;flex-direction:column;overflow:hidden">
+    <header style="display:flex;align-items:center;gap:12px;padding:13px 26px;border-bottom:2px solid color-mix(in srgb, var(--color-text) 20%, transparent)">
+      <button @click="page='home'" style="display:inline-flex;align-items:center;gap:6px;font-size:12.5px;padding:5px 10px;background:transparent;border:0;border-radius:var(--radius-md);cursor:pointer;color:var(--color-text);font-family:var(--font-heading);font-weight:600">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M15 18l-6-6 6-6"/></svg>
+        Dashboard
+      </button>
+      <span style="width:1px;height:16px;background:var(--color-divider)"></span>
+      <h4 style="margin:0;font-size:17px">Clients</h4>
+    </header>
+    <div style="flex:1;overflow-y:auto;padding:30px 26px 40px">
+      <div style="max-width:1020px;margin:0 auto">
+        <div style="display:flex;align-items:flex-end;gap:16px;flex-wrap:wrap;margin-bottom:6px">
+          <div style="flex:1;min-width:240px">
+            <h1 style="font-size:44px;font-weight:400;margin:0 0 4px">Clients</h1>
+            <p class="muted" style="font-size:13px;margin:0">{{ clients.length }} clients · {{ totalDocs }} documents on file</p>
+          </div>
+          <input placeholder="Search clients…" v-model="clientQuery" style="border:1px solid var(--color-divider);border-radius:99px;padding:8px 14px;font-size:13px;background:transparent;color:var(--color-text);font-family:var(--font-body);outline:none;width:200px">
+        </div>
+        <div class="hr" style="margin:18px 0 0"></div>
+        <table class="table">
+          <thead><tr><th style="width:34%">Client name</th><th style="width:18%">Practice</th><th style="width:12%">Documents</th><th style="width:18%">Last document</th><th style="width:18%">Exposure</th></tr></thead>
+          <tbody>
+            <tr v-for="c in filteredClients" :key="c.id" class="clickable" @click="openClient(c.id)">
+              <td><div style="display:flex;align-items:center;gap:10px">
+                <span style="width:28px;height:28px;flex:none;border-radius:50%;border:1px solid var(--color-divider);display:grid;place-items:center;font-family:var(--font-heading);font-weight:600;font-size:11px;color:var(--color-accent-700)">{{ initials(c.name) }}</span>
+                <span style="font-family:var(--font-heading);font-weight:600;font-size:15.5px">{{ c.name }}</span>
+              </div></td>
+              <td style="font-size:13px" class="muted">{{ c.practice }}</td>
+              <td style="font-variant-numeric:tabular-nums;font-size:13px">{{ c.docCount }}</td>
+              <td class="muted" style="font-variant-numeric:tabular-nums;font-size:12.5px">{{ c.updated }}</td>
+              <td><span :class="riskClass(c.risk)">{{ c.risk }}</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </main>
+
+  <!-- ============ CLIENT DIALOG ============ -->
+  <div v-if="clientDialog" class="dialog-backdrop" style="z-index:20" @click.self="clientDialog=null">
+    <div class="dialog rise" style="width:min(620px,100%);max-height:88vh;overflow-y:auto">
+      <div style="display:flex;align-items:flex-start;gap:10px">
+        <div style="flex:1">
+          <span class="card-kicker">{{ clientDialog.practice }} · {{ clientDialog.documents.length }} documents</span>
+          <h3 class="dialog-title" style="font-size:24px;margin-top:2px">{{ clientDialog.name }}</h3>
+        </div>
+        <button class="btn btn-icon btn-secondary" style="width:30px;height:30px;flex:none" @click="clientDialog=null">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M18 6L6 18"/><path d="M6 6l12 12"/></svg>
+        </button>
+      </div>
+      <div class="card" style="padding:12px 14px;border-left:2px solid var(--color-accent)">
+        <span class="card-kicker">Client profile</span>
+        <div style="display:grid;grid-template-columns:92px minmax(0,1fr);gap:4px 12px;font-size:12.5px;line-height:1.55;margin-top:6px">
+          <span class="kicker" style="padding-top:2px">Contact</span><span>{{ clientDialog.profile.contact }}</span>
+          <span class="kicker" style="padding-top:2px">Business</span><span>{{ clientDialog.profile.business }}</span>
+          <span class="kicker" style="padding-top:2px">Headcount</span><span style="font-variant-numeric:tabular-nums">{{ clientDialog.profile.headcount }}</span>
+          <span class="kicker" style="padding-top:2px">Areas of law</span><span>{{ clientDialog.profile.areas_of_law.join(' · ') }}</span>
+          <span class="kicker" style="padding-top:2px">Notes</span><span>{{ clientDialog.profile.notes }}</span>
+        </div>
+      </div>
+      <div>
+        <h6 class="muted" style="margin:0 0 8px">Documents on file</h6>
+        <div v-for="d in clientDialog.documents" :key="d.id" style="border-bottom:1px solid var(--color-divider);padding:9px 2px">
+          <div style="display:flex;align-items:center;gap:10px">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="1.4" stroke-linecap="round" style="flex:none"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M16 13H8"/><path d="M16 17H8"/></svg>
+            <span style="flex:1;min-width:0;font-size:13px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">{{ d.name }}</span>
+            <span class="muted" style="font-size:11px;font-variant-numeric:tabular-nums;flex:none">{{ d.added }}</span>
+            <button class="btn btn-ghost" style="font-size:11px;padding:2px 6px" @click="docOpen = docOpen===d.id ? null : d.id">{{ docOpen===d.id ? 'Hide' : 'View' }}</button>
+          </div>
+          <p v-if="docOpen===d.id" style="font-size:12px;line-height:1.6;margin:8px 0 2px;padding:10px 12px;border:1px solid var(--color-divider);border-radius:var(--radius-md);color:color-mix(in srgb, var(--color-text) 78%, transparent)">{{ d.text }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ BEFORE / AFTER DIALOG ============ -->
+  <div v-if="detail" class="dialog-backdrop" style="z-index:20" @click.self="detail=null">
+    <div class="dialog rise" style="width:min(760px,100%);max-height:88vh;overflow-y:auto">
+      <div style="display:flex;align-items:flex-start;gap:10px">
+        <div style="flex:1">
+          <span class="card-kicker">{{ detail.statute }}</span>
+          <h3 class="dialog-title" style="font-size:25px;margin-top:2px">{{ detail.title }}</h3>
+          <div style="display:flex;gap:6px;margin-top:8px">
+            <span :class="prioClass(detail.priority)">{{ detail.priority }}</span>
+            <span class="tag tag-neutral" style="font-variant-numeric:tabular-nums">Gazetted {{ detail.gazetted }}</span>
+            <span class="tag tag-neutral" style="font-variant-numeric:tabular-nums">In force {{ detail.force_date }}</span>
+          </div>
+        </div>
+        <button class="btn btn-icon btn-secondary" style="width:30px;height:30px;flex:none" @click="detail=null">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M18 6L6 18"/><path d="M6 6l12 12"/></svg>
+        </button>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:2px">
+        <div>
+          <h6 class="muted" style="margin:0 0 8px">Before</h6>
+          <p style="font-size:13px;line-height:1.68;margin:0;padding:12px 13px;border:1px solid var(--color-divider);border-radius:var(--radius-md);color:color-mix(in srgb, var(--color-text) 62%, transparent)">{{ detail.before }}</p>
+        </div>
+        <div>
+          <h6 style="margin:0 0 8px;color:var(--color-accent-700)">After</h6>
+          <p style="font-size:13px;line-height:1.68;margin:0;padding:12px 13px;border:1px solid var(--color-accent);border-radius:var(--radius-md)">{{ detail.after }}</p>
+        </div>
+      </div>
+      <div style="display:grid;grid-template-columns:104px minmax(0,1fr);gap:6px 12px;font-size:12.5px;line-height:1.55;padding-top:12px;border-top:1px solid var(--color-divider)">
+        <span class="kicker" style="padding-top:2px">Authority</span>
+        <span style="font-variant-numeric:tabular-nums">{{ detail.citation }}</span>
+        <span class="kicker" style="padding-top:2px">Commencement</span>
+        <span>{{ detail.commencement_basis }}</span>
+      </div>
+      <div class="dialog-actions">
+        <button class="btn btn-secondary" style="font-size:13px" @click="detail=null">Close</button>
+        <button class="btn btn-primary" style="font-size:13px" @click="sweepThis(detail.id)">Find affected clients</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ WATCHLIST DETAIL DIALOG ============ -->
+  <div v-if="watchDetail" class="dialog-backdrop" style="z-index:20" @click.self="watchDetail=null">
+    <div class="dialog rise" style="width:min(640px,100%);max-height:88vh;overflow-y:auto">
+      <div style="display:flex;align-items:flex-start;gap:10px">
+        <div style="flex:1">
+          <span class="card-kicker">{{ watchDetail.statute }} · watchlist</span>
+          <h3 class="dialog-title" style="font-size:24px;margin-top:2px">{{ watchDetail.bill_name }}</h3>
+          <div style="display:flex;gap:6px;margin-top:8px;flex-wrap:wrap">
+            <span class="chip" :class="watchDetail.commencement_signal">
+              {{ watchDetail.commencement_signal==='imminent' ? '⏱ commencement imminent' : watchDetail.commencement_signal==='distant' ? '≈ commencement ~1 year out' : 'commencement not stated by the Minister' }}
+            </span>
+            <span v-if="watchDetail.live_corroborated" class="tag tag-accent">corroborated live · parliament.gov.sg</span>
+          </div>
+        </div>
+        <button class="btn btn-icon btn-secondary" style="width:30px;height:30px;flex:none" @click="watchDetail=null">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M18 6L6 18"/><path d="M6 6l12 12"/></svg>
+        </button>
+      </div>
+      <div style="display:grid;grid-template-columns:120px minmax(0,1fr);gap:6px 12px;font-size:12.5px;line-height:1.55">
+        <span class="kicker" style="padding-top:2px">Bill no.</span><span style="font-variant-numeric:tabular-nums">{{ watchDetail.bill_no || '— not yet introduced' }}</span>
+        <span class="kicker" style="padding-top:2px">Introduced</span><span style="font-variant-numeric:tabular-nums">{{ watchDetail.introduced || '—' }}</span>
+        <span class="kicker" style="padding-top:2px">2nd reading</span><span style="font-variant-numeric:tabular-nums">{{ watchDetail.second_reading || '—' }}</span>
+        <span class="kicker" style="padding-top:2px">Minister</span><span>{{ watchDetail.minister }}</span>
+        <span class="kicker" style="padding-top:2px">Statement</span>
+        <span v-if="watchDetail.minister_statement">{{ watchDetail.minister_statement }}</span>
+        <span v-else class="muted" style="font-style:italic">No ministerial statement on commencement located in Hansard or press releases. Commencement date unknown.</span>
+        <span class="kicker" style="padding-top:2px">Reading</span><span>{{ watchDetail.commencement_note }}</span>
+        <span class="kicker" style="padding-top:2px">Hansard</span><span style="font-variant-numeric:tabular-nums">{{ watchDetail.hansard_ref }}</span>
+        <span class="kicker" style="padding-top:2px">Why it matters</span><span>{{ watchDetail.relevance }}</span>
+      </div>
+      <div class="dialog-actions">
+        <button class="btn btn-secondary" style="font-size:13px" @click="watchDetail=null">Close</button>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+const { createApp } = Vue;
+const api = (path, opts) => fetch(path, opts).then(r => r.json());
+
+createApp({
+  data: () => ({
+    page: 'home',
+    ampanel: 'confirmed',
+    health: { llm_configured: true },
+    amendments: [],
+    watchlist: [],
+    watchlistLive: false,
+    clients: [],
+    selected: ['a1'],
+    query: '',
+    clientQuery: '',
+    draft: '',
+    asked: '',
+    chatTitle: 'New sweep',
+    thinking: false,
+    thinkingLabel: '',
+    sweepResult: null,
+    sweepError: '',
+    detail: null,
+    watchDetail: null,
+    clientDialog: null,
+    docOpen: null,
+    history: [
+      { id: 'h1', title: 'PDPA breach window — affected clients', when: 'Today, 09:14' },
+      { id: 'h2', title: 'Part IV ceiling — payroll exposure', when: 'Today, 08:40' },
+      { id: 'h3', title: 'Fintide custody terms vs Reg 13A', when: 'Yesterday' },
+    ],
+  }),
+  computed: {
+    totalDocs() { return this.clients.reduce((n, c) => n + (c.docCount || 0), 0); },
+    filteredAmendments() {
+      const q = this.query.toLowerCase();
+      return this.amendments.filter(a => !q || (a.title + a.statute + a.summary).toLowerCase().includes(q));
+    },
+    filteredWatchlist() {
+      const q = this.query.toLowerCase();
+      return this.watchlist.filter(w => !q || (w.bill_name + w.statute + (w.relevance||'')).toLowerCase().includes(q));
+    },
+    filteredClients() {
+      const q = this.clientQuery.toLowerCase();
+      return this.clients.filter(c => !q || c.name.toLowerCase().includes(q));
+    },
+    unaffectedCount() {
+      if (!this.sweepResult) return 0;
+      let n = 0;
+      for (const r of this.sweepResult.raw)
+        n += r.document_verdicts.filter(v => v.category === 'unaffected').length;
+      return n;
+    },
+    adjacentNote() {
+      return 'same-statute documents with no changed assumption (topical overlap is not impact)';
+    },
+  },
+  methods: {
+    prioClass(p) { return { High: 'tag tag-outline', Medium: 'tag tag-accent', Low: 'tag tag-neutral' }[p] || 'tag tag-neutral'; },
+    riskClass(r) { return { High: 'tag tag-outline', Medium: 'tag tag-accent' }[r] || 'tag tag-neutral'; },
+    initials(name) { return name.split(' ').slice(0, 2).map(w => w[0]).join('').toUpperCase(); },
+    toggleSel(id) {
+      const i = this.selected.indexOf(id);
+      i >= 0 ? this.selected.splice(i, 1) : this.selected.push(id);
+    },
+    selectHighPriority() {
+      this.selected = this.amendments.filter(a => a.priority === 'High').map(a => a.id);
+    },
+    hitsBy(grp) { return this.sweepResult ? this.sweepResult.hits.filter(h => h.risk === grp) : []; },
+    async openClient(id) {
+      this.clientDialog = await api('/api/clients/' + id);
+      this.docOpen = null;
+    },
+    resetChat() {
+      this.asked = ''; this.sweepResult = null; this.sweepError = '';
+      this.chatTitle = 'New sweep'; this.draft = '';
+    },
+    sweepThis(id) {
+      this.detail = null; this.selected = [id]; this.runSweep();
+    },
+    async runSweep() {
+      if (!this.selected.length) { this.sweepError = 'Select at least one amendment on the right.'; return; }
+      const titles = this.amendments.filter(a => this.selected.includes(a.id)).map(a => a.title);
+      this.asked = this.draft.trim() || ('Which clients are truly affected by: ' + titles.join('; ') + '?');
+      this.chatTitle = titles[0] || 'Sweep';
+      this.draft = ''; this.sweepResult = null; this.sweepError = ''; this.thinking = true;
+      this.thinkingLabel = 'Sweeping ' + this.totalDocs + ' documents across ' + this.clients.length + ' clients…';
+      try {
+        const res = await api('/api/sweep', {
+          method: 'POST', headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ amendment_ids: this.selected }),
+        });
+        if (res.error) this.sweepError = res.error;
+        else {
+          this.sweepResult = res;
+          this.history.unshift({ id: 'h' + Date.now(), title: this.chatTitle, when: 'Just now' });
+        }
+      } catch (e) { this.sweepError = String(e); }
+      this.thinking = false;
+    },
+  },
+  async mounted() {
+    [this.health, this.amendments, this.clients] = await Promise.all([
+      api('/api/health'), api('/api/amendments'), api('/api/clients'),
+    ]);
+    const w = await api('/api/watchlist');
+    this.watchlist = w.curated; this.watchlistLive = w.live_ok;
+  },
+}).mount('#app');
+</script>
+</body>
+</html>

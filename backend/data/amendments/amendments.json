@@ -1,0 +1,131 @@
+[
+  {
+    "id": "a1",
+    "status": "confirmed",
+    "source": "eGazette",
+    "statute": "Personal Data Protection Act",
+    "type": "Data & Technology",
+    "watchlist": true,
+    "in_force": false,
+    "priority": "High",
+    "gazetted": "2026-09-05",
+    "force_date": "2026-11-01",
+    "commencement_basis": "Commencement notification gazetted alongside the Amendment Act.",
+    "title": "Mandatory breach notification — s26D",
+    "summary": "Notification window to the Commission tightened from 3 calendar days to 72 hours; the significant-scale threshold falls from 500 to 100 affected individuals.",
+    "before": "An organisation must notify the Commission of a notifiable data breach as soon as is practicable, and in any case no later than 3 calendar days after the day it determines that the breach is a notifiable data breach. A breach is of a significant scale where it affects not fewer than 500 individuals.",
+    "after": "An organisation must notify the Commission of a notifiable data breach as soon as is practicable, and in any case no later than 72 hours after the day it determines that the breach is a notifiable data breach. A breach is of a significant scale where it affects not fewer than 100 individuals. A data intermediary must notify the organisation without undue delay.",
+    "citation": "PDPA s26D(2), (4) - Act 14 of 2026",
+    "key_changes": [
+      {"aspect": "breach notification window", "old": "3 calendar days", "new": "72 hours"},
+      {"aspect": "significant scale threshold", "old": "500 individuals", "new": "100 individuals"},
+      {"aspect": "data intermediary duty", "old": "none stated", "new": "notify organisation without undue delay"}
+    ]
+  },
+  {
+    "id": "a2",
+    "status": "confirmed",
+    "source": "eGazette",
+    "statute": "Employment Act",
+    "type": "Employment",
+    "watchlist": true,
+    "in_force": false,
+    "priority": "High",
+    "gazetted": "2026-08-28",
+    "force_date": "2027-01-01",
+    "commencement_basis": "Employment (Part IV) Order 2026 fixes commencement at 1 Jan 2027.",
+    "title": "Part IV salary ceiling raised — s35",
+    "summary": "Part IV protections on hours, overtime and rest days extended to non-workmen earning up to S$3,200 a month, from S$2,600.",
+    "before": "This Part applies to an employee, other than a workman, who receives a salary not exceeding $2,600 a month, excluding overtime payments, bonus payments and allowances.",
+    "after": "This Part applies to an employee, other than a workman, who receives a salary not exceeding $3,200 a month, excluding overtime payments, bonus payments and allowances. Overtime is computed on the lower of the employee's salary and $3,200.",
+    "citation": "Employment Act s35; Employment (Part IV) Order 2026",
+    "key_changes": [
+      {"aspect": "Part IV salary ceiling (non-workmen)", "old": "S$2,600/month", "new": "S$3,200/month"},
+      {"aspect": "overtime computation cap", "old": "S$2,600", "new": "S$3,200"}
+    ]
+  },
+  {
+    "id": "a3",
+    "status": "confirmed",
+    "source": "eGazette",
+    "statute": "Securities and Futures Act",
+    "type": "Commercial / Corporate",
+    "watchlist": true,
+    "in_force": false,
+    "priority": "Medium",
+    "gazetted": "2026-08-14",
+    "force_date": "2026-12-01",
+    "commencement_basis": "MAS notice fixes commencement at 1 Dec 2026.",
+    "title": "Reg 13A — digital asset custody disclosure",
+    "summary": "Licensed custodians must disclose segregation arrangements and the insolvency waterfall to accredited investors before onboarding.",
+    "before": "A custodian must maintain records sufficient to identify assets held on behalf of each customer.",
+    "after": "A custodian must maintain records sufficient to identify assets held on behalf of each customer, and must disclose in writing, before onboarding, the segregation arrangements applied to those assets and the order of distribution applicable on the custodian's insolvency.",
+    "citation": "SF (Licensing and Conduct of Business) Regs, Reg 13A(1)(b)",
+    "key_changes": [
+      {"aspect": "custody disclosure", "old": "record-keeping only", "new": "written pre-onboarding disclosure of segregation and insolvency waterfall"}
+    ]
+  },
+  {
+    "id": "a4",
+    "status": "confirmed",
+    "source": "eGazette",
+    "statute": "Personal Data Protection Act",
+    "type": "Data & Technology",
+    "watchlist": false,
+    "in_force": true,
+    "priority": "Medium",
+    "gazetted": "2026-08-02",
+    "force_date": "2026-08-02",
+    "commencement_basis": "In force on gazette date.",
+    "title": "Legitimate interests exception narrowed",
+    "summary": "Routine employee monitoring is removed from the legitimate interests basis; consent or a fresh impact assessment is now required.",
+    "before": "An organisation may collect personal data about an employee without consent where the collection is in the legitimate interests of the organisation.",
+    "after": "An organisation may collect personal data about an employee without consent where the collection is in the legitimate interests of the organisation, except where the collection consists of the continuous monitoring of the employee's conduct or communications.",
+    "citation": "PDPA First Schedule, Part 3, para 5",
+    "key_changes": [
+      {"aspect": "legitimate interests basis for employee monitoring", "old": "available", "new": "excluded for continuous monitoring; consent or impact assessment required"}
+    ]
+  },
+  {
+    "id": "a5",
+    "status": "confirmed",
+    "source": "eGazette",
+    "statute": "Workplace Fairness Act",
+    "type": "Employment",
+    "watchlist": false,
+    "in_force": false,
+    "priority": "Low",
+    "gazetted": "2026-07-21",
+    "force_date": "2027-04-01",
+    "commencement_basis": "Commencement Notification 2026 fixes 1 Apr 2027 for employers with 25+ staff.",
+    "title": "Commencement of ss.12-18",
+    "summary": "Anti-discrimination duties and the grievance-handling process come into force for employers with 25 or more staff.",
+    "before": "Not in force.",
+    "after": "Sections 12 to 18 come into operation on 1 April 2027 in respect of an employer who employs 25 or more employees.",
+    "citation": "Workplace Fairness Act 2025 (Commencement) Notification 2026",
+    "key_changes": [
+      {"aspect": "grievance-handling duty", "old": "not in force", "new": "mandatory for employers with 25+ employees from 1 Apr 2027"}
+    ]
+  },
+  {
+    "id": "a6",
+    "status": "confirmed",
+    "source": "eGazette",
+    "statute": "Companies Act",
+    "type": "Commercial / Corporate",
+    "watchlist": false,
+    "in_force": true,
+    "priority": "Low",
+    "gazetted": "2026-06-19",
+    "force_date": "2026-10-01",
+    "commencement_basis": "Commencement fixed at 1 Oct 2026 in the Amendment Act.",
+    "title": "Nominee director register — s386AL",
+    "summary": "A register of nominee directors must be lodged with ACRA within 30 days of appointment, and kept current thereafter.",
+    "before": "A company must keep a register of its nominee directors at its registered office.",
+    "after": "A company must keep a register of its nominee directors and must lodge the particulars in that register with the Registrar within 30 days after the appointment of a nominee director.",
+    "citation": "Companies Act s386AL(2A)",
+    "key_changes": [
+      {"aspect": "nominee director register", "old": "kept at registered office", "new": "lodged with ACRA within 30 days of appointment"}
+    ]
+  }
+]

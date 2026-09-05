@@ -1,0 +1,212 @@
+[
+  {
+    "id": "c1",
+    "name": "Meridian Logistics Pte Ltd",
+    "practice": "Commercial",
+    "risk": "High",
+    "updated": "2026-09-02",
+    "profile": {
+      "contact": "Marcus Ong, 52, Managing Director",
+      "business": "Regional 3PL logistics; warehousing and last-mile delivery",
+      "headcount": 180,
+      "areas_of_law": ["Personal Data Protection Act", "Employment Act", "Contract"],
+      "notes": "Processes consignee personal data for 4 e-commerce platforms; 4 sub-processors."
+    },
+    "documents": [
+      {
+        "id": "c1d1",
+        "name": "Master Services Agreement — Portside (2024)",
+        "added": "2024-03-14",
+        "text": "7. DATA PROTECTION. 7.1 Each party shall comply with the Personal Data Protection Act 2012. 7.2 Data Incident Notice: the Service Provider shall notify the Customer of any data breach affecting Customer Personal Data no later than 3 calendar days after becoming aware of the breach, and shall in the same period notify the Personal Data Protection Commission where the breach affects 500 or more individuals. 7.3 The Service Provider shall maintain reasonable security arrangements. 12. LIABILITY. 12.1 Aggregate liability is capped at fees paid in the preceding 12 months."
+      },
+      {
+        "id": "c1d2",
+        "name": "Data Processing Addendum v2",
+        "added": "2024-03-14",
+        "text": "4. BREACH NOTIFICATION. 4.1 The Processor shall notify the Controller within 3 calendar days of determining that a notifiable data breach has occurred. 4.2 A breach is notifiable where it results in significant harm or affects not fewer than 500 individuals. 4.3 The Processor shall provide reasonable assistance with any notification to the Commission. 5. SUB-PROCESSORS. 5.1 The Processor may engage the sub-processors listed in Schedule 2, and shall flow down obligations no less protective than this Addendum."
+      },
+      {
+        "id": "c1d3",
+        "name": "Sub-processor schedule (4 vendors)",
+        "added": "2026-09-02",
+        "text": "Schedule 2 — Approved sub-processors: (1) SwiftDepot Pte Ltd, warehousing WMS; (2) RouteLab Asia, delivery routing; (3) CloudPort SG, hosting; (4) PayBridge, COD reconciliation. Each sub-processor contract incorporates the breach notification periods of the Data Processing Addendum by reference."
+      },
+      {
+        "id": "c1d4",
+        "name": "Employee monitoring policy",
+        "added": "2026-01-11",
+        "text": "3. MONITORING. 3.1 The Company continuously monitors driver telematics, warehouse CCTV and corporate email for safety and security purposes. 3.2 Legal basis: such collection is undertaken without consent in reliance on the legitimate interests exception under the PDPA First Schedule. 3.3 Monitoring data is retained for 12 months."
+      },
+      {
+        "id": "c1d5",
+        "name": "Warehouse lease — Jurong",
+        "added": "2025-11-30",
+        "text": "Lease of 38 Jurong Port Road unit 04-01 for a term of 6 years from 1 Dec 2025. Rent review at year 3. Permitted use: warehousing and ancillary offices. The tenant is responsible for fire safety compliance under the Fire Safety Act."
+      }
+    ]
+  },
+  {
+    "id": "c2",
+    "name": "Fintide Capital Pte Ltd",
+    "practice": "Financial services",
+    "risk": "High",
+    "updated": "2026-08-28",
+    "profile": {
+      "contact": "Priya Nair, 41, CEO",
+      "business": "CMS-licensed digital asset fund manager and custodian",
+      "headcount": 32,
+      "areas_of_law": ["Securities and Futures Act", "Personal Data Protection Act", "Payment Services Act"],
+      "notes": "Onboards accredited investors quarterly; next onboarding cycle Nov 2026."
+    },
+    "documents": [
+      {
+        "id": "c2d1",
+        "name": "Digital Asset Custody Terms v3",
+        "added": "2026-06-03",
+        "text": "14. REPORTABLE INCIDENT. 14.1 The Custodian shall report any security incident affecting client assets or personal data to the Client within 3 calendar days. 14.2 The Custodian maintains records sufficient to identify assets held for each customer. 14.3 No representation is made as to the treatment of client assets on insolvency. 15. FEES. Custody fees accrue monthly at 0.12% p.a."
+      },
+      {
+        "id": "c2d2",
+        "name": "Accredited investor onboarding pack",
+        "added": "2026-06-03",
+        "text": "Onboarding checklist: (1) AI declaration under SFA s4A; (2) risk disclosure statement; (3) source-of-wealth checks; (4) custody terms signature. The pack contains no disclosure of asset segregation arrangements or the order of distribution on the custodian's insolvency."
+      },
+      {
+        "id": "c2d3",
+        "name": "CMS licence conditions (MAS)",
+        "added": "2025-02-19",
+        "text": "Licence CMS101234 conditions: minimum base capital S$500,000; appointment of at least 2 directors resident in Singapore; notification to MAS of any change of control within 14 days; annual audit submission within 5 months of financial year end."
+      },
+      {
+        "id": "c2d4",
+        "name": "Outsourcing register",
+        "added": "2026-08-28",
+        "text": "Register of material outsourcing arrangements per MAS Guidelines: (1) cloud hosting — CloudPort SG; (2) KYC screening — VeriScan; (3) fund administration — AsiaFund Services. Each arrangement reviewed annually; exit plans documented."
+      }
+    ]
+  },
+  {
+    "id": "c3",
+    "name": "Aster Health Group",
+    "practice": "Employment",
+    "risk": "Medium",
+    "updated": "2026-08-19",
+    "profile": {
+      "contact": "Dr Lim Hui Wen, 47, Group Medical Director",
+      "business": "Chain of 6 GP and specialist clinics",
+      "headcount": 58,
+      "areas_of_law": ["Employment Act", "Personal Data Protection Act", "Healthcare Services Act"],
+      "notes": "34 clinic support staff on salaries between S$2,400 and S$3,100."
+    },
+    "documents": [
+      {
+        "id": "c3d1",
+        "name": "Employee Handbook 2025",
+        "added": "2025-01-06",
+        "text": "4.3 OVERTIME. Employees other than workmen earning not more than S$2,600 per month are eligible for overtime pay at 1.5x the hourly basic rate. Employees earning above S$2,600 are not covered by Part IV of the Employment Act and overtime is at the Company's discretion. 4.4 REST DAYS. Covered employees receive one rest day per week. 9. GRIEVANCES. Employees may raise concerns informally with their clinic manager."
+      },
+      {
+        "id": "c3d2",
+        "name": "Clinic staff contracts (34)",
+        "added": "2025-01-06",
+        "text": "Standard terms: monthly salary as per Schedule; 44-hour work week; overtime payable only where required under Part IV of the Employment Act, computed on a capped salary of S$2,600; annual leave 14 days; confidentiality of patient information per clinic policy."
+      },
+      {
+        "id": "c3d3",
+        "name": "Patient data consent forms",
+        "added": "2026-08-19",
+        "text": "Consent form: the patient consents to the collection, use and disclosure of personal data for treatment, billing and appointment reminders in accordance with the PDPA. Data is retained per MOH record-keeping requirements. Patients may withdraw consent by written notice, subject to legal retention obligations. The clinic's DPO contact is dpo@asterhealth.sg."
+      }
+    ]
+  },
+  {
+    "id": "c4",
+    "name": "Kallang Works Pte Ltd",
+    "practice": "Employment",
+    "risk": "Low",
+    "updated": "2026-08-11",
+    "profile": {
+      "contact": "Rahim Ismail, 39, Founder",
+      "business": "Precision engineering workshop",
+      "headcount": 40,
+      "areas_of_law": ["Employment Act", "Workplace Safety and Health Act"],
+      "notes": "Shift technicians paid S$3,400-S$4,200; no formal grievance procedure in place."
+    },
+    "documents": [
+      {
+        "id": "c4d1",
+        "name": "Shift roster policy",
+        "added": "2026-08-11",
+        "text": "2. REST DAYS AND SHIFTS. 2.1 Technicians work a 3-shift rotation with one rest day per week. 2.2 All technicians are salaried above S$3,300 monthly and the Company treats Part IV of the Employment Act as inapplicable. 2.3 Shift swaps require supervisor approval 48 hours in advance."
+      },
+      {
+        "id": "c4d2",
+        "name": "Workshop tenancy agreement",
+        "added": "2025-05-22",
+        "text": "Tenancy of 12 Kallang Way unit 02-08 for 3 years from 1 Jun 2025; permitted use light industrial; reinstatement at expiry; landlord consent required for signage and structural alterations."
+      }
+    ]
+  },
+  {
+    "id": "c5",
+    "name": "Selat Marine Holdings",
+    "practice": "Corporate",
+    "risk": "Low",
+    "updated": "2026-08-04",
+    "profile": {
+      "contact": "Tan Boon Kiat, 63, Chairman",
+      "business": "Marine holding group; 7 subsidiaries, 3 with nominee directors",
+      "headcount": 12,
+      "areas_of_law": ["Companies Act", "Contract"],
+      "notes": "Nominee director deeds executed Apr 2024; no ACRA lodgement of nominee register."
+    },
+    "documents": [
+      {
+        "id": "c5d1",
+        "name": "Group structure chart (2026)",
+        "added": "2026-08-04",
+        "text": "Selat Marine Holdings Pte Ltd wholly owns 7 subsidiaries. Selat Chartering Pte Ltd, Selat Bunkering Pte Ltd and Anggun Shipping Pte Ltd each have one nominee director appointed on behalf of the family trust."
+      },
+      {
+        "id": "c5d2",
+        "name": "Nominee director deeds (3)",
+        "added": "2024-04-17",
+        "text": "Deed of appointment: the Nominee shall act on the instructions of the Beneficiary. The company shall keep a register of its nominee directors at its registered office in accordance with s386AL of the Companies Act. No provision addresses lodgement of the register with ACRA."
+      },
+      {
+        "id": "c5d3",
+        "name": "Charterparty — MV Anggun",
+        "added": "2025-12-09",
+        "text": "Time charter of MV Anggun for 24 months from 1 Jan 2026 on amended NYPE 2015 terms; hire payable monthly in advance; redelivery at a safe port in South East Asia; arbitration in Singapore under SCMA rules."
+      }
+    ]
+  },
+  {
+    "id": "c6",
+    "name": "Orchard Dental Partners",
+    "practice": "Commercial",
+    "risk": "None",
+    "updated": "2026-07-27",
+    "profile": {
+      "contact": "Dr Sarah Chen, 44, Managing Partner",
+      "business": "Two-clinic dental partnership",
+      "headcount": 14,
+      "areas_of_law": ["Partnership", "Contract"],
+      "notes": "Small team; no monitoring, no custody, salaries above Part IV ceilings."
+    },
+    "documents": [
+      {
+        "id": "c6d1",
+        "name": "Partnership deed",
+        "added": "2026-07-27",
+        "text": "Partnership of 4 dental surgeons; profit sharing per Schedule A; management committee of 2; retirement on 12 months' notice; non-compete within 2km for 18 months after exit."
+      },
+      {
+        "id": "c6d2",
+        "name": "Supplier terms — DentalCo",
+        "added": "2026-03-03",
+        "text": "Supply of consumables on 30-day credit terms. DentalCo may process the clinic's contact information for order fulfilment in accordance with applicable data protection law. Either party may terminate on 60 days' notice."
+      }
+    ]
+  }
+]

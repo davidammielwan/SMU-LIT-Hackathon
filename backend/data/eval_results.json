@@ -1,0 +1,140 @@
+{
+  "precision": 0.8333333333333334,
+  "recall": 1.0,
+  "category_exact": [
+    9,
+    15
+  ],
+  "traps_passed": [
+    7,
+    7
+  ],
+  "rows": [
+    [
+      "a1",
+      "c1d1",
+      "high",
+      "high",
+      "HIT"
+    ],
+    [
+      "a1",
+      "c1d2",
+      "high",
+      "high",
+      "HIT"
+    ],
+    [
+      "a1",
+      "c1d3",
+      "moderate",
+      "moderate",
+      "HIT"
+    ],
+    [
+      "a1",
+      "c2d1",
+      "moderate",
+      "high",
+      "HIT (cat off)"
+    ],
+    [
+      "a1",
+      "c2d4",
+      "unaffected",
+      "moderate",
+      "FALSE POSITIVE"
+    ],
+    [
+      "a1",
+      "profile:c1",
+      "unaffected",
+      "moderate",
+      "FALSE POSITIVE"
+    ],
+    [
+      "a2",
+      "c3d1",
+      "high",
+      "high",
+      "HIT"
+    ],
+    [
+      "a2",
+      "c3d2",
+      "high",
+      "high",
+      "HIT"
+    ],
+    [
+      "a2",
+      "c4d1",
+      "moderate",
+      "high",
+      "HIT (cat off)"
+    ],
+    [
+      "a3",
+      "c2d1",
+      "high",
+      "high",
+      "HIT"
+    ],
+    [
+      "a3",
+      "c2d2",
+      "moderate",
+      "high",
+      "HIT (cat off)"
+    ],
+    [
+      "a4",
+      "c1d4",
+      "high",
+      "high",
+      "HIT"
+    ],
+    [
+      "a5",
+      "c3d1",
+      "moderate",
+      "high",
+      "HIT (cat off)"
+    ],
+    [
+      "a5",
+      "profile:c4",
+      "high",
+      "high",
+      "HIT"
+    ],
+    [
+      "a5",
+      "profile:c1",
+      "moderate",
+      "high",
+      "HIT (cat off)"
+    ],
+    [
+      "a5",
+      "profile:c2",
+      "unaffected",
+      "high",
+      "FALSE POSITIVE"
+    ],
+    [
+      "a6",
+      "c5d2",
+      "high",
+      "high",
+      "HIT"
+    ],
+    [
+      "a6",
+      "profile:c5",
+      "moderate",
+      "high",
+      "HIT (cat off)"
+    ]
+  ]
+}

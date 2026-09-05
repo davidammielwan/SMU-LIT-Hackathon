@@ -1,0 +1,40 @@
+{
+  "_comment": "Hand-labelled ground truth. Key: amendment id -> {doc_id: expected category}. Docs not listed are expected UNAFFECTED. profile:{client_id} entries are profile-based matches with no document hit.",
+  "a1": {
+    "c1d1": "high",
+    "c1d2": "high",
+    "c1d3": "moderate",
+    "c2d1": "moderate",
+    "_traps": ["c3d3", "c6d2", "c1d4"],
+    "_trap_note": "c3d3 and c6d2 are PDPA-adjacent (consent, supplier data clause) but contain no breach-notification assumption and must NOT be flagged. c1d4 is PDPA but touches monitoring, not breach windows."
+  },
+  "a2": {
+    "c3d1": "high",
+    "c3d2": "high",
+    "c4d1": "moderate",
+    "_traps": ["c6d1"],
+    "_trap_note": "c4d1 salaries (S$3,400+) sit above the new S$3,200 ceiling - monitor only, not high. Orchard salaries all above ceiling: unaffected."
+  },
+  "a3": {
+    "c2d1": "high",
+    "c2d2": "moderate",
+    "_traps": ["c2d3", "c2d4"],
+    "_trap_note": "Licence conditions and outsourcing register are SFA-adjacent but carry no custody disclosure assumption."
+  },
+  "a4": {
+    "c1d4": "high",
+    "_traps": ["c3d3"],
+    "_trap_note": "Patient consent forms rely on consent, not legitimate interests - unaffected."
+  },
+  "a5": {
+    "c3d1": "moderate",
+    "profile:c4": "high",
+    "profile:c1": "moderate",
+    "_trap_note": "Kallang (40 staff) has NO document mentioning grievances - the hit must come from the client profile (headcount 40 >= 25, no grievance procedure). Aster handbook s9 has only an informal process - moderate. Orchard (14 staff) below threshold: unaffected."
+  },
+  "a6": {
+    "c5d2": "high",
+    "profile:c5": "moderate",
+    "_trap_note": "Deed restates the old keep-at-registered-office duty and is silent on ACRA lodgement."
+  }
+}
