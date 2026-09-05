@@ -1,0 +1,378 @@
+Road Traffic
+(Miscellaneous Amendments) Bill
+Bill No. 14/2026.
+Read the first time on 7 July 2026.
+A BILL
+intituled
+An Act to amend the Road Traffic Act 1961 and the Motor V ehicles
+(Third‑Party Risks and Compensation) Act 1960.
+Be it enacted by the President with the advice and consent of the
+Parliament of Singapore, as follows:
+Short title and commencement
+1. This Act is the Road Traffic (Miscellaneous Amendments)
+Act 2026 and comes into operation on a date that the Minister
+appoints by notification in the Gazette.
+5 PART 1
+AMENDMENT OF ROAD TRAFFIC ACT 1961
+Amendment of section 36
+2. In the Road Traffic Act 1961 (called in this Act the RT Act), in
+section 36(7), replace “section 64” with “section 63A, 64”.
+10 Amendment of section 42
+3. In the RT Act, in section 42 —
+(a) in subsection (1), replace “any period” with
+“any disqualification period”; and
+(b) after subsection (4), insert —
+15 “(5) In this section, “disqualification period”, for an
+offender against whom an order is made under
+subsection (1) in addition to the punishment
+imposed for an offence (called in this subsection the
+relevant offence), means the period for which the
+20 offender is disqualified from holding or obtaining a
+driving licence by that order, starting on the later of
+the following dates:
+(a) the date of the offender’s conviction for the
+relevant offence;
+25 (b) the date the offender is released from
+prison and is no longer serving any
+sentence of imprisonment, if the offender
+is or was sentenced to imprisonment
+(whether for the relevant offence or any
+30 other offence) before or at the same hearing
+where the offender is sentenced for the
+relevant offence.”.
+2
+Amendment of section 42B
+4. In the RT Act, in section 42B —
+(a) in subsection (1), replace “or an order of a court” with
+“(called in this section the relevant conviction) or an order
+5of a court (called in this section the relevant order)”;
+(b) in subsection (1), replace “the date of commencement of
+section 3 of the Road Traffic (Miscellaneous
+Amendments) Act 2025” with “1 January 2026”;
+(c) in subsection (2), replace the definition of “disqualification
+10period” with —
+“ “disqualification period” means the period for
+which a person is disqualified from holding or
+obtaining a driving licence because of the
+relevant conviction or the relevant order,
+15starting on the later of the following dates:
+(a) the date of the relevant conviction or
+the relevant order;
+(b) the date the person is released from
+prison and is no longer serving any
+20sentence of imprisonment, if the
+person was sentenced to
+imprisonment (whether in relation to
+the relevant conviction or any other
+conviction) before or at the same
+25hearing where the person was
+sentenced for the relevant conviction
+or at which the relevant order was
+made;”; and
+(d) in subsection (2), in the definition of “period of
+30imprisonment”, replace “of the person’s release from
+prison” with “the person is released from prison and is
+no longer serving any sentence of imprisonment”.
+3
+Amendment of section 47C
+5. In the RT Act, in section 47C(1A), replace “section 64” with
+“section 63A, 64”.
+New section 63A
+5 6. In the RT Act, after section 63, insert —
+“Purposeful endangerment using motor vehicle
+63A.—(1) A person (X) commits an offence if —
+(a) X drives a motor vehicle on a road in such a manner
+which endangers the life or safety of any person
+10 (whether or not the person is in a vehicle);
+(b) X drives in that manner for the purpose of
+endangering the life or safety of a particular
+person (Y) (whether or not Y is in a vehicle); and
+(c) death or grievous hurt is caused to any person
+15 (whether or not the person is Y and whether or not
+the person is in a vehicle) by the driving of the motor
+vehicle by X.
+Illustrations
+(a) A is driving a motor car on a road. B is driving another motor car in
+20 front of A. A manoeuvres A’s car in front of B’s car and brakes suddenly. This
+endangers B’s personal safety. A does so for the purpose of endangering B’s
+personal safety. B loses control of B’s car and crashes into C who is riding a
+motor cycle. C dies as a result. A is guilty of an offence under subsection (1).
+(b) A is driving a motor car on a road. B is riding a motor cycle in front
+25 of A. A drives closely behind B and presses A’s car horn several times. This
+endangers B’s personal safety. A does so for the purpose of endangering B’s
+personal safety. A loses control of A’s car and collides with the back of B’s
+motor cycle. B crashes and dies as a result. A is guilty of an offence under
+subsection (1).
+30 (c) A is driving a motor car on a road. B is riding a motor cycle on the
+same road. Both parties start racing with one another. A swerves into B’s lane
+for the purpose of endangering B’s personal safety. This endangers B’s
+personal safety. B fails to take evasive action and collides into A’s car. B is
+thrown off B’s motor cycle and dies as a result. A is guilty of an offence under
+35 subsection (1).
+4
+(2) A person who is guilty of an offence under
+subsection (1) —
+(a) shall on conviction be punished with imprisonment
+for a term not exceeding 15 years; and
+5(b) in addition, shall be liable on conviction to a fine or to
+caning, or to both.
+(3) A court convicting a person of an offence under
+subsection (1) is to order that the person be disqualified from
+holding or obtaining a driving licence for life, starting on the
+10date of the person’s conviction, unless the court for special
+reasons thinks fit to order a shorter disqualification period that is
+equal to or longer than 10 years.
+(4) Where a person is convicted of abetting the commission of
+an offence under subsection (1) and it is proved that the person
+15was present in the motor vehicle used in the commission of the
+offence at the time of the commission of the offence, the person
+is, for the purposes of sections 42(1)(a) and 44(1), deemed to be
+a person convicted of an offence in connection with the driving
+of a motor vehicle.
+20(5) Any police officer may arrest without warrant any person
+who has committed or is committing an offence under
+subsection (1).
+(6) Despite the Criminal Procedure Code 2010, a District
+Court or a Magistrate’s Court has jurisdiction to try an offence
+25under subsection (1) and has power to impose the full
+punishment specified in this section.
+(7) In this section —
+“disqualification period”, for an offender convicted of an
+offence (called in this subsection the relevant offence)
+30under subsection (1), means the period for which the
+offender is disqualified from holding or obtaining a
+driving licence because of that conviction for the
+relevant offence, starting on the later of the following
+dates:
+5
+(a) the date of the offender’s conviction for the
+relevant offence;
+(b) the date the offender is released from prison and
+is no longer serving any sentence of
+5 imprisonment, if the offender is or was
+sentenced to imprisonment (whether for the
+relevant offence or any other offence) before or
+at the same hearing where the offender is
+sentenced for the relevant offence;
+10 “grievous”, in relation to hurt, has the meaning given by
+section 320 (except paragraph (aa)) of the Penal
+Code 1871;
+“hurt” has the meaning given by section 319 of the Penal
+Code 1871.”.
+15 Amendment of section 64
+7. In the RT Act, in section 64 —
+(a) in subsection (7)(a), replace “5 years” with “7 years”;
+(b) in subsection (7)(b), replace “10 years” with “13 years”;
+(c) in subsection (7)(c), replace “one year” with “18 months”;
+20 (d) in subsection (7)(d), replace “2 years” with “3 years
+and 6 months”;
+(e) in subsection (9), replace “shorter period of
+disqualification” with “shorter disqualification period”;
+(f) in the following provisions, replace “the date of
+25 commencement of section 5 of the Road Traffic
+(Miscellaneous Amendments) Act 2025” wherever it
+appears with “12 June 2025”:
+(f) Subsection (9)(b), (e), (h) and (j)
+(f) Subsection (10)(a), (b), (c) and (d)
+30 (f) Subsection (11)(a) and (b)(i);
+(g) in subsection (10), replace “shorter period” with “shorter
+disqualification period”;
+6
+(h) in subsection (11)(a)(ii), after “section”, insert “63A,”;
+(i) replace subsection (12) with —
+“(12) Where a person is convicted of abetting the
+commission of an offence under this section and it is
+5proved that the person was present in the motor
+vehicle used in the commission of the offence at the
+time of the commission of the offence, the person is,
+for the purposes of sections 42(1)(a) and 44(1),
+deemed to be a person convicted of an offence in
+10connection with the driving of a motor vehicle.”; and
+(j) in subsection (16), replace the definition of
+“disqualification period” with —
+“ “disqualification period”, for an offender convicted
+of an offence (called in this subsection the
+15relevant offence) under this section or
+section 65 (as the case may be), means the
+period for which the offender is disqualified
+from holding or obtaining a driving licence
+because of that conviction for the relevant
+20offence, starting on the later of the following
+dates:
+(a) the date of the offender’s conviction
+for the relevant offence;
+(b) the date the offender is released from
+25prison and is no longer serving any
+sentence of imprisonment, if the
+offender is or was sentenced to
+imprisonment (whether for the
+relevant offence or any other
+30offence) before or at the same
+hearing where the offender is
+sentenced for the relevant offence;”.
+7
+Amendment of section 65
+8. In the RT Act, in section 65 —
+(a) in subsection (7)(c), replace “12 months” with
+“18 months”;
+5 (b) in subsection (7)(d), replace “2 years” with “3 years and
+6 months”;
+(c) in subsection (9), replace “shorter period of
+disqualification” with “shorter disqualification period”;
+(d) in the following provisions, replace “the date of
+10 commencement of section 5 of the Road Traffic
+(Miscellaneous Amendments) Act 2025” wherever it
+appears with “12 June 2025”:
+(d) Subsection (9)(b), (e), (h) and (j)
+(d) Subsection (10)(a), (b), (c) and (d)
+15 (d) Subsection (11)(a) and (b)(i);
+(e) in subsection (10), replace “shorter period” with “shorter
+disqualification period”; and
+(f) in subsection (11)(a)(ii), after “section”, insert “63A,”.
+Amendment of section 65AA
+20 9. In the RT Act, in section 65AA(1), after paragraph (aa), insert —
+“(ab) section 63A;”.
+Amendment of section 65B
+10. In the RT Act, in section 65B —
+(a) in the section heading, replace “Use of” with “Holding”;
+25 (b) in subsection (1), delete “and operates any of its
+communicative or other functions,”;
+(c) after subsection (1A), insert —
+“(1B) To avoid doubt, for the purposes of
+subsection (1), a driver who touches with his or her
+30 hand a mobile communication device which is
+8
+secured in a mounting affixed to the vehicle, in the
+manner intended by the manufacturer of the
+mounting, does not hold the device.”; and
+(d) in subsection (3), in the definition of “repeat offender”,
+5replace paragraphs (a), (b) and (c) with —
+“(a) an offence under subsection (1); or
+(b) an offence under section 65B as in force
+immediately before 1 February 2015,”.
+Amendment of section 67
+1011. In the RT Act, in section 67 —
+(a) in subsection (1)(a), delete “or” at the end;
+(b) in subsection (1)(b), after “blood”, insert “is equal to or”;
+(c) in subsection (1)(b), replace the comma at the end with
+“; or”;
+15(d) in subsection (1), after paragraph (b), insert —
+“(c) has a specified substance present in his or
+her blood,”;
+(e) after subsection (1), insert —
+“(1A) In any proceedings for an offence under
+20subsection (1)(c), it is a defence for the defendant to
+prove, on a balance of probabilities, that —
+(a) the specified substance was present in the
+defendant’s blood at the time of the alleged
+offence because the specified substance
+25was lawfully smoked, inhaled, used or
+consumed by, or lawfully administered to
+or by, the defendant as authorised or
+exempted under —
+(i) the Misuse of Drugs Act 1973;
+30(ii) the Tobacco and V aporisers Control
+Act 1993; or
+9
+(iii) the Intoxicating Substances
+Act 1987; and
+(b) the defendant did not know or have reason
+to believe that the smoking, inhalation, use
+5 or consumption by, or the administration to
+or by, the defendant, of the specified
+substance would affect his or her
+capacity, at the time of the alleged
+offence, to have proper control of a motor
+10 vehicle.”;
+(f) in subsection (2), replace “period of disqualification, order
+that the person be disqualified from holding or obtaining a
+driving licence for a period that is equal to or longer than
+the specified period corresponding to that case, starting on
+15 the date of the person’s conviction or, where the person is
+sentenced to imprisonment, on the date of the person’s
+release from prison” with “disqualification period, order
+that the person be disqualified from holding or obtaining a
+driving licence for a disqualification period that is equal to
+20 or longer than the specified period corresponding to that
+case”;
+(g) in subsection (2A), replace “shorter period of
+disqualification” with “shorter disqualification period”;
+and
+25 (h) replace subsection (4) with —
+“(4) In this section —
+“disqualification period”, for an offender
+convicted of an offence (called in this
+subsection the relevant offence) under this
+30 section, means the period for which the
+offender is disqualified from holding or
+obtaining a driving licence because of that
+conviction for the relevant offence, starting
+on the later of the following dates:
+10
+(a) the date of the offender’s conviction
+for the relevant offence;
+(b) the date the offender is released from
+prison and is no longer serving any
+5sentence of imprisonment, if the
+offender is or was sentenced to
+imprisonment (whether for the
+relevant offence or any other
+offence) before or at the same
+10hearing where the offender is
+sentenced for the relevant offence;
+“repeat offender” means a person who is
+convicted of an offence under this section
+and who has been convicted (whether before,
+15on or after 1 November 2019) on one other
+earlier occasion of —
+(a) an offence under subsection (1) or
+section 68; or
+(b) an offence under subsection (1) as in
+20force immediately before
+1 November 2019.”.
+Amendment of section 67A
+12. In the RT Act, in section 67A(3), in the definition of “specified
+offence” —
+25(a) in paragraph (a), delete “64(1) (as in force immediately
+before the date of commencement of section 5 of the Road
+Traffic (Miscellaneous Amendments) Act 2025),”;
+(b) after paragraph (a), insert —
+“(aa) section 64(1) that is committed before
+3012 June 2025;”;
+(c) in paragraphs (b) and (ba), replace “the date of
+commencement of section 5 of the Road Traffic
+(Miscellaneous Amendments) Act 2025” with “12 June
+2025”;
+11
+(d) in paragraph (ba), delete “or” at the end; and
+(e) after paragraph (ba), insert —
+“(bb) section 63A(1) that is committed on or after
+the date of commencement of section 6 of
+5 the Road Traffic (Miscellaneous
+Amendments) Act 2026; or”.
+Amendment of section 68
+13. In the RT Act, in section 68 —
+(a) in subsection (1)(a), delete “or” at the end;
+10 (b) in subsection (1)(b), after “blood”, insert “is equal to or”;
+(c) in subsection (1)(b), replace the comma at the end with
+“; or”;
+(d) in subsection (1), after paragraph (b), insert —
+“(c) has a specified substance present in his or
+15 her blood,”;
+(e) after subsection (1), insert —
+“(1A) In any proceedings for an offence under
+subsection (1)(c), it is a defence for the defendant to
+prove, on a balance of probabilities, that —
+20 (a) the specified substance was present in the
+defendant’s blood at the time of the alleged
+offence because the specified substance
+was lawfully smoked, inhaled, used or
+consumed by, or lawfully administered to
+25 or by, the defendant as authorised or
+exempted under —
+(i) the Misuse of Drugs Act 1973;
+(ii) the Tobacco and V aporisers Control
+Act 1993; or
+30 (iii) the Intoxicating Substances
+Act 1987; and
+12

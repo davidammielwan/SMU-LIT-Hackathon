@@ -1,0 +1,385 @@
+Civil Defence Shelter and Fire Safety
+(Miscellaneous Amendments) Bill
+Bill No. 15/2026.
+Read the first time on 4 August 2026.
+A BILL
+intituled
+An Act to amend the Civil Defence Shelter Act 1997 and the Fire
+Safety Act 1993, and to repeal the Chemical Weapons (Prohibition)
+(Amendment) Act 2019.
+Be it enacted by the President with the advice and consent of the
+Parliament of Singapore, as follows:
+Short title and commencement
+1. This Act is the Civil Defence Shelter and Fire Safety
+(Miscellaneous Amendments) Act 2026 and comes into operation
+on a date that the Minister appoints by notification in the Gazette.
+5 PART 1
+AMENDMENT OF CIVIL DEFENCE SHELTER ACT 1997
+Amendment of section 2
+2. In the Civil Defence Shelter Act 1997 (called in this Part the CD
+Shelter Act), in section 2(1), after the definition of “public shelter”,
+10 insert —
+“ “regulated shelter product” means any equipment prescribed
+as such that is installed or to be installed in a household
+shelter or storey shelter;”.
+New Part 2A
+15 3. In the CD Shelter Act, after Part 2, insert —
+“PART 2A
+REGULA TED SHELTER PRODUCTS FOR
+HOUSEHOLD SHELTERS AND STOREY SHELTERS
+Interpretation of this Part
+20 4A. In this Part and section 28 —
+“accredited certification body” means a person that
+certifies compliance of a regulated shelter product of a
+particular type or description with the applicable
+standard for that regulated shelter product, and is
+25 accredited under the Singapore Accreditation
+Council’s Certification Body Accreditation Scheme
+that is administered by the Enterprise Singapore Board;
+“accredited laboratory” means a person providing
+laboratory testing services that —
+2
+(a) is accredited under the Singapore Accreditation
+Council’s Laboratory Accreditation Scheme
+that is administered by the Enterprise
+Singapore Board;
+5(b) is recognised under a bilateral mutual
+recognition agreement or arrangement between
+Singapore and any other country; or
+(c) is recognised under a multilateral mutual
+recognition agreement or arrangement between
+10Singapore and 2 or more other countries;
+“Appeal Advisory Board” means the Appeal Advisory
+Board appointed by the Minister under section 4M(1);
+“applicable standard”, in relation to a regulated shelter
+product, means the standard for that regulated shelter
+15product that is specified in the specifications;
+“certificate of conformity”, in relation to a regulated shelter
+product of a type or description specified in the
+certificate, means a certificate issued by an accredited
+certification body as to its compliance with the
+20applicable standard for that regulated shelter product;
+“compliant shelter product” means a regulated shelter
+product —
+(a) that is tested by an accredited laboratory for
+compliance with the applicable standard for that
+25regulated shelter product;
+(b) that complies with the applicable standard for
+that regulated shelter product;
+(c) of a type or description for which a valid
+certificate of conformity is issued; and
+30(d) that is not prescribed under section 4I(3) as a
+non‑compliant shelter product;
+“Enterprise Singapore Board” means the Enterprise
+Singapore Board established by section 3 of the
+Enterprise Singapore Board Act 2018;
+3
+“foreign person” means a person who is not a Singapore
+person;
+“non‑compliant shelter product” means a regulated shelter
+product that is not a compliant shelter product;
+5 “offer to supply”, in relation to a regulated shelter product,
+includes an attempt to supply or exposure for supply;
+“Singapore person” means a person who is —
+(a) a citizen of Singapore;
+(b) a body corporate or corporation incorporated or
+10 constituted under the law of Singapore; or
+(c) a person domiciled in Singapore;
+“supply”, in relation to a regulated shelter product,
+includes —
+(a) the supply of the regulated shelter product by
+15 way of sale (including by way of barter or
+exchange), lease, loan, hire or hire‑purchase;
+(b) causing or allowing the supply of the regulated
+shelter product;
+(c) the supply of the regulated shelter product in
+20 connection with any agreement; and
+(d) receiving, sending or delivering the regulated
+shelter product for supply;
+“valid certificate of conformity” means a certificate of
+conformity that —
+25 (a) is issued —
+(i) to a Singapore person; or
+(ii) to a foreign person who has, at the time of
+the issue, appointed a local representative
+that is a Singapore person; and
+30 (b) is not expired, terminated or otherwise
+suspended or cancelled by an accredited
+certification body, under this Act or otherwise.
+4
+False test reports for regulated shelter products
+4B.—(1) An accredited laboratory that issues a false test
+report in respect of a regulated shelter product of a particular
+type or description, knowing that the test report is false, shall be
+5guilty of an offence and shall be liable on conviction to a fine not
+exceeding $100,000 or to imprisonment for a term not exceeding
+2 years or to both.
+(2) An accredited laboratory that issues a false test report in
+respect of a regulated shelter product of a particular type or
+10description, reckless or negligent as to whether the test report is
+false, shall be guilty of an offence and shall be liable on
+conviction to a fine not exceeding $50,000.
+(3) In this section, “false test report”, in relation to a regulated
+shelter product of a particular type or description (P), means a
+15test report that —
+(a) states the result of a test conducted on P for
+compliance with the applicable standard for that
+regulated shelter product; and
+(b) is false or misleading in any material particular.
+20Giving false information to accredited certification body
+4C.—(1) Any person who gives false information to an
+accredited certification body for the purposes of obtaining a
+certificate of conformity for a regulated shelter product of a
+particular type or description, knowing that the information is
+25false, shall be guilty of an offence and shall be liable on
+conviction to a fine not exceeding $100,000 or to imprisonment
+for a term not exceeding 2 years or to both.
+(2) Any person who gives false information to an accredited
+certification body for the purposes of obtaining a certificate of
+30conformity for a regulated shelter product of a particular type or
+description, reckless or negligent as to whether the information
+is false, shall be guilty of an offence and shall be liable on
+conviction to a fine not exceeding $50,000.
+5
+Certification of regulated shelter products
+4D.—(1) A person that is not an accredited certification body
+commits an offence if —
+(a) the person certifies, or holds out or advertises in any
+5 way that the person is willing to certify, that a
+regulated shelter product of a particular type or
+description complies with the applicable standard
+for that regulated shelter product; and
+(b) the person —
+10 (i) knows that it is not an accredited certification
+body; or
+(ii) is reckless or negligent as to whether it is an
+accredited certification body.
+(2) An accredited certification body commits an offence if the
+15 accredited certification body issues a certificate of conformity
+for a regulated shelter product of a particular type or description
+(P) that does not comply with the applicable standard for that
+regulated shelter product if the accredited certification body —
+(a) knows that P does not so comply; or
+20 (b) is reckless or negligent as to whether P so complies.
+(3) An accredited certification body that issues a certificate of
+conformity for a regulated shelter product of a particular type or
+description (P) must cancel the certificate of conformity —
+(a) as soon as practicable after the accredited certification
+25 body knows or has reasonable cause to believe
+(whether by a test or an analysis conducted under
+section 4G(1) or otherwise) that P does not comply
+with the applicable standard for that regulated shelter
+product; or
+30 (b) where the specifications for the regulated shelter
+product require any post‑certification test to be
+conducted for the regulated shelter product within a
+specified period after the issue of the certificate of
+conformity — as soon as practicable after the
+6
+accredited certification body knows or has reasonable
+cause to believe that the post‑certification test is not
+conducted within the specified period.
+(4) A person who is guilty of an offence under
+5subsection (1)(b)(i) or (2)(a) —
+(a) shall be liable on conviction to a fine not exceeding
+$100,000 or to imprisonment for a term not exceeding
+2 years or to both; and
+(b) in the case of a continuing contravention of
+10subsection (1)(b)(i) —
+(i) shall be liable on conviction to an additional
+fine not exceeding $1,000 for every day or part
+of a day during which the contravention
+continues; and
+15(ii) if the contravention continues after the
+conviction, shall be guilty of a further offence
+and shall be liable on conviction of this further
+offence to a fine not exceeding $2,000 for every
+day or part of a day during which the
+20contravention continues after conviction.
+(5) A person who is guilty of an offence under
+subsection (1)(b)(ii) or (2)(b) —
+(a) shall be liable on conviction to a fine not exceeding
+$50,000; and
+25(b) in the case of a continuing contravention of
+subsection (1)(b)(ii) —
+(i) shall be liable on conviction to an additional
+fine not exceeding $1,000 for every day or part
+of a day during which the contravention
+30continues; and
+(ii) if the contravention continues after the
+conviction, shall be guilty of a further offence
+and shall be liable on conviction of this further
+offence to a fine not exceeding $2,000 for every
+7
+day or part of a day during which the
+contravention continues after conviction.
+(6) An accredited certification body that contravenes
+subsection (3)(a) or (b) shall be guilty of an offence and shall
+5 be liable on conviction —
+(a) to a fine not exceeding $100,000 or to imprisonment
+for a term not exceeding 2 years or to both; and
+(b) in the case of a continuing contravention of
+subsection (3)(a) or (b) (as the case may be), to an
+10 additional fine not exceeding $1,000 for every day or
+part of a day during which the contravention
+continues,
+and if the contravention continues after the conviction, the
+accredited certification body shall be guilty of a further offence
+15 and shall be liable on conviction of this further offence to a fine
+not exceeding $2,000 for every day or part of a day during which
+the contravention continues after conviction.
+Supply of regulated shelter products
+4E.—(1) A person (whether or not in Singapore) who —
+20 (a) supplies or offers to supply to a person in Singapore
+any non‑compliant shelter product as a compliant
+shelter product or for use as a regulated shelter
+product; or
+(b) in the course of such supply or offer, represents that
+25 the non‑compliant shelter product is a compliant
+shelter product or is fit for use as a regulated shelter
+product,
+knowing that the non‑compliant shelter product is a
+non‑compliant shelter product, shall be guilty of an offence.
+30 (2) A person who is guilty of an offence under subsection (1)
+shall be liable on conviction —
+(a) to a fine not exceeding $100,000 or to imprisonment
+for a term not exceeding 2 years or to both; and
+8
+(b) in the case of a continuing contravention, to an
+additional fine not exceeding $1,000 for every day or
+part of a day during which the contravention
+continues,
+5and if the contravention continues after the conviction, the
+person shall be guilty of a further offence and shall be liable on
+conviction of this further offence to a fine not exceeding $2,000
+for every day or part of a day during which the contravention
+continues after conviction.
+10(3) A person (whether or not in Singapore) who —
+(a) supplies or offers to supply to a person in Singapore
+any non‑compliant shelter product as a compliant
+shelter product or for use as a regulated shelter
+product; or
+15(b) in the course of such supply or offer, represents that
+the non‑compliant shelter product is a compliant
+shelter product or is fit for use as a regulated shelter
+product,
+reckless or negligent as to whether the non‑compliant shelter
+20product is a non‑compliant shelter product, shall be guilty of an
+offence.
+(4) A person who is guilty of an offence under subsection (3)
+shall be liable on conviction —
+(a) to a fine not exceeding $50,000; and
+25(b) in the case of a continuing contravention, to an
+additional fine not exceeding $1,000 for every day or
+part of a day during which the contravention
+continues,
+and if the contravention continues after the conviction, the
+30person shall be guilty of a further offence and shall be liable on
+conviction of this further offence to a fine not exceeding $2,000
+for every day or part of a day during which the contravention
+continues after conviction.
+9
+(5) Where an offence under subsection (1) or (3) is committed
+by a person outside Singapore, the person may be dealt with in
+respect of that offence as if it had been committed in Singapore.
+Installation of non‑compliant shelter products
+5 4F.—(1) A relevant person who installs, or causes to be
+installed, in any household shelter or storey shelter —
+(a) any non‑compliant shelter product, knowing that it is
+a non‑compliant shelter product; or
+(b) any regulated shelter product, knowing that the
+10 manner in which it is installed impairs or is likely
+to impair the safe and efficient use of the household
+shelter or storey shelter, as the case may be,
+shall be guilty of an offence and shall be liable on conviction to a
+fine not exceeding $100,000 or to imprisonment for a term not
+15 exceeding 2 years or to both.
+(2) A relevant person who installs, or causes to be installed, in
+any household shelter or storey shelter any non‑compliant
+shelter product, reckless or negligent as to whether it is a
+non‑compliant shelter product, shall be guilty of an offence and
+20 shall be liable on conviction to a fine not exceeding $50,000.
+(3) A relevant person who installs, or causes to be installed, in
+any household shelter or storey shelter any regulated shelter
+product in a manner that impairs or is likely to impair the safe
+and efficient use of the household shelter or storey shelter (as the
+25 case may be), reckless or negligent as to whether the manner in
+which the regulated shelter product is installed impairs or is
+likely to impair the safe and efficient use of the household
+shelter or storey shelter (as the case may be), shall be guilty of an
+offence and shall be liable on conviction to a fine not exceeding
+30 $50,000.
+(4) It is a defence to a prosecution for an offence under
+subsection (2) if the relevant person proves, on a balance of
+probabilities, that the relevant person had taken all reasonable
+steps to ensure that the regulated shelter product so installed was
+10
+a compliant shelter product at the time the regulated shelter
+product was delivered to the relevant person.
+(5) It is a defence to a prosecution for an offence under
+subsection (3) if the relevant person proves, on a balance of
+5probabilities, that the relevant person had taken all reasonable
+steps to ensure that the regulated shelter product was installed in
+accordance with the specifications for the regulated shelter
+product.
+(6) Subsections (1)(a) and (2) do not apply if the regulated
+10shelter product in question is a non‑compliant shelter product
+only by reason that the certificate of conformity for the regulated
+shelter product expires or is suspended or terminated after the
+regulated shelter product is delivered to the relevant person.
+(7) In this section —
+15“builder” has the meaning given by section 2(1) of the
+Building Control Act 1989;
+“relevant person” —
+(a) in relation to a household shelter provided for a
+house, means the owner, occupier or builder of
+20the house;
+(b) in relation to a household shelter provided for a
+flat in a building, means the owner or occupier
+of the flat or the builder of the building; or
+(c) in relation to a storey shelter provided for any
+25storey of a building, means —
+(i) the owner or builder of the building; or
+(ii) the occupier of any part of that storey of
+the building.
+Commissioner may require testing of regulated shelter
+30product
+4G.—(1) The Commissioner may, by written notice to any of
+the following persons, require the person to submit a regulated
+shelter product of a particular type or description (P) or samples
+11
+of P to an accredited laboratory for the purpose of testing or
+analysis within the time specified in the notice:
+(a) an accredited certification body that has issued a
+certificate of conformity for P;
+5 (b) a person carrying on a trade or business that consists
+of or includes the supply of P (called in this section
+the supplier);
+(c) a person to whom a certificate of conformity for P is
+issued (called in this section the certificate holder).
+10 (2) Where the accredited certification body, supplier or
+certificate holder does not have possession, charge or control
+of P as specified in the written notice, any person who has such
+possession, charge or control must render all necessary and
+reasonable assistance to enable the accredited certification body,
+15 supplier or certificate holder (as the case may be) to comply with
+the notice.
+(3) An accredited certification body, a supplier or a certificate
+holder who, without reasonable excuse, refuses or fails to
+comply with any requirement of the Commissioner under
+20 subsection (1) shall be guilty of an offence.
+(4) A person who, without reasonable excuse, contravenes
+subsection (2) shall be guilty of an offence.
+(5) A person who is guilty of an offence under subsection (3)
+or (4) shall be liable on conviction to a fine not exceeding
+25 $10,000 or to imprisonment for a term not exceeding 6 months
+or to both and, in the case of a continuing offence, to a further
+fine not exceeding $1,000 for every day or part of a day during
+which the offence continues after conviction.
+Commissioner may give directions relating to regulated
+30 shelter products
+4H.—(1) The Commissioner may, by written notice, give one
+or more of the directions mentioned in subsection (2) (as
+applicable) to any person with possession, charge or control of a
+regulated shelter product or who supplied a regulated shelter
+12

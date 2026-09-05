@@ -42,6 +42,16 @@ def parse_bills(html: str) -> list[dict]:
     Date Introduced: | dd.mm.yyyy | Date of 2nd Reading: | dd.mm.yyyy |
     Date Passed: | [dd.mm.yyyy]. Parse from the flattened text."""
     soup = BeautifulSoup(html, "html.parser")
+    # Map bill title -> PDF href from the anchor tags
+    pdf_by_title = {}
+    for a in soup.find_all("a", href=True):
+        if ".pdf" not in a["href"].lower():
+            continue
+        label = a.get_text(" ", strip=True)
+        m = re.match(r"(.*?Bill)\s*\(PDF", label)
+        if m:
+            pdf_by_title[m.group(1).strip()] = a["href"]
+
     text = soup.get_text("|", strip=True)
     pattern = re.compile(
         r"([A-Z][^|]{5,150}?Bill)\s*\(PDF[^|]*\)\|Bill No:\|(\d{1,2}/\d{4})\|"
@@ -50,12 +60,16 @@ def parse_bills(html: str) -> list[dict]:
     bills = []
     for m in pattern.finditer(text):
         title, no, introduced, second, passed = m.groups()
+        name = title.strip()
         bills.append({
-            "bill_name": title.strip(),
+            "bill_name": name,
             "bill_no": no,
             "introduced": _iso(introduced),
             "second_reading": _iso(second) if second else None,
             "passed": _iso(passed) if passed else None,
+            "status": "Passed" if passed else (
+                "Awaiting 2nd reading" if second else "Introduced"),
+            "pdf_url": pdf_by_title.get(name),
             "source": "parliament.gov.sg (live)",
         })
     return bills[:25]
@@ -65,13 +79,19 @@ def _iso(d: str) -> str:
     return datetime.strptime(d, "%d.%m.%Y").date().isoformat()
 
 
+def get_bills_enriched(limit: int = 6) -> list[dict]:
+    """Live bills with their PDFs downloaded and parsed (cached after first run)."""
+    from . import bill_pdf
+    return [bill_pdf.enrich(b) for b in fetch_bills_live()[:limit]]
+
+
 def get_watchlist() -> dict:
     """Watchlist = live parliament bills merged with the curated Hansard
     analysis (minister commencement signals) from fixtures/seed data."""
     with open(os.path.join(FIXTURES, "..", "amendments", "watchlist.json"),
               encoding="utf-8") as f:
         curated = json.load(f)
-    live = fetch_bills_live()
+    live = get_bills_enriched()
     live_names = {b["bill_name"] for b in live}
     # Mark curated entries that the live scrape corroborates
     for w in curated:

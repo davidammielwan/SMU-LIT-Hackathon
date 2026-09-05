@@ -274,8 +274,28 @@
             <span v-if="w.second_reading" class="muted" style="font-size:10.5px;font-variant-numeric:tabular-nums">2nd reading {{ w.second_reading }}</span>
           </div>
         </div>
+        <div v-if="liveBills.length" style="margin-top:6px">
+          <div style="display:flex;align-items:center;gap:8px;margin:4px 0 8px">
+            <h6 style="margin:0;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--color-accent-700)">Live from Parliament · PDFs parsed</h6>
+            <div style="flex:1;height:1px;background:var(--color-divider)"></div>
+          </div>
+          <div v-for="b in liveBills" :key="b.bill_no" class="amrow" @click="billDetail=b" style="margin-bottom:8px">
+            <div style="display:flex;align-items:baseline;gap:8px">
+              <span style="font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--color-accent-700);flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">Bill {{ b.bill_no }}</span>
+              <span class="muted" style="font-size:10px;font-variant-numeric:tabular-nums;flex:none">{{ b.status }}</span>
+            </div>
+            <div style="font-family:var(--font-heading);font-weight:600;font-size:14.5px;line-height:1.22;margin:3px 0 5px">{{ b.bill_name }}</div>
+            <div style="display:flex;align-items:center;gap:6px;flex-wrap:wrap">
+              <span class="chip" :class="b.commencement_signal==='fixed' ? 'imminent' : b.commencement_signal==='minister_appointed' ? 'not_stated' : 'distant'">
+                {{ commencementLabel(b.commencement_signal) }}
+              </span>
+              <span v-if="b.second_reading" class="muted" style="font-size:10.5px;font-variant-numeric:tabular-nums">2R {{ b.second_reading }}</span>
+              <span v-if="b.pdf_parsed" class="muted" style="font-size:10px;margin-left:auto">PDF parsed ✓</span>
+            </div>
+          </div>
+        </div>
         <p class="muted" style="font-size:10.5px;line-height:1.5;padding:4px 2px 0">
-          Bills list scraped live from parliament.gov.sg{{ watchlistLive ? '' : ' (cached snapshot)' }}. Minister commencement signals derived from Hansard fixtures — PAIR &amp; eGazette are JS apps; headless-browser fetch is the production path.
+          Bills and their PDFs scraped live from parliament.gov.sg{{ watchlistLive ? '' : ' (cached snapshot)' }} — commencement clause read from each Bill. PAIR &amp; eGazette are JS apps; headless-browser fetch is the production path.
         </p>
       </div>
 
@@ -405,6 +425,40 @@
     </div>
   </div>
 
+  <!-- ============ LIVE BILL DETAIL DIALOG ============ -->
+  <div v-if="billDetail" class="dialog-backdrop" style="z-index:20" @click.self="billDetail=null">
+    <div class="dialog rise" style="width:min(660px,100%);max-height:88vh;overflow-y:auto">
+      <div style="display:flex;align-items:flex-start;gap:10px">
+        <div style="flex:1">
+          <span class="card-kicker">Bill {{ billDetail.bill_no }} · scraped live from parliament.gov.sg</span>
+          <h3 class="dialog-title" style="font-size:24px;margin-top:2px">{{ billDetail.bill_name }}</h3>
+          <div style="display:flex;gap:6px;margin-top:8px;flex-wrap:wrap">
+            <span class="tag tag-neutral">{{ billDetail.status }}</span>
+            <span class="chip" :class="billDetail.commencement_signal==='fixed' ? 'imminent' : billDetail.commencement_signal==='minister_appointed' ? 'not_stated' : 'distant'">{{ commencementLabel(billDetail.commencement_signal) }}</span>
+          </div>
+        </div>
+        <button class="btn btn-icon btn-secondary" style="width:30px;height:30px;flex:none" @click="billDetail=null">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M18 6L6 18"/><path d="M6 6l12 12"/></svg>
+        </button>
+      </div>
+      <div style="display:grid;grid-template-columns:130px minmax(0,1fr);gap:6px 12px;font-size:12.5px;line-height:1.55">
+        <span class="kicker" style="padding-top:2px">Introduced</span><span style="font-variant-numeric:tabular-nums">{{ billDetail.introduced || '—' }}</span>
+        <span class="kicker" style="padding-top:2px">2nd reading</span><span style="font-variant-numeric:tabular-nums">{{ billDetail.second_reading || '— not scheduled' }}</span>
+        <span class="kicker" style="padding-top:2px">Date passed</span><span style="font-variant-numeric:tabular-nums">{{ billDetail.passed || '— not yet passed' }}</span>
+        <span class="kicker" style="padding-top:2px">Amends</span><span>{{ billDetail.long_title || '—' }}</span>
+        <span class="kicker" style="padding-top:2px">Commencement</span><span>{{ billDetail.commencement_note }}</span>
+      </div>
+      <div v-if="billDetail.commencement_clause" class="card" style="padding:12px 14px;border-left:2px solid var(--color-accent)">
+        <span class="card-kicker">Commencement clause, read from the Bill PDF</span>
+        <p style="font-size:12.5px;line-height:1.6;margin:6px 0 0;font-style:italic;color:color-mix(in srgb, var(--color-text) 78%, transparent)">{{ billDetail.commencement_clause }}</p>
+      </div>
+      <div class="dialog-actions">
+        <a v-if="billDetail.pdf_url" class="btn btn-secondary" style="font-size:13px;text-decoration:none" :href="'https://www.parliament.gov.sg'+billDetail.pdf_url" target="_blank">Open Bill PDF</a>
+        <button class="btn btn-primary" style="font-size:13px" @click="billDetail=null">Close</button>
+      </div>
+    </div>
+  </div>
+
   <!-- ============ WATCHLIST DETAIL DIALOG ============ -->
   <div v-if="watchDetail" class="dialog-backdrop" style="z-index:20" @click.self="watchDetail=null">
     <div class="dialog rise" style="width:min(640px,100%);max-height:88vh;overflow-y:auto">
@@ -455,6 +509,8 @@ createApp({
     amendments: [],
     watchlist: [],
     watchlistLive: false,
+    liveBills: [],
+    billDetail: null,
     clients: [],
     selected: ['a1'],
     query: '',
@@ -502,6 +558,12 @@ createApp({
     },
   },
   methods: {
+    commencementLabel(sig) {
+      return { fixed: '⏱ date fixed in the Bill',
+               minister_appointed: 'commencement not stated — Minister to appoint',
+               on_publication: '⏱ on publication',
+               not_stated: 'commencement not stated' }[sig] || 'commencement not stated';
+    },
     prioClass(p) { return { High: 'tag tag-outline', Medium: 'tag tag-accent', Low: 'tag tag-neutral' }[p] || 'tag tag-neutral'; },
     riskClass(r) { return { High: 'tag tag-outline', Medium: 'tag tag-accent' }[r] || 'tag tag-neutral'; },
     initials(name) { return name.split(' ').slice(0, 2).map(w => w[0]).join('').toUpperCase(); },
@@ -551,6 +613,7 @@ createApp({
     ]);
     const w = await api('/api/watchlist');
     this.watchlist = w.curated; this.watchlistLive = w.live_ok;
+    this.liveBills = w.live_bills || [];
   },
 }).mount('#app');
 </script>

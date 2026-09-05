@@ -1,0 +1,412 @@
+Land Titles (Strata)
+(Amendment) Bill
+Bill No. 18/2026.
+Read the first time on 4 August 2026.
+A BILL
+intituled
+An Act to amend the Land Titles (Strata) Act 1967 and to make
+consequential amendments to certain other Acts.
+Be it enacted by the President with the advice and consent of the
+Parliament of Singapore, as follows:
+Short title and commencement
+1. This Act is the Land Titles (Strata) (Amendment) Act 2026 and
+comes into operation on a date that the Minister appoints by
+notification in the Gazette.
+5 PART 1
+AMENDMENTS RELA TING TO
+COLLECTIVE SALE OF PROPERTY
+Amendment of section 84A
+2. In the Land Titles (Strata) Act 1967 (called in this Act the
+10 principal Act), in section 84A —
+(a) replace subsection (1) with —
+“(1) An application for an order for the sale of all
+the lots and common property in a strata title plan may
+be made by the subsidiary proprietors of lots in the
+15 strata title plan —
+(a) whose lots have in aggregate the
+percentage of the share values and the
+percentage of the total area of all the lots
+(excluding the area of any accessory lot) as
+20 shown in the subsidiary strata certificates
+of title, which are respectively not less than
+the threshold percentages specified in the
+second and third columns of the following
+table opposite the age of the development
+25 (as determined in accordance with
+section 84FE) specified in the first
+column of that table:
+2
+First column Second column Third column
+Age of
+development
+Threshold
+percentage in
+5
+respect of share
+values of all lots
+Threshold
+percentage in
+respect of total area
+of all lots (excluding
+area of any
+accessory lot)
+Less than
+10
+10 years
+90% 90%
+At least 10 years
+but less than
+40 years
+80% 80%
+At least 40 years
+15
+but less than
+60 years
+70% 70%
+60 years or more 65% 65%
+; and
+(b) who have agreed in writing to sell all the
+lots and common property in the strata title
+plan to a purchaser under a sale and
+purchase agreement which specifies the
+proposed method of distributing the
+proceeds of sale (whether in cash or kind,
+or both) to all the subsidiary proprietors of
+the lots in the strata title plan, subject to an
+order being made under subsection (6)
+or (7).”;
+(b) in subsections (2A)(b) and (4A), delete
+30
+“under subsection (6A)(b)”;
+(c) in subsection (2B), replace “under subsection (6A)(b) in
+relation to” with “in respect of”;
+(d) in subsection (4), replace “such longer period as the Board
+allows in exceptional circumstances, whether before or
+after the end of the 21 days” with “any longer period that
+3
+20
+25
+the Board allows (whether before or after the end of the
+21 days) in exceptional circumstances”;
+(e) in subsection (4A), replace “referred to” with
+“mentioned”;
+5 (f) in subsection (6), replace “under subsection (1) to a Board
+and no objection” with “to a Board under subsection (1) for
+an order for a sale and no objection to the sale”;
+(g) in subsection (6A), replace “under subsection (1) to a
+Board, and one or more objections have been filed under
+10 subsection (4) in relation to that application” with “to a
+Board under subsection (1) for an order for a sale, and one
+or more objections to the sale have been filed under
+subsection (4)”;
+(h) in subsection (6A)(b), delete “(called in this section a
+15 section 84A stop order)”;
+(i) in subsection (6B), replace “No section 84A stop order
+shall be made by a Board under subsection (6A)(b) with
+respect to an application made to it” with “A section 84A
+stop order must not be issued with respect to an application
+20 made to a Board”;
+(j) in subsection (6B)(a), replace “make” with “issue”;
+(k) in subsection (6B)(b), replace “the notice under
+paragraph (a) is so served, one or more of those
+objections so filed are not withdrawn” with “service of
+25 the notice under paragraph (a), one or more of those
+objections are not withdrawn”;
+(l) in subsection (7), replace “have been filed under
+subsection (4A) in respect of an application under
+subsection (1) to the General Division of the High
+30 Court” with “to a sale have been re‑filed under
+subsection (4A) in relation to an application to the
+General Division of the High Court under subsection (1)”;
+(m) in subsection (7), replace paragraphs (a) and (b) with —
+4
+“(a) a subsidiary proprietor of any lot in the
+strata title plan who has re‑filed an
+objection under subsection (4A) will
+incur a financial loss; or
+5(b) the proceeds of sale for any lot in the strata
+title plan to be received by any of the
+following persons who has re‑filed an
+objection under subsection (4A) are
+insufficient to redeem any mortgage or
+10charge in respect of the lot:
+(i) a subsidiary proprietor of the lot;
+(ii) a mortgagee or chargee mentioned in
+subsection (4)(b).”;
+(n) in subsection (7A), replace “an objector, being a subsidiary
+15proprietor who has filed” with “a subsidiary proprietor of a
+lot who has re‑filed”;
+(o) in subsection (7B), replace “0.25%” with “0.5%”;
+(p) in subsection (7C), replace “or 84FA(2)” with “, 84FA(2)
+or 84FC(3)”;
+20(q) replace subsection (8) with —
+“(8) For the purposes of subsection (7)(a), a
+subsidiary proprietor of a lot —
+(a) is taken to have incurred a financial loss if
+the proceeds of sale for the subsidiary
+25proprietor’s lot, after any deduction
+allowed by the General Division of the
+High Court (including all or any of the
+deductions specified in the Fourth
+Schedule), are less than the price the
+30subsidiary proprietor paid for that lot,
+except where the subsidiary proprietor
+purchased the lot after a collective sale
+committee had signed a sale and purchase
+agreement to sell all the lots and common
+5
+property in the strata title plan to a
+purchaser; and
+(b) is not to be taken to have incurred a
+financial loss by reason only that the
+5 subsidiary proprietor’s net gain from the
+sale of the subsidiary proprietor’s lot will
+be less than the net gain from the sale of
+any other lot in the strata title plan.”;
+(r) in subsection (9)(a)(i)(B), after “sale”, insert “to the
+10 subsidiary proprietors of the lots”;
+(s) in subsection (10), after “under subsection (4) to a Board
+or”, insert “re‑filed”;
+(t) delete subsections (14) and (14A); and
+(u) replace subsection (15) with —
+15 “(15) In this section —
+“section 84A stop order” means an order by a
+Board under subsection (6A)(b) for the
+discontinuance of all proceedings before it
+in connection with an application to the Board
+20 under subsection (1);
+“subsidiary proprietor” includes a successor in
+title.”.
+Amendment of section 84D
+3. In the principal Act, in section 84D —
+25 (a) replace subsection (2) with —
+“(2) An application for an order for the sale of all
+the flats and the land in a development to which this
+section applies may be made by the proprietors of
+flats in the development who —
+30 (a) own in aggregate the percentage of the
+share of the land and the percentage of the
+total area of all the flats in the development,
+6
+which are respectively not less than the
+threshold percentages specified in the
+second and third columns of the
+following table opposite the age of the
+5development (as determined in accordance
+with section 84FE) specified in the first
+column of that table:
+First column Second column Third column
+Age of
+10development
+Threshold
+percentage in respect
+of share of land
+Threshold
+percentage in
+respect of total
+area of all flats
+Less than
+10 years
+90% 90%
+15At least 10 years
+but less than
+40 years
+80% 80%
+At least 40 years
+but less than
+2060 years
+70% 70%
+60 years or more 65% 65%
+; and
+(b) have agreed in writing to sell all the flats
+and the land in the development to a
+25purchaser under a sale and purchase
+agreement which specifies the proposed
+method of distributing the proceeds of sale
+(whether in cash or kind, or both) to all the
+proprietors of the flats in the development,
+30subject to an order being made under
+subsection (4) or (5).”;
+(b) in subsections (2A)(b) and (3A), delete
+“under subsection (4A)(b)”;
+(c) in subsection (2B), replace “under subsection (4A)(b) in
+35relation to” with “in respect of”;
+7
+(d) in subsection (3), replace “such longer period as the Board
+allows in exceptional circumstances, whether before or
+after the end of the 21 days” with “any longer period that
+the Board allows (whether before or after the end of the
+5 21 days) in exceptional circumstances”;
+(e) in subsection (3A), replace “referred to” with
+“mentioned”;
+(f) in subsection (4), replace “and no objection” with “for an
+order for a sale and no objection to the sale”;
+10 (g) in subsection (4A), replace “under subsection (2) to a
+Board, and one or more objections have been filed under
+subsection (3) in relation to that application” with “to a
+Board under subsection (2) for an order for a sale, and one
+or more objections to the sale have been filed under
+15 subsection (3)”;
+(h) in subsection (4A)(b), delete “(called in this section a
+section 84D stop order)”;
+(i) in subsection (4B), replace “made by a Board under
+subsection (4A)(b) with respect to an application made to
+20 it” with “issued with respect to an application made to a
+Board”;
+(j) in subsection (4B)(a), replace “make” with “issue”;
+(k) in subsection (4B)(b), replace “the notice under
+paragraph (a) is so served, one or more of those
+25 objections so filed are not withdrawn” with “service of
+the notice under paragraph (a), one or more of those
+objections are not withdrawn”;
+(l) in subsection (5), replace “have been filed under
+subsection (3A) in respect of” with “to a sale have been
+30 re‑filed under subsection (3A) in relation to”;
+(m) in subsection (5), replace paragraphs (a) and (b) with —
+“(a) a proprietor of any flat in the development
+who has re‑filed an objection under
+8
+subsection (3A) will incur a financial
+loss; or
+(b) the proceeds of sale for any flat in the
+development to be received by any of the
+5following persons who has re‑filed an
+objection under subsection (3A) are
+insufficient to redeem any mortgage or
+charge in respect of the flat:
+(i) a proprietor of the flat;
+10(ii) a mortgagee or chargee mentioned in
+subsection (3)(b).”;
+(n) in subsection (5A), replace “an objector, being a proprietor
+who has filed” with “a proprietor of a flat who has
+re‑filed”;
+15(o) in subsection (5B), replace “0.25%” with “0.5%”;
+(p) replace subsection (6) with —
+“(6) For the purposes of subsection (5)(a), a
+proprietor of a flat —
+(a) is taken to have incurred a financial loss if
+20the proceeds of sale for the proprietor’s flat,
+after any deduction allowed by the General
+Division of the High Court (including all or
+any of the deductions specified in the
+Fourth Schedule), are less than the price
+25the proprietor paid for that flat, except
+where the proprietor purchased the flat
+after a collective sale committee had signed
+a sale and purchase agreement to sell all the
+flats and land in the development to a
+30purchaser; and
+(b) is not to be taken to have incurred a
+financial loss by reason only that the
+proprietor’s net gain from the sale of the
+proprietor’s flat will be less than the net
+9
+gain from the sale of any other flat in the
+development.”;
+(q) in subsection (7)(a)(i)(B), after “sale”, insert “to the
+proprietors of the flats”;
+5 (r) in subsection (8), after “under subsection (3) to a Board
+or”, insert “re‑filed”;
+(s) in subsection (9), delete “(8)(a), (b) and (c),”; and
+(t) replace subsection (10) with —
+“(10) In this section, “section 84D stop order”
+10 means an order by a Board under
+subsection (4A)(b) for the discontinuance of all
+proceedings before it in connection with an
+application to the Board under subsection (2).”.
+Amendment of section 84E
+15 4. In the principal Act, in section 84E —
+(a) replace subsection (1) with —
+“(1) This section applies to a development where —
+(a) all the subsisting leases in respect of the
+flats in the development —
+20 (i) are registered under the Registration
+of Deeds Act 1988 or the Land Titles
+Act 1993; and
+(ii) are each for a leasehold tenure of
+850 years or more, or for any other
+25 tenure specified by the Minister by
+notification in the Gazette; and
+(b) the proprietors of the flats with the
+subsisting leases mentioned in
+paragraph (a) do not own the land
+30 comprised in the development.”;
+(b) in subsection (2), after “25% of the flats”, insert “in a
+development”;
+10
+(c) in subsection (2), after “each of the flats”, insert a comma;
+(d) replace subsection (3) with —
+“(3) An application for an order for the sale of all
+the flats and the land in a development to which this
+5section applies may be made by the proprietors of
+flats in the development who —
+(a) own in aggregate the percentage of the
+notional share of the land and the
+percentage of the total area of all the flats
+10in the development, which are respectively
+not less than the threshold percentages
+specified in the second and third columns
+of the following table opposite the age of
+the development (as determined in
+15accordance with section 84FE) specified
+in the first column of that table:
+First column Second column Third column
+Age of
+development
+Threshold
+percentage in respect
+20of notional share of
+land
+Threshold
+percentage in
+respect of total
+area of all flats
+Less than
+10 years
+90% 90%
+At least 10 years
+25but less than
+40 years
+80% 80%
+At least 40 years
+but less than
+60 years
+70% 70%
+3060 years or more 65% 65%
+; and
+(b) have agreed in writing to sell all the flats in
+the development to a purchaser under a sale
+and purchase agreement which specifies
+11
+the proposed method of distributing the
+proceeds of sale (whether in cash or kind,
+or both) to all the proprietors of the flats in
+the development, subject to an order being
+5 made under subsection (6) or (7).”;
+(e) in subsections (3A)(b) and (5A), delete
+“under subsection (6A)(b)”;
+(f) in subsection (3B), replace “under subsection (6A)(b) in
+relation to” with “in respect of”;
+10 (g) in subsection (5), replace “such longer period as the Board
+allows in exceptional circumstances, whether before or
+after the end of the 21 days” with “any longer period that
+the Board allows (whether before or after the end of the
+21 days) in exceptional circumstances”;
+15 (h) in subsection (5A), replace “referred to” with
+“mentioned”;
+(i) in subsection (6), replace “and no objection” with “for an
+order for a sale and no objection to the sale”;
+(j) in subsection (6A), replace “under subsection (3) to a
+20 Board, and one or more objections have been filed under
+subsection (5) in relation to that application” with “to a
+Board under subsection (3) for an order for a sale, and one
+or more objections to the sale have been filed under
+subsection (5)”;
+25 (k) in subsection (6A)(b), delete “(called in this section a
+section 84E stop order)”;
+(l) in subsection (6B), replace “made by a Board under
+subsection (6A)(b) with respect to an application made to
+it” with “issued with respect to an application made to a
+30 Board”;
+(m) in subsection (6B)(a), replace “make” with “issue”;
+12

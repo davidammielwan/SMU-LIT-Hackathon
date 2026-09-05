@@ -1,0 +1,363 @@
+Scams (Countermeasures) and
+Other Matters Bill
+Bill No. 16/2026.
+Read the first time on 4 August 2026.
+A BILL
+intituled
+An Act to amend the Protection from Scams Act 2025 and the
+Miscellaneous Offences (Public Order and Nuisance) Act 1906 to
+counter and prevent scams, to amend the Online Criminal Harms
+Act 2023 and the Police Force Act 2004 to enhance enforcement
+measures and to make related and consequential amendments to the
+Banking Act 1970.
+Be it enacted by the President with the advice and consent of the
+Parliament of Singapore, as follows:
+Short title and commencement
+1. This Act is the Scams (Countermeasures) and Other Matters
+Act 2026 and comes into operation on a date that the Minister
+appoints by notification in the Gazette.
+5 PART 1
+AMENDMENT OF
+PROTECTION FROM SCAMS ACT 2025
+Replacement of long title
+2. In the Protection from Scams Act 2025 (called in this Part the
+10 Protection from Scams Act), replace the long title with —
+“An Act to protect persons from scams by empowering the
+issuance of orders to banks in Singapore and other service
+providers to restrict transactions, limit services, disable
+accounts or disclose information, so as to prevent their
+15 services from being used for scam‑related offences.”.
+Amendment of section 2
+3. In the Protection from Scams Act, in section 2 —
+(a) before the definition of “bank”, insert —
+“ “account disabling order” means an order issued
+20 under section 6B(1) or (2);”;
+(b) replace the definition of “bank” with —
+“ “bank” and “bank in Singapore” have the meanings
+given by section 2(1) of the Banking Act 1970;”;
+(c) after the definition of “credit facility”, insert —
+25 “ “digital payment token account” has the meaning
+given by section 2(1) of the Payment Services
+Act 2019;
+“disable” has the meaning given by section 6C;
+“disclosure order” means an order issued under
+30 section 6G(1) or (2);
+2
+“identified person” has the meaning given by
+section 6A(1);
+“identity card” has the meaning given by
+section 2(1) of the National Registration
+5Act 1965;
+“online account” means an account (including a
+free account and a prepaid account) on an online
+service;
+“online service” has the meaning given by
+10section 2(1) of the Online Criminal Harms
+Act 2023;
+“payment account” has the meaning given by
+section 2(1) of the Payment Services Act 2019;
+“police officer” has the meaning given by
+15section 2(1) of the Police Force Act 2004;”;
+(d) in the definition of “scam offence”, after “specified in”,
+insert “Part 1 of”;
+(e) after the definition of “scam victim”, insert —
+“ “scam‑enabling service” means any of the following
+20services:
+(a) any service through which money or
+property may be deposited, held,
+transferred, received or withdrawn,
+including —
+25(i) an account with a bank
+(including a bank in
+Singapore);
+(ii) a payment account; or
+(iii) a digital payment token
+30account;
+3
+(b) any service through which a person
+may communicate with any person
+other than the person providing the
+service, including —
+5 (i) a telephone line account; or
+(ii) an online account;
+(c) any service of granting a credit
+facility or allowing a drawdown of a
+credit facility;
+10 (d) any secondary service that facilitates
+or enables the use of any service
+mentioned in paragraph (a), (b) or (c),
+including —
+(i) any web hosting service; or
+15 (ii) any domain name registration
+service;
+(e) any other service that may be
+prescribed, being a service that may
+be used preparatory to, or in
+20 furtherance of, the commission of a
+scam-related offence;
+“scam‑related offence” means any offence
+specified in Part 2 of the Schedule;”; and
+(f) replace the definition of “specified officer” with —
+25 “ “service limitation order” means an order issued
+under section 6A(1);
+“service provider” means the provider of a
+scam‑enabling service;
+“Singapore public sector agency” has the meaning
+30 given by section 2(1) of the Public Sector
+(Governance) Act 2018;
+4
+“specified officer” means a police officer, a
+Commercial Affairs Officer appointed under
+section 64(1) of the Police Force Act 2004 or a
+civilian specialist officer appointed under
+5section 65C of that Act;
+“telecommunication service” has the meaning
+given by section 2 of the Telecommunications
+Act 1999;
+“telephone line account” means any
+10telecommunication service to which a
+telephone number is allocated;
+“unique identification number” means a person’s
+identity card number, passport number or the
+number of any other similar document of identity
+15issued by a government authority as evidence of
+the person’s nationality or place of residence, and
+includes a foreign identification number;
+“user”, in relation to any scam‑enabling service,
+means a person to whom the service is provided
+20by a service provider.”.
+Amendment of section 3
+4. In the Protection from Scams Act, in section 3, after “one or more
+banks”, insert “in Singapore”.
+Amendment of section 4
+255. In the Protection from Scams Act, in section 4, after “one or more
+banks”, insert “in Singapore”.
+5
+New section 5A
+6. In the Protection from Scams Act, after section 5, insert —
+“Disclosure to specified officer of information on persons
+who must be notified of issue of restriction order
+5 5A. If a specified officer issues a restriction order to a bank in
+Singapore under section 4(1), the bank must disclose the
+following information to a specified officer:
+(a) the name, contact details and last known residential
+address or registered address of every person who
+10 must be notified of the issue of the restriction order, as
+prescribed by regulations;
+(b) the unique identification number and date of birth of
+the scam victim in relation to whom the restriction
+order is issued;
+15 (c) any other prescribed information.”.
+New Part 2A
+7. In the Protection from Scams Act, after Part 2, insert —
+“PART 2A
+ORDERS RELA TING TO SCAM-ENABLING SERVICES
+20 Division 1 — Service limitation orders and
+account disabling orders
+Service limitation orders
+6A.—(1) If a specified officer suspects or has reason to
+believe that a person (called in this Act the identified person)
+25 will use a scam‑enabling service to commit, or facilitate the
+commission of, a scam‑related offence, the specified officer may
+issue an order (called in this Act a service limitation order) to the
+service provider of the scam‑enabling service, directing the
+service provider to restrict the provision of the scam‑enabling
+30 service to the identified person for a period of 3 years or any
+shorter period that may be specified in the order.
+6
+(2) A service limitation order must specify —
+(a) the name of the identified person;
+(b) any other information about the identified person that
+is necessary to enable the service provider to whom
+5the order is issued to identify the identified person;
+(c) the scam‑enabling service the provision of which the
+service provider must restrict;
+(d) the period for which the service provider must restrict
+the provision of the scam‑enabling service to the
+10identified person; and
+(e) the time at which the order takes effect.
+Account disabling orders
+6B.—(1) If a specified officer suspects or has reason to believe
+that a bank account, payment account, digital payment token
+15account, telephone line account or online account has been or
+will be used preparatory to, or in furtherance of, the commission
+of a scam‑related offence, the specified officer may issue an
+order (called in this Act an account disabling order) to the
+service provider who provides the account —
+20(a) identifying the account; and
+(b) directing the service provider to disable the account.
+(2) If a specified officer has reason to believe that any bank
+account, payment account, digital payment token account,
+telephone line account or online account in relation to which
+25specific conditions (called in this Act disabling conditions) are
+satisfied is, or is likely to be, an account that has been or will be
+used preparatory to, or in furtherance of, the commission of a
+scam‑related offence, the specified officer may issue an account
+disabling order to a service provider —
+30(a) specifying the disabling conditions; and
+(b) directing the service provider to disable any bank
+account, payment account, digital payment token
+account, telephone line account or online account
+7
+provided by the service provider in relation to which
+the disabling conditions are satisfied.
+(3) A specified officer must not issue any account disabling
+order that directs a service provider to disable an account for a
+5 period of more than 30 days.
+(4) An account disabling order must specify —
+(a) in the case of an order issued under subsection (1) —
+the name or number of the account and any other
+information on the account that is necessary to enable
+10 the service provider to identify the account;
+(b) in the case of an order issued under subsection (2) —
+the disabling conditions;
+(c) if the order directs a service provider to disable a bank
+account, payment account or digital payment token
+15 account — the specific uses of the account that the
+service provider must prevent;
+(d) if the order directs a service provider to disable a
+telephone line account or online account —
+(i) the persons or classes of persons with whom
+20 communication by the use of the telephone line
+account or online account (as the case may be)
+must be prevented; or
+(ii) the other telephone line accounts or online
+accounts through which communication by the
+25 use of the firstmentioned telephone line account
+or online account (as the case may be) must be
+prevented;
+(e) the period for which a service provider must disable
+the account identified in the order or an account in
+30 relation to which the disabling conditions are
+satisfied; and
+(f) the time at which the order takes effect.
+(5) The disabling conditions of an account disabling order may
+be specified generally, or specifically in relation to particular
+8
+classes of bank accounts, payment accounts, digital payment
+token accounts, telephone line accounts and online accounts.
+(6) Without limiting subsection (5), the disabling conditions of
+an account disabling order may include (but are not limited to)
+5the following conditions:
+(a) if the order directs a service provider to disable a bank
+account, payment account or digital payment token
+account, that —
+(i) the account was used to carry out a specified
+10number of transactions, or transactions of a
+specified type, during a specified period;
+(ii) the account was used to carry out transactions in
+relation to a specified amount of money or
+property during a specified period;
+15(iii) the account was used to carry out a transaction
+with a specified bank account, payment account
+or digital payment token account or with a bank
+account, payment account or digital payment
+token account the user of which is a specified
+20person; or
+(iv) the user of the account is a specified person;
+(b) if the order directs a service provider to disable a
+telephone line account or online account, that —
+(i) the account was used to communicate with any
+25person in a specified manner;
+(ii) the account was used to communicate with
+specified persons or with persons through other
+specified telephone line accounts or other
+specified online accounts, as the case may be; or
+30(iii) the user of the account is a specified person.
+9
+Meaning of “disable”
+6C. For the purposes of this Act —
+(a) a service provider “disables” a bank account, payment
+account or digital payment token account in
+5 accordance with an account disabling order by
+preventing the use of the account for one or more
+of the following, as specified in the order:
+(i) the deposit of money or property;
+(ii) the holding of money or property;
+10 (iii) the transfer of money or property;
+(iv) the receipt of money or property;
+(v) the withdrawal of money or property; and
+(b) a service provider “disables” a telephone line account
+or online account in accordance with an account
+15 disabling order by preventing the use of the account
+to —
+(i) communicate with any person or class of
+persons specified in the order; or
+(ii) communicate with any person through other
+20 telephone line accounts or other online accounts
+specified in the order.
+Cancellation of service limitation order or account
+disabling order
+6D.—(1) A specified officer may, at any time, cancel a service
+25 limitation order or account disabling order.
+(2) The cancellation of a service limitation order or account
+disabling order does not affect the operation of the order, or
+anything done or omitted to be done in compliance with the
+order, before the date of its cancellation.
+10
+Variation of service limitation order or account disabling
+order
+6E.—(1) A specified officer may vary a service limitation
+order issued to a service provider by permitting the service
+5provider to provide a scam‑enabling service specified in the
+order to the identified person, subject to any limit or condition
+that the specified officer may specify to the service provider.
+(2) A specified officer may vary an account disabling order
+issued to a service provider by permitting the service provider to
+10do the following, subject to any limit or condition that the
+specified officer may specify to the service provider:
+(a) if the order directs the service provider to disable a
+bank account, payment account or digital payment
+token account — allow the use of the account for one
+15or more of the following:
+(i) the deposit of money or property;
+(ii) the holding of money or property;
+(iii) the transfer of money or property;
+(iv) the receipt of money or property;
+20(v) the withdrawal of money or property;
+(b) if the order directs the service provider to disable a
+telephone line account or online account —
+(i) allow the use of the account to communicate
+with any person or class of persons; or
+25(ii) allow the use of the account to communicate
+with any person through any other telephone
+line account or online account.
+(3) A specified officer may, at any time before the end of the
+period mentioned in section 6B(4)(e), extend the period for a
+30further period not exceeding 30 days.
+(4) A specified officer must not extend a period under
+subsection (3) more than once.
+11
+Offence of failure to comply with service limitation order
+or account disabling order
+6F.—(1) Any service provider who is issued a service
+limitation order or account disabling order and who, without
+5 reasonable excuse, fails to comply with the order commits an
+offence.
+(2) A person who is guilty of an offence under subsection (1)
+shall be liable on conviction —
+(a) in the case of an individual, to a fine not exceeding
+10 $20,000 or to imprisonment for a term not exceeding
+12 months or to both and, in the case of a continuing
+offence, to a further fine not exceeding $2,000 for
+every day or part of a day during which the offence
+continues after conviction; or
+15 (b) in any other case, to a fine not exceeding $1 million
+and, in the case of a continuing offence, to a further
+fine not exceeding $100,000 for every day or part of a
+day during which the offence continues after
+conviction.
+20 Division 2 — Disclosure orders
+Disclosure orders
+6G.—(1) A specified officer may issue an order (called in this
+Act a disclosure order) to a service provider who has been issued
+a service limitation order or account disabling order, directing
+25 the service provider to disclose the following information to the
+persons specified in the order:
+(a) in the case of a service provider to whom a service
+limitation order has been issued —
+(i) information on whether the service provider has
+30 restricted the provision of the scam‑enabling
+service specified in the service limitation order
+to the identified person; or
+12

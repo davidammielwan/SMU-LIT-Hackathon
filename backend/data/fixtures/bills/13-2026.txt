@@ -1,0 +1,314 @@
+Skills and Workforce Development
+Agency Bill
+Bill No. 13/2026.
+Read the first time on 8 April 2026.
+SKILLS AND WORKFORCE DEVELOPMENT
+AGENCY ACT 2026
+(No. of 2026)
+ARRANGEMENT OF SECTIONS
+PART 1
+PRELIMINARY
+Section
+1. Short title and commencement
+2. Interpretation
+PART 2
+ESTABLISHMENT, FUNCTIONS AND
+POWERS OF AGENCY
+3. Skills and Workforce Development Agency
+4. Agency is body corporate
+5. Functions of Agency
+6. Powers of Agency
+7. Directions of Minister, etc.
+8. Agency’s symbol, etc.
+PART 3
+CONSTITUTION AND MEMBERSHIP OF AGENCY
+Division 1 — Appointment, resignation and removal
+9. Membership of Agency
+10. Appointment of Agency members
+Section
+11. Membership disqualification
+12. Chairperson and Deputy Chairperson
+13. Premature vacancies
+14. Acting Chairperson and members
+15. Removal of member
+16. Resignation from office
+17. V alidity of acts, etc.
+Division 2 — Terms and conditions for members
+18. Term of appointment
+19. Remuneration, etc.
+20. V acation of office
+21. Other terms and conditions
+PART 4
+DECISION‑MAKING BY AGENCY
+Division 1 — Meetings
+22. Procedure generally
+23. Notice of meetings
+24. Quorum
+25. Presiding at meetings
+26. V oting at meetings
+27. Execution of documents
+Division 2 — Committees and delegation
+28. Appointment of committees
+29. Proceedings of committees
+30. Ability to delegate
+31. V alidity of delegate’s acts, etc.
+PART 5
+PERSONNEL MA TTERS
+32. Appointment of Chief Executive
+33. Officers, etc.
+34. Delegates, subdelegates and authorised persons deemed to be
+public servants or public officers
+35. Preservation of secrecy
+36. Protection from personal liability
+2
+PART 6
+FINANCIAL PROVISIONS
+Section
+37. Financial year
+38. Revenue and property of Agency
+39. Bank accounts
+40. Power of investment
+41. Issue of shares, etc.
+42. Borrowing power
+43. Estimates for Skills Development Fund
+44. Skills Development Fund to be audited separately
+PART 7
+ADMINISTRA TION AND ENFORCEMENT
+Division 1 — Preliminary matters, appointments and powers
+45. Meanings of “incentive”, “grant” and “loan” from Agency
+46. Appointment of authorised persons and inspectors
+47. Powers to verify information collected or for grants, etc.
+48. Powers of inspectors
+Division 2 — Offences and related provisions
+49. Abusive funding arrangement
+50. Entering into or facilitation of abusive funding arrangement
+51. Recovery by Agency of wrongly obtained funding
+52. False or misleading advertisements
+53. Remedial measures for false or misleading advertisements
+54. Refund by funding recipient for cancelled course or
+programme, etc.
+55. Appeal to Minister against directions under sections 53 and 54
+56. Decision of Minister on appeal
+57. Designate may hear appeal in place of Minister
+58. False or misleading information, statement or document, etc.
+59. Penalty for obstructing member, officer, etc.
+PART 8
+GENERAL
+60. Composition of offences
+61. Offences by corporations
+3
+Section
+62. Offences by unincorporated associations or partnerships
+63. Jurisdiction of courts
+64. Service of documents
+65. Regulations
+66. Codes of practice and guidelines
+PART 9
+TRANSFER OF UNDERTAKINGS AND
+PERSONNEL TO AGENCY
+67. Interpretation of this Part
+68. Transfer of undertakings to Agency
+69. Transfer of employees, etc., to Agency
+70. General preservation of employment terms, etc.
+71. Transfer of records
+72. Confirmation of transfers
+PART 10
+REPEAL
+73. Repeal of SkillsFuture Singapore Agency Act 2016
+74. Repeal of Workforce Singapore Agency Act 2003
+PART 11
+CONSEQUENTIAL AND RELA TED AMENDMENTS
+TO OTHER ACTS
+75. Consequential amendment to Enterprise Singapore Board
+Act 2018
+76. Consequential amendments to Income Tax Act 1947
+77. Consequential amendment to Institute of Technical Education
+Act 1992
+78. Consequential and related amendments to Private Education
+Act 2009
+79. Consequential amendments to Skills Development Levy
+Act 1979
+80. Consequential amendments to other Acts
+4
+PART 12
+SA VING AND TRANSITIONAL PROVISIONS
+Section
+81. Saving and transitional provisions arising from repeal of
+SkillsFuture Singapore Agency Act 2016
+82. Saving and transitional provisions arising from repeal of
+Workforce Singapore Agency Act 2003
+83. Other saving and transitional provisions
+5
+
+A BILL
+intituled
+An Act to establish the Skills and Workforce Development Agency,
+to repeal the SkillsFuture Singapore Agency Act 2016 and the
+Workforce Singapore Agency Act 2003, and to make consequential
+and related amendments to certain other Acts.
+Be it enacted by the President with the advice and consent of the
+Parliament of Singapore, as follows:
+7
+PART 1
+PRELIMINARY
+Short title and commencement
+1. This Act is the Skills and Workforce Development Agency
+5 Act 2026 and comes into operation on a date that the Minister
+appoints by notification in the Gazette.
+Interpretation
+2. In this Act —
+“Agency” means the Skills and Workforce Development
+10 Agency established by section 3;
+“authorised person” means an authorised person appointed by
+the Agency under section 46(1);
+“career, employment and training matters” means matters
+relating to supporting individuals and employers in their
+15 career and workforce needs, including career planning,
+training, general learning and skills development, job
+search, job mobility, recruitment, workforce planning, job
+redesign, retraining and talent development;
+“Chairperson” means the member of the Agency who is
+20 appointed under section 12(1)(a) as the Chairperson of the
+Agency, and includes any individual appointed under
+section 14(1) to act in that capacity;
+“Chief Executive” means the Chief Executive of the Agency
+appointed under section 32, and includes any individual
+25 acting in that capacity;
+“commerce or industry” includes any trade, manufacturing or
+service industry, business or other economic activity;
+“committee” means a committee of the Agency appointed under
+section 28;
+30 “committee member” means an individual appointed to be a
+member of a committee under section 28;
+8
+“company” has the meaning given by section 4(1) of the
+Companies Act 1967;
+“delegate” means a person to whom the Agency under
+section 30(1) delegates any of its functions or powers;
+5“Deputy Chairperson” means a member of the Agency who is
+appointed under section 12(1)(b) as a Deputy Chairperson of
+the Agency;
+“document” means any thing (in whatever form) in which
+information or material of any description is recorded or
+10stored, and includes any tape, disk or other storage device or
+medium;
+“Finance Minister” means the Minister charged with the
+responsibility for finance;
+“functions”, in relation to the Agency, means functions
+15conferred on the Agency by this Act or any other Act;
+“grant” includes a grant by way of reimbursement under a
+reimbursement arrangement;
+“inspector” means an inspector appointed by the Agency under
+section 46(2);
+20“job redesign” means the review and reallocation by an
+employer of job duties and tasks among employees;
+“member”, in relation to the Agency, means a member of the
+Agency who is appointed under section 10(1), and includes
+any individual appointed under section 14(2) to act in that
+25capacity;
+“officer”, in relation to a public body, means an employee of the
+public body and includes an individual under a secondment
+arrangement which makes available the service of the
+individual to the public body;
+30“permanent resident of Singapore” has the meaning given by
+section 2 of the Immigration Act 1959;
+“public body” means a body corporate established by a public
+Act for the purposes of a public function, but excludes a
+9
+Town Council established under section 4 of the Town
+Councils Act 1988;
+“reimbursement arrangement” means a written arrangement
+made between the Agency and a service provider in respect
+5 of the provision of any career and employment services, or
+training, to a person eligible to receive any financial
+incentive, support, grant, aid or assistance from the Agency
+to the effect that where —
+(a) the person so eligible receives the services or training
+10 for a charge; and
+(b) the service provider incurs costs and expenses in
+providing the services or training to that eligible
+person,
+the service provider is entitled, under the arrangement, to
+15 reimbursement from the Agency of the whole or part of the
+charges or costs and expenses mentioned in paragraph (a)
+or (b) or both;
+“service provider” means a provider of career and employment
+services or a provider of training;
+20 “Skills Development Fund” means the Skills Development Fund
+established under section 5 of the Skills Development Levy
+Act 1979;
+“subdelegate” means a person to whom a delegate under
+section 30(2) further delegates any of the Agency’s
+25 functions or powers.
+PART 2
+ESTABLISHMENT, FUNCTIONS AND
+POWERS OF AGENCY
+Skills and Workforce Development Agency
+30 3. A body called the Skills and Workforce Development Agency is
+established by this section.
+10
+Agency is body corporate
+4.—(1) The Agency —
+(a) is a body corporate with perpetual succession;
+(b) may acquire, hold and dispose of real and personal
+5property; and
+(c) may sue and be sued in its corporate name.
+(2) The Agency may use, and operate under, one or more trading
+names approved by the Minister.
+(3) A trading name can be an abbreviation or adaptation of the
+10Agency’s corporate name, or a name other than the Agency’s
+corporate name.
+(4) The Agency must cause notice of every trading name approved
+under subsection (2) to be published in the Gazette; but failure to do
+so does not invalidate the approval or use of that name.
+15Functions of Agency
+5.—(1) The Agency has the following functions:
+(a) to promote the development and enhance the quality of
+career and employment services and training in Singapore,
+including by collaboration and cooperation with
+20universities, public sector post‑secondary education
+institutions, providers of career and employment
+services, employers, training institutions, labour market
+intermediaries and trade associations and chambers;
+(b) to identify and develop the skills, knowledge and
+25qualifications required of the workforce to meet the
+current, emerging and future needs of Singapore, in
+collaboration with employers, trade associations and
+chambers and public agencies in Singapore;
+(c) to coordinate and provide career and employment services
+30and training to —
+(i) support students to prepare for entry into the labour
+market;
+11
+(ii) enable citizens of Singapore and permanent residents
+of Singapore to obtain employment or
+re‑employment; and
+(iii) enable employees to develop their career and to
+5 remain in productive employment;
+(d) to collaborate with and support employers, relevant
+representatives of commerce or industry and public
+agencies in Singapore —
+(i) to identify and promote the acquisition and
+10 enhancement of industry‑specific skills;
+(ii) to enhance individuals’ employability by improving
+their skills, knowledge and qualifications;
+(iii) to carry out job redesign so as to enable improved
+working arrangements and productivity;
+15 (iv) to develop models for the provision of career and
+employment services or for training; and
+(v) to increase workforce productivity and improve the
+international competitiveness of commerce or
+industry;
+20 (e) to promote the development of the human resources
+profession and the adoption of best practices in the
+management of human resources;
+(f) to promote a culture of lifelong learning and career
+development;
+25 (g) to collect and compile data on, or undertake, direct or
+support research and analysis of, career, employment and
+training matters and labour market information and trends,
+and to disseminate such information to the public;
+(h) to represent the Government internationally in matters
+30 relating to workforce development and career,
+employment and training matters;
+12

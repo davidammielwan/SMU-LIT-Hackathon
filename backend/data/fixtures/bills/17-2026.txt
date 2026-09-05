@@ -1,0 +1,368 @@
+Health Sciences Authority (Amendment)
+and Other Matters Bill
+Bill No. 17/2026.
+Read the first time on 4 August 2026.
+A BILL
+intituled
+An Act to amend the Health Sciences Authority Act 2001, the
+Biological Agents and Toxins Act 2005, the Human Biomedical
+Research Act 2015 and the Healthcare Services Act 2020, and to
+make related and miscellaneous amendments to certain other Acts.
+Be it enacted by the President with the advice and consent of the
+Parliament of Singapore, as follows:
+Short title and commencement
+1. This Act is the Health Sciences Authority (Amendment) and
+Other Matters Act 2026 and comes into operation on a date that the
+Minister appoints by notification in the Gazette.
+5 PART 1
+AMENDMENT OF
+HEALTH SCIENCES AUTHORITY ACT 2001
+Amendment of section 2
+2. In the Health Sciences Authority Act 2001 (called in this Part the
+10 HSA Act), in section 2, after the definition of “Chief Executive”,
+insert —
+“ “healthcare profession regulatory Act” means any of the
+following Acts:
+(a) the Allied Health Professions Act 2011;
+15 (b) the Dental Registration Act 1999;
+(c) the Medical Registration Act 1997;
+(d) the Nurses and Midwives Act 1999;
+(e) the Optometrists and Opticians Act 2007;
+(f) the Pharmacists Registration Act 2007;
+20 (g) the Traditional Chinese Medicine Practitioners
+Act 2000;”.
+Amendment of section 5
+3. In the HSA Act, in section 5, replace subsection (1) with —
+“(1) The Authority consists of at least 7 members, all of whom
+25 must be appointed by the Minister.”.
+New section 5A
+4. In the HSA Act, after section 5, insert —
+2
+“Chairperson and Deputy Chairperson
+5A.—(1) The Minister may, by instrument in writing,
+appoint —
+(a) a member (other than the Chief Executive) to be the
+5Chairperson of the Authority; and
+(b) one or more members (other than the Chairperson) to
+be a Deputy Chairperson or Deputy Chairpersons of
+the Authority.
+(2) The Chairperson or a Deputy Chairperson holds office
+10until whichever of the following first happens:
+(a) his or her term of office as Chairperson or
+Deputy Chairperson (as the case may be) expires;
+(b) he or she ceases to hold office as a member of the
+Authority;
+15(c) the Minister revokes his or her appointment as
+Chairperson or Deputy Chairperson, as the case
+may be.
+(3) A Deputy Chairperson may, subject to any direction given
+by the Chairperson, exercise any power or perform any function
+20conferred on the Chairperson by or under this Act.”.
+Amendment of section 9
+5. In the HSA Act, in section 9, replace subsection (1) with —
+“(1) The quorum for a meeting of the Authority is the higher of
+the following:
+25(a) one‑third of the number of members;
+(b) 3 members.
+(1A) No business may be transacted at a meeting of the
+Authority if a quorum is not present.”.
+3
+Amendment of section 11
+6. In the HSA Act, in section 11 —
+(a) in subsection (1), after paragraph (a), insert —
+“(aa) to regulate the conduct of human
+5 biomedical research and human tissue
+activities;
+(ab) to regulate the possession, use, import,
+transhipment, transfer and transportation of
+biological agents, inactivated biological
+10 agents and toxins;
+(ac) to assist the Minister or Director‑General
+of Health (as the case may be) in relation to
+the administration or enforcement of the
+Acts specified in the First Schedule;”;
+15 (b) in subsection (1)(f), delete “and” at the end;
+(c) in subsection (1), after paragraph (f), insert —
+“(fa) to provide administrative services to any
+body (whether corporate or unincorporate)
+responsible for the regulation of persons
+20 under a healthcare profession regulatory
+Act; and”; and
+(d) after subsection (2), insert —
+“(2A) In addition to the functions conferred by this
+section, the Authority may undertake such other
+25 functions as the Minister may assign to the Authority,
+by notification in the Gazette, and in so
+undertaking —
+(a) the Authority is deemed to be fulfilling the
+purposes of this Act; and
+30 (b) the provisions of this Act apply to the
+Authority in respect of those other
+functions.”.
+4
+Amendment of section 12
+7. In the HSA Act, in section 12 —
+(a) in paragraph (f), after “commissions for”, insert “goods
+provided,”;
+5(b) in paragraph (f), replace “by” with “or work performed by
+or on behalf of”;
+(c) in paragraph (f), replace “its” with “the Authority’s”; and
+(d) after paragraph (f), insert —
+“(fa) waive the payment of fees and charges
+10payable to the Authority;”.
+Amendment of Part 6 heading
+8. In the HSA Act, in Part 6, in the Part heading, after
+“EMPLOYEES”, insert “ON 1 APRIL 2001”.
+New Part 6A
+159. In the HSA Act, after Part 6, insert —
+“PART 6A
+TRANSFER OF PROPERTY , ASSETS, LIABILITIES
+AND EMPLOYEES IN RELA TION TO
+TRANSFERRING MOH FUNCTIONS
+20Interpretation of this Part
+36A. In this Part —
+“agreement” includes an arrangement or undertaking;
+“asset”, in relation to the transferor, means property of any
+kind (whether tangible or intangible, whether arising
+25from, accruing under, created or evidenced by or the
+subject of an instrument or otherwise, and whether
+actual or contingent) of the transferor on the eve of the
+first transfer date and includes, without limitation,
+any —
+5
+(a) legal or equitable interest in real or personal
+property, whether situated in or outside
+Singapore;
+(b) chose in action;
+5 (c) money or securities;
+(d) plant and equipment, whether situated in or
+outside Singapore;
+(e) intellectual property;
+(f) infrastructure, whether situated in or outside
+10 Singapore;
+(g) records and information (including data) in any
+form; and
+(h) right;
+“first transfer date” means the date of commencement of
+15 section 9 of the Health Sciences Authority
+(Amendment) and Other Matters Act 2026;
+“liability”, in relation to the transferor, means any liability,
+duty or obligation (whether actual or contingent,
+liquidated or unliquidated, and whether owed alone or
+20 jointly, or jointly and severally, with any other person)
+of the transferor on the eve of the first transfer date;
+“records”, in relation to the transferor, means registers,
+papers, documents, minutes, receipts, books of account
+and other records, however compiled, recorded or
+25 stored, of the transferor existing on the eve of the first
+transfer date;
+“right”, in relation to the transferor, means any right,
+power, privilege or immunity of the transferor on the eve
+of the first transfer date;
+30 “transferor” means the Government;
+“transferring MOH employee” means an employee of the
+Government who, on the eve of the first transfer date, is
+6
+in any of the departments of the Ministry of Health as
+specified in the Third Schedule;
+“transferring MOH functions” means the functions
+discharged by any of the departments of the Ministry
+5of Health as specified in the Third Schedule on the eve
+of the first transfer date.
+Transfer of undertakings to Authority
+36B.—(1) On the first transfer date, all assets and liabilities of
+the Government that relate solely to the transferring MOH
+10functions are transferred to the Authority.
+(2) A certificate signed by the Minister certifying whether an
+asset or a liability specified in the certificate has been transferred
+to the Authority under subsection (1) is admissible in evidence
+in any proceedings as proof of the matters stated in the
+15certificate.
+(3) When any asset or liability of the transferor is transferred
+to the Authority under subsection (1), the following provisions
+have effect:
+(a) the asset vests in the Authority without the need for
+20any further conveyance, transfer, assignment or
+assurance;
+(b) the liability becomes the liability of the Authority;
+(c) all legal or other proceedings relating to that asset or
+liability that are pending immediately before the first
+25transfer date by or against the transferor (or a
+predecessor of the transferor) are taken to be
+proceedings pending by or against the Authority;
+(d) any legal or other proceedings relating to that asset or
+liability which could have been started immediately
+30before the first transfer date by or against the
+transferor (or a predecessor of the transferor) may
+be started by or against the Authority;
+(e) a judgment or an order of a court or other tribunal
+obtained before the first transfer date by or against the
+7
+transferor (or a predecessor of the transferor) relating
+to that asset or liability becomes enforceable by or
+against the Authority;
+(f) any document in any legal or other proceedings
+5 relating to that asset or liability that has been served
+on or by the transferor (or a predecessor of the
+transferor) before the first transfer date is taken,
+where appropriate, to have been served on or by the
+Authority;
+10 (g) any act, matter or thing done or omitted to be done
+before the first transfer date in relation to that asset or
+liability by, to or in respect of the transferor (or a
+predecessor of the transferor) is (to the extent to
+which that act, matter or thing has any force or effect)
+15 taken to have been done or omitted to be done by, to or
+in respect of the Authority;
+(h) a reference to the transferor (or a predecessor of the
+transferor) in any Act, any instrument made under any
+Act, any agreement or any document of any kind is
+20 taken to be or includes (to the extent to which the
+reference relates to that asset or liability) a reference
+to the Authority;
+(i) any agreement relating to that asset or liability and to
+which the transferor (or a predecessor of the
+25 transferor) is a party becomes enforceable by or
+against the Authority.
+(4) The operation of this section does not —
+(a) constitute a breach of, or default under, any Act or
+other law, or any agreement, or otherwise a civil
+30 wrong or criminal wrong;
+(b) constitute a breach of any duty of confidence
+(whether arising by contract, in equity, by custom,
+or in any other way);
+(c) constitute a breach of any contractual provision
+35 prohibiting, restricting or regulating the assignment
+8
+or transfer of assets or liabilities or the disclosure of
+any information;
+(d) terminate an agreement or obligation, or fulfil any
+condition that allows a person to terminate or
+5otherwise releases a person from any agreement or
+obligation, or give rise to any right or remedy in
+respect of any agreement or obligation;
+(e) cause any contract or other instrument to be void or
+otherwise unenforceable;
+10(f) frustrate any contract;
+(g) release a surety or other obligor or obligee wholly or
+in part from an obligation; or
+(h) constitute an event of breach of, or default under, any
+contract or other instrument.
+15(5) No attornment to the Authority by a lessee of the transferor
+is required.
+Transfer of employees and secondees to Authority
+36C.—(1) On the first transfer date, every transferring
+MOH employee —
+20(a) stops being an employee of the Government; and
+(b) is each transferred to the service, and becomes an
+employee, of the Authority on terms no less
+favourable than those enjoyed by the employee on
+the eve of the first transfer date.
+25(2) A certificate signed by the Minister certifying whether an
+individual named in the certificate has been transferred to the
+service of the Authority under subsection (1) is admissible in
+evidence in any proceedings as proof of the matters stated in the
+certificate.
+30(3) The transfer under subsection (1) of a transferring
+MOH employee to the service of the Authority —
+9
+(a) does not interrupt continuity of that
+employee’s service;
+(b) does not constitute a retrenchment or redundancy of
+that employee’s employment by the Government; and
+5 (c) does not entitle that employee to any compensation or
+other payment or benefit merely because he or she
+stops being employed by the Government.
+(4) Nothing in this section prevents —
+(a) any of the terms and conditions of employment of an
+10 individual transferred to the service of the Authority
+under subsection (1) from being altered by or under
+any law, award or agreement with effect from any
+time after the first transfer date; and
+(b) an individual transferred to the service of the
+15 Authority under subsection (1) from resigning from
+that service any time after the first transfer date, in
+accordance with the terms and conditions of his or her
+employment then applicable.
+(5) To avoid doubt, section 18A of the Employment Act 1968
+20 does not apply to the transfer under this Part of any transferring
+MOH employee to the service of the Authority.
+(6) On the first transfer date, every public officer seconded to
+any of the departments of the Ministry of Health as specified in
+the Third Schedule under an arrangement made by the
+25 Government that is in force on the eve of the first transfer
+date, continues on secondment to the Authority.
+(7) On the first transfer date, every employee of a public body
+seconded to any of the departments of the Ministry of Health as
+specified in the Third Schedule under an agreement or
+30 arrangement between the transferor and that public body that
+is in force on the eve of the first transfer date, continues on
+secondment to the Authority.
+10
+General preservation of employment terms, etc.
+36D.—(1) When a transferring MOH employee is transferred
+to the service of the Authority under section 36C(1) (called in
+this section a transferred employee), the transferred
+5employee’s service with the Authority must be regarded for
+all purposes as having been continuous with his or her service
+with the transferor immediately before the first transfer date.
+(2) On the first transfer date —
+(a) a transferred employee retains all accrued rights as if
+10his or her employment with the Authority were a
+continuation of employment with the transferor;
+(b) the liabilities of the transferor relating to the
+transferred employee’s accrued rights to annual,
+sick, maternity or other leave and superannuation
+15become the liabilities of the Authority; and
+(c) a reference to the transferor in the contract of
+employment that had effect in relation to the
+transferred employee immediately before the first
+transfer date is taken to be, or includes, a reference to
+20the Authority.
+(3) Until the time the Authority draws up the terms and
+conditions of employment for the transferred employee, the
+Authority is to be regarded as employing the transferred
+employee on the same terms and conditions of his or her
+25employment with the transferor on the eve of the first transfer
+date.
+(4) Any term or condition of employment drawn up by the
+Authority relating to the length of service of the transferred
+employee with the Authority must recognise the length of
+30service of that employee with the transferor (including any
+previous service of that employee taken to be service with the
+transferor) to be service with the Authority.
+(5) For any conduct of the transferred employee when he or
+she was employed by the transferor which would have rendered
+11
+that employee liable to be reprimanded, reduced in rank, retired,
+dismissed or punished by the transferor, the Authority may —
+(a) start any disciplinary proceedings against that
+employee;
+5 (b) carry on and complete any disciplinary proceedings
+started by the transferor against that employee if those
+proceedings are pending on the eve of the first transfer
+date; and
+(c) reprimand, reduce in rank, retire, dismiss or otherwise
+10 punish that employee as if that employee were not
+transferred.
+(6) Where, on the eve of the first transfer date, any matter
+about the conduct of the transferred employee during his or her
+employment with the transferor concerned —
+15 (a) was in the course of being heard or investigated by a
+committee of the transferor acting under due
+authority; or
+(b) had been heard or investigated, but no order, ruling or
+direction had been made, by that committee,
+20 that committee must complete the hearing or investigation and
+make such order, ruling or direction as it could have made under
+the authority vested in it before that date, and that order, ruling or
+direction is to be regarded as an order, ruling or direction of the
+Authority.
+25 Transfer of records
+36E. On the first transfer date, every record, or part of any
+record, of the transferor that relates to the following becomes the
+record of the Authority:
+(a) any asset or liability transferred to the Authority
+30 under section 36B(1);
+(b) any transferring MOH employee.”.
+12
