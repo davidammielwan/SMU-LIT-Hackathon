@@ -169,7 +169,7 @@
 <div class="q">
   <h3><span class="n">04</span> How do you know it’s accurate? Have you measured it?</h3>
   <p class="say"><b>Say:</b> “Yes — <code>eval.py</code> runs every amendment across every client and scores against hand-labelled ground truth. It reports recall, precision, exact category match for high vs moderate, and a separate count of false-positive traps passed. The traps are documents that are topically adjacent but genuinely unaffected — a PDPA consent form against a PDPA breach-window change.”</p>
-  <div class="trap"><b>Before you present, actually run it</b> and know the current numbers: <code>python backend/eval.py</code>. It sweeps every amendment × every client, so it costs roughly $0.60 and takes a couple of minutes. Do not quote a number you have not seen today — the corpus changed when PivotStack was added.</div>
+  <div class="trap"><b>Only quote a number you have actually seen.</b> Running <code>python backend/eval.py</code> the night before gives you a real figure (~$0.60, a couple of minutes). If you have not run it, the safe answer is: <b>“We measure it against a hand-labelled set — I can run it for you now if you want the current figure.”</b> That is a strong answer. A number you half-remember is not.</div>
   <div class="meta"><span class="pill file">backend/eval.py</span><span class="pill owner">Backend dev</span></div>
 </div>
 
@@ -261,10 +261,8 @@
 
 <h2 class="sec">Last checks, the morning of</h2>
 <div class="q">
-  <p style="margin:0 0 8px"><b>Run <code>python backend/eval.py</code> and write the numbers on your hand.</b> The corpus changed when PivotStack was added; yesterday’s figures are stale.</p>
-  <p style="margin:0 0 8px"><b>Reset the demo:</b> <code>git checkout -- backend/data/proposals.json</code> — otherwise the redline opens already approved and you lose the Approve moment.</p>
-  <p style="margin:0 0 8px"><b>Confirm <code>.env</code> exists on the demo machine.</b> It’s gitignored; a fresh clone will not have it and the sweep will fail.</p>
-  <p style="margin:0"><b>Check the <em>live</em> tag appears</b> next to Amendments. If the venue blocks the scrape, the cached fallback is automatic — but know which one you’re showing before a judge asks.</p>
+  <p style="margin:0 0 9px"><b>Start the app, then run <code>python demo/preflight.py</code>.</b> It checks the API key, the server, the demo data and the live scrape, and resets the redline to “pending” if you rehearsed. No LLM calls, so it is free and you can run it repeatedly. <b>Ready to present</b> means you are done.</p>
+  <p style="margin:0"><b>Optional, and only if you have time and budget:</b> <code>python backend/eval.py</code> gives you current precision and recall. It sweeps every amendment across every client — roughly $0.60 and a couple of minutes. Worth doing once the night before, so you can quote a real figure if accuracy comes up. If you have not run it, say “we measure it with a held-out ground-truth set” and offer to run it — do not quote a number you have not seen.</p>
 </div>
 
 <footer>

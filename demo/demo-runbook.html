@@ -152,11 +152,10 @@
     <h2>Before you stand up</h2>
     <ul>
       <li>Start the backend from <code>amenda/backend</code>: <code>python -m uvicorn main:app --port 8000</code>, then open <code>127.0.0.1:8000</code>.</li>
-      <li>Confirm the gold <b>live</b> tag sits beside “Amendments” — that is the parliament.gov.sg scrape succeeding. If the venue wifi drops it, the cached snapshot loads automatically and the demo still runs.</li>
-      <li><code>.env</code> with the OpenRouter key must be on the demo machine. It is gitignored, so a fresh clone will not have it.</li>
-      <li><b>If you rehearse, reset first:</b> <code>git checkout -- backend/data/proposals.json</code> puts the redline back to “pending” and clears the audit trail.</li>
+      <li><b>Run <code>python demo/preflight.py</code>.</b> It checks the key, the server, the demo data and the live scrape, and resets the redline to “pending” if you rehearsed. It makes no LLM calls, so it costs nothing and you can run it as many times as you like. If it prints <b>Ready to present</b>, you are done — everything below is what it checks for you.</li>
       <li>Never press <b>Select all</b> before sweeping — that is 7 amendments × 7 clients. The flow below sweeps one amendment, which is 7 calls and about 20 seconds.</li>
     </ul>
+    <p style="margin:12px 0 0;font-size:12.5px;color:var(--ink-soft)">If pre-flight reports a problem: a missing <code>.env</code> stops the sweep entirely (it is gitignored, so a fresh clone never has it); a failed live scrape is harmless — the cached snapshot loads automatically, just say “cached snapshot” rather than “live” if a judge asks.</p>
   </section>
 
   <article class="beat">
