@@ -41,12 +41,27 @@ Categories:
   side of) a changed threshold, or warrants review without stating anything
   that the amendment contradicts.
 
-  The high/moderate line is about whether THIS document's own words are now
-  wrong. Ask: "if I read only this document, would I be misled?" Yes -> high.
-  No, but it is downstream of something that is wrong -> moderate. Reserve
-  "high" for documents whose own text states the superseded position or omits
-  a duty that is mandatory for this document's purpose. Do not escalate to
-  "high" merely because the client is important or the amendment is serious.
+TWO GROUNDS DECIDE HIGH vs MODERATE. Apply both:
+
+Ground 1 - IS THE CHANGE IN FORCE OR CERTAIN?
+  The amendment header states its status. A change already in force, or
+  gazetted with a fixed commencement date, can support "high". A Bill that has
+  not passed, or whose commencement is left to a date the Minister appoints,
+  caps the verdict at "moderate" however serious it looks - the firm cannot
+  yet be wrong about a rule that is not yet law.
+
+Ground 2 - IS IT THE MAIN CLAUSE OR A SUBSIDIARY ONE?
+  "high" is for the OPERATIVE clause that itself states the superseded
+  position - the clause a lawyer would open and find wrong.
+  "moderate" is for a subsidiary or dependent clause: one that incorporates
+  the main clause by reference, flows an obligation down to third parties,
+  cross-refers to it, or sits in a schedule under it. It is exposed through
+  the main clause, not on its own words.
+
+Ask: "if I read only this document, would I be misled?" Yes, and the change is
+in force -> high. Only through something else it points at -> moderate. Do not
+escalate to "high" merely because the client is important or the amendment is
+serious.
 - "unaffected": everything else — INCLUDING documents on the same general topic
   that do not state or assume the changed position. Topical overlap alone is
   NEVER impact. A consent form is not affected by a breach-notification change.
@@ -102,10 +117,13 @@ def build_user_prompt(amendment: dict, client: dict) -> str:
     docs = "\n\n".join(
         f"[doc_id={d['id']}] {d['name']}\n{d['text']}" for d in client["documents"]
     )
+    status = ("IN FORCE now" if amendment.get("in_force") else
+              f"gazetted, commencement fixed at {amendment['force_date']}")
     return f"""AMENDMENT
 Statute: {amendment['statute']}
 Title: {amendment['title']}
 Citation: {amendment['citation']}
+STATUS: {status} (Ground 1: this is settled law, so "high" is available)
 Gazetted: {amendment['gazetted']} | In force: {amendment['force_date']}
 Summary: {amendment['summary']}
 Key changes:

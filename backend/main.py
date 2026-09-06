@@ -142,3 +142,8 @@ def index():
 @app.get("/classical.css")
 def css():
     return FileResponse(os.path.join(FRONTEND, "src", "assets", "classical.css"))
+
+
+@app.get("/amenda_icon.png")
+def logo():
+    return FileResponse(os.path.join(FRONTEND, "src", "assets", "amenda_icon.png"))

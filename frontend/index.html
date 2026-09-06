@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Amenda</title>
+<link rel="icon" type="image/png" href="/amenda_icon.png">
 <link rel="stylesheet" href="/classical.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Carlito:wght@400;700&display=swap">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.4.21/vue.global.prod.min.js"></script>
@@ -62,8 +63,8 @@
   <!-- ============ SIDEBAR ============ -->
   <aside class="hairline" style="width:262px;flex:none;display:flex;flex-direction:column">
     <div style="display:flex;align-items:center;gap:8px;padding:16px 14px 14px">
-      <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="1.4" stroke-linecap="round"><path d="M12 7v14"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg>
-      <span style="font-family:var(--font-heading);font-weight:600;font-size:19px;margin-right:auto">Amenda</span>
+      <img src="/amenda_icon.png" alt="Amenda" width="26" height="26" style="flex:none;border-radius:5px">
+      <span style="font-family:var(--font-heading);font-weight:600;font-size:20px;letter-spacing:.01em;margin-right:auto">Amenda</span>
     </div>
 
     <div style="padding:0 10px 4px">
@@ -102,6 +103,9 @@
         <div style="font-family:var(--font-heading);font-weight:600;font-size:13.5px;line-height:1.2">Tan Wei Ming</div>
         <div class="muted" style="font-size:10.5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">Partner · Corporate &amp; Regulatory</div>
       </div>
+      <button title="Settings" @click="showSettings=true" style="width:30px;height:30px;flex:none;display:grid;place-items:center;background:transparent;border:1px solid var(--color-divider);border-radius:var(--radius-md);cursor:pointer;color:var(--color-text)">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M20 7h-8"/><path d="M13 17H4"/><circle cx="17" cy="17" r="3"/><circle cx="8" cy="7" r="3"/></svg>
+      </button>
     </div>
   </aside>
 
@@ -121,7 +125,7 @@
         <div style="max-width:720px;margin:0 auto">
 
           <div v-if="!messages.length && !thinking" class="rise" style="padding:10px 0 0;text-align:center">
-            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="1.2" stroke-linecap="round" style="margin:0 auto 10px;display:block"><path d="M12 7v14"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg>
+            <img src="/amenda_icon.png" alt="" width="52" height="52" style="margin:0 auto 12px;display:block;border-radius:9px">
             <h2 style="font-size:24px;font-weight:400;margin:0 0 7px">Ask across your clients and the statute book.</h2>
             <p class="muted" style="font-size:12.5px;max-width:400px;margin:0 auto">Select amendments on the right and run a sweep to find the client documents that are truly affected — not just topically related.</p>
           </div>
@@ -272,6 +276,7 @@
             <button class="suggestion" @click="draft='Explain this amendment and what it changes in practice.'; send()">Explain the amendment</button>
             <button class="suggestion" @click="draft='What exactly should change in Meridian&apos;s Data Processing Addendum?'; send()">What should change?</button>
             <button class="suggestion" @click="ampanel='watchlist'">Watchlist</button>
+            <button class="suggestion" @click="tellJoke" title="Every tool needs one">Tell me a legal joke</button>
           </div>
         </div>
       </div>
@@ -504,6 +509,45 @@
     </div>
   </div>
 
+  <!-- ============ SETTINGS / EMAIL CONNECTOR ============ -->
+  <div v-if="showSettings" class="dialog-backdrop" style="z-index:20" @click.self="showSettings=false">
+    <div class="dialog rise" style="width:min(500px,100%)">
+      <div style="display:flex;align-items:flex-start;gap:10px">
+        <div style="flex:1">
+          <span class="card-kicker">Settings</span>
+          <h3 class="dialog-title" style="font-size:24px;margin-top:2px">Connect your email</h3>
+        </div>
+        <button class="btn btn-icon btn-secondary" style="width:30px;height:30px;flex:none" @click="showSettings=false">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M18 6L6 18"/><path d="M6 6l12 12"/></svg>
+        </button>
+      </div>
+      <p class="dialog-body" style="margin:0">Amenda emails you when a gazetted amendment touches a document on a client&rsquo;s file. No digest when nothing changes.</p>
+      <div class="field">
+        <label>Provider</label>
+        <div style="display:flex;gap:0">
+          <button v-for="(pv,pi) in ['Outlook','Gmail','IMAP']" :key="pv" class="tabbtn" :class="{on: emailProvider===pv}"
+            :style="pi===0 ? 'border-radius:var(--radius-md) 0 0 var(--radius-md)' : pi===2 ? 'border-radius:0 var(--radius-md) var(--radius-md) 0;border-left:0' : 'border-left:0'"
+            @click="emailProvider=pv">{{ pv }}</button>
+        </div>
+      </div>
+      <div class="field"><label>Work address</label>
+        <input class="input" placeholder="weiming@chambers.sg" v-model="email"></div>
+      <div class="field">
+        <label>Send me updates</label>
+        <div style="display:flex;flex-direction:column;gap:7px">
+          <label v-for="c in ['The moment a client is affected','Daily digest at 08:00','Weekly digest, Monday']" :key="c" class="radio">
+            <input type="radio" name="cad" :checked="cadence===c" @change="cadence=c"><span class="dot"></span>{{ c }}
+          </label>
+        </div>
+      </div>
+      <div class="dialog-actions">
+        <span v-if="emailConnected" class="tag tag-accent" style="margin-right:auto;align-self:center">Connected · {{ email }}</span>
+        <button class="btn btn-secondary" style="font-size:13px" @click="showSettings=false">Cancel</button>
+        <button class="btn btn-primary" style="font-size:13px" @click="connectEmail">{{ emailConnected ? 'Update' : 'Connect ' + emailProvider }}</button>
+      </div>
+    </div>
+  </div>
+
   <!-- ============ AUDIT TRAIL DIALOG ============ -->
   <div v-if="showAudit" class="dialog-backdrop" style="z-index:20" @click.self="showAudit=false">
     <div class="dialog rise" style="width:min(760px,100%);max-height:88vh;overflow-y:auto">
@@ -652,7 +696,28 @@ createApp({
     billDetail: null,
     proposals: {},
     redlineLoading: null,
+    jokeIdx: 0,
+    jokes: [
+      'The rest of the panel: AGREE. AGREE. AGREE. AGREE.
+
+Lord Denning: I DISSENT. Equity demands otherwise. The majority are wrong.
+
+(He was, of course, right. Eventually. On appeal. In 1979.)',
+      'A partner asks the trainee to check whether the clause is still good law.
+
+The trainee returns three hours later and says: "It is good law, but only in the sense that it has not yet been overruled."
+
+That is what Amenda is for.',
+      'Why do lawyers never trust a precedent bank?
+
+Because the last person who updated it left the firm in 2019, and the amendment came into force in 2021.',
+    ],
     showAudit: false,
+    showSettings: false,
+    email: '',
+    emailProvider: 'Outlook',
+    cadence: 'The moment a client is affected',
+    emailConnected: false,
     audit: [],
     clients: [],
     selected: ['a1'],
@@ -780,6 +845,18 @@ createApp({
     },
     sweepThis(id) {
       this.detail = null; this.selected = [id]; this.runSweep();
+    },
+    connectEmail() {
+      if (!this.email.trim()) return;
+      this.emailConnected = true;
+    },
+    tellJoke() {
+      const j = this.jokes[this.jokeIdx % this.jokes.length];
+      this.jokeIdx++;
+      this.messages.push({ role: 'user', content: 'Tell me a legal joke.' });
+      this.messages.push({ role: 'answer', content: j });
+      if (this.messages.length === 2) this.chatTitle = 'A legal joke';
+      this.saveChat(); this.scrollDown();
     },
     async send() {
       const text = this.draft.trim();
