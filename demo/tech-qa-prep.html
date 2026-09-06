@@ -1,0 +1,274 @@
+<title>Amenda Tech Q&amp;A Prep</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Carlito:wght@400;700&display=swap">
+<style>
+  :root {
+    --ground: #f3f2f2;
+    --panel: #fbfaf9;
+    --ink: #23201c;
+    --ink-soft: #6d675e;
+    --rule: #ddd8d0;
+    --accent: #b68235;
+    --accent-deep: #7d5411;
+    --accent-wash: #f8f0e2;
+    --risk: #b3261e;
+    --risk-wash: #fbe9e7;
+    --ok: #12603a;
+    --ok-wash: #e6f4ea;
+    --font: Carlito, Calibri, system-ui, -apple-system, sans-serif;
+    --mono: ui-monospace, "Cascadia Code", Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground: #17150f; --panel: #201d17; --ink: #ece7dd; --ink-soft: #a49b8c;
+      --rule: #38332a; --accent: #d9a95f; --accent-deep: #e2bd7c;
+      --accent-wash: #2b2418; --risk: #e88a80; --risk-wash: #2e1c19;
+      --ok: #7fc4a0; --ok-wash: #16261d;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ground: #17150f; --panel: #201d17; --ink: #ece7dd; --ink-soft: #a49b8c;
+    --rule: #38332a; --accent: #d9a95f; --accent-deep: #e2bd7c;
+    --accent-wash: #2b2418; --risk: #e88a80; --risk-wash: #2e1c19;
+    --ok: #7fc4a0; --ok-wash: #16261d;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--ground); color: var(--ink); font-family: var(--font); line-height: 1.55; }
+  .wrap { max-width: 1000px; margin: 0 auto; padding: 40px 24px 72px; }
+  code { font-family: var(--mono); font-size: .88em; background: var(--accent-wash); color: var(--accent-deep); padding: 1px 5px; border-radius: 3px; }
+
+  header.top { display: flex; align-items: flex-start; gap: 16px; padding-bottom: 20px; border-bottom: 2px solid var(--ink); }
+  .top h1 { margin: 0; font-size: 33px; font-weight: 700; letter-spacing: -.01em; }
+  .top p { margin: 5px 0 0; color: var(--ink-soft); font-size: 15px; max-width: 64ch; }
+
+  h2.sec { margin: 42px 0 4px; font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--accent-deep); }
+  h2.sec + p.lede { margin: 0 0 18px; color: var(--ink-soft); font-size: 14px; max-width: 68ch; }
+
+  .split { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 14px; margin-bottom: 8px; }
+  .role { padding: 15px 17px; background: var(--panel); border: 1px solid var(--rule); border-top: 2px solid var(--accent); }
+  .role h3 { margin: 0 0 4px; font-size: 15.5px; }
+  .role .who { display: block; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-soft); margin-bottom: 8px; }
+  .role ul { margin: 0; padding-left: 17px; display: flex; flex-direction: column; gap: 6px; font-size: 13.5px; }
+
+  .q { margin-bottom: 16px; padding: 16px 18px; background: var(--panel); border: 1px solid var(--rule); }
+  .q > h3 { margin: 0 0 9px; font-size: 16px; font-weight: 700; display: flex; align-items: baseline; gap: 9px; }
+  .q > h3 .n { flex: none; font-size: 12px; font-variant-numeric: tabular-nums; color: var(--accent); font-weight: 700; }
+  .q p { margin: 0 0 9px; font-size: 14px; }
+  .q p:last-child { margin-bottom: 0; }
+  .say { border-left: 2px solid var(--accent); padding-left: 12px; }
+  .say b { color: var(--accent-deep); }
+  .meta { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 10px; }
+  .pill { font-size: 11px; padding: 2px 9px; border-radius: 99px; border: 1px solid var(--rule); color: var(--ink-soft); }
+  .pill.file { font-family: var(--mono); }
+  .pill.owner { border-color: var(--accent); color: var(--accent-deep); background: var(--accent-wash); }
+
+  .danger { border-left: 3px solid var(--risk); }
+  .danger > h3 { color: var(--risk); }
+  .trap { margin-top: 9px; padding: 9px 12px; background: var(--risk-wash); border-radius: 3px; font-size: 13px; }
+  .trap b { color: var(--risk); }
+  .good { margin-top: 9px; padding: 9px 12px; background: var(--ok-wash); border-radius: 3px; font-size: 13px; }
+  .good b { color: var(--ok); }
+
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; margin: 6px 0 0; }
+  th { text-align: left; font-size: 10.5px; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-soft); padding: 0 10px 7px 0; border-bottom: 1px solid var(--rule); font-weight: 700; }
+  td { padding: 8px 10px 8px 0; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  td.num { font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .scroll { overflow-x: auto; }
+
+  .drill { padding: 16px 18px; background: var(--panel); border: 1px solid var(--rule); border-left: 3px solid var(--accent); margin-bottom: 12px; }
+  .drill h3 { margin: 0 0 8px; font-size: 15px; }
+  .drill ol { margin: 0; padding-left: 19px; display: flex; flex-direction: column; gap: 7px; font-size: 13.5px; }
+
+  footer { margin-top: 46px; padding-top: 16px; border-top: 1px solid var(--rule); font-size: 12.5px; color: var(--ink-soft); }
+</style>
+
+<div class="wrap">
+
+<header class="top">
+  <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.4" stroke-linecap="round" style="flex:none;margin-top:4px" aria-hidden="true"><path d="M12 7v14"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg>
+  <div>
+    <h1>Tech Q&amp;A Prep</h1>
+    <p>Every answer below is checked against the code as it actually stands. Where the honest answer is “we didn’t build that”, the script says so — a judge who finds a gap you hid stops believing the rest.</p>
+  </div>
+</header>
+
+<h2 class="sec">Split the room before you walk in</h2>
+<p class="lede">The worst outcome is three people half-answering one question. Agree who takes what, and agree that whoever owns a topic answers it even if someone else knows a bit.</p>
+
+<div class="split">
+  <div class="role">
+    <h3>The pitch answer</h3>
+    <span class="who">Presenter</span>
+    <ul>
+      <li>Who it’s for, why a firm buys it, the legal-advice boundary.</li>
+      <li>Risk grading: the two grounds — timing, and operative vs subsidiary clause.</li>
+      <li>Hands off cleanly: “that’s the engine — <em>[name]</em> built it.”</li>
+    </ul>
+  </div>
+  <div class="role">
+    <h3>The engine answer</h3>
+    <span class="who">Backend / LLM dev</span>
+    <ul>
+      <li>Prompt design, why one call per (amendment, client), the JSON contract.</li>
+      <li>Hallucination controls and what <code>eval.py</code> actually measures.</li>
+      <li>Cost and latency — the numbers are in the table below.</li>
+    </ul>
+  </div>
+  <div class="role">
+    <h3>The data answer</h3>
+    <span class="who">Scraper / frontend dev</span>
+    <ul>
+      <li>What is scraped live vs served from fixture, and why.</li>
+      <li>PDF parsing, the commencement clause, DOM-change resilience.</li>
+      <li>Upload path: extraction, and that uploads are swept identically.</li>
+    </ul>
+  </div>
+</div>
+
+<h2 class="sec">The numbers, so nobody guesses on stage</h2>
+<p class="lede">Measured from the running system on 6 September 2026, not estimated. If a judge asks about cost or scale, quote these.</p>
+
+<div class="scroll">
+<table>
+  <thead><tr><th>Question</th><th>The number</th><th>How we know</th></tr></thead>
+  <tbody>
+    <tr><td>Prompt size, one client</td><td class="num">~1,800–2,300 tokens</td><td>System prompt is ~1,066 tok; a client file adds 730–1,220.</td></tr>
+    <tr><td>One amendment, all 7 clients</td><td class="num">~$0.084</td><td>~13,900 tok in, ~2,800 out, Sonnet 4.5 pricing.</td></tr>
+    <tr><td>Per (amendment, client) pair</td><td class="num">~$0.012</td><td>Same measurement, divided by 7.</td></tr>
+    <tr><td>Real firm: 200 clients × 12 docs</td><td class="num">~$4 per amendment</td><td>Extrapolated from measured per-doc token cost.</td></tr>
+    <tr><td>Sweep latency, 7 clients</td><td class="num">~20 seconds</td><td>6 parallel workers, <code>impact.py:180</code>.</td></tr>
+    <tr><td>Codebase</td><td class="num">~1,400 lines Python</td><td>11 modules, no framework beyond FastAPI.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h2 class="sec">The questions you will actually get</h2>
+<p class="lede">Ordered by how likely they are. The pill under each answer names the file to open if a judge wants to see it.</p>
+
+<div class="q">
+  <h3><span class="n">01</span> How do you stop it hallucinating a legal position?</h3>
+  <p class="say"><b>Say:</b> “Three separate constraints, and they’re independent. First, the bill summaries come only from the Explanatory Statement — we don’t ask the model what a bill means, we extract the section Parliament already wrote. Second, every flag must carry a verbatim quote from the client document, and it’s marked <em>found</em> or <em>inferred</em> so the lawyer sees which claims rest on the text and which on reasoning. Third, the system prompt tells it that topical overlap is never impact, and we test that with deliberate traps.”</p>
+  <p>Then show it: on the sweep slide, “20 documents scanned and left unflagged.” That is the constraint working, not marketing.</p>
+  <div class="good"><b>If pushed further:</b> the model can still mis-summarise <em>why</em> a clause is exposed. What it cannot do is invent a clause — the quote is checked against the document text, and a lawyer reading the quote catches a bad rationale in seconds. That is the whole reason the quote is mandatory rather than optional.</div>
+  <div class="meta"><span class="pill file">analysis/impact.py — SYSTEM</span><span class="pill owner">Backend dev</span></div>
+</div>
+
+<div class="q">
+  <h3><span class="n">02</span> What is actually scraped live, and what is faked?</h3>
+  <p class="say"><b>Say:</b> “Parliament’s Bills Introduced page is server-rendered, so we scrape it live and parse each bill’s PDF for its commencement clause. PAIR Search, eGazette and SSO are JavaScript applications or block non-browser clients — we verified that on 5 September. For those we serve a cached snapshot through the same parser interface, so wiring a headless browser is a swap of the fetch function, not a rewrite.”</p>
+  <div class="good"><b>This is a strength, say it confidently.</b> The docstring at the top of <code>parliament.py</code> records exactly this, with the verification date. Offer to open it. Teams that pretend everything is live get caught; you documented the boundary before anyone asked.</div>
+  <div class="meta"><span class="pill file">scrapers/parliament.py:1–8</span><span class="pill owner">Scraper dev</span></div>
+</div>
+
+<div class="q">
+  <h3><span class="n">03</span> What happens when the parliament site changes its HTML?</h3>
+  <p class="say"><b>Say:</b> “The scrape returns an empty list rather than throwing, and we fall back to the cached snapshot automatically — the UI drops the ‘live’ tag to ‘cached snapshot’, so the user is told. Parsing is one regex over flattened text in one function, so a DOM change is a contained fix.”</p>
+  <div class="trap"><b>Don’t claim</b> a second AI auto-repairs the scraper. That’s in an early script draft but it isn’t built, and “we’d monitor and fix it” is a perfectly good answer. Say it as roadmap if you want: “the obvious next step is a canary that alerts when the parse returns zero bills.”</div>
+  <div class="meta"><span class="pill file">scrapers/parliament.py:22–37</span><span class="pill owner">Scraper dev</span></div>
+</div>
+
+<div class="q">
+  <h3><span class="n">04</span> How do you know it’s accurate? Have you measured it?</h3>
+  <p class="say"><b>Say:</b> “Yes — <code>eval.py</code> runs every amendment across every client and scores against hand-labelled ground truth. It reports recall, precision, exact category match for high vs moderate, and a separate count of false-positive traps passed. The traps are documents that are topically adjacent but genuinely unaffected — a PDPA consent form against a PDPA breach-window change.”</p>
+  <div class="trap"><b>Before you present, actually run it</b> and know the current numbers: <code>python backend/eval.py</code>. It sweeps every amendment × every client, so it costs roughly $0.60 and takes a couple of minutes. Do not quote a number you have not seen today — the corpus changed when PivotStack was added.</div>
+  <div class="meta"><span class="pill file">backend/eval.py</span><span class="pill owner">Backend dev</span></div>
+</div>
+
+<div class="q">
+  <h3><span class="n">05</span> Why one LLM call per client? Isn’t that expensive?</h3>
+  <p class="say"><b>Say:</b> “It’s about twelve-tenths of a cent per client per amendment — around eight cents to sweep our whole demo firm. For a 200-client firm it’s roughly four dollars per amendment, and amendments arrive a few times a month. Against a partner’s hourly rate that’s not the constraint.”</p>
+  <p>“We isolate per client deliberately: one client’s documents never enter another client’s prompt. That’s a confidentiality property, and it also means one bad response can’t poison the whole sweep — failures are caught per pair and reported, the sweep continues.”</p>
+  <div class="good"><b>The confidentiality framing is the strong half of this answer.</b> Lead with it if the questioner sounds like a lawyer rather than an engineer.</div>
+  <div class="meta"><span class="pill file">analysis/impact.py:164–195</span><span class="pill owner">Backend dev</span></div>
+</div>
+
+<div class="q">
+  <h3><span class="n">06</span> Where does client data go? This is privileged material.</h3>
+  <p class="say"><b>Say:</b> “In the demo, documents sit in local JSON and the analysis call goes to a hosted model. For deployment the model is the thing that moves, not the data — a firm runs this against their own endpoint, whether that’s an enterprise agreement with a provider or a self-hosted model, inside their own environment. Nothing about the engine assumes a particular vendor; it’s one HTTP client behind one interface.”</p>
+  <div class="trap"><b>Do not say “no client data leaves the firm” as if it were already true.</b> Today the prompt goes to OpenRouter. The honest version — “this is the deployment model, and here’s the single file that changes” — is more convincing and cannot be caught out.</div>
+  <div class="meta"><span class="pill file">backend/llm.py</span><span class="pill owner">Backend dev</span></div>
+</div>
+
+<div class="q">
+  <h3><span class="n">07</span> Why should a lawyer trust high vs moderate?</h3>
+  <p class="say"><b>Say:</b> “Two grounds, both in the prompt and both visible in the output. Ground one is timing: a change already in force or gazetted with a fixed date can be high; a bill still awaiting commencement caps at moderate, because the firm cannot yet be wrong about a rule that isn’t law. Ground two is clause hierarchy: the operative clause that states the superseded position is high, a clause exposed only by cross-reference is moderate.”</p>
+  <p>Then point at the sweep slide — the Why line literally names “Ground 1” and “Ground 2”. The reasoning is auditable, not a vibe.</p>
+  <div class="meta"><span class="pill file">analysis/impact.py — SYSTEM</span><span class="pill owner">Presenter</span></div>
+</div>
+
+<div class="q danger">
+  <h3><span class="n">08</span> Can I type my own question into it?</h3>
+  <p class="say"><b>Say:</b> “Yes — free text is routed to a grounded Q&amp;A over the same corpus, so it can’t invent a client or a provision.”</p>
+  <div class="trap"><b>Know the limit before they find it.</b> The sweep/question router is keyword-based (<code>qa.py:77</code>). “Run a sweep” and “which clients are affected” route to a sweep; <em>“Does the WFA affect any of our clients?”</em> does not — it falls through to Q&amp;A. It still answers from the same grounded corpus, so it degrades gracefully rather than breaking. If it happens live: <b>“That routed to Q&amp;A rather than a full sweep — the router is keyword-based today, an intent classifier is the fix. Let me select the amendment and run the sweep properly.”</b> Then do exactly that.</div>
+  <div class="meta"><span class="pill file">analysis/qa.py:77–86</span><span class="pill owner">Backend dev</span></div>
+</div>
+
+<div class="q danger">
+  <h3><span class="n">09</span> Is your client data real?</h3>
+  <p class="say"><b>Say:</b> “No, and deliberately — the client corpus is entirely synthetic. The regulatory sources are real: real Bills, real provisions, scraped from Parliament. We built the corpus with known-correct answers so we could measure accuracy, which you can’t do on real files you don’t have labels for.”</p>
+  <div class="good"><b>Turn it into the eval answer.</b> Synthetic data is why <code>ground_truth.json</code> exists and why precision and recall are measurable at all. That’s a methodology strength, not an apology.</div>
+  <div class="meta"><span class="pill owner">Presenter</span></div>
+</div>
+
+<div class="q">
+  <h3><span class="n">10</span> Can it handle a real 40-page contract, not a paragraph?</h3>
+  <p class="say"><b>Say:</b> “Uploads go through the same path — <code>.docx</code>, <code>.pdf</code> or <code>.txt</code>, text extracted on upload, including clauses inside tables, which is where they usually sit in an employment contract. An uploaded document is swept identically to a seeded one; there’s no special-casing in the engine.”</p>
+  <div class="trap"><b>Honest limit:</b> the whole document text goes into the prompt, so a very long contract will eventually hit the context window. We haven’t implemented chunking or retrieval. If asked: <b>“Not yet — clause-level chunking is the next step, and it’s also what would let us cite clause numbers instead of quoting text.”</b></div>
+  <div class="meta"><span class="pill file">backend/ingest.py</span><span class="pill owner">Frontend dev</span></div>
+</div>
+
+<div class="q">
+  <h3><span class="n">11</span> What if the model returns something malformed?</h3>
+  <p class="say"><b>Say:</b> “The JSON parser tolerates markdown fencing and leading prose. If a pair still fails, it’s caught, recorded in an errors list, and the sweep continues — one bad response degrades the result, it doesn’t kill it. There’s no automatic retry today; that’s a deliberate simplification, and it’s a few lines to add.”</p>
+  <div class="meta"><span class="pill file">llm.py:48–57 · impact.py:191</span><span class="pill owner">Backend dev</span></div>
+</div>
+
+<div class="q">
+  <h3><span class="n">12</span> What stops a lawyer approving everything unread?</h3>
+  <p class="say"><b>Say:</b> “Nothing stops a careless lawyer, and that’s true of every precedent template a firm already uses. What we change is the cost of checking: the suggestion arrives with the verbatim clause, the provision that compels it, and what happens if it’s left. Checking takes seconds. And every decision is attributed in the audit trail — that log is what a firm shows its insurer.”</p>
+  <p>Amenda sits where a junior associate sits. The approving solicitor keeps full professional responsibility.</p>
+  <div class="meta"><span class="pill owner">Presenter</span></div>
+</div>
+
+<h2 class="sec">Rehearse these three, out loud</h2>
+<p class="lede">Reading answers is not the same as saying them under pressure. Twenty minutes on these will do more than another hour of polish.</p>
+
+<div class="drill">
+  <h3>Drill 1 — the handoff</h3>
+  <ol>
+    <li>Someone asks a hard engine question mid-demo. Presenter says one sentence, then hands over by name.</li>
+    <li>The dev answers in under thirty seconds and hands back.</li>
+    <li>Run it three times. The goal is that the handoff sounds rehearsed, because it is.</li>
+  </ol>
+</div>
+
+<div class="drill">
+  <h3>Drill 2 — “show me the code”</h3>
+  <ol>
+    <li>Have the repo open in a second window before you start, not minimised behind the demo.</li>
+    <li>Practise reaching <code>impact.py</code>’s system prompt and <code>parliament.py</code>’s docstring in under ten seconds each.</li>
+    <li>Those two files answer half the questions on this page.</li>
+  </ol>
+</div>
+
+<div class="drill">
+  <h3>Drill 3 — the answer you don’t have</h3>
+  <ol>
+    <li>Agree the exact wording now: <b>“We haven’t built that. What we did build is X, and here’s why we prioritised it.”</b></li>
+    <li>Then stop. Do not invent a roadmap on the spot, and do not let two people improvise different answers.</li>
+    <li>The gaps most likely to come up: chunking for long documents, retry on malformed JSON, an intent classifier for the router, and automated monitoring of scraper health.</li>
+  </ol>
+</div>
+
+<h2 class="sec">Last checks, the morning of</h2>
+<div class="q">
+  <p style="margin:0 0 8px"><b>Run <code>python backend/eval.py</code> and write the numbers on your hand.</b> The corpus changed when PivotStack was added; yesterday’s figures are stale.</p>
+  <p style="margin:0 0 8px"><b>Reset the demo:</b> <code>git checkout -- backend/data/proposals.json</code> — otherwise the redline opens already approved and you lose the Approve moment.</p>
+  <p style="margin:0 0 8px"><b>Confirm <code>.env</code> exists on the demo machine.</b> It’s gitignored; a fresh clone will not have it and the sweep will fail.</p>
+  <p style="margin:0"><b>Check the <em>live</em> tag appears</b> next to Amendments. If the venue blocks the scrape, the cached fallback is automatic — but know which one you’re showing before a judge asks.</p>
+</div>
+
+<footer>
+  Answers verified against the codebase at commit <code>5235411</code>, 6 September 2026. Where the code changes, re-check the file references before relying on them.
+</footer>
+
+</div>
