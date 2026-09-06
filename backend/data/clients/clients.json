@@ -1,5 +1,37 @@
 [
   {
+    "id": "c7",
+    "name": "PivotStack Pte Ltd",
+    "practice": "Corporate & Employment",
+    "risk": "High",
+    "updated": "2026-09-06",
+    "profile": {
+      "contact": "Chen Wei, 48, Founder & CEO",
+      "business": "Software technology / SaaS startup; lean 30-person team, moves fast on headcount",
+      "headcount": 30,
+      "areas_of_law": [
+        "Employment Act",
+        "Workplace Fairness Act",
+        "Contract"
+      ],
+      "notes": "Suite of employment contracts drafted March 2025 on the founder's instruction to manage headcount tightly. The drafts are on file and due to be issued to three new hires next week. File ref PSL/EMP/CW/2025/047."
+    },
+    "documents": [
+      {
+        "id": "c7d1",
+        "name": "Employment Contract (Draft) — March 2025",
+        "added": "2025-03-10",
+        "text": "3. SALARY. The Employee shall be paid the monthly salary set out in Schedule 1, payable in arrears. 8. TERM AND TERMINATION. 8.1 Employment commences on the date stated in Schedule 1. 8.2 Either party may terminate this Agreement on one month's written notice. 8.3 This Agreement shall automatically terminate without notice upon the Employee attaining the age of sixty-two (62) years. Such termination shall be deemed a retirement and shall not attract any notice pay, severance payment or further entitlement under this Agreement beyond salary accrued to the date of retirement. 11. CONFIDENTIALITY. The Employee shall keep the Company's confidential information secret during and after employment. 14. DISPUTES. 14.1 The Employee hereby irrevocably waives any right to raise internal disputes, complaints or grievances in connection with any decision made by the Employer regarding the Employee's terms of employment, appraisal outcomes, promotion decisions, or termination thereof. The Employee agrees that all such decisions are final and binding."
+      },
+      {
+        "id": "c7d2",
+        "name": "Corporate Constitution (June 2020)",
+        "added": "2020-06-03",
+        "text": "Constitution of PivotStack Pte Ltd, adopted 3 June 2020. The company is a private company limited by shares; the directors may allot shares with the approval of the members in general meeting; the board shall consist of not fewer than one director; general meetings are convened and conducted in accordance with the Companies Act; the company may but need not have a common seal."
+      }
+    ]
+  },
+  {
     "id": "c1",
     "name": "Meridian Logistics Pte Ltd",
     "practice": "Commercial",

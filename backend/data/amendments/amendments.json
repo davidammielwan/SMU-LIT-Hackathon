@@ -1,5 +1,61 @@
 [
   {
+    "id": "a7",
+    "status": "confirmed",
+    "source": "Parliament — Bill No. 50/2024",
+    "statute": "Workplace Fairness Act",
+    "type": "Employment",
+    "watchlist": true,
+    "in_force": false,
+    "priority": "High",
+    "gazetted": "2025-01-08",
+    "force_date": "2026–2027 (expected)",
+    "commencement_basis": "Passed by Parliament on 8 January 2025; expected to come into force 2026–2027. The Act is settled law awaiting commencement.",
+    "title": "Discriminatory employment decisions and void waivers — s7, s41",
+    "summary": "Employment decisions — dismissal, retrenchment or termination — made on the ground of a protected characteristic, including age, become civil contraventions (s7). Any contract term that excludes the Act or precludes a grievance is void by operation of law (s41). Penalties for corporate employers reach S$50,000 per serious contravention.",
+    "before": "Outside the Retirement and Re-employment Act, no general statutory prohibition on employment decisions made by reference to age; contractual terms waiving internal grievance rights not expressly void.",
+    "after": "s7: An employer makes an employment decision if the employer dismisses or retrenches, or terminates the contract of service of, an employee — and must not do so on the ground of a protected characteristic, including age. s41: Any term of a contract of service or collective agreement is void insofar as it purports (a) to exclude or limit the operation of any provision of this Act, or (b) to preclude any person from making a complaint or allegation or raising a grievance under this Act.",
+    "citation": "Workplace Fairness Act 2024 (Bill No. 50/2024), s7, s41",
+    "key_changes": [
+      {
+        "aspect": "age as a ground for termination",
+        "old": "automatic retirement or termination clauses tied to a stated age were common drafting",
+        "new": "an employment decision made on the ground of age is a civil contravention under s7 — up to S$50,000 for a corporate employer's first serious contravention"
+      },
+      {
+        "aspect": "contractual waiver of grievance rights",
+        "old": "enforceability of grievance waivers uncertain at common law",
+        "new": "void by operation of law insofar as the term precludes a complaint or grievance under the Act (s41), regardless of the parties' agreement"
+      },
+      {
+        "aspect": "job advertisements",
+        "old": "TAFEP guidelines only — no statutory sanction",
+        "new": "ads stating a protected characteristic as a condition or disqualification become unlawful (s19)"
+      }
+    ],
+    "purpose": "The Act protects individuals from discrimination by employers on the ground of specified protected characteristics — including age, nationality, sex, pregnancy, disability and mental health condition — establishes fair employment practices, and preserves harmonious workplace relations in Singapore. It converts what were TAFEP guidelines into statutory duties with civil penalties.",
+    "main_provisions": [
+      {
+        "clause": "s7",
+        "heading": "Discriminatory employment decisions",
+        "effect": "An employer must not dismiss, retrench or terminate on the ground of a protected characteristic. A clause mandating automatic termination at a stated age is an employment decision made on the ground of age — a civil contravention once the Act commences.",
+        "who_it_affects": "Every employer whose contracts fix a mandatory retirement or maximum engagement age outside the Retirement and Re-employment Act framework."
+      },
+      {
+        "clause": "s41",
+        "heading": "Void contract terms — restriction on contracting out",
+        "effect": "Any term of a contract of service is void insofar as it excludes or limits the Act or precludes a complaint or grievance under it. Grievance-waiver clauses die by operation of law; retaining them signals an attempt to curtail statutory rights.",
+        "who_it_affects": "Employers whose templates contain no-grievance, finality or waiver-of-dispute clauses."
+      },
+      {
+        "clause": "s19",
+        "heading": "Discriminatory job advertisements",
+        "effect": "Job advertisements must not state a protected characteristic (such as age) as a condition or disqualification, affecting how roles are scoped in ads and offer letters.",
+        "who_it_affects": "Employers and recruiters drafting role descriptions and offer letters."
+      }
+    ]
+  },
+  {
     "id": "a1",
     "status": "confirmed",
     "source": "eGazette",

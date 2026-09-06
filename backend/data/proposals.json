@@ -1,0 +1,170 @@
+{
+  "proposals": {
+    "a7:c7d1": {
+      "id": "a7:c7d1",
+      "amendment_id": "a7",
+      "amendment_title": "Discriminatory employment decisions and void waivers — s7, s41",
+      "citation": "Workplace Fairness Act 2024 (Bill No. 50/2024), s7, s41",
+      "force_date": "2026–2027 (expected)",
+      "client_id": "c7",
+      "client_name": "PivotStack Pte Ltd",
+      "doc_id": "c7d1",
+      "doc_name": "Employment Contract (Draft) — March 2025",
+      "category": "high",
+      "original": "8.3 This Agreement shall automatically terminate without notice upon the Employee attaining the age of sixty-two (62) years. Such termination shall be deemed a retirement and shall not attract any notice pay, severance payment or further entitlement under this Agreement beyond salary accrued to the date of retirement. 11. CONFIDENTIALITY. The Employee shall keep the Company's confidential information secret during and after employment. 14. DISPUTES. 14.1 The Employee hereby irrevocably waives any right to raise internal disputes, complaints or grievances in connection with any decision made by the Employer regarding the Employee's terms of employment, appraisal outcomes, promotion decisions, or termination thereof. The Employee agrees that all such decisions are final and binding.",
+      "revised": "8.3 The Employer may, upon the Employee attaining the statutory retirement age prescribed under the Retirement and Re-employment Act (Cap. 274A), conduct a performance and operational review. Any decision regarding the continuation, variation, or termination of employment thereafter shall be made solely on the basis of the Employee's performance, skills, and the Company's operational requirements, and shall be carried out in compliance with the Workplace Fairness Act 2024 and all applicable employment legislation. The Employer shall provide the Employee with reasonable written notice of any such decision. 11. CONFIDENTIALITY. The Employee shall keep the Company's confidential information secret during and after employment. 14. DISPUTES. 14.1 The Employer shall establish and maintain an accessible internal grievance handling process in accordance with the requirements of the Workplace Fairness Act 2024. Employees are entitled to raise concerns or grievances regarding their terms of employment, appraisal outcomes, promotion decisions, or termination through such process. For the avoidance of doubt, nothing in this Agreement shall be construed to limit, exclude or otherwise affect any right conferred upon the Employee under the Workplace Fairness Act 2024 or any other applicable written law in Singapore.",
+      "rationale": "Clause 8.3's age trigger is removed and replaced with a lawful, merit-based review anchored to the Retirement and Re-employment Act (Cap. 274A), as s7 WFA makes termination on the ground of age a civil contravention; clause 14.1's grievance waiver — void under s41 WFA by operation of law — is converted into a compliant grievance-facilitation provision.",
+      "risk_if_unchanged": "Civil contraventions under the WFA with penalties up to S$50,000 per breach for a corporate employer; clause 14.1 becomes void on commencement regardless of the parties' agreement, and its retention signals an attempt to curtail statutory rights.",
+      "needs_lawyer_input": "Confirm with the client that the post-retirement-age review criteria (performance, operational requirements) match PivotStack's appraisal framework before the contracts are issued to the three new hires.",
+      "diff": [
+        {
+          "type": "equal",
+          "text": "8.3"
+        },
+        {
+          "type": "removed",
+          "text": "This Agreement shall automatically terminate without notice"
+        },
+        {
+          "type": "added",
+          "text": "The Employer may,"
+        },
+        {
+          "type": "equal",
+          "text": "upon the Employee attaining the"
+        },
+        {
+          "type": "added",
+          "text": "statutory retirement"
+        },
+        {
+          "type": "equal",
+          "text": "age"
+        },
+        {
+          "type": "added",
+          "text": "prescribed under the Retirement and Re-employment Act (Cap. 274A), conduct a performance and operational review. Any decision regarding the continuation, variation, or termination"
+        },
+        {
+          "type": "equal",
+          "text": "of"
+        },
+        {
+          "type": "removed",
+          "text": "sixty-two (62) years. Such termination"
+        },
+        {
+          "type": "added",
+          "text": "employment thereafter"
+        },
+        {
+          "type": "equal",
+          "text": "shall be"
+        },
+        {
+          "type": "removed",
+          "text": "deemed a retirement"
+        },
+        {
+          "type": "added",
+          "text": "made solely on the basis of the Employee's performance, skills, and the Company's operational requirements,"
+        },
+        {
+          "type": "equal",
+          "text": "and shall"
+        },
+        {
+          "type": "removed",
+          "text": "not attract"
+        },
+        {
+          "type": "added",
+          "text": "be carried out in compliance with the Workplace Fairness Act 2024 and all applicable employment legislation. The Employer shall provide the Employee with reasonable written notice of"
+        },
+        {
+          "type": "equal",
+          "text": "any"
+        },
+        {
+          "type": "removed",
+          "text": "notice pay, severance payment or further entitlement under this Agreement beyond salary accrued to the date of retirement."
+        },
+        {
+          "type": "added",
+          "text": "such decision."
+        },
+        {
+          "type": "equal",
+          "text": "11. CONFIDENTIALITY. The Employee shall keep the Company's confidential information secret during and after employment. 14. DISPUTES. 14.1 The"
+        },
+        {
+          "type": "removed",
+          "text": "Employee hereby irrevocably waives any right"
+        },
+        {
+          "type": "added",
+          "text": "Employer shall establish and maintain an accessible internal grievance handling process in accordance with the requirements of the Workplace Fairness Act 2024. Employees are entitled"
+        },
+        {
+          "type": "equal",
+          "text": "to raise"
+        },
+        {
+          "type": "removed",
+          "text": "internal disputes, complaints"
+        },
+        {
+          "type": "added",
+          "text": "concerns"
+        },
+        {
+          "type": "equal",
+          "text": "or grievances"
+        },
+        {
+          "type": "removed",
+          "text": "in connection with any decision made by the Employer"
+        },
+        {
+          "type": "equal",
+          "text": "regarding"
+        },
+        {
+          "type": "removed",
+          "text": "the Employee's"
+        },
+        {
+          "type": "added",
+          "text": "their"
+        },
+        {
+          "type": "equal",
+          "text": "terms of employment, appraisal outcomes, promotion decisions, or termination"
+        },
+        {
+          "type": "removed",
+          "text": "thereof. The"
+        },
+        {
+          "type": "added",
+          "text": "through such process. For the avoidance of doubt, nothing in this Agreement shall be construed to limit, exclude or otherwise affect any right conferred upon the"
+        },
+        {
+          "type": "equal",
+          "text": "Employee"
+        },
+        {
+          "type": "removed",
+          "text": "agrees that all such decisions are final and binding."
+        },
+        {
+          "type": "added",
+          "text": "under the Workplace Fairness Act 2024 or any other applicable written law in Singapore."
+        }
+      ],
+      "status": "pending",
+      "created": "2026-09-06T03:48:03+00:00"
+    }
+  },
+  "audit": []
+}

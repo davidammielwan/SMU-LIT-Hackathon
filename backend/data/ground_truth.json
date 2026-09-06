@@ -28,9 +28,15 @@
   },
   "a5": {
     "c3d1": "moderate",
+    "c7d1": "high",
     "profile:c4": "high",
     "profile:c1": "moderate",
-    "_trap_note": "Kallang (40 staff) has NO document mentioning grievances - the hit must come from the client profile (headcount 40 >= 25, no grievance procedure). Aster handbook s9 has only an informal process - moderate. Orchard (14 staff) below threshold: unaffected."
+    "_trap_note": "Kallang (40 staff) has NO document mentioning grievances - the hit must come from the client profile (headcount 40 >= 25, no grievance procedure). Aster handbook s9 has only an informal process - moderate. Orchard (14 staff) below threshold: unaffected. PivotStack (30 staff) clause 14.1 waives grievances outright while ss.12-18 make a grievance process mandatory - high."
+  },
+  "a7": {
+    "c7d1": "high",
+    "_traps": ["c7d2"],
+    "_trap_note": "Clause 8.3 (automatic termination at 62) is an employment decision on the ground of age contrary to s7; clause 14.1 (grievance waiver) is void under s41 - the operative clauses themselves state the offending position: high. The corporate constitution is a governance document with no employment terms and must NOT be flagged."
   },
   "a6": {
     "c5d2": "high",
