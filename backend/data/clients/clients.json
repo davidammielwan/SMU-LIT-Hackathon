@@ -9,7 +9,11 @@
       "contact": "Marcus Ong, 52, Managing Director",
       "business": "Regional 3PL logistics; warehousing and last-mile delivery",
       "headcount": 180,
-      "areas_of_law": ["Personal Data Protection Act", "Employment Act", "Contract"],
+      "areas_of_law": [
+        "Personal Data Protection Act",
+        "Employment Act",
+        "Contract"
+      ],
       "notes": "Processes consignee personal data for 4 e-commerce platforms; 4 sub-processors."
     },
     "documents": [
@@ -17,13 +21,13 @@
         "id": "c1d1",
         "name": "Master Services Agreement — Portside (2024)",
         "added": "2024-03-14",
-        "text": "7. DATA PROTECTION. 7.1 Each party shall comply with the Personal Data Protection Act 2012. 7.2 Data Incident Notice: the Service Provider shall notify the Customer of any data breach affecting Customer Personal Data no later than 3 calendar days after becoming aware of the breach, and shall in the same period notify the Personal Data Protection Commission where the breach affects 500 or more individuals. 7.3 The Service Provider shall maintain reasonable security arrangements. 12. LIABILITY. 12.1 Aggregate liability is capped at fees paid in the preceding 12 months."
+        "text": "7. DATA PROTECTION. 7.1 Each party shall comply with the Personal Data Protection Act 2012. 7.2 Data Incident Notice: the Service Provider shall notify the Customer of any data breach affecting Customer Personal Data no later than 3 calendar days after becoming aware of the breach, and shall in the same period notify the Personal Data Protection Commission where the breach is assessed to be notifiable. 7.3 The Service Provider shall maintain reasonable security arrangements. 12. LIABILITY. 12.1 Aggregate liability is capped at fees paid in the preceding 12 months."
       },
       {
         "id": "c1d2",
         "name": "Data Processing Addendum v2",
         "added": "2024-03-14",
-        "text": "4. BREACH NOTIFICATION. 4.1 The Processor shall notify the Controller within 3 calendar days of determining that a notifiable data breach has occurred. 4.2 A breach is notifiable where it results in significant harm or affects not fewer than 500 individuals. 4.3 The Processor shall provide reasonable assistance with any notification to the Commission. 5. SUB-PROCESSORS. 5.1 The Processor may engage the sub-processors listed in Schedule 2, and shall flow down obligations no less protective than this Addendum."
+        "text": "4. BREACH NOTIFICATION. 4.1 The Processor shall notify the Controller within 3 calendar days of becoming aware of any incident that may constitute a personal data breach. 4.2 The Controller shall assess whether the breach is notifiable; no time limit is specified for completing that assessment. 4.3 The Processor shall provide reasonable assistance with any notification to the Commission. 5. SUB-PROCESSORS. 5.1 The Processor may engage the sub-processors listed in Schedule 2, and shall flow down obligations no less protective than this Addendum, provided that sub-processors shall notify the Processor within 5 business days of becoming aware of an incident."
       },
       {
         "id": "c1d3",
@@ -55,7 +59,11 @@
       "contact": "Priya Nair, 41, CEO",
       "business": "CMS-licensed digital asset fund manager and custodian",
       "headcount": 32,
-      "areas_of_law": ["Securities and Futures Act", "Personal Data Protection Act", "Payment Services Act"],
+      "areas_of_law": [
+        "Securities and Futures Act",
+        "Personal Data Protection Act",
+        "Payment Services Act"
+      ],
       "notes": "Onboards accredited investors quarterly; next onboarding cycle Nov 2026."
     },
     "documents": [
@@ -63,7 +71,7 @@
         "id": "c2d1",
         "name": "Digital Asset Custody Terms v3",
         "added": "2026-06-03",
-        "text": "14. REPORTABLE INCIDENT. 14.1 The Custodian shall report any security incident affecting client assets or personal data to the Client within 3 calendar days. 14.2 The Custodian maintains records sufficient to identify assets held for each customer. 14.3 No representation is made as to the treatment of client assets on insolvency. 15. FEES. Custody fees accrue monthly at 0.12% p.a."
+        "text": "14. REPORTABLE INCIDENT. 14.1 The Custodian shall report any security incident affecting client assets or personal data to the Client within 3 calendar days of discovery. 14.2 The Custodian maintains records sufficient to identify assets held for each customer. 14.3 No representation is made as to the treatment of client assets on insolvency. 15. FEES. Custody fees accrue monthly at 0.12% p.a."
       },
       {
         "id": "c2d2",
@@ -95,7 +103,11 @@
       "contact": "Dr Lim Hui Wen, 47, Group Medical Director",
       "business": "Chain of 6 GP and specialist clinics",
       "headcount": 58,
-      "areas_of_law": ["Employment Act", "Personal Data Protection Act", "Healthcare Services Act"],
+      "areas_of_law": [
+        "Employment Act",
+        "Personal Data Protection Act",
+        "Healthcare Services Act"
+      ],
       "notes": "34 clinic support staff on salaries between S$2,400 and S$3,100."
     },
     "documents": [
@@ -129,7 +141,10 @@
       "contact": "Rahim Ismail, 39, Founder",
       "business": "Precision engineering workshop",
       "headcount": 40,
-      "areas_of_law": ["Employment Act", "Workplace Safety and Health Act"],
+      "areas_of_law": [
+        "Employment Act",
+        "Workplace Safety and Health Act"
+      ],
       "notes": "Shift technicians paid S$3,400-S$4,200; no formal grievance procedure in place."
     },
     "documents": [
@@ -157,7 +172,10 @@
       "contact": "Tan Boon Kiat, 63, Chairman",
       "business": "Marine holding group; 7 subsidiaries, 3 with nominee directors",
       "headcount": 12,
-      "areas_of_law": ["Companies Act", "Contract"],
+      "areas_of_law": [
+        "Companies Act",
+        "Contract"
+      ],
       "notes": "Nominee director deeds executed Apr 2024; no ACRA lodgement of nominee register."
     },
     "documents": [
@@ -191,7 +209,10 @@
       "contact": "Dr Sarah Chen, 44, Managing Partner",
       "business": "Two-clinic dental partnership",
       "headcount": 14,
-      "areas_of_law": ["Partnership", "Contract"],
+      "areas_of_law": [
+        "Partnership",
+        "Contract"
+      ],
       "notes": "Small team; no monitoring, no custody, salaries above Part IV ceilings."
     },
     "documents": [

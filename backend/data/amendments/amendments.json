@@ -11,46 +11,46 @@
     "gazetted": "2026-09-05",
     "force_date": "2026-11-01",
     "commencement_basis": "Commencement notification gazetted alongside the Amendment Act.",
-    "title": "Mandatory breach notification — s26D",
-    "summary": "Notification window to the Commission tightened from 3 calendar days to 72 hours; the significant-scale threshold falls from 500 to 100 affected individuals.",
-    "before": "An organisation must notify the Commission of a notifiable data breach as soon as is practicable, and in any case no later than 3 calendar days after the day it determines that the breach is a notifiable data breach. A breach is of a significant scale where it affects not fewer than 500 individuals.",
-    "after": "An organisation must notify the Commission of a notifiable data breach as soon as is practicable, and in any case no later than 72 hours after the day it determines that the breach is a notifiable data breach. A breach is of a significant scale where it affects not fewer than 100 individuals. A data intermediary must notify the organisation without undue delay.",
-    "citation": "PDPA s26D(2), (4) - Act 14 of 2026",
+    "title": "Breach assessment window and notification trigger - s26C, s26D",
+    "summary": "The 30-day assessment window becomes statutory, and s26D(1) is clarified so the 3-day notification clock runs from the day of assessment, not from discovery. Data intermediaries must inform the organisation without undue delay.",
+    "before": "Where an organisation assesses, in accordance with section 26C, that a data breach is a notifiable data breach, the organisation must notify the Commission as soon as is practicable, but in any case no later than 3 calendar days after the day the organisation makes that assessment.",
+    "after": "An organisation must complete an assessment under section 26C no later than 30 days after the day it becomes aware of a data breach. Where the organisation assesses that the breach is a notifiable data breach, it must notify the Commission as soon as is practicable, but in any case no later than 3 calendar days after the day it makes that assessment. A data intermediary must, without undue delay, notify the organisation for which it processes personal data.",
+    "citation": "PDPA s26C(4A), s26D(1) - Act 14 of 2026",
     "key_changes": [
       {
-        "aspect": "breach notification window",
-        "old": "3 calendar days",
-        "new": "72 hours"
+        "aspect": "assessment window",
+        "old": "no statutory deadline (PDPC expectation of about 30 days)",
+        "new": "statutory: assessment within 30 days of becoming aware"
       },
       {
-        "aspect": "significant scale threshold",
-        "old": "500 individuals",
-        "new": "100 individuals"
+        "aspect": "start of the 3-day notification clock",
+        "old": "stated as running from assessment, but often drafted in contracts as running from discovery or awareness",
+        "new": "expressly runs from the day of assessment, with the assessment itself time-limited"
       },
       {
         "aspect": "data intermediary duty",
-        "old": "none stated",
-        "new": "notify organisation without undue delay"
+        "old": "no express statutory duty to notify the organisation",
+        "new": "must notify the organisation without undue delay"
       }
     ],
-    "purpose": "This amendment tightens Singapore's data breach notification regime. Organisations must now alert the Personal Data Protection Commission within 72 hours instead of 3 calendar days, and the threshold at which a breach counts as significant scale falls from 500 to 100 affected individuals. Data intermediaries are, for the first time, placed under a direct duty to inform the organisation they process for.",
+    "purpose": "This amendment fixes the outer edge of the data breach timeline. The PDPC's expectation that an assessment be completed within about 30 days of becoming aware becomes a statutory deadline, and section 26D(1) is clarified so that the 3 calendar day notification period runs from the day of assessment rather than from discovery. Data intermediaries are, for the first time, placed under an express duty to tell the organisation they process for.",
     "main_provisions": [
       {
-        "clause": "s26D(2)",
-        "heading": "Notification window cut to 72 hours",
-        "effect": "An organisation must notify the Commission within 72 hours of determining a breach is notifiable, replacing the previous 3 calendar days. Contractual notice periods drafted to the old window no longer leave enough time.",
-        "who_it_affects": "Any client that processes personal data and has data-processing terms in its contracts."
+        "clause": "s26C(4A)",
+        "heading": "Assessment must be completed within 30 days",
+        "effect": "An organisation must complete its section 26C assessment within 30 days of becoming aware of a breach. What was a PDPC expectation is now a hard deadline, so a slow assessment is itself a contravention.",
+        "who_it_affects": "Any client holding personal data, and any incident-response or breach-handling procedure that leaves the assessment open-ended."
       },
       {
-        "clause": "s26D(4)",
-        "heading": "Significant-scale threshold halved",
-        "effect": "A breach is of significant scale at 100 affected individuals, down from 500. Breaches that previously fell below the reporting line are now notifiable.",
-        "who_it_affects": "Clients holding personal data on more than 100 individuals - most SMEs with a customer database."
+        "clause": "s26D(1)",
+        "heading": "Notification clock runs from assessment, not discovery",
+        "effect": "The 3 calendar day period is expressly tied to the day of assessment. Contracts that require notice within a fixed period of becoming aware, or that conflate discovery with assessment, no longer track the statute.",
+        "who_it_affects": "Clients whose contracts fix notification periods by reference to awareness or discovery of a breach."
       },
       {
-        "clause": "s26D new duty",
-        "heading": "Data intermediaries must notify without undue delay",
-        "effect": "A data intermediary must inform the organisation it processes for without undue delay. A contractual 5-day flow-down to sub-processors is no longer sufficient.",
+        "clause": "s26D - data intermediaries",
+        "heading": "Intermediaries must notify without undue delay",
+        "effect": "A data intermediary must inform the organisation it processes for without undue delay. A contractual flow-down measured in days no longer satisfies the duty.",
         "who_it_affects": "Clients using vendors, sub-processors or outsourced IT to handle personal data."
       }
     ]
