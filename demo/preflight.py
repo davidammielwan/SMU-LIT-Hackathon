@@ -36,13 +36,33 @@ def get(path, timeout=8):
         return json.load(r)
 
 
+def check_deps():
+    """Missing packages are the first thing a fresh clone hits."""
+    missing = []
+    for mod, pkg in (("fastapi", "fastapi"), ("uvicorn", "uvicorn"),
+                     ("multipart", "python-multipart"),
+                     ("dotenv", "python-dotenv"), ("httpx", "httpx"),
+                     ("requests", "requests"), ("bs4", "beautifulsoup4"),
+                     ("pypdf", "pypdf"), ("docx", "python-docx")):
+        try:
+            __import__(mod)
+        except ImportError:
+            missing.append(pkg)
+    if missing:
+        record(BAD, f"{len(missing)} Python package(s) missing",
+               "Run:  pip install -r backend/requirements.txt\n"
+               f"         (missing: {', '.join(missing)})")
+        return
+    record(OK, "all Python dependencies installed", "")
+
+
 def check_env():
     path = os.path.join(ROOT, ".env")
     if not os.path.exists(path):
         record(BAD, ".env is missing",
-               "The sweep cannot run. Create amenda/.env with "
-               "OPENROUTER_API_KEY=sk-or-... (it is gitignored, so a "
-               "fresh clone never has it).")
+               "The sweep cannot run. Copy .env.example to .env and add your "
+               "key:  OPENROUTER_API_KEY=sk-or-...  (.env is gitignored, so a "
+               "fresh clone never has it - ask a teammate for the key).")
         return
     with open(path, encoding="utf-8") as f:
         body = f.read()
@@ -60,9 +80,26 @@ def check_server():
         record(BAD, "server is not running",
                "Start it:  cd backend && python -m uvicorn main:app --port 8000")
         return False
+
+    # Port 8000 might be someone else's Amenda (a teammate's laptop on the
+    # same machine, an old process from another checkout). Confirm the
+    # server is serving THIS working copy before trusting any other check.
+    try:
+        served = urllib.request.urlopen(BASE + "/", timeout=5).read()
+        local = open(os.path.join(ROOT, "frontend", "index.html"), "rb").read()
+        if served.strip() != local.strip():
+            record(BAD, "port 8000 is serving a DIFFERENT copy of Amenda",
+                   "Another uvicorn is already running - probably from an "
+                   "older checkout. Stop it and restart from this folder, "
+                   "or every check below describes the wrong app.")
+            return False
+    except Exception:
+        pass  # not fatal; the health check already succeeded
+
     if not health.get("llm_configured"):
         record(BAD, "server is up but has no LLM key",
-               "It was started before .env existed - restart it.")
+               "It was started before .env existed - restart it so it "
+               "picks the key up.")
         return False
     record(OK, f"server up, model {health.get('model')}", "")
     return True
@@ -135,6 +172,7 @@ def check_redline():
 
 def main():
     print("\nAmenda pre-flight\n" + "-" * 52)
+    check_deps()
     check_env()
     up = check_server()
     if up:

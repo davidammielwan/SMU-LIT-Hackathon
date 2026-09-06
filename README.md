@@ -6,19 +6,38 @@ clause quote behind every flag.
 
 ## Run
 
+From the repository root:
+
 ```
-cd amenda/backend
-pip install fastapi uvicorn python-dotenv httpx requests beautifulsoup4
+pip install -r backend/requirements.txt
+cp .env.example .env          # Windows: copy .env.example .env
+```
+
+Then put a real key in `.env` — it is **not** committed, so a fresh clone
+never has one. Ask a teammate for it:
+
+```
+OPENROUTER_API_KEY=sk-or-...
+AMENDA_MODEL=anthropic/claude-sonnet-4.5
+```
+
+Start the server (it must be started from `backend/`, which is where the
+data paths resolve from):
+
+```
+cd backend
 python -m uvicorn main:app --port 8000
 ```
 
 Open http://127.0.0.1:8000
 
-Create `amenda/.env` (NOT committed) with:
+**Before demoing, run the pre-flight check** from the repository root. It
+verifies dependencies, the key, the demo data and the live scrape, and
+resets the redline if a rehearsal left it approved. It makes no LLM calls,
+so it is free to run repeatedly:
 
 ```
-OPENROUTER_API_KEY=sk-or-...
-AMENDA_MODEL=anthropic/claude-sonnet-4.5
+python demo/preflight.py
 ```
 
 ## Features

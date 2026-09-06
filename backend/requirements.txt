@@ -1,0 +1,11 @@
+# Amenda backend dependencies.  Install with:
+#     pip install -r backend/requirements.txt
+fastapi
+uvicorn
+python-multipart      # FastAPI needs this for the document upload form
+python-dotenv
+httpx
+requests
+beautifulsoup4
+pypdf                 # bill PDFs and .pdf document upload
+python-docx           # .docx document upload
