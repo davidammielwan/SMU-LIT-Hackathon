@@ -727,19 +727,19 @@ createApp({
     redlineLoading: null,
     jokeIdx: 0,
     jokes: [
-      'The rest of the panel: AGREE. AGREE. AGREE. AGREE.
+      `The rest of the panel: AGREE. AGREE. AGREE. AGREE.
 
 Lord Denning: I DISSENT. Equity demands otherwise. The majority are wrong.
 
-(He was, of course, right. Eventually. On appeal. In 1979.)',
-      'A partner asks the trainee to check whether the clause is still good law.
+(He was, of course, right. Eventually. On appeal. In 1979.)`,
+      `A partner asks the trainee to check whether the clause is still good law.
 
 The trainee returns three hours later and says: "It is good law, but only in the sense that it has not yet been overruled."
 
-That is what Amenda is for.',
-      'Why do lawyers never trust a precedent bank?
+That is what Amenda is for.`,
+      `Why do lawyers never trust a precedent bank?
 
-Because the last person who updated it left the firm in 2019, and the amendment came into force in 2021.',
+Because the last person who updated it left the firm in 2019, and the amendment came into force in 2021.`,
     ],
     showAudit: false,
     showSettings: false,
@@ -980,7 +980,8 @@ Because the last person who updated it left the firm in 2019, and the amendment 
         else this.messages.push({ role: 'sweep', result: res });
       } catch (e) { this.sweepError = String(e); }
       this.thinking = false; this.saveChat(); this.scrollDown();
-      },
+    },
+  },
   async mounted() {
     [this.health, this.amendments, this.clients] = await Promise.all([
       api('/api/health'), api('/api/amendments'), api('/api/clients'),
