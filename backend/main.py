@@ -9,7 +9,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, JSONResponse
 from pydantic import BaseModel
 
-from analysis import impact
+from analysis import impact, redline
 from scrapers import parliament
 from llm import LLMNotConfigured, API_KEY, MODEL
 
@@ -66,6 +66,49 @@ def run_sweep(req: SweepRequest):
         return impact.sweep(req.amendment_ids, req.client_ids)
     except LLMNotConfigured as e:
         return JSONResponse({"error": str(e)}, status_code=503)
+
+
+class RedlineRequest(BaseModel):
+    amendment_id: str
+    client_id: str
+    doc_id: str
+    verdict: dict = {}
+
+
+@app.post("/api/redline")
+def make_redline(req: RedlineRequest):
+    amendments = {a["id"]: a for a in impact.load_json("amendments", "amendments.json")}
+    clients = {c["id"]: c for c in impact.load_json("clients", "clients.json")}
+    a, c = amendments.get(req.amendment_id), clients.get(req.client_id)
+    if not a or not c:
+        return JSONResponse({"error": "Unknown amendment or client"}, status_code=404)
+    doc = next((d for d in c["documents"] if d["id"] == req.doc_id), None)
+    if not doc:
+        return JSONResponse({"error": "Unknown document"}, status_code=404)
+    result = redline.propose(a, c, doc, req.verdict)
+    if "error" in result:
+        return JSONResponse(result, status_code=503)
+    return result
+
+
+class DecisionRequest(BaseModel):
+    proposal_id: str
+    action: str          # approve | reject | flag
+    actor: str = "Tan Wei Ming"
+    note: str = ""
+
+
+@app.post("/api/redline/decide")
+def decide_redline(req: DecisionRequest):
+    result = redline.decide(req.proposal_id, req.action, req.actor, req.note)
+    if "error" in result:
+        return JSONResponse(result, status_code=400)
+    return result
+
+
+@app.get("/api/audit")
+def audit():
+    return {"entries": redline.audit_log(), "proposals": redline.all_proposals()}
 
 
 # ---- frontend ----

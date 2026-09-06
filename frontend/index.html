@@ -39,6 +39,15 @@
   .chip.passed-chip { border-color: #b3261e; color: #b3261e; }
   .prov { border: 1px solid var(--color-divider); border-radius: var(--radius-md); padding: 10px 12px; }
   .prov-clause { font-size: 10px; letter-spacing: .07em; text-transform: uppercase; color: var(--color-accent-700); font-variant-numeric: tabular-nums; }
+  .diffbox { border: 1px solid var(--color-divider); border-radius: var(--radius-md); overflow: hidden; font-size: 12.5px; line-height: 1.7; }
+  .diffhead { display: flex; align-items: center; gap: 8px; padding: 6px 10px; background: color-mix(in srgb, var(--color-text) 5%, transparent); border-bottom: 1px solid var(--color-divider); font-size: 10px; letter-spacing: .07em; text-transform: uppercase; color: color-mix(in srgb, var(--color-text) 60%, transparent); }
+  .diffbody { padding: 10px 12px; }
+  .d-removed { background: #fbe9e7; color: #7f2318; text-decoration: line-through; text-decoration-thickness: 1px; padding: 1px 2px; border-radius: 2px; }
+  .d-added { background: #e6f4ea; color: #12603a; padding: 1px 2px; border-radius: 2px; }
+  .statusbar { display: flex; align-items: center; gap: 8px; padding: 7px 10px; border-radius: var(--radius-md); font-size: 12px; }
+  .st-approved { background: #e6f4ea; color: #12603a; border: 1px solid #a8d5bb; }
+  .st-rejected { background: #fbe9e7; color: #7f2318; border: 1px solid #e8b4ad; }
+  .st-flagged { background: var(--color-accent-100); color: var(--color-accent-700); border: 1px solid var(--color-accent-300); }
   .tabbtn { padding: 5px 12px; font-size: 12.5px; border: 1px solid var(--color-divider); background: transparent; cursor: pointer; font-family: var(--font-heading); font-weight: 600; color: var(--color-text); }
   .tabbtn.on { border-color: var(--color-accent); background: var(--color-accent-100); color: var(--color-accent-700); }
   .suggestion { display: inline-flex; align-items: center; gap: 6px; padding: 5px 10px; font-size: 11.5px; white-space: nowrap; cursor: pointer; color: var(--color-text); background: transparent; border: 1px solid var(--color-divider); border-radius: 99px; font-family: var(--font-body); }
@@ -101,6 +110,7 @@
         <span class="muted" style="font-size:11px;font-variant-numeric:tabular-nums;padding:3px 9px;border:1px solid var(--color-divider);border-radius:99px">{{ clients.length }} clients · {{ totalDocs }} documents</span>
         <div style="flex:1"></div>
         <span v-if="!health.llm_configured" class="tag tag-outline">LLM key missing — add amenda/.env</span>
+        <button @click="openAudit" style="font-size:12.5px;padding:5px 12px;background:transparent;border:1px solid var(--color-divider);border-radius:var(--radius-md);cursor:pointer;color:var(--color-text);font-family:var(--font-heading);font-weight:600">Audit trail</button>
         <button @click="resetChat" style="font-size:12.5px;padding:5px 12px;background:transparent;border:1px solid var(--color-divider);border-radius:var(--radius-md);cursor:pointer;color:var(--color-text);font-family:var(--font-heading);font-weight:600">New sweep</button>
       </header>
 
@@ -161,6 +171,46 @@
                       <div style="display:grid;grid-template-columns:76px minmax(0,1fr);gap:4px 12px;font-size:12.5px;line-height:1.5">
                         <span class="kicker" style="padding-top:2px">Why</span><span>{{ v.reason }}</span>
                         <span class="kicker" style="padding-top:2px">Action</span><span>{{ v.action }}</span>
+                      </div>
+
+                      <!-- proposed edit -->
+                      <div style="margin-top:9px">
+                        <button v-if="!proposals[h.amendment_id+':'+v.doc_id]" class="btn btn-primary"
+                          style="font-size:12px;padding:4px 10px" @click="getRedline(h, v)"
+                          :disabled="redlineLoading===h.amendment_id+':'+v.doc_id">
+                          {{ redlineLoading===h.amendment_id+':'+v.doc_id ? 'Drafting…' : 'Propose the edit' }}
+                        </button>
+
+                        <div v-else style="margin-top:2px">
+                          <div class="diffbox">
+                            <div class="diffhead">
+                              <span>Proposed edit — {{ v.doc_name }}</span>
+                              <span style="margin-left:auto;font-variant-numeric:tabular-nums">{{ proposals[h.amendment_id+':'+v.doc_id].citation }}</span>
+                            </div>
+                            <div class="diffbody">
+                              <span v-for="(s,si) in proposals[h.amendment_id+':'+v.doc_id].diff" :key="si"
+                                :class="s.type==='removed' ? 'd-removed' : s.type==='added' ? 'd-added' : ''">{{ s.text }} </span>
+                            </div>
+                          </div>
+                          <div style="display:grid;grid-template-columns:76px minmax(0,1fr);gap:4px 12px;font-size:12px;line-height:1.5;margin-top:8px">
+                            <span class="kicker" style="padding-top:2px">Change</span><span>{{ proposals[h.amendment_id+':'+v.doc_id].rationale }}</span>
+                            <span class="kicker" style="padding-top:2px">If left</span><span>{{ proposals[h.amendment_id+':'+v.doc_id].risk_if_unchanged }}</span>
+                            <template v-if="proposals[h.amendment_id+':'+v.doc_id].needs_lawyer_input">
+                              <span class="kicker" style="padding-top:2px">Judgement</span>
+                              <span style="font-style:italic">{{ proposals[h.amendment_id+':'+v.doc_id].needs_lawyer_input }}</span>
+                            </template>
+                          </div>
+
+                          <div v-if="proposals[h.amendment_id+':'+v.doc_id].status==='pending'" style="display:flex;gap:7px;margin-top:9px">
+                            <button class="btn btn-primary" style="font-size:12px;padding:4px 12px" @click="decide(h.amendment_id+':'+v.doc_id,'approve')">Approve</button>
+                            <button class="btn btn-secondary" style="font-size:12px;padding:4px 12px" @click="decide(h.amendment_id+':'+v.doc_id,'reject')">Reject</button>
+                            <button class="btn btn-ghost" style="font-size:12px;padding:4px 10px" @click="decide(h.amendment_id+':'+v.doc_id,'flag')">Flag for review</button>
+                          </div>
+                          <div v-else class="statusbar" :class="statusClass(proposals[h.amendment_id+':'+v.doc_id].status)" style="margin-top:9px">
+                            <span style="font-family:var(--font-heading);font-weight:600">{{ proposals[h.amendment_id+':'+v.doc_id].status }}</span>
+                            <span style="opacity:.8">by {{ proposals[h.amendment_id+':'+v.doc_id].decided_by }} · {{ proposals[h.amendment_id+':'+v.doc_id].decided_at }}</span>
+                          </div>
+                        </div>
                       </div>
                     </div>
 
@@ -449,6 +499,38 @@
     </div>
   </div>
 
+  <!-- ============ AUDIT TRAIL DIALOG ============ -->
+  <div v-if="showAudit" class="dialog-backdrop" style="z-index:20" @click.self="showAudit=false">
+    <div class="dialog rise" style="width:min(760px,100%);max-height:88vh;overflow-y:auto">
+      <div style="display:flex;align-items:flex-start;gap:10px">
+        <div style="flex:1">
+          <span class="card-kicker">Every decision, with its authority</span>
+          <h3 class="dialog-title" style="font-size:24px;margin-top:2px">Audit trail</h3>
+        </div>
+        <button class="btn btn-icon btn-secondary" style="width:30px;height:30px;flex:none" @click="showAudit=false">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M18 6L6 18"/><path d="M6 6l12 12"/></svg>
+        </button>
+      </div>
+      <p class="muted" style="font-size:12.5px;margin:0">Amenda never edits a document on its own. Every proposed change is approved, rejected or flagged by a named lawyer, and recorded here with the provision that compelled it.</p>
+      <table v-if="audit.length" class="table">
+        <thead><tr><th style="width:16%">When</th><th style="width:14%">Decision</th><th style="width:20%">Client</th><th style="width:26%">Document</th><th style="width:24%">Authority</th></tr></thead>
+        <tbody>
+          <tr v-for="(e,i) in audit" :key="i">
+            <td class="muted" style="font-size:11.5px;font-variant-numeric:tabular-nums">{{ e.at }}</td>
+            <td><span class="tag" :class="e.action==='approved' ? 'tag-accent' : 'tag-outline'">{{ e.action }}</span></td>
+            <td style="font-size:12.5px">{{ e.client }}</td>
+            <td style="font-size:12.5px">{{ e.document }}</td>
+            <td class="muted" style="font-size:11.5px;font-variant-numeric:tabular-nums">{{ e.authority }}</td>
+          </tr>
+        </tbody>
+      </table>
+      <p v-else class="muted" style="font-size:13px;text-align:center;padding:24px 0">No decisions recorded yet. Approve or reject a proposed edit and it appears here.</p>
+      <div class="dialog-actions">
+        <button class="btn btn-primary" style="font-size:13px" @click="showAudit=false">Close</button>
+      </div>
+    </div>
+  </div>
+
   <!-- ============ LIVE BILL DETAIL DIALOG ============ -->
   <div v-if="billDetail" class="dialog-backdrop" style="z-index:20" @click.self="billDetail=null">
     <div class="dialog rise" style="width:min(660px,100%);max-height:88vh;overflow-y:auto">
@@ -563,6 +645,10 @@ createApp({
     watchlistLive: false,
     liveBills: [],
     billDetail: null,
+    proposals: {},
+    redlineLoading: null,
+    showAudit: false,
+    audit: [],
     clients: [],
     selected: ['a1'],
     query: '',
@@ -610,6 +696,35 @@ createApp({
     },
   },
   methods: {
+    statusClass(st) {
+      return st === 'approved' ? 'st-approved' : st === 'rejected' ? 'st-rejected' : 'st-flagged';
+    },
+    async getRedline(hit, verdict) {
+      const pid = hit.amendment_id + ':' + verdict.doc_id;
+      this.redlineLoading = pid;
+      try {
+        const r = await api('/api/redline', {
+          method: 'POST', headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ amendment_id: hit.amendment_id, client_id: hit.client_id,
+                                 doc_id: verdict.doc_id, verdict }),
+        });
+        if (!r.error) this.proposals[pid] = r;
+        else this.sweepError = r.error;
+      } catch (e) { this.sweepError = String(e); }
+      this.redlineLoading = null;
+    },
+    async decide(pid, action) {
+      const r = await api('/api/redline/decide', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ proposal_id: pid, action }),
+      });
+      if (!r.error) this.proposals[pid] = r;
+    },
+    async openAudit() {
+      const r = await api('/api/audit');
+      this.audit = r.entries || [];
+      this.showAudit = true;
+    },
     commencementLabel(sig) {
       return { fixed: '⏱ date fixed in the Bill',
                minister_appointed: 'commencement not stated — Minister to appoint',
