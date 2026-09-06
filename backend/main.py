@@ -9,7 +9,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, JSONResponse
 from pydantic import BaseModel
 
-from analysis import impact, redline
+from analysis import impact, redline, qa
 from scrapers import parliament
 from llm import LLMNotConfigured, API_KEY, MODEL
 
@@ -66,6 +66,28 @@ def run_sweep(req: SweepRequest):
         return impact.sweep(req.amendment_ids, req.client_ids)
     except LLMNotConfigured as e:
         return JSONResponse({"error": str(e)}, status_code=503)
+
+
+class AskRequest(BaseModel):
+    question: str
+    history: list[dict] = []
+
+
+@app.post("/api/ask")
+def ask(req: AskRequest):
+    """Free-text question. Returns an answer, or tells the client to sweep."""
+    try:
+        amendments = impact.load_json("amendments", "amendments.json")
+        clients = impact.load_json("clients", "clients.json")
+        route = qa.classify(req.question)
+        if route == "sweep":
+            return {"route": "sweep"}
+        return {"route": "qa",
+                "answer": qa.ask(req.question, req.history, amendments, clients)}
+    except LLMNotConfigured as e:
+        return JSONResponse({"error": str(e)}, status_code=503)
+    except Exception as e:
+        return JSONResponse({"error": str(e)}, status_code=500)
 
 
 class RedlineRequest(BaseModel):

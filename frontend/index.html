@@ -82,15 +82,18 @@
     </div>
 
     <div style="display:flex;align-items:center;gap:8px;padding:14px 14px 6px">
-      <h6 class="muted" style="margin:0;font-size:10px">Sweep history</h6>
+      <h6 class="muted" style="margin:0;font-size:10px">Chat history</h6>
       <div style="flex:1;height:1px;background:var(--color-divider)"></div>
-      <button @click="resetChat" style="font-size:11px;padding:1px 6px;background:transparent;border:0;border-radius:var(--radius-sm);cursor:pointer;color:var(--color-accent-700);font-family:var(--font-body)">New</button>
+      <button @click="newChat" style="font-size:11px;padding:1px 6px;background:transparent;border:0;border-radius:var(--radius-sm);cursor:pointer;color:var(--color-accent-700);font-family:var(--font-body)">New</button>
     </div>
     <div style="flex:1;overflow-y:auto;padding:2px 10px 10px">
-      <button v-for="h in history" :key="h.id" style="display:block;width:100%;text-align:left;padding:7px 8px;background:transparent;border:0;border-radius:var(--radius-sm);cursor:pointer;color:var(--color-text);font-family:var(--font-body)">
+      <button v-for="h in history" :key="h.id" @click="loadChat(h.id)"
+        :style="h.id===activeChatId ? 'background:var(--color-accent-100);border:1px solid var(--color-accent)' : 'background:transparent;border:1px solid transparent'"
+        style="display:block;width:100%;text-align:left;padding:7px 8px;border-radius:var(--radius-sm);cursor:pointer;color:var(--color-text);font-family:var(--font-body)">
         <span style="display:block;font-size:12.5px;line-height:1.35;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">{{ h.title }}</span>
-        <span class="muted" style="display:block;font-size:10px;margin-top:2px;font-variant-numeric:tabular-nums">{{ h.when }}</span>
+        <span class="muted" style="display:block;font-size:10px;margin-top:2px;font-variant-numeric:tabular-nums">{{ h.when }} · {{ h.messages.length }} message{{ h.messages.length===1?'':'s' }}</span>
       </button>
+      <p v-if="!history.length" class="muted" style="font-size:11px;text-align:center;padding:14px 6px">No conversations yet.</p>
     </div>
 
     <div style="border-top:1px solid var(--color-divider);padding:12px;display:flex;align-items:center;gap:10px">
@@ -111,21 +114,121 @@
         <div style="flex:1"></div>
         <span v-if="!health.llm_configured" class="tag tag-outline">LLM key missing — add amenda/.env</span>
         <button @click="openAudit" style="font-size:12.5px;padding:5px 12px;background:transparent;border:1px solid var(--color-divider);border-radius:var(--radius-md);cursor:pointer;color:var(--color-text);font-family:var(--font-heading);font-weight:600">Audit trail</button>
-        <button @click="resetChat" style="font-size:12.5px;padding:5px 12px;background:transparent;border:1px solid var(--color-divider);border-radius:var(--radius-md);cursor:pointer;color:var(--color-text);font-family:var(--font-heading);font-weight:600">New sweep</button>
+        <button @click="newChat" style="font-size:12.5px;padding:5px 12px;background:transparent;border:1px solid var(--color-divider);border-radius:var(--radius-md);cursor:pointer;color:var(--color-text);font-family:var(--font-heading);font-weight:600">New chat</button>
       </header>
 
-      <div style="flex:1;overflow-y:auto;padding:18px 22px 8px">
+      <div ref="transcript" style="flex:1;overflow-y:auto;padding:18px 22px 8px">
         <div style="max-width:720px;margin:0 auto">
 
-          <div v-if="!asked && !thinking && !sweepResult" class="rise" style="padding:10px 0 0;text-align:center">
+          <div v-if="!messages.length && !thinking" class="rise" style="padding:10px 0 0;text-align:center">
             <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="1.2" stroke-linecap="round" style="margin:0 auto 10px;display:block"><path d="M12 7v14"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg>
             <h2 style="font-size:24px;font-weight:400;margin:0 0 7px">Ask across your clients and the statute book.</h2>
             <p class="muted" style="font-size:12.5px;max-width:400px;margin:0 auto">Select amendments on the right and run a sweep to find the client documents that are truly affected — not just topically related.</p>
           </div>
 
-          <div v-if="asked" style="display:flex;justify-content:flex-end;margin-bottom:20px">
-            <div style="max-width:80%;padding:10px 14px;border:1px solid var(--color-divider);border-radius:var(--radius-lg);font-size:13.5px;line-height:1.5;background:color-mix(in srgb, var(--color-text) 4%, transparent)">{{ asked }}</div>
-          </div>
+          <!-- conversation: every turn stays on screen -->
+          <template v-for="(m,mi) in messages" :key="mi">
+            <div v-if="m.role==='user'" style="display:flex;justify-content:flex-end;margin-bottom:18px">
+              <div style="max-width:80%;padding:10px 14px;border:1px solid var(--color-divider);border-radius:var(--radius-lg);font-size:13.5px;line-height:1.5;background:color-mix(in srgb, var(--color-text) 4%, transparent)">{{ m.content }}</div>
+            </div>
+
+            <div v-else-if="m.role==='answer'" class="rise" style="margin-bottom:22px;max-width:660px">
+              <p v-for="(para,pi) in m.content.split('\n\n')" :key="pi" style="font-size:14px;line-height:1.72;margin:0 0 10px">{{ para }}</p>
+              <p class="muted" style="font-size:10.5px;margin:2px 0 0">Grounded in your amendments and client files. Verify before advising.</p>
+            </div>
+
+            <div v-else-if="m.role==='sweep'" class="rise" style="margin-bottom:22px">
+              <h3 style="margin:0 0 4px;font-size:22px;font-weight:400">{{ m.result.hits.length }} client exposure{{ m.result.hits.length===1?'':'s' }} found</h3>
+              <p class="muted" style="font-size:11.5px;font-variant-numeric:tabular-nums;margin:0 0 14px">
+                Swept {{ m.result.meta.docs_scanned }} documents · every flag carries a verbatim clause quote
+              </p>
+              <template v-for="grp in ['high','moderate']" :key="grp">
+                <div v-if="hitsIn(m.result,grp).length" style="margin-bottom:14px">
+                  <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px">
+                    <h6 style="margin:0;font-size:11px;letter-spacing:.08em;text-transform:uppercase" :style="grp==='high'?'color:var(--color-accent-700)':''">{{ grp==='high' ? 'Highest priority' : 'Moderate risk' }}</h6>
+                    <div style="flex:1;height:1px;background:var(--color-divider)"></div>
+                  </div>
+                  <div style="display:flex;flex-direction:column;gap:10px">
+                    <article v-for="(h,i) in hitsIn(m.result,grp)" :key="h.client_id+h.amendment_id" class="card" style="padding:14px 15px;gap:0">
+                      <div style="display:flex;align-items:baseline;gap:10px">
+                        <span style="font-family:var(--font-heading);font-size:13px;font-variant-numeric:tabular-nums;color:var(--color-accent);flex:none">{{ String(i+1).padStart(2,'0') }}</span>
+                        <h4 style="margin:0;font-size:17px;flex:1;min-width:0">{{ h.client_name }}</h4>
+                        <span :class="grp==='high' ? 'tag tag-outline' : 'tag tag-accent'" style="flex:none">{{ grp==='high' ? 'Highest priority' : 'Moderate risk' }}</span>
+                      </div>
+                      <p class="muted" style="font-size:11px;margin:3px 0 0 23px">{{ h.amendment_title }} · in force {{ h.force_date }}</p>
+
+                      <div v-for="v in h.flagged_docs" :key="v.doc_id" style="margin:11px 0 0;padding-top:11px;border-top:1px solid var(--color-divider)">
+                        <div style="display:flex;align-items:baseline;gap:8px">
+                          <span style="font-size:13px;font-family:var(--font-heading);font-weight:600;flex:1;min-width:0">{{ v.doc_name }}</span>
+                          <span :class="v.confidence==='found'?'conf-found':'conf-inferred'">{{ v.confidence==='found' ? '● found in text' : '◌ inferred' }}</span>
+                        </div>
+                        <p v-if="v.clause_quote" class="quote" style="margin:6px 0">&ldquo;{{ v.clause_quote }}&rdquo;</p>
+                        <div style="display:grid;grid-template-columns:76px minmax(0,1fr);gap:4px 12px;font-size:12.5px;line-height:1.5">
+                          <span class="kicker" style="padding-top:2px">Why</span><span>{{ v.reason }}</span>
+                          <span class="kicker" style="padding-top:2px">Action</span><span>{{ v.action }}</span>
+                        </div>
+                        <div style="margin-top:9px">
+                          <button v-if="!proposals[h.amendment_id+':'+v.doc_id]" class="btn btn-primary"
+                            style="font-size:12px;padding:4px 10px" @click="getRedline(h, v)"
+                            :disabled="redlineLoading===h.amendment_id+':'+v.doc_id">
+                            {{ redlineLoading===h.amendment_id+':'+v.doc_id ? 'Drafting…' : 'Propose the edit' }}
+                          </button>
+                          <div v-else style="margin-top:2px">
+                            <div class="diffbox">
+                              <div class="diffhead">
+                                <span>Proposed edit — {{ v.doc_name }}</span>
+                                <span style="margin-left:auto;font-variant-numeric:tabular-nums">{{ proposals[h.amendment_id+':'+v.doc_id].citation }}</span>
+                              </div>
+                              <div class="diffbody">
+                                <span v-for="(s,si) in proposals[h.amendment_id+':'+v.doc_id].diff" :key="si"
+                                  :class="s.type==='removed' ? 'd-removed' : s.type==='added' ? 'd-added' : ''">{{ s.text }} </span>
+                              </div>
+                            </div>
+                            <div style="display:grid;grid-template-columns:76px minmax(0,1fr);gap:4px 12px;font-size:12px;line-height:1.5;margin-top:8px">
+                              <span class="kicker" style="padding-top:2px">Change</span><span>{{ proposals[h.amendment_id+':'+v.doc_id].rationale }}</span>
+                              <span class="kicker" style="padding-top:2px">If left</span><span>{{ proposals[h.amendment_id+':'+v.doc_id].risk_if_unchanged }}</span>
+                              <template v-if="proposals[h.amendment_id+':'+v.doc_id].needs_lawyer_input">
+                                <span class="kicker" style="padding-top:2px">Judgement</span>
+                                <span style="font-style:italic">{{ proposals[h.amendment_id+':'+v.doc_id].needs_lawyer_input }}</span>
+                              </template>
+                            </div>
+                            <div v-if="proposals[h.amendment_id+':'+v.doc_id].status==='pending'" style="display:flex;gap:7px;margin-top:9px">
+                              <button class="btn btn-primary" style="font-size:12px;padding:4px 12px" @click="decide(h.amendment_id+':'+v.doc_id,'approve')">Approve</button>
+                              <button class="btn btn-secondary" style="font-size:12px;padding:4px 12px" @click="decide(h.amendment_id+':'+v.doc_id,'reject')">Reject</button>
+                              <button class="btn btn-ghost" style="font-size:12px;padding:4px 10px" @click="decide(h.amendment_id+':'+v.doc_id,'flag')">Flag for review</button>
+                            </div>
+                            <div v-else class="statusbar" :class="statusClass(proposals[h.amendment_id+':'+v.doc_id].status)" style="margin-top:9px">
+                              <span style="font-family:var(--font-heading);font-weight:600">{{ proposals[h.amendment_id+':'+v.doc_id].status }}</span>
+                              <span style="opacity:.8">by {{ proposals[h.amendment_id+':'+v.doc_id].decided_by }}</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div v-if="h.profile_verdict" style="margin:11px 0 0;padding-top:11px;border-top:1px dashed var(--color-divider)">
+                        <div style="display:flex;align-items:baseline;gap:8px">
+                          <span style="font-size:13px;font-family:var(--font-heading);font-weight:600;flex:1">Client profile match — no document captures this</span>
+                          <span class="conf-inferred">◌ inferred</span>
+                        </div>
+                        <div style="display:grid;grid-template-columns:76px minmax(0,1fr);gap:4px 12px;font-size:12.5px;line-height:1.5;margin-top:5px">
+                          <span class="kicker" style="padding-top:2px">Why</span><span>{{ h.profile_verdict.reason }}</span>
+                          <span class="kicker" style="padding-top:2px">Action</span><span>{{ h.profile_verdict.action }}</span>
+                        </div>
+                      </div>
+
+                      <div style="display:flex;gap:8px;margin-top:12px">
+                        <button class="btn btn-secondary" style="font-size:12px;padding:4px 10px" @click="openClient(h.client_id)">Open client</button>
+                        <span class="muted" style="font-size:11px;align-self:center;font-variant-numeric:tabular-nums">{{ h.citation }}</span>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </template>
+              <div v-if="unaffectedIn(m.result)" class="muted" style="font-size:12px">
+                {{ unaffectedIn(m.result) }} document{{ unaffectedIn(m.result)===1?'':'s' }} scanned and left unflagged — topical overlap alone is not impact.
+              </div>
+            </div>
+          </template>
 
           <div v-if="thinking" class="muted" style="display:flex;align-items:center;gap:9px;font-size:12.5px">
             <span style="display:inline-flex;gap:3px">
@@ -141,105 +244,6 @@
             <p style="font-size:13px;margin:6px 0 0">{{ sweepError }}</p>
           </div>
 
-          <div v-if="sweepResult" class="rise">
-            <h3 style="margin:0 0 4px;font-size:23px;font-weight:400">{{ sweepResult.hits.length }} client exposure{{ sweepResult.hits.length===1?'':'s' }} found</h3>
-            <p class="muted" style="font-size:11.5px;font-variant-numeric:tabular-nums;margin:0 0 16px">
-              Swept {{ sweepResult.meta.docs_scanned }} documents across {{ clients.length }} clients · {{ selected.length }} amendment{{ selected.length===1?'':'s' }} · every flag carries a verbatim clause quote
-            </p>
-
-            <template v-for="grp in ['high','moderate']" :key="grp">
-              <div v-if="hitsBy(grp).length" style="margin-bottom:16px">
-                <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px">
-                  <h6 style="margin:0;font-size:11px;letter-spacing:.08em;text-transform:uppercase" :style="grp==='high'?'color:var(--color-accent-700)':''">{{ grp==='high' ? 'Highest priority' : 'Moderate risk' }}</h6>
-                  <div style="flex:1;height:1px;background:var(--color-divider)"></div>
-                </div>
-                <div style="display:flex;flex-direction:column;gap:10px">
-                  <article v-for="(h,i) in hitsBy(grp)" :key="h.client_id+h.amendment_id" class="card" style="padding:14px 15px;gap:0">
-                    <div style="display:flex;align-items:baseline;gap:10px">
-                      <span style="font-family:var(--font-heading);font-size:13px;font-variant-numeric:tabular-nums;color:var(--color-accent);flex:none">{{ String(i+1).padStart(2,'0') }}</span>
-                      <h4 style="margin:0;font-size:17px;flex:1;min-width:0">{{ h.client_name }}</h4>
-                      <span :class="grp==='high' ? 'tag tag-outline' : 'tag tag-accent'" style="flex:none">{{ grp==='high' ? 'Highest priority' : 'Moderate risk' }}</span>
-                    </div>
-                    <p class="muted" style="font-size:11px;margin:3px 0 0 23px">{{ h.amendment_title }} · in force {{ h.force_date }}</p>
-
-                    <div v-for="v in h.flagged_docs" :key="v.doc_id" style="margin:11px 0 0;padding-top:11px;border-top:1px solid var(--color-divider)">
-                      <div style="display:flex;align-items:baseline;gap:8px">
-                        <span style="font-size:13px;font-family:var(--font-heading);font-weight:600;flex:1;min-width:0">{{ v.doc_name }}</span>
-                        <span :class="v.confidence==='found'?'conf-found':'conf-inferred'" :title="v.confidence==='found'?'The quoted text states the outdated position':'Exposure inferred (reference, threshold or profile) — verify'">{{ v.confidence==='found' ? '● found in text' : '◌ inferred' }}</span>
-                      </div>
-                      <p v-if="v.clause_quote" class="quote" style="margin:6px 0">&ldquo;{{ v.clause_quote }}&rdquo;</p>
-                      <div style="display:grid;grid-template-columns:76px minmax(0,1fr);gap:4px 12px;font-size:12.5px;line-height:1.5">
-                        <span class="kicker" style="padding-top:2px">Why</span><span>{{ v.reason }}</span>
-                        <span class="kicker" style="padding-top:2px">Action</span><span>{{ v.action }}</span>
-                      </div>
-
-                      <!-- proposed edit -->
-                      <div style="margin-top:9px">
-                        <button v-if="!proposals[h.amendment_id+':'+v.doc_id]" class="btn btn-primary"
-                          style="font-size:12px;padding:4px 10px" @click="getRedline(h, v)"
-                          :disabled="redlineLoading===h.amendment_id+':'+v.doc_id">
-                          {{ redlineLoading===h.amendment_id+':'+v.doc_id ? 'Drafting…' : 'Propose the edit' }}
-                        </button>
-
-                        <div v-else style="margin-top:2px">
-                          <div class="diffbox">
-                            <div class="diffhead">
-                              <span>Proposed edit — {{ v.doc_name }}</span>
-                              <span style="margin-left:auto;font-variant-numeric:tabular-nums">{{ proposals[h.amendment_id+':'+v.doc_id].citation }}</span>
-                            </div>
-                            <div class="diffbody">
-                              <span v-for="(s,si) in proposals[h.amendment_id+':'+v.doc_id].diff" :key="si"
-                                :class="s.type==='removed' ? 'd-removed' : s.type==='added' ? 'd-added' : ''">{{ s.text }} </span>
-                            </div>
-                          </div>
-                          <div style="display:grid;grid-template-columns:76px minmax(0,1fr);gap:4px 12px;font-size:12px;line-height:1.5;margin-top:8px">
-                            <span class="kicker" style="padding-top:2px">Change</span><span>{{ proposals[h.amendment_id+':'+v.doc_id].rationale }}</span>
-                            <span class="kicker" style="padding-top:2px">If left</span><span>{{ proposals[h.amendment_id+':'+v.doc_id].risk_if_unchanged }}</span>
-                            <template v-if="proposals[h.amendment_id+':'+v.doc_id].needs_lawyer_input">
-                              <span class="kicker" style="padding-top:2px">Judgement</span>
-                              <span style="font-style:italic">{{ proposals[h.amendment_id+':'+v.doc_id].needs_lawyer_input }}</span>
-                            </template>
-                          </div>
-
-                          <div v-if="proposals[h.amendment_id+':'+v.doc_id].status==='pending'" style="display:flex;gap:7px;margin-top:9px">
-                            <button class="btn btn-primary" style="font-size:12px;padding:4px 12px" @click="decide(h.amendment_id+':'+v.doc_id,'approve')">Approve</button>
-                            <button class="btn btn-secondary" style="font-size:12px;padding:4px 12px" @click="decide(h.amendment_id+':'+v.doc_id,'reject')">Reject</button>
-                            <button class="btn btn-ghost" style="font-size:12px;padding:4px 10px" @click="decide(h.amendment_id+':'+v.doc_id,'flag')">Flag for review</button>
-                          </div>
-                          <div v-else class="statusbar" :class="statusClass(proposals[h.amendment_id+':'+v.doc_id].status)" style="margin-top:9px">
-                            <span style="font-family:var(--font-heading);font-weight:600">{{ proposals[h.amendment_id+':'+v.doc_id].status }}</span>
-                            <span style="opacity:.8">by {{ proposals[h.amendment_id+':'+v.doc_id].decided_by }} · {{ proposals[h.amendment_id+':'+v.doc_id].decided_at }}</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div v-if="h.profile_verdict" style="margin:11px 0 0;padding-top:11px;border-top:1px dashed var(--color-divider)">
-                      <div style="display:flex;align-items:baseline;gap:8px">
-                        <span style="font-size:13px;font-family:var(--font-heading);font-weight:600;flex:1">Client profile match — no document captures this</span>
-                        <span class="conf-inferred">◌ inferred</span>
-                      </div>
-                      <div style="display:grid;grid-template-columns:76px minmax(0,1fr);gap:4px 12px;font-size:12.5px;line-height:1.5;margin-top:5px">
-                        <span class="kicker" style="padding-top:2px">Why</span><span>{{ h.profile_verdict.reason }}</span>
-                        <span class="kicker" style="padding-top:2px">Action</span><span>{{ h.profile_verdict.action }}</span>
-                      </div>
-                    </div>
-
-                    <div style="display:flex;gap:8px;margin-top:12px">
-                      <button class="btn btn-secondary" style="font-size:12px;padding:4px 10px" @click="openClient(h.client_id)">Open client</button>
-                      <span class="muted" style="font-size:11px;align-self:center;font-variant-numeric:tabular-nums">{{ h.citation }}</span>
-                    </div>
-                  </article>
-                </div>
-              </div>
-            </template>
-
-            <div v-if="unaffectedCount" class="muted" style="font-size:12px;margin:4px 0 0">
-              {{ unaffectedCount }} document{{ unaffectedCount===1?'':'s' }} scanned and left unflagged — including {{ adjacentNote }}.
-            </div>
-            <div class="hr" style="margin:16px 0 12px"></div>
-            <p class="muted" style="text-align:center;font-size:10.5px;margin:0 0 8px">Answers cite client documents and gazetted amendments. Verify before advising.</p>
-          </div>
 
         </div>
       </div>
@@ -257,16 +261,17 @@
             </div>
           </div>
           <div style="display:flex;align-items:flex-end;gap:8px;padding:9px 10px 9px 12px;border:1px solid var(--color-divider);border-radius:var(--radius-lg);box-shadow:var(--shadow-sm)">
-            <textarea rows="1" placeholder="Ask Amenda — or select amendments and press send" v-model="draft" @keydown.enter.prevent="runSweep"
+            <textarea rows="1" placeholder="Ask a question, or select amendments and run a sweep" v-model="draft" @keydown.enter.exact.prevent="send"
               style="flex:1;min-height:30px;max-height:120px;border:0;padding:5px 0;font-size:14px;line-height:1.5;resize:none;background:transparent;font-family:var(--font-body);color:var(--color-text);outline:none"></textarea>
-            <button class="btn btn-primary btn-icon" title="Run sweep" @click="runSweep" style="width:32px;height:32px;flex:none;border-radius:var(--radius-md)">
+            <button class="btn btn-primary btn-icon" title="Send" @click="send" style="width:32px;height:32px;flex:none;border-radius:var(--radius-md)">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
             </button>
           </div>
           <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:6px;margin-top:9px">
-            <button class="suggestion" @click="selectHighPriority">Select all high-priority</button>
-            <button class="suggestion" @click="ampanel='watchlist'">Show watchlist</button>
-            <button class="suggestion" @click="ampanel='confirmed'">Show confirmed</button>
+            <button class="suggestion" @click="runSweep()">Run sweep on selected</button>
+            <button class="suggestion" @click="draft='Explain this amendment and what it changes in practice.'; send()">Explain the amendment</button>
+            <button class="suggestion" @click="draft='What exactly should change in Meridian&apos;s Data Processing Addendum?'; send()">What should change?</button>
+            <button class="suggestion" @click="ampanel='watchlist'">Watchlist</button>
           </div>
         </div>
       </div>
@@ -654,21 +659,17 @@ createApp({
     query: '',
     clientQuery: '',
     draft: '',
-    asked: '',
-    chatTitle: 'New sweep',
+    messages: [],
+    activeChatId: null,
+    chatTitle: 'New enquiry',
     thinking: false,
     thinkingLabel: '',
-    sweepResult: null,
     sweepError: '',
     detail: null,
     watchDetail: null,
     clientDialog: null,
     docOpen: null,
-    history: [
-      { id: 'h1', title: 'PDPA breach window — affected clients', when: 'Today, 09:14' },
-      { id: 'h2', title: 'Part IV ceiling — payroll exposure', when: 'Today, 08:40' },
-      { id: 'h3', title: 'Fintide custody terms vs Reg 13A', when: 'Yesterday' },
-    ],
+    history: [],
   }),
   computed: {
     totalDocs() { return this.clients.reduce((n, c) => n + (c.docCount || 0), 0); },
@@ -684,15 +685,10 @@ createApp({
       const q = this.clientQuery.toLowerCase();
       return this.clients.filter(c => !q || c.name.toLowerCase().includes(q));
     },
-    unaffectedCount() {
-      if (!this.sweepResult) return 0;
-      let n = 0;
-      for (const r of this.sweepResult.raw)
-        n += r.document_verdicts.filter(v => v.category === 'unaffected').length;
-      return n;
-    },
-    adjacentNote() {
-      return 'same-statute documents with no changed assumption (topical overlap is not impact)';
+    lastSweep() {
+      for (let i = this.messages.length - 1; i >= 0; i--)
+        if (this.messages[i].role === 'sweep') return this.messages[i].result;
+      return null;
     },
   },
   methods: {
@@ -741,39 +737,98 @@ createApp({
     selectHighPriority() {
       this.selected = this.amendments.filter(a => a.priority === 'High').map(a => a.id);
     },
-    hitsBy(grp) { return this.sweepResult ? this.sweepResult.hits.filter(h => h.risk === grp) : []; },
+    hitsIn(result, grp) { return result ? result.hits.filter(h => h.risk === grp) : []; },
+    unaffectedIn(result) {
+      if (!result) return 0;
+      let n = 0;
+      for (const r of result.raw) n += r.document_verdicts.filter(v => v.category === 'unaffected').length;
+      return n;
+    },
+    scrollDown() {
+      this.$nextTick(() => {
+        const el = this.$refs.transcript;
+        if (el) el.scrollTop = el.scrollHeight;
+      });
+    },
+    saveChat() {
+      if (!this.messages.length) return;
+      const title = this.chatTitle;
+      const existing = this.history.find(h => h.id === this.activeChatId);
+      if (existing) { existing.messages = this.messages; existing.title = title; }
+      else {
+        this.activeChatId = 'chat' + Date.now();
+        this.history.unshift({ id: this.activeChatId, title, when: 'Just now',
+                               messages: this.messages });
+      }
+    },
+    newChat() {
+      this.saveChat();
+      this.messages = []; this.activeChatId = null; this.sweepError = '';
+      this.chatTitle = 'New enquiry'; this.draft = '';
+    },
+    loadChat(id) {
+      this.saveChat();
+      const h = this.history.find(x => x.id === id);
+      if (!h) return;
+      this.activeChatId = id; this.messages = h.messages;
+      this.chatTitle = h.title; this.sweepError = '';
+      this.scrollDown();
+    },
     async openClient(id) {
       this.clientDialog = await api('/api/clients/' + id);
       this.docOpen = null;
     },
-    resetChat() {
-      this.asked = ''; this.sweepResult = null; this.sweepError = '';
-      this.chatTitle = 'New sweep'; this.draft = '';
-    },
     sweepThis(id) {
       this.detail = null; this.selected = [id]; this.runSweep();
     },
-    async runSweep() {
-      if (!this.selected.length) { this.sweepError = 'Select at least one amendment on the right.'; return; }
+    async send() {
+      const text = this.draft.trim();
+      if (!text) { if (this.selected.length) return this.runSweep(); return; }
+      this.draft = '';
+      this.messages.push({ role: 'user', content: text });
+      this.chatTitle = this.messages.length === 1 ? text.slice(0, 52) : this.chatTitle;
+      this.sweepError = ''; this.thinking = true; this.thinkingLabel = 'Thinking…';
+      this.scrollDown();
+      try {
+        const hist = this.messages
+          .filter(m => m.role === 'user' || m.role === 'answer')
+          .map(m => ({ role: m.role === 'user' ? 'user' : 'assistant', content: m.content }));
+        const r = await api('/api/ask', {
+          method: 'POST', headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ question: text, history: hist.slice(0, -1) }),
+        });
+        if (r.error) this.sweepError = r.error;
+        else if (r.route === 'sweep') { this.thinking = false; return this.runSweep(true); }
+        else this.messages.push({ role: 'answer', content: r.answer });
+      } catch (e) { this.sweepError = String(e); }
+      this.thinking = false; this.saveChat(); this.scrollDown();
+    },
+    async runSweep(fromQuestion) {
+      if (!this.selected.length) {
+        this.sweepError = 'Select one or more amendments on the right, then run the sweep.';
+        return;
+      }
       const titles = this.amendments.filter(a => this.selected.includes(a.id)).map(a => a.title);
-      this.asked = this.draft.trim() || ('Which clients are truly affected by: ' + titles.join('; ') + '?');
-      this.chatTitle = titles[0] || 'Sweep';
-      this.draft = ''; this.sweepResult = null; this.sweepError = ''; this.thinking = true;
+      if (!fromQuestion) {
+        const prompt = this.draft.trim() ||
+          ('Which clients are truly affected by: ' + titles.join('; ') + '?');
+        this.draft = '';
+        this.messages.push({ role: 'user', content: prompt });
+        if (this.messages.length === 1) this.chatTitle = titles[0] || 'Sweep';
+      }
+      this.sweepError = ''; this.thinking = true;
       this.thinkingLabel = 'Sweeping ' + this.totalDocs + ' documents across ' + this.clients.length + ' clients…';
+      this.scrollDown();
       try {
         const res = await api('/api/sweep', {
           method: 'POST', headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ amendment_ids: this.selected }),
         });
         if (res.error) this.sweepError = res.error;
-        else {
-          this.sweepResult = res;
-          this.history.unshift({ id: 'h' + Date.now(), title: this.chatTitle, when: 'Just now' });
-        }
+        else this.messages.push({ role: 'sweep', result: res });
       } catch (e) { this.sweepError = String(e); }
-      this.thinking = false;
-    },
-  },
+      this.thinking = false; this.saveChat(); this.scrollDown();
+      },
   async mounted() {
     [this.health, this.amendments, this.clients] = await Promise.all([
       api('/api/health'), api('/api/amendments'), api('/api/clients'),
