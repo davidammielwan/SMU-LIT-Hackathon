@@ -231,6 +231,15 @@
               <div v-if="unaffectedIn(m.result)" class="muted" style="font-size:12px">
                 {{ unaffectedIn(m.result) }} document{{ unaffectedIn(m.result)===1?'':'s' }} scanned and left unflagged — topical overlap alone is not impact.
               </div>
+              <div v-if="m.result.hits.length" style="display:flex;gap:8px;align-items:center;margin-top:12px;flex-wrap:wrap">
+                <button class="btn btn-primary" style="font-size:12.5px;padding:6px 12px" @click="emailBrief(m.result)" :disabled="emailSending">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg>
+                  {{ emailSending ? 'Sending…' : (emailConnected ? 'Email this brief to me' : 'Connect email to send brief') }}
+                </button>
+                <span v-if="lastEmail" class="tag" :class="lastEmail.sent ? 'tag-accent' : 'tag-outline'">
+                  {{ lastEmail.sent ? 'Sent to ' + lastEmail.to : lastEmail.status }}
+                </span>
+              </div>
             </div>
           </template>
 
@@ -437,11 +446,25 @@
         </div>
       </div>
       <div>
+        <h6 class="muted" style="margin:0 0 8px">Add a document</h6>
+        <label style="display:block;padding:18px 16px;text-align:center;border:1px dashed color-mix(in srgb, var(--color-text) 32%, transparent);border-radius:var(--radius-md);cursor:pointer">
+          <input type="file" accept=".docx,.pdf,.txt" @change="uploadDoc" :disabled="uploading" style="position:absolute;width:0;height:0;opacity:0">
+          <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="1.4" stroke-linecap="round" style="margin:0 auto 8px;display:block"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M17 8l-5-5-5 5"/><path d="M12 3v12"/></svg>
+          <span style="display:block;font-family:var(--font-heading);font-weight:600;font-size:14px">{{ uploading ? 'Reading document…' : 'Upload a document' }}</span>
+          <span class="muted" style="display:block;font-size:11.5px;margin-top:3px">.docx, .pdf or .txt — text is extracted so the file is swept like any other</span>
+        </label>
+        <input class="input" v-model="uploadDesc" placeholder="Short description (optional) — e.g. Renewed DPA addendum" style="margin-top:8px;font-size:12.5px">
+        <p v-if="uploadError" style="font-size:12px;color:#b3261e;margin:7px 0 0">{{ uploadError }}</p>
+        <p v-if="uploadOk" style="font-size:12px;color:#12603a;margin:7px 0 0">Added: {{ uploadOk }}</p>
+      </div>
+
+      <div>
         <h6 class="muted" style="margin:0 0 8px">Documents on file</h6>
         <div v-for="d in clientDialog.documents" :key="d.id" style="border-bottom:1px solid var(--color-divider);padding:9px 2px">
           <div style="display:flex;align-items:center;gap:10px">
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="1.4" stroke-linecap="round" style="flex:none"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M16 13H8"/><path d="M16 17H8"/></svg>
             <span style="flex:1;min-width:0;font-size:13px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">{{ d.name }}</span>
+            <span v-if="d.uploaded" class="tag tag-accent" style="font-size:9px;flex:none">uploaded</span>
             <span class="muted" style="font-size:11px;font-variant-numeric:tabular-nums;flex:none">{{ d.added }}</span>
             <button class="btn btn-ghost" style="font-size:11px;padding:2px 6px" @click="docOpen = docOpen===d.id ? null : d.id">{{ docOpen===d.id ? 'Hide' : 'View' }}</button>
           </div>
@@ -540,6 +563,12 @@
           </label>
         </div>
       </div>
+      <p v-if="emailError" style="font-size:12px;color:#b3261e;margin:0">{{ emailError }}</p>
+      <p v-if="emailConnected && !smtpReady" class="muted" style="font-size:11px;margin:0;line-height:1.5">
+        Connected. Live sending needs SMTP_HOST / SMTP_USER / SMTP_PASS in <code>.env</code>
+        (smtp.office365.com:587 for Outlook) — without them Amenda composes the brief and
+        stores it in the outbox instead of sending.
+      </p>
       <div class="dialog-actions">
         <span v-if="emailConnected" class="tag tag-accent" style="margin-right:auto;align-self:center">Connected · {{ email }}</span>
         <button class="btn btn-secondary" style="font-size:13px" @click="showSettings=false">Cancel</button>
@@ -718,6 +747,14 @@ Because the last person who updated it left the firm in 2019, and the amendment 
     emailProvider: 'Outlook',
     cadence: 'The moment a client is affected',
     emailConnected: false,
+    emailError: '',
+    emailSending: false,
+    smtpReady: false,
+    lastEmail: null,
+    uploading: false,
+    uploadDesc: '',
+    uploadError: '',
+    uploadOk: '',
     audit: [],
     clients: [],
     selected: ['a1'],
@@ -841,14 +878,52 @@ Because the last person who updated it left the firm in 2019, and the amendment 
     },
     async openClient(id) {
       this.clientDialog = await api('/api/clients/' + id);
-      this.docOpen = null;
+      this.docOpen = null; this.uploadError = ''; this.uploadOk = '';
     },
     sweepThis(id) {
       this.detail = null; this.selected = [id]; this.runSweep();
     },
-    connectEmail() {
-      if (!this.email.trim()) return;
-      this.emailConnected = true;
+    async connectEmail() {
+      if (!this.email.includes('@')) { this.emailError = 'Enter a valid work address.'; return; }
+      const r = await api('/api/email/connect', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email: this.email, provider: this.emailProvider, cadence: this.cadence }),
+      });
+      if (r.error) { this.emailError = r.error; return; }
+      this.emailError = ''; this.emailConnected = true; this.smtpReady = !!r.smtp_ready;
+    },
+    async emailBrief(result) {
+      if (!this.emailConnected) { this.showSettings = true; return; }
+      this.emailSending = true;
+      const r = await api('/api/email/send', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ amendment_id: result.hits[0].amendment_id, hits: result.hits }),
+      });
+      this.emailSending = false;
+      this.lastEmail = r.error ? null : r;
+      if (r.error) this.sweepError = r.error;
+    },
+    async uploadDoc(ev) {
+      const file = ev.target.files[0];
+      if (!file || !this.clientDialog) return;
+      this.uploading = true; this.uploadError = '';
+      const fd = new FormData();
+      fd.append('file', file);
+      fd.append('description', this.uploadDesc);
+      try {
+        const res = await fetch('/api/clients/' + this.clientDialog.id + '/documents',
+                                { method: 'POST', body: fd });
+        const r = await res.json();
+        if (r.error) this.uploadError = r.error;
+        else {
+          this.uploadDesc = '';
+          await this.openClient(this.clientDialog.id);
+          this.clients = await api('/api/clients');
+          this.uploadOk = r.document.name + ' — ' + r.chars_extracted + ' characters extracted';
+        }
+      } catch (e) { this.uploadError = String(e); }
+      this.uploading = false;
+      ev.target.value = '';
     },
     tellJoke() {
       const j = this.jokes[this.jokeIdx % this.jokes.length];
@@ -910,6 +985,12 @@ Because the last person who updated it left the firm in 2019, and the amendment 
     [this.health, this.amendments, this.clients] = await Promise.all([
       api('/api/health'), api('/api/amendments'), api('/api/clients'),
     ]);
+    try {
+      const pr = await api('/api/email/prefs');
+      this.email = pr.email || ''; this.emailProvider = pr.provider || 'Outlook';
+      this.cadence = pr.cadence || this.cadence; this.emailConnected = !!pr.connected;
+      this.smtpReady = !!pr.smtp_ready;
+    } catch (e) {}
     const w = await api('/api/watchlist');
     this.watchlist = w.curated; this.watchlistLive = w.live_ok;
     this.liveBills = w.live_bills || [];

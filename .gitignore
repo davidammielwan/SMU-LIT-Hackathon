@@ -23,3 +23,6 @@ Thumbs.db
 .vscode/
 .idea/
 data/proposals.json
+backend/data/uploads/
+backend/data/outbox.json
+backend/data/email_prefs.json

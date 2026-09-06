@@ -4,11 +4,13 @@ import sys
 
 sys.path.insert(0, os.path.dirname(__file__))
 
-from fastapi import FastAPI
+from fastapi import FastAPI, File, Form, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, JSONResponse
 from pydantic import BaseModel
 
+import ingest
+import notify
 from analysis import impact, redline, qa
 from scrapers import parliament
 from llm import LLMNotConfigured, API_KEY, MODEL
@@ -131,6 +133,80 @@ def decide_redline(req: DecisionRequest):
 @app.get("/api/audit")
 def audit():
     return {"entries": redline.audit_log(), "proposals": redline.all_proposals()}
+
+
+# ---- document upload ----
+@app.post("/api/clients/{client_id}/documents")
+async def upload_document(client_id: str, file: UploadFile = File(...),
+                          description: str = Form("")):
+    try:
+        content = await file.read()
+        if len(content) > 15 * 1024 * 1024:
+            return JSONResponse({"error": "File too large (max 15MB)."}, status_code=413)
+        return ingest.add_document(client_id, file.filename, content, description)
+    except ValueError as e:
+        return JSONResponse({"error": str(e)}, status_code=400)
+    except Exception as e:
+        return JSONResponse({"error": f"Could not read that file: {e}"}, status_code=500)
+
+
+class NewClient(BaseModel):
+    name: str
+    practice: str = ""
+    business: str = ""
+    headcount: int = 0
+    notes: str = ""
+
+
+@app.post("/api/clients")
+def create_client(req: NewClient):
+    if not req.name.strip():
+        return JSONResponse({"error": "Client name is required."}, status_code=400)
+    return ingest.add_client(req.name, req.practice, req.business,
+                             req.headcount, req.notes)
+
+
+# ---- email connector ----
+class EmailPrefs(BaseModel):
+    email: str
+    provider: str = "Outlook"
+    cadence: str = "The moment a client is affected"
+
+
+@app.get("/api/email/prefs")
+def email_prefs():
+    return notify.get_prefs()
+
+
+@app.post("/api/email/connect")
+def email_connect(req: EmailPrefs):
+    if "@" not in req.email:
+        return JSONResponse({"error": "Enter a valid work address."}, status_code=400)
+    return notify.save_prefs(req.email, req.provider, req.cadence)
+
+
+class NotifyRequest(BaseModel):
+    amendment_id: str
+    hits: list = []
+
+
+@app.post("/api/email/send")
+def email_send(req: NotifyRequest):
+    prefs = notify.get_prefs()
+    if not prefs.get("connected"):
+        return JSONResponse(
+            {"error": "Connect an email address in Settings first."}, status_code=400)
+    amendments = {a["id"]: a for a in impact.load_json("amendments", "amendments.json")}
+    a = amendments.get(req.amendment_id)
+    if not a:
+        return JSONResponse({"error": "Unknown amendment"}, status_code=404)
+    subject, body = notify.compose_brief(a, req.hits)
+    return notify.send(prefs["email"], subject, body, prefs.get("provider", "Outlook"))
+
+
+@app.get("/api/email/outbox")
+def email_outbox():
+    return {"messages": notify.outbox()}
 
 
 # ---- frontend ----
